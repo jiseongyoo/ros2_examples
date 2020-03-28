@@ -1,0 +1,19 @@
+[0.267s] [35m[1mScanning dependencies of target action_server_cpp[0m
+[0.312s] [ 50%] Built target action_client_cpp
+[0.442s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o[0m
+[5.363s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In constructor ‘[01m[KActionServerExample::ActionServerExample(const rclcpp::NodeOptions&)[m[K’:
+[5.365s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:65:19:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionServer[m[K’ has not been declared
+[5.366s]         std::bind(&[01;31m[KFibonacciActionServer[m[K::handle_goal, this, std::placeholders::_1, std::placeholders::_2),
+[5.368s]                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.369s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:66:19:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionServer[m[K’ has not been declared
+[5.371s]         std::bind(&[01;31m[KFibonacciActionServer[m[K::handle_cancel, this, std::placeholders::_1),
+[5.372s]                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.372s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:67:19:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionServer[m[K’ has not been declared
+[5.372s]         std::bind(&[01;31m[KFibonacciActionServer[m[K::handle_accept, this, std::placeholders::_1));
+[5.373s]                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.320s] make[2]: *** [CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[6.320s] make[1]: *** [CMakeFiles/action_server_cpp.dir/all] Error 2
+[6.321s] CMakeFiles/action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o' failed
+[6.327s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/action_server_cpp.dir/all' failed
+[6.328s] Makefile:140: recipe for target 'all' failed
+[6.328s] make: *** [all] Error 2

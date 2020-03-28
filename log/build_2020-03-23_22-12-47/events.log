@@ -1,0 +1,295 @@
+[0.000000] (-) TimerEvent: {}
+[0.001176] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001520] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.059351] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.062865] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.066128] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/interfaces', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc64aaa8_d6d8_48fa_beab_a266e3d891a2'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.094355] (-) TimerEvent: {}
+[0.195743] (-) TimerEvent: {}
+[0.204906] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.296402] (-) TimerEvent: {}
+[0.315567] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.317441] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.396969] (-) TimerEvent: {}
+[0.499687] (-) TimerEvent: {}
+[0.602472] (-) TimerEvent: {}
+[0.705017] (-) TimerEvent: {}
+[0.807658] (-) TimerEvent: {}
+[0.909932] (-) TimerEvent: {}
+[1.012650] (-) TimerEvent: {}
+[1.055088] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[1.113255] (-) TimerEvent: {}
+[1.215877] (-) TimerEvent: {}
+[1.268993] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.316309] (-) TimerEvent: {}
+[1.418497] (-) TimerEvent: {}
+[1.521081] (-) TimerEvent: {}
+[1.625850] (-) TimerEvent: {}
+[1.636336] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[1.726412] (-) TimerEvent: {}
+[1.829300] (-) TimerEvent: {}
+[1.931989] (-) TimerEvent: {}
+[2.034490] (-) TimerEvent: {}
+[2.137162] (-) TimerEvent: {}
+[2.239682] (-) TimerEvent: {}
+[2.342610] (-) TimerEvent: {}
+[2.445343] (-) TimerEvent: {}
+[2.522759] (interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[2.545920] (-) TimerEvent: {}
+[2.587008] (interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[2.646258] (-) TimerEvent: {}
+[2.748034] (-) TimerEvent: {}
+[2.849192] (-) TimerEvent: {}
+[2.951824] (-) TimerEvent: {}
+[3.053369] (-) TimerEvent: {}
+[3.154359] (-) TimerEvent: {}
+[3.247721] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[3.254740] (-) TimerEvent: {}
+[3.356684] (-) TimerEvent: {}
+[3.359699] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.362042] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[3.457050] (-) TimerEvent: {}
+[3.475037] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.475782] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[3.476229] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[3.557288] (-) TimerEvent: {}
+[3.659826] (-) TimerEvent: {}
+[3.762465] (-) TimerEvent: {}
+[3.863473] (-) TimerEvent: {}
+[3.873044] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[3.963251] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.964066] (-) TimerEvent: {}
+[3.972150] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.989994] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.064438] (-) TimerEvent: {}
+[4.165438] (-) TimerEvent: {}
+[4.266464] (-) TimerEvent: {}
+[4.367879] (-) TimerEvent: {}
+[4.468904] (-) TimerEvent: {}
+[4.570046] (-) TimerEvent: {}
+[4.671851] (-) TimerEvent: {}
+[4.773109] (-) TimerEvent: {}
+[4.775779] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.793989] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jiseongyoo/ros2_examples/build/interfaces\n'}
+[4.873295] (-) TimerEvent: {}
+[4.904701] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.905796] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[4.950361] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.973459] (-) TimerEvent: {}
+[5.074395] (-) TimerEvent: {}
+[5.175364] (-) TimerEvent: {}
+[5.276321] (-) TimerEvent: {}
+[5.377268] (-) TimerEvent: {}
+[5.478228] (-) TimerEvent: {}
+[5.579154] (-) TimerEvent: {}
+[5.680078] (-) TimerEvent: {}
+[5.781026] (-) TimerEvent: {}
+[5.881942] (-) TimerEvent: {}
+[5.982889] (-) TimerEvent: {}
+[6.083874] (-) TimerEvent: {}
+[6.184819] (-) TimerEvent: {}
+[6.285716] (-) TimerEvent: {}
+[6.386640] (-) TimerEvent: {}
+[6.487573] (-) TimerEvent: {}
+[6.588532] (-) TimerEvent: {}
+[6.689450] (-) TimerEvent: {}
+[6.790375] (-) TimerEvent: {}
+[6.891286] (-) TimerEvent: {}
+[6.992210] (-) TimerEvent: {}
+[7.093146] (-) TimerEvent: {}
+[7.194069] (-) TimerEvent: {}
+[7.294999] (-) TimerEvent: {}
+[7.395929] (-) TimerEvent: {}
+[7.496875] (-) TimerEvent: {}
+[7.597801] (-) TimerEvent: {}
+[7.698757] (-) TimerEvent: {}
+[7.799776] (-) TimerEvent: {}
+[7.901302] (-) TimerEvent: {}
+[8.002209] (-) TimerEvent: {}
+[8.103147] (-) TimerEvent: {}
+[8.204042] (-) TimerEvent: {}
+[8.304985] (-) TimerEvent: {}
+[8.405881] (-) TimerEvent: {}
+[8.506781] (-) TimerEvent: {}
+[8.607691] (-) TimerEvent: {}
+[8.708577] (-) TimerEvent: {}
+[8.809510] (-) TimerEvent: {}
+[8.910458] (-) TimerEvent: {}
+[9.011395] (-) TimerEvent: {}
+[9.112343] (-) TimerEvent: {}
+[9.213290] (-) TimerEvent: {}
+[9.314192] (-) TimerEvent: {}
+[9.415125] (-) TimerEvent: {}
+[9.516033] (-) TimerEvent: {}
+[9.616981] (-) TimerEvent: {}
+[9.717919] (-) TimerEvent: {}
+[9.818844] (-) TimerEvent: {}
+[9.919777] (-) TimerEvent: {}
+[10.020737] (-) TimerEvent: {}
+[10.121669] (-) TimerEvent: {}
+[10.222600] (-) TimerEvent: {}
+[10.323532] (-) TimerEvent: {}
+[10.424496] (-) TimerEvent: {}
+[10.525432] (-) TimerEvent: {}
+[10.626332] (-) TimerEvent: {}
+[10.727275] (-) TimerEvent: {}
+[10.828218] (-) TimerEvent: {}
+[10.929162] (-) TimerEvent: {}
+[11.030052] (-) TimerEvent: {}
+[11.131057] (-) TimerEvent: {}
+[11.231931] (-) TimerEvent: {}
+[11.332721] (-) TimerEvent: {}
+[11.433491] (-) TimerEvent: {}
+[11.486715] (interfaces) StdoutLine: {'line': b'[  4%] Built target interfaces__cpp\n'}
+[11.533698] (-) TimerEvent: {}
+[11.543343] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.633901] (-) TimerEvent: {}
+[11.721874] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[11.734156] (-) TimerEvent: {}
+[11.810137] (interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/action_collection__functions.c.o\x1b[0m\n'}
+[11.834329] (-) TimerEvent: {}
+[11.854407] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__functions.h:19:0\x1b[m\x1b[K,\n'}
+[11.872287] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__functions.c:4\x1b[m\x1b[K:\n'}
+[11.872730] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__struct.h:24:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.873137] (interfaces) StderrLine: {'line': b' static const char * const \x1b[01;31m\x1b[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING\x1b[m\x1b[K = "CONSTANT_STRING";\n'}
+[11.873488] (interfaces) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.873824] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__struct.h:21:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99 was here\n'}
+[11.874184] (interfaces) StderrLine: {'line': b' static const char * const \x1b[01;36m\x1b[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING\x1b[m\x1b[K = "CONSTANT_STRING";\n'}
+[11.874520] (interfaces) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.874853] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__struct.h:27:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.875191] (interfaces) StderrLine: {'line': b' static const char * const \x1b[01;31m\x1b[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING\x1b[m\x1b[K = "CONSTANT_STRING";\n'}
+[11.875545] (interfaces) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.875883] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__struct.h:24:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99 was here\n'}
+[11.876250] (interfaces) StderrLine: {'line': b' static const char * const \x1b[01;36m\x1b[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING\x1b[m\x1b[K = "CONSTANT_STRING";\n'}
+[11.877341] (interfaces) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.904305] (interfaces) StdoutLine: {'line': b"CMakeFiles/interfaces__rosidl_generator_c.dir/build.make:130: recipe for target 'CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/action_collection__functions.c.o' failed\n"}
+[11.904994] (interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/action_collection__functions.c.o] Error 1\n'}
+[11.905971] (interfaces) StdoutLine: {'line': b"CMakeFiles/Makefile2:247: recipe for target 'CMakeFiles/interfaces__rosidl_generator_c.dir/all' failed\n"}
+[11.906617] (interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[11.906977] (interfaces) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[11.934833] (-) TimerEvent: {}
+[12.036986] (-) TimerEvent: {}
+[12.139074] (-) TimerEvent: {}
+[12.241193] (-) TimerEvent: {}
+[12.342888] (-) TimerEvent: {}
+[12.443631] (-) TimerEvent: {}
+[12.544337] (-) TimerEvent: {}
+[12.645113] (-) TimerEvent: {}
+[12.745837] (-) TimerEvent: {}
+[12.846552] (-) TimerEvent: {}
+[12.947498] (-) TimerEvent: {}
+[13.048436] (-) TimerEvent: {}
+[13.149783] (-) TimerEvent: {}
+[13.252458] (-) TimerEvent: {}
+[13.355076] (-) TimerEvent: {}
+[13.457941] (-) TimerEvent: {}
+[13.560946] (-) TimerEvent: {}
+[13.663667] (-) TimerEvent: {}
+[13.766631] (-) TimerEvent: {}
+[13.869240] (-) TimerEvent: {}
+[13.971741] (-) TimerEvent: {}
+[14.074196] (-) TimerEvent: {}
+[14.175131] (-) TimerEvent: {}
+[14.277312] (-) TimerEvent: {}
+[14.378733] (-) TimerEvent: {}
+[14.481342] (-) TimerEvent: {}
+[14.584017] (-) TimerEvent: {}
+[14.686755] (-) TimerEvent: {}
+[14.788175] (-) TimerEvent: {}
+[14.889763] (-) TimerEvent: {}
+[14.990682] (-) TimerEvent: {}
+[15.091781] (-) TimerEvent: {}
+[15.193743] (-) TimerEvent: {}
+[15.294657] (-) TimerEvent: {}
+[15.395845] (-) TimerEvent: {}
+[15.496962] (-) TimerEvent: {}
+[15.598380] (-) TimerEvent: {}
+[15.700765] (-) TimerEvent: {}
+[15.801695] (-) TimerEvent: {}
+[15.902640] (-) TimerEvent: {}
+[16.003575] (-) TimerEvent: {}
+[16.104559] (-) TimerEvent: {}
+[16.205499] (-) TimerEvent: {}
+[16.306978] (-) TimerEvent: {}
+[16.409722] (-) TimerEvent: {}
+[16.512102] (-) TimerEvent: {}
+[16.613036] (-) TimerEvent: {}
+[16.714354] (-) TimerEvent: {}
+[16.817060] (-) TimerEvent: {}
+[16.919361] (-) TimerEvent: {}
+[17.020297] (-) TimerEvent: {}
+[17.121260] (-) TimerEvent: {}
+[17.222198] (-) TimerEvent: {}
+[17.323150] (-) TimerEvent: {}
+[17.424087] (-) TimerEvent: {}
+[17.524797] (-) TimerEvent: {}
+[17.625478] (-) TimerEvent: {}
+[17.726173] (-) TimerEvent: {}
+[17.826893] (-) TimerEvent: {}
+[17.927557] (-) TimerEvent: {}
+[18.028213] (-) TimerEvent: {}
+[18.128892] (-) TimerEvent: {}
+[18.229545] (-) TimerEvent: {}
+[18.330273] (-) TimerEvent: {}
+[18.431048] (-) TimerEvent: {}
+[18.498195] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[18.531571] (-) TimerEvent: {}
+[18.633106] (-) TimerEvent: {}
+[18.647159] (interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp.o\x1b[0m\n'}
+[18.651398] (interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o\x1b[0m\n'}
+[18.733299] (-) TimerEvent: {}
+[18.834067] (-) TimerEvent: {}
+[18.934846] (-) TimerEvent: {}
+[19.035617] (-) TimerEvent: {}
+[19.136400] (-) TimerEvent: {}
+[19.237203] (-) TimerEvent: {}
+[19.337994] (-) TimerEvent: {}
+[19.438798] (-) TimerEvent: {}
+[19.512178] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/action/action_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[19.513112] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[19.513491] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:293:123:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.513856] (interfaces) StderrLine: {'line': b' s<char>, typename ContainerAllocator::template rebind<char>::other> \x1b[01;31m\x1b[KCONSTANT_STRING\x1b[m\x1b[K;\n'}
+[19.514204] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.514548] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:292:123:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.514970] (interfaces) StderrLine: {'line': b' s<char>, typename ContainerAllocator::template rebind<char>::other> \x1b[01;36m\x1b[KCONSTANT_STRING\x1b[m\x1b[K;\n'}
+[19.515313] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.515651] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:294:123:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.515998] (interfaces) StderrLine: {'line': b' s<char>, typename ContainerAllocator::template rebind<char>::other> \x1b[01;31m\x1b[KCONSTANT_STRING\x1b[m\x1b[K;\n'}
+[19.516337] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.516718] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:292:123:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.517104] (interfaces) StderrLine: {'line': b' s<char>, typename ContainerAllocator::template rebind<char>::other> \x1b[01;36m\x1b[KCONSTANT_STRING\x1b[m\x1b[K;\n'}
+[19.517449] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.524824] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:420:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.526137] (interfaces) StderrLine: {'line': b' ActionCollection_Goal_<ContainerAllocator>::\x1b[01;31m\x1b[KCONSTANT_STRING\x1b[m\x1b[K = "CONSTANT_STRING";\n'}
+[19.526552] (interfaces) StderrLine: {'line': b'                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.526896] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:417:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[19.527252] (interfaces) StderrLine: {'line': b' \x1b[01;36m\x1b[KActionCollection_Goal_<ContainerAllocator>\x1b[m\x1b[K::CONSTANT_STRING = "CONSTANT_STRING";\n'}
+[19.527600] (interfaces) StderrLine: {'line': b' \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.527943] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:423:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.528431] (interfaces) StderrLine: {'line': b' ActionCollection_Goal_<ContainerAllocator>::\x1b[01;31m\x1b[KCONSTANT_STRING\x1b[m\x1b[K = "CONSTANT_STRING";\n'}
+[19.528833] (interfaces) StderrLine: {'line': b'                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.529180] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:417:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[19.529553] (interfaces) StderrLine: {'line': b' \x1b[01;36m\x1b[KActionCollection_Goal_<ContainerAllocator>\x1b[m\x1b[K::CONSTANT_STRING = "CONSTANT_STRING";\n'}
+[19.529891] (interfaces) StderrLine: {'line': b' \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.539009] (-) TimerEvent: {}
+[19.639768] (-) TimerEvent: {}
+[19.740581] (-) TimerEvent: {}
+[19.841351] (-) TimerEvent: {}
+[19.942115] (-) TimerEvent: {}
+[20.042908] (-) TimerEvent: {}
+[20.143659] (-) TimerEvent: {}
+[20.244431] (-) TimerEvent: {}
+[20.339056] (interfaces) StdoutLine: {'line': b"CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:98: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp.o' failed\n"}
+[20.339776] (interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp.o] Error 1\n'}
+[20.340227] (interfaces) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[20.344549] (-) TimerEvent: {}
+[20.445375] (-) TimerEvent: {}
+[20.547243] (-) TimerEvent: {}
+[20.631939] (interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[20.632825] (interfaces) StdoutLine: {'line': b"CMakeFiles/Makefile2:369: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all' failed\n"}
+[20.634268] (interfaces) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[20.635023] (interfaces) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[20.645535] (interfaces) CommandEnded: {'returncode': 2}
+[20.649638] (-) TimerEvent: {}
+[20.650659] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 2}
+[20.672596] (-) EventReactorShutdown: {}

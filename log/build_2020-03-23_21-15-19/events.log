@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.013705] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.013920] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.100000] (-) TimerEvent: {}
+[0.116132] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.117322] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/jiseongyoo/ros2_examples/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/jiseongyoo/ros2_examples/install/interfaces'], 'cwd': '/home/jiseongyoo/ros2_examples/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc64aaa8_d6d8_48fa_beab_a266e3d891a2'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.204271] (-) TimerEvent: {}
+[0.308541] (-) TimerEvent: {}
+[0.409586] (-) TimerEvent: {}
+[0.510774] (-) TimerEvent: {}
+[0.611540] (-) TimerEvent: {}
+[0.712338] (-) TimerEvent: {}
+[0.744985] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.812849] (-) TimerEvent: {}
+[0.913860] (-) TimerEvent: {}
+[1.014709] (-) TimerEvent: {}
+[1.115561] (-) TimerEvent: {}
+[1.216587] (-) TimerEvent: {}
+[1.253241] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.298736] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.316820] (-) TimerEvent: {}
+[1.417643] (-) TimerEvent: {}
+[1.518638] (-) TimerEvent: {}
+[1.619800] (-) TimerEvent: {}
+[1.720621] (-) TimerEvent: {}
+[1.729054] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.751831] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.821405] (-) TimerEvent: {}
+[1.922149] (-) TimerEvent: {}
+[2.023804] (-) TimerEvent: {}
+[2.124560] (-) TimerEvent: {}
+[2.163452] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.214158] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.224790] (-) TimerEvent: {}
+[2.327587] (-) TimerEvent: {}
+[2.429488] (-) TimerEvent: {}
+[2.530317] (-) TimerEvent: {}
+[2.631909] (-) TimerEvent: {}
+[2.732676] (-) TimerEvent: {}
+[2.834288] (-) TimerEvent: {}
+[2.935130] (-) TimerEvent: {}
+[3.036122] (-) TimerEvent: {}
+[3.139531] (-) TimerEvent: {}
+[3.243003] (-) TimerEvent: {}
+[3.346664] (-) TimerEvent: {}
+[3.447807] (-) TimerEvent: {}
+[3.468774] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.502179] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.549073] (-) TimerEvent: {}
+[3.650145] (-) TimerEvent: {}
+[3.750967] (-) TimerEvent: {}
+[3.851942] (-) TimerEvent: {}
+[3.927203] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.931146] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.952209] (-) TimerEvent: {}
+[4.056932] (-) TimerEvent: {}
+[4.157734] (-) TimerEvent: {}
+[4.258731] (-) TimerEvent: {}
+[4.335051] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.358961] (-) TimerEvent: {}
+[4.360394] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.459563] (-) TimerEvent: {}
+[4.560788] (-) TimerEvent: {}
+[4.661951] (-) TimerEvent: {}
+[4.763112] (-) TimerEvent: {}
+[4.864572] (-) TimerEvent: {}
+[4.965894] (-) TimerEvent: {}
+[5.066937] (-) TimerEvent: {}
+[5.168159] (-) TimerEvent: {}
+[5.269108] (-) TimerEvent: {}
+[5.372539] (-) TimerEvent: {}
+[5.474582] (-) TimerEvent: {}
+[5.579560] (-) TimerEvent: {}
+[5.680566] (-) TimerEvent: {}
+[5.783732] (-) TimerEvent: {}
+[5.887656] (-) TimerEvent: {}
+[5.991005] (-) TimerEvent: {}
+[6.083542] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.091323] (-) TimerEvent: {}
+[6.120361] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[6.191553] (-) TimerEvent: {}
+[6.264553] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[6.266226] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.291731] (-) TimerEvent: {}
+[6.392723] (-) TimerEvent: {}
+[6.493720] (-) TimerEvent: {}
+[6.594780] (-) TimerEvent: {}
+[6.695870] (-) TimerEvent: {}
+[6.797159] (-) TimerEvent: {}
+[6.898476] (-) TimerEvent: {}
+[6.999531] (-) TimerEvent: {}
+[7.100649] (-) TimerEvent: {}
+[7.201906] (-) TimerEvent: {}
+[7.257619] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[7.302087] (-) TimerEvent: {}
+[7.403207] (-) TimerEvent: {}
+[7.504645] (-) TimerEvent: {}
+[7.605639] (-) TimerEvent: {}
+[7.708680] (-) TimerEvent: {}
+[7.736068] (interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[7.808769] (-) TimerEvent: {}
+[7.810174] (interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/eloquent/include  \n'}
+[7.894521] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[7.909084] (-) TimerEvent: {}
+[8.010242] (-) TimerEvent: {}
+[8.111283] (-) TimerEvent: {}
+[8.212842] (-) TimerEvent: {}
+[8.313803] (-) TimerEvent: {}
+[8.344185] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[8.413989] (-) TimerEvent: {}
+[8.514933] (-) TimerEvent: {}
+[8.616498] (-) TimerEvent: {}
+[8.717350] (-) TimerEvent: {}
+[8.818130] (-) TimerEvent: {}
+[8.918852] (-) TimerEvent: {}
+[9.023907] (-) TimerEvent: {}
+[9.072193] (interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/eloquent/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[9.073100] (interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[9.075078] (interfaces) StderrLine: {'line': b'  interfaces --arguments-file\n'}
+[9.075541] (interfaces) StderrLine: {'line': b'  /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter__arguments__interfaces.json\n'}
+[9.075916] (interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[9.076263] (interfaces) StderrLine: {'line': b'  /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter/interfaces\n'}
+[9.076605] (interfaces) StderrLine: {'line': b'  --output-file\n'}
+[9.076944] (interfaces) StderrLine: {'line': b'  /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter/interfaces.idls)\n'}
+[9.077288] (interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[9.077618] (interfaces) StderrLine: {'line': b'\n'}
+[9.077968] (interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[9.078297] (interfaces) StderrLine: {'line': b'\n'}
+[9.078632] (interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main\n'}
+[9.078970] (interfaces) StderrLine: {'line': b'      "__main__", mod_spec)\n'}
+[9.090438] (interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 85, in _run_code\n'}
+[9.091186] (interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[9.091597] (interfaces) StderrLine: {'line': b'    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[9.091963] (interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[9.092313] (interfaces) StderrLine: {'line': b'    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main\n'}
+[9.092659] (interfaces) StderrLine: {'line': b'      pathlib.Path(relative_path), output_dir)\n'}
+[9.093000] (interfaces) StderrLine: {'line': b'    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl\n'}
+[9.093362] (interfaces) StderrLine: {'line': b"      package_dir, package_name, interface_file, output_dir / 'msg')\n"}
+[9.093704] (interfaces) StderrLine: {'line': b'    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[9.094112] (interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[9.094463] (interfaces) StderrLine: {'line': b'    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 531, in parse_message_string\n'}
+[9.094809] (interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[9.095165] (interfaces) StderrLine: {'line': b'    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 382, in __init__\n'}
+[9.104270] (interfaces) StderrLine: {'line': b'      pkg_name + PACKAGE_NAME_MESSAGE_TYPE_SEPARATOR + msg_name)\n'}
+[9.104734] (interfaces) StderrLine: {'line': b'    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 200, in __init__\n'}
+[9.105091] (interfaces) StderrLine: {'line': b'      self.type, VALID_MESSAGE_NAME_PATTERN.pattern))\n'}
+[9.105435] (interfaces) StderrLine: {'line': b'\n'}
+[9.105777] (interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'msg_collection' is an invalid\n"}
+[9.106117] (interfaces) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[9.106456] (interfaces) StderrLine: {'line': b'\n'}
+[9.106792] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.107130] (interfaces) StderrLine: {'line': b'  /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[9.115954] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:23 (rosidl_generate_interfaces)\n'}
+[9.116429] (interfaces) StderrLine: {'line': b'\n'}
+[9.116785] (interfaces) StderrLine: {'line': b'\n'}
+[9.117132] (interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.117510] (interfaces) StdoutLine: {'line': b'See also "/home/jiseongyoo/ros2_examples/build/interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[9.124878] (-) TimerEvent: {}
+[9.126596] (interfaces) CommandEnded: {'returncode': 1}
+[9.129271] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 1}
+[9.140338] (-) EventReactorShutdown: {}

@@ -1,0 +1,49 @@
+[0.101s] Invoking command in '/home/jiseongyoo/ros2_examples/build/service_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/service_cpp_example -- -j2 -l2
+[0.272s] [35m[1mScanning dependencies of target service_client_cpp[0m
+[0.288s] [35m[1mScanning dependencies of target service_server_cpp[0m
+[0.479s] [ 25%] [32mBuilding CXX object CMakeFiles/service_server_cpp.dir/src/service_server_cpp_example.cpp.o[0m
+[0.483s] [ 50%] [32mBuilding CXX object CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o[0m
+[5.149s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:67:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.150s]  }
+[5.151s]   [01;31m[K^[m[K
+[5.152s]   [32m[K;[m[K
+[5.175s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ServiceClientExample::send_request()[m[K’:
+[5.176s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_client[m[K’ was not declared in this scope
+[5.177s]      while (![01;31m[Kservice_client[m[K->wait_for_service(std::chrono::seconds(1))) {
+[5.177s]              [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.183s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:30:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kservice_client_[m[K’
+[5.184s]      while (![01;36m[Kservice_client[m[K->wait_for_service(std::chrono::seconds(1))) {
+[5.185s]              [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.185s]              [32m[Kservice_client_[m[K
+[5.189s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:35:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+[5.190s]          return [01;31m[K0[m[K;
+[5.191s]                 [01;31m[K^[m[K
+[5.196s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:47:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_client[m[K’ was not declared in this scope
+[5.197s]      auto response = [01;31m[Kservice_client[m[K->async_send_request(request);
+[5.198s]                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.204s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:47:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kservice_client_[m[K’
+[5.204s]      auto response = [01;36m[Kservice_client[m[K->async_send_request(request);
+[5.205s]                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.206s]                      [32m[Kservice_client_[m[K
+[5.207s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:44:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[5.208s]      if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, response) == rclcpp::executor::FutureReturnCode::SUCCESS){
+[5.208s]                                             [01;31m[K^~~~[m[K
+[5.215s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:44:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KNode[m[K’
+[5.215s]      if (rclcpp::spin_until_future_complete([01;36m[Knode[m[K, response) == rclcpp::executor::FutureReturnCode::SUCCESS){
+[5.216s]                                             [01;36m[K^~~~[m[K
+[5.217s]                                             [32m[KNode[m[K
+[5.224s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:[m[K In constructor ‘[01m[KServiceClientExample::ServiceClientExample()[m[K’:
+[5.225s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ServiceClientExample[m[K’ has no member named ‘[01m[Kservice_client[m[K’; did you mean ‘[01m[Kservice_client_[m[K’?
+[5.226s]      this->[01;31m[Kservice_client[m[K = this->create_client<interfaces::srv::Example>("service");
+[5.226s]            [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.227s]            [32m[Kservice_client_[m[K
+[6.427s] CMakeFiles/service_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o' failed
+[6.429s] make[2]: *** [CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o] Error 1
+[6.430s] make[1]: *** [CMakeFiles/service_client_cpp.dir/all] Error 2
+[6.430s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/service_client_cpp.dir/all' failed
+[6.431s] make[1]: *** Waiting for unfinished jobs....
+[7.799s] [ 75%] [32m[1mLinking CXX executable service_server_cpp[0m
+[8.523s] [ 75%] Built target service_server_cpp
+[8.528s] Makefile:140: recipe for target 'all' failed
+[8.528s] make: *** [all] Error 2
+[8.537s] Invoked command in '/home/jiseongyoo/ros2_examples/build/service_cpp_example' returned '2': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/service_cpp_example -- -j2 -l2

@@ -1,0 +1,25 @@
+[0.070s] Invoking command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example -- -j2 -l2
+[0.291s] [35m[1mScanning dependencies of target param_client_cpp[0m
+[0.348s] [ 50%] Built target param_server_cpp
+[0.465s] [ 75%] [32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o[0m
+[4.796s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:19:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ktypname[m[K’ has not been declared
+[4.797s]    template<[01;31m[Ktypname[m[K T>
+[4.799s]             [01;31m[K^~~~~~~[m[K
+[4.800s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:20:29:[m[K [01;31m[Kerror: [m[K‘[01m[KT[m[K’ does not name a type
+[4.801s]    void parameters_set(const [01;31m[KT[m[K value_){
+[4.801s]                              [01;31m[K^[m[K
+[4.821s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.822s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:55:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KParameterClientExample::parameters_set(int)[m[K’
+[4.823s]    ParameterClientExample().parameters_set(10[01;31m[K)[m[K;
+[4.823s]                                              [01;31m[K^[m[K
+[4.824s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:20:8:[m[K [01;36m[Knote: [m[Kcandidate: template<<declaration error> > void ParameterClientExample::parameters_set(int)
+[4.825s]    void [01;36m[Kparameters_set[m[K(const T value_){
+[4.826s]         [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.827s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:20:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.521s] CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed
+[5.522s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.523s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.524s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed
+[5.524s] Makefile:140: recipe for target 'all' failed
+[5.527s] make: *** [all] Error 2
+[5.531s] Invoked command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example -- -j2 -l2

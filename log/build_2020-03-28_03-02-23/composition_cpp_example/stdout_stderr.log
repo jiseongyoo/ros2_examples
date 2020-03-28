@@ -1,0 +1,50 @@
+[0.339s] [ 14%] Built target component_action_server_cpp
+[0.346s] [ 28%] Built target component_service_server_cpp
+[0.389s] [35m[1mScanning dependencies of target component_action_client_cpp[0m
+[0.498s] [ 42%] Built target component_sub_cpp
+[0.611s] [ 50%] [32mBuilding CXX object CMakeFiles/component_action_client_cpp.dir/src/component_action_client_cpp_example.cpp.o[0m
+[0.688s] [ 64%] Built target component_service_client_cpp
+[0.796s] [ 78%] Built target component_pub_cpp
+[5.208s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.209s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.210s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.211s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.211s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.212s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.213s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.213s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.214s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.215s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_client_cpp_example.hpp:7[m[K,
+[5.215s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:1[m[K:
+[5.220s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ComponentActionClientExample::result_callback(const WrappedResult&)[m[K’:
+[5.221s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:18:86:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst WrappedResult {aka const rclcpp_action::ClientGoalHandle<interfaces::action::Example>::WrappedResult}[m[K’
+[5.221s]            RCLCPP_INFO(this->get_logger(), "Action '/action' : succeeded : %s", result[01;31m[K-[m[K>result);
+[5.222s]                                                                                       [01;31m[K^[m[K
+[5.222s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.223s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.223s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.224s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.224s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.225s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.225s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.225s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.226s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.226s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:18:11:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.226s]            [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action '/action' : succeeded : %s", result->result);
+[5.230s]            [01;36m[K^~~~~~~~~~~[m[K
+[5.230s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:31:69:[m[K [01;31m[Kerror: [m[K‘[01m[KActionClient[m[K’ has not been declared
+[5.231s]        timer_ = create_wall_timer(std::chrono::seconds(1),std::bind(&[01;31m[KActionClient[m[K::timer_callback, this));
+[5.231s]                                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[5.258s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:[m[K In constructor ‘[01m[Kcomponent::ComponentActionClientExample::ComponentActionClientExample(const rclcpp::NodeOptions&)[m[K’:
+[5.259s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:60:31:[m[K [01;31m[Kerror: [m[K‘[01m[Koptions[m[K’ was not declared in this scope
+[5.260s]        : Node("action_client", [01;31m[Koptions[m[K){
+[5.261s]                                [01;31m[K^~~~~~~[m[K
+[5.510s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:59:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_options[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.512s]      ComponentActionClientExample::ComponentActionClientExample(const rclcpp::NodeOptions & [01;35m[Knode_options[m[K)
+[5.513s]                                                                                             [01;35m[K^~~~~~~~~~~~[m[K
+[8.512s] make[2]: *** [CMakeFiles/component_action_client_cpp.dir/src/component_action_client_cpp_example.cpp.o] Error 1
+[8.513s] CMakeFiles/component_action_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_action_client_cpp.dir/src/component_action_client_cpp_example.cpp.o' failed
+[8.519s] CMakeFiles/Makefile2:146: recipe for target 'CMakeFiles/component_action_client_cpp.dir/all' failed
+[8.520s] make[1]: *** [CMakeFiles/component_action_client_cpp.dir/all] Error 2
+[8.520s] make: *** [all] Error 2
+[8.521s] Makefile:140: recipe for target 'all' failed

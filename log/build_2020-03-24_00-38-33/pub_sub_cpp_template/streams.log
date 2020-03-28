@@ -1,0 +1,53 @@
+[0.083s] Invoking command in '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template -- -j2 -l2
+[0.188s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.021s] -- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.070s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.215s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.358s] -- Found interfaces: 0.0.0 (/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake)
+[1.491s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[1.699s] Error parsing '/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/package.xml':
+[1.991s] Traceback (most recent call last):
+[1.993s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 596, in parse_package_string
+[1.993s]     root = dom.parseString(data)
+[1.994s]   File "/usr/lib/python3.6/xml/dom/minidom.py", line 1968, in parseString
+[1.995s]     return expatbuilder.parseString(string)
+[1.996s]   File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 925, in parseString
+[1.996s]     return builder.parseString(string)
+[1.998s]   File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 223, in parseString
+[1.999s]     parser.Parse(string, True)
+[2.000s] xml.parsers.expat.ExpatError: mismatched tag: line 15, column 23
+[2.001s] 
+[2.001s] During handling of the above exception, another exception occurred:
+[2.002s] 
+[2.005s] Traceback (most recent call last):
+[2.006s]   File "/opt/ros/eloquent/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[2.006s]     main()
+[2.006s]   File "/opt/ros/eloquent/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[2.007s]     raise e
+[2.007s]   File "/opt/ros/eloquent/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.008s]     args.package_xml.read(), filename=args.package_xml.name)
+[2.008s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 598, in parse_package_string
+[2.009s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[2.009s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/package.xml':
+[2.009s] The manifest contains invalid XML:
+[2.010s] mismatched tag: line 15, column 23
+[2.053s] CMake Error at /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[2.055s]   execute_process(/usr/bin/python3
+[2.070s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.070s]   /home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/package.xml
+[2.070s]   /home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template/ament_cmake_core/package.cmake)
+[2.071s]   returned error code 1
+[2.071s] Call Stack (most recent call first):
+[2.071s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.072s]   /opt/ros/eloquent/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.074s]   CMakeLists.txt:41 (ament_lint_auto_find_test_dependencies)
+[2.075s] 
+[2.076s] 
+[2.076s] -- Configuring incomplete, errors occurred!
+[2.078s] See also "/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template/CMakeFiles/CMakeOutput.log".
+[2.079s] See also "/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template/CMakeFiles/CMakeError.log".
+[2.079s] make: *** [cmake_check_build_system] Error 1
+[2.080s] Makefile:266: recipe for target 'cmake_check_build_system' failed
+[2.081s] Invoked command in '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template' returned '2': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template -- -j2 -l2

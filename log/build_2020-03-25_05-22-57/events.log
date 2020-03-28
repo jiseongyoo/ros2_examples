@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.003962] (param_cpp_example) JobQueued: {'identifier': 'param_cpp_example', 'dependencies': OrderedDict()}
+[0.004265] (param_cpp_example) JobStarted: {'identifier': 'param_cpp_example'}
+[0.063089] (param_cpp_example) JobProgress: {'identifier': 'param_cpp_example', 'progress': 'cmake'}
+[0.066424] (param_cpp_example) JobProgress: {'identifier': 'param_cpp_example', 'progress': 'build'}
+[0.070526] (param_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/param_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/param_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/param_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[0.099137] (-) TimerEvent: {}
+[0.200353] (-) TimerEvent: {}
+[0.269223] (param_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target param_client_cpp\x1b[0m\n'}
+[0.300501] (-) TimerEvent: {}
+[0.384625] (param_cpp_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o\x1b[0m\n'}
+[0.400816] (-) TimerEvent: {}
+[0.433392] (param_cpp_example) StdoutLine: {'line': b'[ 75%] Built target param_server_cpp\n'}
+[0.501013] (-) TimerEvent: {}
+[0.601760] (-) TimerEvent: {}
+[0.702518] (-) TimerEvent: {}
+[0.803270] (-) TimerEvent: {}
+[0.904025] (-) TimerEvent: {}
+[1.004801] (-) TimerEvent: {}
+[1.105535] (-) TimerEvent: {}
+[1.206265] (-) TimerEvent: {}
+[1.306979] (-) TimerEvent: {}
+[1.407698] (-) TimerEvent: {}
+[1.508414] (-) TimerEvent: {}
+[1.609137] (-) TimerEvent: {}
+[1.709837] (-) TimerEvent: {}
+[1.810662] (-) TimerEvent: {}
+[1.911443] (-) TimerEvent: {}
+[2.012213] (-) TimerEvent: {}
+[2.113003] (-) TimerEvent: {}
+[2.213785] (-) TimerEvent: {}
+[2.314811] (-) TimerEvent: {}
+[2.416496] (-) TimerEvent: {}
+[2.518845] (-) TimerEvent: {}
+[2.619891] (-) TimerEvent: {}
+[2.720990] (-) TimerEvent: {}
+[2.822028] (-) TimerEvent: {}
+[2.923006] (-) TimerEvent: {}
+[3.024093] (-) TimerEvent: {}
+[3.125169] (-) TimerEvent: {}
+[3.226225] (-) TimerEvent: {}
+[3.327269] (-) TimerEvent: {}
+[3.428470] (-) TimerEvent: {}
+[3.529516] (-) TimerEvent: {}
+[3.630538] (-) TimerEvent: {}
+[3.731579] (-) TimerEvent: {}
+[3.832610] (-) TimerEvent: {}
+[3.933618] (-) TimerEvent: {}
+[4.034637] (-) TimerEvent: {}
+[4.135618] (-) TimerEvent: {}
+[4.236790] (-) TimerEvent: {}
+[4.337804] (-) TimerEvent: {}
+[4.438799] (-) TimerEvent: {}
+[4.539764] (-) TimerEvent: {}
+[4.640850] (-) TimerEvent: {}
+[4.741851] (-) TimerEvent: {}
+[4.865574] (-) TimerEvent: {}
+[4.966981] (-) TimerEvent: {}
+[5.067799] (-) TimerEvent: {}
+[5.168578] (-) TimerEvent: {}
+[5.230941] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ParameterClientExample::parameters_set(T)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.231906] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:43:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp::SyncParametersClient {aka class rclcpp::SyncParametersClient}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kset_parameter\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset_parameters\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.232308] (param_cpp_example) StderrLine: {'line': b'       auto set_parameter_result = parameter_client_->\x1b[01;31m\x1b[Kset_parameter\x1b[m\x1b[K(rclcpp::Parameter(param[0]), value_);\n'}
+[5.232649] (param_cpp_example) StderrLine: {'line': b'                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.233055] (param_cpp_example) StderrLine: {'line': b'                                                      \x1b[32m\x1b[Kset_parameters\x1b[m\x1b[K\n'}
+[5.234746] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.241230] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.241781] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.242128] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.248015] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.251039] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.255063] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.255528] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.255969] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.256321] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.256655] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:46:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SyncParametersClient::get_parameter(rclcpp::Parameter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.258503] (param_cpp_example) StderrLine: {'line': b'           parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;31m\x1b[K)\x1b[m\x1b[K.get_name().c_str(),\n'}
+[5.258940] (param_cpp_example) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.263620] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.264270] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.267128] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.267614] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_ERROR_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.270669] (-) TimerEvent: {}
+[5.273706] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_ERROR_NAMED\x1b[m\x1b[K( \\\n'}
+[5.274940] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.275353] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1428:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.279115] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.279755] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.282572] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:45:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.283123] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(), "Failed to set \'%s\': %s",\n'}
+[5.286095] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.286620] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:149:0\x1b[m\x1b[K,\n'}
+[5.289570] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.292401] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:261:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class T> T rclcpp::SyncParametersClient::get_parameter(const string&, const T&)\n'}
+[5.293904] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter\x1b[m\x1b[K(const std::string & parameter_name, const T & default_value)\n'}
+[5.296120] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.296532] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:261:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.299529] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.302316] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.302885] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.304652] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.307084] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.307444] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.309114] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.309471] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.312340] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.312852] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.315806] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:46:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[5.318552] (param_cpp_example) StderrLine: {'line': b'           parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;36m\x1b[K)\x1b[m\x1b[K.get_name().c_str(),\n'}
+[5.319218] (param_cpp_example) StderrLine: {'line': b'                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.320991] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.321511] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.324476] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.326710] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_ERROR_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.327156] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_ERROR_NAMED\x1b[m\x1b[K( \\\n'}
+[5.330125] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.333151] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1428:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.333779] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.334138] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.334484] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:45:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.334831] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(), "Failed to set \'%s\': %s",\n'}
+[5.335172] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.335507] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:149:0\x1b[m\x1b[K,\n'}
+[5.335837] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.336168] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:270:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class T> T rclcpp::SyncParametersClient::get_parameter(const string&)\n'}
+[5.336500] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter\x1b[m\x1b[K(const std::string & parameter_name)\n'}
+[5.340036] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.340527] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:270:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.340998] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.341363] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.341697] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.342028] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.342375] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.342702] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.343062] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.343398] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.343721] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.344088] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.347109] (param_cpp_example) StderrLine: {'line': b"\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:46:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn't deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KT\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.347710] (param_cpp_example) StderrLine: {'line': b'           parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;36m\x1b[K)\x1b[m\x1b[K.get_name().c_str(),\n'}
+[5.352630] (param_cpp_example) StderrLine: {'line': b'                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.356962] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.357974] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.358555] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.359014] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_ERROR_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.359445] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_ERROR_NAMED\x1b[m\x1b[K( \\\n'}
+[5.359960] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.360379] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1428:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.363935] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.371063] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.371684] (-) TimerEvent: {}
+[5.372540] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:45:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.373265] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(), "Failed to set \'%s\': %s",\n'}
+[5.374367] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.374876] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:51:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SyncParametersClient::get_parameter(rclcpp::Parameter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.375396] (param_cpp_example) StderrLine: {'line': b'             parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;31m\x1b[K)\x1b[m\x1b[K.get_name().c_str(),\n'}
+[5.376250] (param_cpp_example) StderrLine: {'line': b'                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.376868] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.377318] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.378556] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.379099] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.379554] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.379975] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.380479] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.387620] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.388147] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.391093] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:50:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.391552] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Successed to set \'%s\' : %s",\n'}
+[5.393280] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.393695] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:149:0\x1b[m\x1b[K,\n'}
+[5.397259] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.397716] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:261:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class T> T rclcpp::SyncParametersClient::get_parameter(const string&, const T&)\n'}
+[5.402735] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter\x1b[m\x1b[K(const std::string & parameter_name, const T & default_value)\n'}
+[5.403215] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.403565] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:261:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.403910] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.404249] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.404590] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.411362] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.411806] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.412154] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.412498] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.412883] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.413234] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.413573] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.413907] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:51:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[5.414246] (param_cpp_example) StderrLine: {'line': b'             parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;36m\x1b[K)\x1b[m\x1b[K.get_name().c_str(),\n'}
+[5.414578] (param_cpp_example) StderrLine: {'line': b'                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.414908] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.415244] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.415576] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.415905] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.416235] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.416560] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.416933] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.417314] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.417648] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.421133] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:50:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.421594] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Successed to set \'%s\' : %s",\n'}
+[5.421946] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.422290] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:149:0\x1b[m\x1b[K,\n'}
+[5.422666] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.423013] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:270:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class T> T rclcpp::SyncParametersClient::get_parameter(const string&)\n'}
+[5.423376] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter\x1b[m\x1b[K(const std::string & parameter_name)\n'}
+[5.423733] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.424070] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:270:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.424406] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.424772] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.425122] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.425455] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.425787] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.426122] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.426458] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.426794] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.427127] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.429533] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.430060] (param_cpp_example) StderrLine: {'line': b"\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:51:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn't deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KT\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.430412] (param_cpp_example) StderrLine: {'line': b'             parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;36m\x1b[K)\x1b[m\x1b[K.get_name().c_str(),\n'}
+[5.430746] (param_cpp_example) StderrLine: {'line': b'                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.431139] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.431477] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.431821] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.432151] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.432480] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.435406] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.435846] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437812] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.440896] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.441357] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:50:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.445293] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Successed to set \'%s\' : %s",\n'}
+[5.445742] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.446527] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:52:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SyncParametersClient::get_parameter(rclcpp::Parameter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.446921] (param_cpp_example) StderrLine: {'line': b'             parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;31m\x1b[K)\x1b[m\x1b[K.value_to_string().c_str());\n'}
+[5.447473] (param_cpp_example) StderrLine: {'line': b'                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.451571] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.452137] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.452659] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.453143] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453661] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.454118] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.454589] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.455141] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.455568] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.456072] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:50:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.456508] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Successed to set \'%s\' : %s",\n'}
+[5.457029] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.457457] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:149:0\x1b[m\x1b[K,\n'}
+[5.457876] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.458367] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:261:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class T> T rclcpp::SyncParametersClient::get_parameter(const string&, const T&)\n'}
+[5.458785] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter\x1b[m\x1b[K(const std::string & parameter_name, const T & default_value)\n'}
+[5.459264] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.459692] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:261:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.460174] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.460607] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.461832] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.462403] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.462849] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.463277] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.463783] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.465171] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.466046] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.466598] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.467027] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:52:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[5.467607] (param_cpp_example) StderrLine: {'line': b'             parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;36m\x1b[K)\x1b[m\x1b[K.value_to_string().c_str());\n'}
+[5.468047] (param_cpp_example) StderrLine: {'line': b'                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.468549] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.469030] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.469536] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.469963] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.470383] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.470878] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.471306] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.471800] (-) TimerEvent: {}
+[5.472180] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.472780] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.473248] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:50:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.473788] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Successed to set \'%s\' : %s",\n'}
+[5.475140] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.475641] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:149:0\x1b[m\x1b[K,\n'}
+[5.476156] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.476585] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:270:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class T> T rclcpp::SyncParametersClient::get_parameter(const string&)\n'}
+[5.477102] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter\x1b[m\x1b[K(const std::string & parameter_name)\n'}
+[5.477577] (param_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.478010] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:270:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.478512] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.478928] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.479461] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.479894] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.480380] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.480830] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.481256] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.481745] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.482166] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.482649] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:12\x1b[m\x1b[K:\n'}
+[5.483205] (param_cpp_example) StderrLine: {'line': b"\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:52:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn't deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KT\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.483730] (param_cpp_example) StderrLine: {'line': b'             parameter_client_->get_parameter(rclcpp::Parameter(param[i])\x1b[01;36m\x1b[K)\x1b[m\x1b[K.value_to_string().c_str());\n'}
+[5.484157] (param_cpp_example) StderrLine: {'line': b'                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.484644] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.485111] (param_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.485536] (param_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.486024] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.486446] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.486915] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.487335] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.487750] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.488240] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.488658] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:50:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.489168] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Successed to set \'%s\' : %s",\n'}
+[5.489586] (param_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.572053] (-) TimerEvent: {}
+[5.672851] (-) TimerEvent: {}
+[5.773636] (-) TimerEvent: {}
+[5.874429] (-) TimerEvent: {}
+[5.975435] (-) TimerEvent: {}
+[6.021504] (param_cpp_example) StdoutLine: {'line': b"CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed\n"}
+[6.024116] (param_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1\n'}
+[6.024770] (param_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2\n'}
+[6.025250] (param_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[6.025982] (param_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed\n"}
+[6.026563] (param_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[6.031778] (param_cpp_example) CommandEnded: {'returncode': 2}
+[6.034169] (param_cpp_example) JobEnded: {'identifier': 'param_cpp_example', 'rc': 2}
+[6.045042] (-) EventReactorShutdown: {}

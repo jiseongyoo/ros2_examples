@@ -1,0 +1,942 @@
+[0.062s] Invoking command in '/home/jiseongyoo/ros2_examples/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jiseongyoo/ros2_examples/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/jiseongyoo/ros2_examples/install/interfaces
+[0.134s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.256s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.257s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.098s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[1.321s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.709s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[2.315s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[2.336s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[2.725s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[2.851s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[2.889s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[3.110s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[3.112s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.113s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[3.113s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[3.211s] -- Found PythonExtra: .so  
+[3.770s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[3.885s] -- Added test 'lint_cmake' to check CMake code style
+[3.892s] -- Added test 'xmllint' to check XML markup files
+[3.909s] -- Configuring done
+[4.109s] -- Generating done
+[4.123s] -- Build files have been written to: /home/jiseongyoo/ros2_examples/build/interfaces
+[4.143s] Invoked command in '/home/jiseongyoo/ros2_examples/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jiseongyoo/ros2_examples/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/jiseongyoo/ros2_examples/install/interfaces
+[4.162s] Invoking command in '/home/jiseongyoo/ros2_examples/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces -- -j2 -l2
+[4.358s] [35m[1mScanning dependencies of target interfaces__cpp[0m
+[4.363s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.405s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.391s] [  6%] Built target interfaces__cpp
+[6.434s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.499s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[6.581s] [ 13%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/msg_collection__functions.c.o[0m
+[6.771s] [ 17%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[6.922s] [ 17%] Built target interfaces__rosidl_generator_c
+[6.962s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.429s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[8.535s] [ 24%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o[0m
+[8.883s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[8.959s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp.o[0m
+[9.685s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.686s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.687s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:107:16:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int8_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int8_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.688s]    _int8_t_type [01;31m[Kint8_t[m[K;
+[9.688s]                 [01;31m[K^~~~~~[m[K
+[9.689s] In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/types.h:156:0[m[K,
+[9.690s]                  from [01m[K/usr/include/stdlib.h:394[m[K,
+[9.690s]                  from [01m[K/usr/include/c++/7/cstdlib:75[m[K,
+[9.691s]                  from [01m[K/usr/include/c++/7/bits/stl_algo.h:59[m[K,
+[9.692s]                  from [01m[K/usr/include/c++/7/algorithm:62[m[K,
+[9.692s]                  from [01m[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:18[m[K,
+[9.693s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8[m[K,
+[9.693s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[9.694s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.695s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:24:18:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kint8_t[m[K’ from ‘[01m[Ktypedef __int8_t int8_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.695s]  typedef __int8_t [01;31m[Kint8_t[m[K;
+[9.700s]                   [01;31m[K^~~~~~[m[K
+[9.701s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.705s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.706s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:110:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint8_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint8_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.706s]    _uint8_t_type [01;31m[Kuint8_t[m[K;
+[9.707s]                  [01;31m[K^~~~~~~[m[K
+[9.707s] In file included from [01m[K/usr/include/stdint.h:37:0[m[K,
+[9.707s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[9.708s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[9.715s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[9.720s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[9.720s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[9.721s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[9.721s]                  from [01m[K/usr/include/c++/7/tuple:39[m[K,
+[9.722s]                  from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+[9.722s]                  from [01m[K/usr/include/c++/7/memory:80[m[K,
+[9.722s]                  from [01m[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:19[m[K,
+[9.723s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8[m[K,
+[9.723s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[9.724s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.724s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:24:19:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kuint8_t[m[K’ from ‘[01m[Ktypedef __uint8_t uint8_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.725s]  typedef __uint8_t [01;31m[Kuint8_t[m[K;
+[9.725s]                    [01;31m[K^~~~~~~[m[K
+[9.725s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.726s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.733s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:113:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int16_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int16_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.733s]    _int16_t_type [01;31m[Kint16_t[m[K;
+[9.734s]                  [01;31m[K^~~~~~~[m[K
+[9.734s] In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/types.h:156:0[m[K,
+[9.735s]                  from [01m[K/usr/include/stdlib.h:394[m[K,
+[9.735s]                  from [01m[K/usr/include/c++/7/cstdlib:75[m[K,
+[9.740s]                  from [01m[K/usr/include/c++/7/bits/stl_algo.h:59[m[K,
+[9.741s]                  from [01m[K/usr/include/c++/7/algorithm:62[m[K,
+[9.741s]                  from [01m[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:18[m[K,
+[9.741s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8[m[K,
+[9.742s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[9.742s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.743s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:25:19:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kint16_t[m[K’ from ‘[01m[Ktypedef __int16_t int16_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.743s]  typedef __int16_t [01;31m[Kint16_t[m[K;
+[9.743s]                    [01;31m[K^~~~~~~[m[K
+[9.744s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.744s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.744s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:116:18:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint16_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint16_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.745s]    _uint16_t_type [01;31m[Kuint16_t[m[K;
+[9.745s]                   [01;31m[K^~~~~~~~[m[K
+[9.745s] In file included from [01m[K/usr/include/stdint.h:37:0[m[K,
+[9.746s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[9.746s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[9.746s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[9.747s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[9.747s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[9.748s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[9.757s]                  from [01m[K/usr/include/c++/7/tuple:39[m[K,
+[9.757s]                  from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+[9.758s]                  from [01m[K/usr/include/c++/7/memory:80[m[K,
+[9.758s]                  from [01m[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:19[m[K,
+[9.758s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8[m[K,
+[9.759s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[9.759s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.759s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:25:20:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kuint16_t[m[K’ from ‘[01m[Ktypedef __uint16_t uint16_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.760s]  typedef __uint16_t [01;31m[Kuint16_t[m[K;
+[9.760s]                     [01;31m[K^~~~~~~~[m[K
+[9.760s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.761s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.790s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int32_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.791s]    _int32_t_type [01;31m[Kint32_t[m[K;
+[9.791s]                  [01;31m[K^~~~~~~[m[K
+[9.791s] In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/types.h:156:0[m[K,
+[9.792s]                  from [01m[K/usr/include/stdlib.h:394[m[K,
+[9.792s]                  from [01m[K/usr/include/c++/7/cstdlib:75[m[K,
+[9.793s]                  from [01m[K/usr/include/c++/7/bits/stl_algo.h:59[m[K,
+[9.793s]                  from [01m[K/usr/include/c++/7/algorithm:62[m[K,
+[9.793s]                  from [01m[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:18[m[K,
+[9.794s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8[m[K,
+[9.794s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[9.794s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.795s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:26:19:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kint32_t[m[K’ from ‘[01m[Ktypedef __int32_t int32_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.795s]  typedef __int32_t [01;31m[Kint32_t[m[K;
+[9.795s]                    [01;31m[K^~~~~~~[m[K
+[9.796s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.796s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.796s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:122:18:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint32_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint32_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.797s]    _uint32_t_type [01;31m[Kuint32_t[m[K;
+[9.797s]                   [01;31m[K^~~~~~~~[m[K
+[9.797s] In file included from [01m[K/usr/include/stdint.h:37:0[m[K,
+[9.798s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[9.798s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[9.798s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[9.799s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[9.799s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[9.799s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[9.807s]                  from [01m[K/usr/include/c++/7/tuple:39[m[K,
+[9.807s]                  from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+[9.808s]                  from [01m[K/usr/include/c++/7/memory:80[m[K,
+[9.808s]                  from [01m[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:19[m[K,
+[9.809s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8[m[K,
+[9.809s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[9.809s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.810s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:26:20:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kuint32_t[m[K’ from ‘[01m[Ktypedef __uint32_t uint32_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.810s]  typedef __uint32_t [01;31m[Kuint32_t[m[K;
+[9.810s]                     [01;31m[K^~~~~~~~[m[K
+[9.811s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.811s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.811s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:125:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int64_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int64_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.812s]    _int64_t_type [01;31m[Kint64_t[m[K;
+[9.812s]                  [01;31m[K^~~~~~~[m[K
+[9.813s] In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/types.h:156:0[m[K,
+[9.813s]                  from [01m[K/usr/include/stdlib.h:394[m[K,
+[9.813s]                  from [01m[K/usr/include/c++/7/cstdlib:75[m[K,
+[9.814s]                  from [01m[K/usr/include/c++/7/bits/stl_algo.h:59[m[K,
+[9.814s]                  from [01m[K/usr/include/c++/7/algorithm:62[m[K,
+[9.814s]                  from [01m[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:18[m[K,
+[9.815s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8[m[K,
+[9.815s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[9.815s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.817s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:27:19:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kint64_t[m[K’ from ‘[01m[Ktypedef __int64_t int64_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.817s]  typedef __int64_t [01;31m[Kint64_t[m[K;
+[9.817s]                    [01;31m[K^~~~~~~[m[K
+[9.818s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.818s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.818s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:128:18:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint64_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint64_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.819s]    _uint64_t_type [01;31m[Kuint64_t[m[K;
+[9.819s]                   [01;31m[K^~~~~~~~[m[K
+[9.820s] In file included from [01m[K/usr/include/stdint.h:37:0[m[K,
+[9.820s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[9.821s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[9.821s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[9.821s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[9.822s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[9.822s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[9.823s]                  from [01m[K/usr/include/c++/7/tuple:39[m[K,
+[9.824s]                  from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+[9.824s]                  from [01m[K/usr/include/c++/7/memory:80[m[K,
+[9.825s]                  from [01m[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:19[m[K,
+[9.825s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8[m[K,
+[9.825s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[9.826s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.827s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:27:20:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kuint64_t[m[K’ from ‘[01m[Ktypedef __uint64_t uint64_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[9.827s]  typedef __uint64_t [01;31m[Kuint64_t[m[K;
+[9.827s]                     [01;31m[K^~~~~~~~[m[K
+[9.828s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[9.828s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[9.828s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.829s]      std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other>;
+[9.830s]                  [01;31m[K^~~~~~~[m[K
+[9.830s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.830s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.831s]                  [01;36m[K^~~~~~~[m[K
+[9.831s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.831s]      std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other>;
+[9.832s]                  [01;31m[K^~~~~~~[m[K
+[9.832s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.832s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.833s]                  [01;36m[K^~~~~~~[m[K
+[9.833s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.833s]      std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other>;
+[9.834s]                  [01;31m[K^~~~~~~[m[K
+[9.834s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.835s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.835s]                  [01;36m[K^~~~~~~[m[K
+[9.835s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.836s]    std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[9.836s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.837s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.837s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.837s]                  [01;36m[K^~~~~~~[m[K
+[9.838s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.838s]    std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[9.838s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.839s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.839s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.839s]                  [01;36m[K^~~~~~~[m[K
+[9.840s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.841s]    std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[9.841s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.841s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.842s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.842s]                  [01;36m[K^~~~~~~[m[K
+[9.843s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.843s]  :vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other[01;31m[K>[m[K;
+[9.843s]                                                                               [01;31m[K^[m[K
+[9.844s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:131:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_unbounded_int32_arr_type[m[K’ does not name a type; did you mean ‘[01m[K_uint32_t_type[m[K’?
+[9.844s]    [01;31m[K_unbounded_int32_arr_type[m[K unbounded_int32_arr;
+[9.845s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.845s]    [32m[K_uint32_t_type[m[K
+[9.846s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.846s]      std::array<[01;31m[Kint32_t[m[K, 5>;
+[9.846s]                 [01;31m[K^~~~~~~[m[K
+[9.847s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.847s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.847s]                  [01;36m[K^~~~~~~[m[K
+[9.850s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.851s]      std::array<[01;31m[Kint32_t[m[K, 5>;
+[9.851s]                 [01;31m[K^~~~~~~[m[K
+[9.852s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.852s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.853s]                  [01;36m[K^~~~~~~[m[K
+[9.854s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.854s]      std::array<[01;31m[Kint32_t[m[K, 5>;
+[9.855s]                 [01;31m[K^~~~~~~[m[K
+[9.855s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.855s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.856s]                  [01;36m[K^~~~~~~[m[K
+[9.856s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.856s]      std::array<int32_t, 5[01;31m[K>[m[K;
+[9.857s]                           [01;31m[K^[m[K
+[9.857s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:134:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_static_five_int32_arr_type[m[K’ does not name a type
+[9.857s]    [01;31m[K_static_five_int32_arr_type[m[K static_five_int32_arr;
+[9.858s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.858s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.859s]      rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;
+[9.859s]                                          [01;31m[K^~~~~~~[m[K
+[9.859s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.860s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.860s]                  [01;36m[K^~~~~~~[m[K
+[9.860s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.861s]      rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;
+[9.861s]                                          [01;31m[K^~~~~~~[m[K
+[9.861s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.863s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.863s]                  [01;36m[K^~~~~~~[m[K
+[9.864s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.864s]      rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;
+[9.864s]                                          [01;31m[K^~~~~~~[m[K
+[9.865s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.865s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.866s]                  [01;36m[K^~~~~~~[m[K
+[9.866s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.866s]  ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[9.867s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.867s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.867s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.868s]                  [01;36m[K^~~~~~~[m[K
+[9.868s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.869s]  ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[9.869s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.869s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.870s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.870s]                  [01;36m[K^~~~~~~[m[K
+[9.870s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.871s]  ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[9.871s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.871s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.872s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.872s]                  [01;36m[K^~~~~~~[m[K
+[9.872s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:113:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.873s]  ctor<int32_t, 5, typename ContainerAllocator::template rebind<int32_t>::other[01;31m[K>[m[K;
+[9.874s]                                                                               [01;31m[K^[m[K
+[9.874s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:137:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_bounded_five_int32_arr_type[m[K’ does not name a type
+[9.875s]    [01;31m[K_bounded_five_int32_arr_type[m[K bounded_five_int32_arr;
+[9.875s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.875s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:171:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ does not name a type
+[9.876s]      const [01;31m[Kuint8_t[m[K & _arg)
+[9.877s]            [01;31m[K^~~~~~~[m[K
+[9.877s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:189:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint8_t[m[K’ does not name a type
+[9.878s]      const [01;31m[Kint8_t[m[K & _arg)
+[9.878s]            [01;31m[K^~~~~~[m[K
+[9.878s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:195:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ does not name a type
+[9.879s]      const [01;31m[Kuint8_t[m[K & _arg)
+[9.879s]            [01;31m[K^~~~~~~[m[K
+[9.879s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:201:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint16_t[m[K’ does not name a type
+[9.880s]      const [01;31m[Kint16_t[m[K & _arg)
+[9.880s]            [01;31m[K^~~~~~~[m[K
+[9.880s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:207:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16_t[m[K’ does not name a type
+[9.881s]      const [01;31m[Kuint16_t[m[K & _arg)
+[9.881s]            [01;31m[K^~~~~~~~[m[K
+[9.881s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:213:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32_t[m[K’ does not name a type
+[9.882s]      const [01;31m[Kint32_t[m[K & _arg)
+[9.882s]            [01;31m[K^~~~~~~[m[K
+[9.882s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:219:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32_t[m[K’ does not name a type
+[9.895s]      const [01;31m[Kuint32_t[m[K & _arg)
+[9.895s]            [01;31m[K^~~~~~~~[m[K
+[9.896s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:225:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint64_t[m[K’ does not name a type
+[9.897s]      const [01;31m[Kint64_t[m[K & _arg)
+[9.898s]            [01;31m[K^~~~~~~[m[K
+[9.898s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:231:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ does not name a type
+[9.898s]      const [01;31m[Kuint64_t[m[K & _arg)
+[9.899s]            [01;31m[K^~~~~~~~[m[K
+[9.899s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.899s]      const std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[9.900s]                        [01;31m[K^~~~~~~[m[K
+[9.900s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.901s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.908s]                  [01;36m[K^~~~~~~[m[K
+[9.908s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.914s]      const std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[9.915s]                        [01;31m[K^~~~~~~[m[K
+[9.915s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.916s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.916s]                  [01;36m[K^~~~~~~[m[K
+[9.916s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.917s]      const std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[9.917s]                        [01;31m[K^~~~~~~[m[K
+[9.917s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.918s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.918s]                  [01;36m[K^~~~~~~[m[K
+[9.918s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.919s]  t std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[9.919s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.919s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.920s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.926s]                  [01;36m[K^~~~~~~[m[K
+[9.927s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.927s]  t std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[9.928s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.934s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.934s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.934s]                  [01;36m[K^~~~~~~[m[K
+[9.935s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.935s]  t std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[9.936s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.936s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.936s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.937s]                  [01;36m[K^~~~~~~[m[K
+[9.937s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.937s]  <int32_t, typename ContainerAllocator::template rebind<int32_t>::other[01;31m[K>[m[K & _arg)
+[9.938s]                                                                        [01;31m[K^[m[K
+[9.938s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.938s]      const std::array<[01;31m[Kint32_t[m[K, 5> & _arg)
+[9.939s]                       [01;31m[K^~~~~~~[m[K
+[9.944s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.945s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.945s]                  [01;36m[K^~~~~~~[m[K
+[9.946s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.946s]      const std::array<[01;31m[Kint32_t[m[K, 5> & _arg)
+[9.946s]                       [01;31m[K^~~~~~~[m[K
+[9.947s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.947s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.947s]                  [01;36m[K^~~~~~~[m[K
+[9.948s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.948s]      const std::array<[01;31m[Kint32_t[m[K, 5> & _arg)
+[9.948s]                       [01;31m[K^~~~~~~[m[K
+[9.949s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.949s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.949s]                  [01;36m[K^~~~~~~[m[K
+[9.950s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.950s]      const std::array<int32_t, 5[01;31m[K>[m[K & _arg)
+[9.960s]                                 [01;31m[K^[m[K
+[9.961s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.961s]      const rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[9.961s]                                                [01;31m[K^~~~~~~[m[K
+[9.963s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.963s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.963s]                  [01;36m[K^~~~~~~[m[K
+[9.964s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.964s]      const rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[9.965s]                                                [01;31m[K^~~~~~~[m[K
+[9.965s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.965s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.966s]                  [01;36m[K^~~~~~~[m[K
+[9.966s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.966s]      const rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[9.967s]                                                [01;31m[K^~~~~~~[m[K
+[9.967s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.967s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.968s]                  [01;36m[K^~~~~~~[m[K
+[9.968s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.968s]  ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[9.969s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.969s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.969s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.970s]                  [01;36m[K^~~~~~~[m[K
+[9.970s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.970s]  ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[9.971s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.971s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.971s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.980s]                  [01;36m[K^~~~~~~[m[K
+[9.981s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[9.981s]  ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[9.981s]                                                                      [01;31m[K^~~~~~~[m[K
+[9.982s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.982s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[9.982s]                  [01;36m[K^~~~~~~[m[K
+[9.983s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:119:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.983s]  t32_t, 5, typename ContainerAllocator::template rebind<int32_t>::other[01;31m[K>[m[K & _arg)
+[9.999s]                                                                        [01;31m[K^[m[K
+[9.999s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[10.000s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[10.003s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:[m[K In constructor ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(rosidl_generator_cpp::MessageInitialization)[m[K’:
+[10.003s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:37:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kthis[m[K’ in a constant expression
+[10.008s]        std::fill<typename std::array<[01;31m[Kint32_t[m[K, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.009s]                                      [01;31m[K^~~~~~~[m[K
+[10.009s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:47:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array[m[K’
+[10.010s]        std::fill<typename std::array<int32_t, 5[01;31m[K>[m[K::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.013s]                                                [01;31m[K^[m[K
+[10.013s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:47:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[K((interfaces::msg::MsgCollection_<ContainerAllocator>*)this)->interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.014s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:60:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kthis[m[K’ in a constant expression
+[10.014s]        std::fill<typename std::array<int32_t, 5>::iterator, [01;31m[Kint32_t[m[K>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.015s]                                                             [01;31m[K^~~~~~~[m[K
+[10.021s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[10.021s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4[m[K:
+[10.022s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:[m[K In constructor ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(const ContainerAllocator&, rosidl_generator_cpp::MessageInitialization)[m[K’:
+[10.022s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:61:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>[m[K’ does not have any field named ‘[01m[Kstatic_five_int32_arr[m[K’
+[10.022s]    : [01;31m[Kstatic_five_int32_arr[m[K(_alloc),
+[10.023s]      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.023s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:37:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kthis[m[K’ in a constant expression
+[10.023s]        std::fill<typename std::array<[01;31m[Kint32_t[m[K, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.026s]                                      [01;31m[K^~~~~~~[m[K
+[10.027s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:47:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array[m[K’
+[10.027s]        std::fill<typename std::array<int32_t, 5[01;31m[K>[m[K::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.032s]                                                [01;31m[K^[m[K
+[10.033s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:47:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[K((interfaces::msg::MsgCollection_<ContainerAllocator>*)this)->interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.033s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:60:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kthis[m[K’ in a constant expression
+[10.033s]        std::fill<typename std::array<int32_t, 5>::iterator, [01;31m[Kint32_t[m[K>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.034s]                                                             [01;31m[K^~~~~~~[m[K
+[10.035s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.035s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:107:16:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int8_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int8_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.036s]    _int8_t_type [01;31m[Kint8_t[m[K;
+[10.036s]                 [01;31m[K^~~~~~[m[K
+[10.037s] In file included from [01m[K/usr/include/stdint.h:34:0[m[K,
+[10.037s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[10.037s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[10.038s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[10.038s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[10.038s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.039s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.044s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.045s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:24:18:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kint8_t[m[K’ from ‘[01m[Ktypedef __int8_t int8_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.045s]  typedef __int8_t [01;31m[Kint8_t[m[K;
+[10.046s]                   [01;31m[K^~~~~~[m[K
+[10.046s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.046s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:110:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint8_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint8_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.047s]    _uint8_t_type [01;31m[Kuint8_t[m[K;
+[10.047s]                  [01;31m[K^~~~~~~[m[K
+[10.047s] In file included from [01m[K/usr/include/stdint.h:37:0[m[K,
+[10.051s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[10.052s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[10.052s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[10.053s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[10.053s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.054s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.054s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.063s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:24:19:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kuint8_t[m[K’ from ‘[01m[Ktypedef __uint8_t uint8_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.063s]  typedef __uint8_t [01;31m[Kuint8_t[m[K;
+[10.063s]                    [01;31m[K^~~~~~~[m[K
+[10.064s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.064s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:113:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int16_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int16_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.064s]    _int16_t_type [01;31m[Kint16_t[m[K;
+[10.065s]                  [01;31m[K^~~~~~~[m[K
+[10.065s] In file included from [01m[K/usr/include/stdint.h:34:0[m[K,
+[10.067s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[10.067s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[10.068s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[10.068s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[10.068s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.069s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.075s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.075s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:25:19:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kint16_t[m[K’ from ‘[01m[Ktypedef __int16_t int16_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.076s]  typedef __int16_t [01;31m[Kint16_t[m[K;
+[10.076s]                    [01;31m[K^~~~~~~[m[K
+[10.077s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.077s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:116:18:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint16_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint16_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.078s]    _uint16_t_type [01;31m[Kuint16_t[m[K;
+[10.078s]                   [01;31m[K^~~~~~~~[m[K
+[10.078s] In file included from [01m[K/usr/include/stdint.h:37:0[m[K,
+[10.079s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[10.079s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[10.079s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[10.080s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[10.080s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.080s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.081s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.081s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:25:20:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kuint16_t[m[K’ from ‘[01m[Ktypedef __uint16_t uint16_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.081s]  typedef __uint16_t [01;31m[Kuint16_t[m[K;
+[10.082s]                     [01;31m[K^~~~~~~~[m[K
+[10.082s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.082s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int32_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.083s]    _int32_t_type [01;31m[Kint32_t[m[K;
+[10.083s]                  [01;31m[K^~~~~~~[m[K
+[10.083s] In file included from [01m[K/usr/include/stdint.h:34:0[m[K,
+[10.095s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[10.095s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[10.096s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[10.096s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[10.097s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.097s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.097s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.104s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:26:19:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kint32_t[m[K’ from ‘[01m[Ktypedef __int32_t int32_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.104s]  typedef __int32_t [01;31m[Kint32_t[m[K;
+[10.105s]                    [01;31m[K^~~~~~~[m[K
+[10.106s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.106s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:122:18:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint32_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint32_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.113s]    _uint32_t_type [01;31m[Kuint32_t[m[K;
+[10.113s]                   [01;31m[K^~~~~~~~[m[K
+[10.114s] In file included from [01m[K/usr/include/stdint.h:37:0[m[K,
+[10.114s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[10.114s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[10.115s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[10.115s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[10.116s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.116s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.116s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.117s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:26:20:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kuint32_t[m[K’ from ‘[01m[Ktypedef __uint32_t uint32_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.117s]  typedef __uint32_t [01;31m[Kuint32_t[m[K;
+[10.118s]                     [01;31m[K^~~~~~~~[m[K
+[10.118s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.128s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:125:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int64_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int64_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.129s]    _int64_t_type [01;31m[Kint64_t[m[K;
+[10.129s]                  [01;31m[K^~~~~~~[m[K
+[10.130s] In file included from [01m[K/usr/include/stdint.h:34:0[m[K,
+[10.130s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[10.130s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[10.131s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[10.131s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[10.132s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.138s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.138s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.139s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:27:19:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kint64_t[m[K’ from ‘[01m[Ktypedef __int64_t int64_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.140s]  typedef __int64_t [01;31m[Kint64_t[m[K;
+[10.140s]                    [01;31m[K^~~~~~~[m[K
+[10.141s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.141s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:128:18:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint64_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint64_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.142s]    _uint64_t_type [01;31m[Kuint64_t[m[K;
+[10.142s]                   [01;31m[K^~~~~~~~[m[K
+[10.142s] In file included from [01m[K/usr/include/stdint.h:37:0[m[K,
+[10.143s]                  from [01m[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9[m[K,
+[10.143s]                  from [01m[K/usr/include/c++/7/cstdint:41[m[K,
+[10.143s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:501[m[K,
+[10.144s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[10.144s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.144s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.152s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.153s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:27:20:[m[K [01;31m[Kerror: [m[Kchanges meaning of ‘[01m[Kuint64_t[m[K’ from ‘[01m[Ktypedef __uint64_t uint64_t[m[K’ [[01;31m[K-fpermissive[m[K]
+[10.153s]  typedef __uint64_t [01;31m[Kuint64_t[m[K;
+[10.153s]                     [01;31m[K^~~~~~~~[m[K
+[10.154s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.154s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.154s]      std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other>;
+[10.156s]                  [01;31m[K^~~~~~~[m[K
+[10.156s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.157s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.157s]                  [01;36m[K^~~~~~~[m[K
+[10.160s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.160s]      std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other>;
+[10.161s]                  [01;31m[K^~~~~~~[m[K
+[10.161s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.161s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.162s]                  [01;36m[K^~~~~~~[m[K
+[10.162s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.165s]      std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other>;
+[10.166s]                  [01;31m[K^~~~~~~[m[K
+[10.166s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.167s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.167s]                  [01;36m[K^~~~~~~[m[K
+[10.167s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.168s]      std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[10.168s]                                                                        [01;31m[K^~~~~~~[m[K
+[10.168s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.169s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.169s]                  [01;36m[K^~~~~~~[m[K
+[10.169s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.170s]      std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[10.170s]                                                                        [01;31m[K^~~~~~~[m[K
+[10.170s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.171s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.171s]                  [01;36m[K^~~~~~~[m[K
+[10.171s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.184s]      std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[10.185s]                                                                        [01;31m[K^~~~~~~[m[K
+[10.185s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.185s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.186s]                  [01;36m[K^~~~~~~[m[K
+[10.186s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.186s]      std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other[01;31m[K>[m[K;
+[10.187s]                                                                                       [01;31m[K^[m[K
+[10.187s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:131:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_unbounded_int32_arr_type[m[K’ does not name a type; did you mean ‘[01m[K_uint32_t_type[m[K’?
+[10.188s]    [01;31m[K_unbounded_int32_arr_type[m[K unbounded_int32_arr;
+[10.188s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.193s]    [32m[K_uint32_t_type[m[K
+[10.193s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.194s]      std::array<[01;31m[Kint32_t[m[K, 5>;
+[10.194s]                 [01;31m[K^~~~~~~[m[K
+[10.194s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.195s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.195s]                  [01;36m[K^~~~~~~[m[K
+[10.197s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.197s]      std::array<[01;31m[Kint32_t[m[K, 5>;
+[10.198s]                 [01;31m[K^~~~~~~[m[K
+[10.198s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.198s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.199s]                  [01;36m[K^~~~~~~[m[K
+[10.199s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.199s]      std::array<[01;31m[Kint32_t[m[K, 5>;
+[10.209s]                 [01;31m[K^~~~~~~[m[K
+[10.209s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.210s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.210s]                  [01;36m[K^~~~~~~[m[K
+[10.210s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.211s]      std::array<int32_t, 5[01;31m[K>[m[K;
+[10.211s]                           [01;31m[K^[m[K
+[10.211s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:134:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_static_five_int32_arr_type[m[K’ does not name a type
+[10.212s]    [01;31m[K_static_five_int32_arr_type[m[K static_five_int32_arr;
+[10.212s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.212s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.213s]      rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;
+[10.213s]                                          [01;31m[K^~~~~~~[m[K
+[10.213s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.214s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.214s]                  [01;36m[K^~~~~~~[m[K
+[10.214s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.215s]      rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;
+[10.219s]                                          [01;31m[K^~~~~~~[m[K
+[10.220s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.220s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.221s]                  [01;36m[K^~~~~~~[m[K
+[10.221s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.221s]      rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;
+[10.222s]                                          [01;31m[K^~~~~~~[m[K
+[10.222s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.222s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.223s]                  [01;36m[K^~~~~~~[m[K
+[10.223s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.223s]      rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[10.224s]                                                                                                   [01;31m[K^~~~~~~[m[K
+[10.224s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.225s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.225s]                  [01;36m[K^~~~~~~[m[K
+[10.225s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.226s]      rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[10.235s]                                                                                                   [01;31m[K^~~~~~~[m[K
+[10.236s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.236s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.237s]                  [01;36m[K^~~~~~~[m[K
+[10.237s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.237s]      rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other>;
+[10.238s]                                                                                                   [01;31m[K^~~~~~~[m[K
+[10.238s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.238s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.239s]                  [01;36m[K^~~~~~~[m[K
+[10.239s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:113:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.240s]      rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<int32_t>::other[01;31m[K>[m[K;
+[10.244s]                                                                                                                  [01;31m[K^[m[K
+[10.245s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:137:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_bounded_five_int32_arr_type[m[K’ does not name a type
+[10.245s]    [01;31m[K_bounded_five_int32_arr_type[m[K bounded_five_int32_arr;
+[10.252s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.252s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:171:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ does not name a type
+[10.253s]      const [01;31m[Kuint8_t[m[K & _arg)
+[10.253s]            [01;31m[K^~~~~~~[m[K
+[10.253s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:189:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint8_t[m[K’ does not name a type
+[10.254s]      const [01;31m[Kint8_t[m[K & _arg)
+[10.254s]            [01;31m[K^~~~~~[m[K
+[10.254s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:195:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ does not name a type
+[10.255s]      const [01;31m[Kuint8_t[m[K & _arg)
+[10.255s]            [01;31m[K^~~~~~~[m[K
+[10.255s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:201:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint16_t[m[K’ does not name a type
+[10.264s]      const [01;31m[Kint16_t[m[K & _arg)
+[10.265s]            [01;31m[K^~~~~~~[m[K
+[10.266s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:207:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16_t[m[K’ does not name a type
+[10.267s]      const [01;31m[Kuint16_t[m[K & _arg)
+[10.267s]            [01;31m[K^~~~~~~~[m[K
+[10.268s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:213:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32_t[m[K’ does not name a type
+[10.268s]      const [01;31m[Kint32_t[m[K & _arg)
+[10.269s]            [01;31m[K^~~~~~~[m[K
+[10.269s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:219:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32_t[m[K’ does not name a type
+[10.269s]      const [01;31m[Kuint32_t[m[K & _arg)
+[10.270s]            [01;31m[K^~~~~~~~[m[K
+[10.270s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:225:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint64_t[m[K’ does not name a type
+[10.270s]      const [01;31m[Kint64_t[m[K & _arg)
+[10.271s]            [01;31m[K^~~~~~~[m[K
+[10.271s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:231:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ does not name a type
+[10.271s]      const [01;31m[Kuint64_t[m[K & _arg)
+[10.272s]            [01;31m[K^~~~~~~~[m[K
+[10.272s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.272s]      const std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[10.273s]                        [01;31m[K^~~~~~~[m[K
+[10.273s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.273s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.274s]                  [01;36m[K^~~~~~~[m[K
+[10.274s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.274s]      const std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[10.275s]                        [01;31m[K^~~~~~~[m[K
+[10.275s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.276s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.284s]                  [01;36m[K^~~~~~~[m[K
+[10.285s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.285s]      const std::vector<[01;31m[Kint32_t[m[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[10.285s]                        [01;31m[K^~~~~~~[m[K
+[10.287s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.288s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.288s]                  [01;36m[K^~~~~~~[m[K
+[10.288s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.289s]      const std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[10.289s]                                                                              [01;31m[K^~~~~~~[m[K
+[10.289s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.290s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.290s]                  [01;36m[K^~~~~~~[m[K
+[10.290s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.291s]      const std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[10.291s]                                                                              [01;31m[K^~~~~~~[m[K
+[10.291s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.292s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.292s]                  [01;36m[K^~~~~~~[m[K
+[10.293s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.293s]      const std::vector<int32_t, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[10.293s]                                                                              [01;31m[K^~~~~~~[m[K
+[10.294s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.294s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.294s]                  [01;36m[K^~~~~~~[m[K
+[10.295s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.295s]      const std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other[01;31m[K>[m[K & _arg)
+[10.295s]                                                                                             [01;31m[K^[m[K
+[10.296s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.308s]      const std::array<[01;31m[Kint32_t[m[K, 5> & _arg)
+[10.309s]                       [01;31m[K^~~~~~~[m[K
+[10.310s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.310s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.310s]                  [01;36m[K^~~~~~~[m[K
+[10.311s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.311s]      const std::array<[01;31m[Kint32_t[m[K, 5> & _arg)
+[10.311s]                       [01;31m[K^~~~~~~[m[K
+[10.315s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.315s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.316s]                  [01;36m[K^~~~~~~[m[K
+[10.316s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.317s]      const std::array<[01;31m[Kint32_t[m[K, 5> & _arg)
+[10.317s]                       [01;31m[K^~~~~~~[m[K
+[10.317s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.318s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.318s]                  [01;36m[K^~~~~~~[m[K
+[10.318s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.319s]      const std::array<int32_t, 5[01;31m[K>[m[K & _arg)
+[10.319s]                                 [01;31m[K^[m[K
+[10.325s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.326s]      const rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[10.328s]                                                [01;31m[K^~~~~~~[m[K
+[10.329s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.329s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.329s]                  [01;36m[K^~~~~~~[m[K
+[10.330s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.330s]      const rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[10.330s]                                                [01;31m[K^~~~~~~[m[K
+[10.331s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.331s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.332s]                  [01;36m[K^~~~~~~[m[K
+[10.332s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.332s]      const rosidl_generator_cpp::BoundedVector<[01;31m[Kint32_t[m[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+[10.333s]                                                [01;31m[K^~~~~~~[m[K
+[10.333s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.333s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.334s]                  [01;36m[K^~~~~~~[m[K
+[10.334s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.334s]      const rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[10.345s]                                                                                                         [01;31m[K^~~~~~~[m[K
+[10.346s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.346s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.346s]                  [01;36m[K^~~~~~~[m[K
+[10.347s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.347s]      const rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[10.347s]                                                                                                         [01;31m[K^~~~~~~[m[K
+[10.350s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.351s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.355s]                  [01;36m[K^~~~~~~[m[K
+[10.355s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.356s]      const rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<[01;31m[Kint32_t[m[K>::other> & _arg)
+[10.357s]                                                                                                         [01;31m[K^~~~~~~[m[K
+[10.357s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.357s]    _int32_t_type [01;36m[Kint32_t[m[K;
+[10.358s]                  [01;36m[K^~~~~~~[m[K
+[10.358s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:119:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.358s]      const rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<int32_t>::other[01;31m[K>[m[K & _arg)
+[10.359s]                                                                                                                        [01;31m[K^[m[K
+[10.359s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.359s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:[m[K In constructor ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(rosidl_generator_cpp::MessageInitialization)[m[K’:
+[10.360s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:37:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kthis[m[K’ in a constant expression
+[10.360s]        std::fill<typename std::array<[01;31m[Kint32_t[m[K, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.361s]                                      [01;31m[K^~~~~~~[m[K
+[10.361s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:47:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array[m[K’
+[10.361s]        std::fill<typename std::array<int32_t, 5[01;31m[K>[m[K::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.362s]                                                [01;31m[K^[m[K
+[10.362s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:47:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[K((interfaces::msg::MsgCollection_<ContainerAllocator>*)this)->interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.362s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:60:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kthis[m[K’ in a constant expression
+[10.363s]        std::fill<typename std::array<int32_t, 5>::iterator, [01;31m[Kint32_t[m[K>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.363s]                                                             [01;31m[K^~~~~~~[m[K
+[10.363s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.375s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:[m[K In constructor ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(const ContainerAllocator&, rosidl_generator_cpp::MessageInitialization)[m[K’:
+[10.376s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:61:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>[m[K’ does not have any field named ‘[01m[Kstatic_five_int32_arr[m[K’
+[10.377s]    : [01;31m[Kstatic_five_int32_arr[m[K(_alloc),
+[10.377s]      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.377s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:37:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kthis[m[K’ in a constant expression
+[10.378s]        std::fill<typename std::array<[01;31m[Kint32_t[m[K, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.378s]                                      [01;31m[K^~~~~~~[m[K
+[10.378s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:47:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array[m[K’
+[10.379s]        std::fill<typename std::array<int32_t, 5[01;31m[K>[m[K::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.379s]                                                [01;31m[K^[m[K
+[10.379s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:47:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[K((interfaces::msg::MsgCollection_<ContainerAllocator>*)this)->interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t[m[K’
+[10.386s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:60:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kthis[m[K’ in a constant expression
+[10.386s]        std::fill<typename std::array<int32_t, 5>::iterator, [01;31m[Kint32_t[m[K>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);
+[10.387s]                                                             [01;31m[K^~~~~~~[m[K
+[10.387s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/_G_config.h:19:0[m[K,
+[10.387s]                  from [01m[K/usr/include/x86_64-linux-gnu/bits/libio.h:35[m[K,
+[10.388s]                  from [01m[K/usr/include/stdio.h:41[m[K,
+[10.388s]                  from [01m[K/usr/include/c++/7/cstdio:42[m[K,
+[10.389s]                  from [01m[K/usr/include/c++/7/ext/string_conversions.h:43[m[K,
+[10.389s]                  from [01m[K/usr/include/c++/7/bits/basic_string.h:6361[m[K,
+[10.389s]                  from [01m[K/usr/include/c++/7/string:52[m[K,
+[10.390s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[10.390s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[10.390s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5[m[K:
+[10.391s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:[m[K At global scope:
+[10.391s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:419:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kunbounded_int32_arr[m[K’; did you mean ‘[01m[Kset__unbounded_int32_arr[m[K’?
+[10.391s]      offsetof(interfaces::msg::MsgCollection, [01;31m[Ku[m[Knbounded_int32_arr),  // bytes offset in struct
+[10.392s]                                               [01;31m[K^[m[K
+[10.392s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:434:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kstatic_five_int32_arr[m[K’; did you mean ‘[01m[Kset__static_five_int32_arr[m[K’?
+[10.392s]      offsetof(interfaces::msg::MsgCollection, [01;31m[Ks[m[Ktatic_five_int32_arr),  // bytes offset in struct
+[10.393s]                                               [01;31m[K^[m[K
+[10.393s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:449:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kbounded_five_int32_arr[m[K’; did you mean ‘[01m[Kset__bounded_five_int32_arr[m[K’?
+[10.393s]      offsetof(interfaces::msg::MsgCollection, [01;31m[Kb[m[Kounded_five_int32_arr),  // bytes offset in struct
+[10.394s]                                               [01;31m[K^[m[K
+[10.424s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0[m[K:
+[10.425s] /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp: In instantiation of ‘[01m[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(rosidl_generator_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’:
+[10.430s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:31:60:[m[K   required from here
+[10.431s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct interfaces::msg::MsgCollection_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstatic_five_int32_arr[m[K’; did you mean ‘[01m[Kset__static_five_int32_arr[m[K’?
+[10.431s]        std::fill<typename std::array<int32_t, 5>::iterator, int32_t>([01;31m[Kthis->static_five_int32_arr[m[K.begin(), this->static_five_int32_arr.end(), 0l);
+[10.431s]                                                                      [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.444s]                                                                      [32m[Kset__static_five_int32_arr[m[K
+[10.446s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:112:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct interfaces::msg::MsgCollection_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstatic_five_int32_arr[m[K’; did you mean ‘[01m[Kset__static_five_int32_arr[m[K’?
+[10.446s]        std::fill<typename std::array<int32_t, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), [01;31m[Kthis->static_five_int32_arr[m[K.end(), 0l);
+[10.447s]                                                                                                           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.447s]                                                                                                           [32m[Kset__static_five_int32_arr[m[K
+[10.573s] make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp.o] Error 1
+[10.574s] CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:77: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp.o' failed
+[10.574s] CMakeFiles/Makefile2:519: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/all' failed
+[10.575s] make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[10.575s] make[1]: *** Waiting for unfinished jobs....
+[10.705s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:[m[K In function ‘[01m[Kbool interfaces::msg::typesupport_fastrtps_cpp::cdr_serialize(const MsgCollection&, eprosima::fastcdr::Cdr&)[m[K’:
+[10.706s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:63:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kunbounded_int32_arr[m[K’; did you mean ‘[01m[Kset__unbounded_int32_arr[m[K’?
+[10.706s]      cdr << ros_message.[01;31m[Kunbounded_int32_arr[m[K;
+[10.707s]                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.707s]                         [32m[Kset__unbounded_int32_arr[m[K
+[10.707s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:67:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kstatic_five_int32_arr[m[K’; did you mean ‘[01m[Kset__static_five_int32_arr[m[K’?
+[10.708s]      cdr << ros_message.[01;31m[Kstatic_five_int32_arr[m[K;
+[10.708s]                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.708s]                         [32m[Kset__static_five_int32_arr[m[K
+[10.709s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:71:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kbounded_five_int32_arr[m[K’; did you mean ‘[01m[Kset__bounded_five_int32_arr[m[K’?
+[10.710s]      size_t size = ros_message.[01;31m[Kbounded_five_int32_arr[m[K.size();
+[10.710s]                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.711s]                                [32m[Kset__bounded_five_int32_arr[m[K
+[10.711s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:77:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kbounded_five_int32_arr[m[K’; did you mean ‘[01m[Kset__bounded_five_int32_arr[m[K’?
+[10.712s]        cdr << ros_message.[01;31m[Kbounded_five_int32_arr[m[K[i];
+[10.712s]                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.713s]                           [32m[Kset__bounded_five_int32_arr[m[K
+[10.718s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:[m[K In function ‘[01m[Kbool interfaces::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, interfaces::msg::MsgCollection&)[m[K’:
+[10.719s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:168:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kunbounded_int32_arr[m[K’; did you mean ‘[01m[Kset__unbounded_int32_arr[m[K’?
+[10.720s]      cdr >> ros_message.[01;31m[Kunbounded_int32_arr[m[K;
+[10.720s]                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.721s]                         [32m[Kset__unbounded_int32_arr[m[K
+[10.722s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:173:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kstatic_five_int32_arr[m[K’; did you mean ‘[01m[Kset__static_five_int32_arr[m[K’?
+[10.722s]      cdr >> ros_message.[01;31m[Kstatic_five_int32_arr[m[K;
+[10.723s]                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.723s]                         [32m[Kset__static_five_int32_arr[m[K
+[10.725s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:181:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kbounded_five_int32_arr[m[K’; did you mean ‘[01m[Kset__bounded_five_int32_arr[m[K’?
+[10.726s]      ros_message.[01;31m[Kbounded_five_int32_arr[m[K.resize(size);
+[10.726s]                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.727s]                  [32m[Kset__bounded_five_int32_arr[m[K
+[10.727s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:183:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kbounded_five_int32_arr[m[K’; did you mean ‘[01m[Kset__bounded_five_int32_arr[m[K’?
+[10.728s]        cdr >> ros_message.[01;31m[Kbounded_five_int32_arr[m[K[i];
+[10.729s]                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.729s]                           [32m[Kset__bounded_five_int32_arr[m[K
+[10.730s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:[m[K In function ‘[01m[Ksize_t interfaces::msg::typesupport_fastrtps_cpp::get_serialized_size(const MsgCollection&, size_t)[m[K’:
+[10.730s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:321:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kunbounded_int32_arr[m[K’; did you mean ‘[01m[Kset__unbounded_int32_arr[m[K’?
+[10.731s]      size_t array_size = ros_message.[01;31m[Kunbounded_int32_arr[m[K.size();
+[10.731s]                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.731s]                                      [32m[Kset__unbounded_int32_arr[m[K
+[10.732s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:325:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kunbounded_int32_arr[m[K’; did you mean ‘[01m[Kset__unbounded_int32_arr[m[K’?
+[10.732s]      size_t item_size = sizeof(ros_message.[01;31m[Kunbounded_int32_arr[m[K[0]);
+[10.733s]                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.733s]                                            [32m[Kset__unbounded_int32_arr[m[K
+[10.734s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:332:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kstatic_five_int32_arr[m[K’; did you mean ‘[01m[Kset__static_five_int32_arr[m[K’?
+[10.734s]      size_t item_size = sizeof(ros_message.[01;31m[Kstatic_five_int32_arr[m[K[0]);
+[10.735s]                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.735s]                                            [32m[Kset__static_five_int32_arr[m[K
+[10.735s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:338:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kbounded_five_int32_arr[m[K’; did you mean ‘[01m[Kset__bounded_five_int32_arr[m[K’?
+[10.736s]      size_t array_size = ros_message.[01;31m[Kbounded_five_int32_arr[m[K.size();
+[10.736s]                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.737s]                                      [32m[Kset__bounded_five_int32_arr[m[K
+[10.737s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:345:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kbounded_five_int32_arr[m[K’; did you mean ‘[01m[Kset__bounded_five_int32_arr[m[K’?
+[10.738s]      size_t item_size = sizeof(ros_message.[01;31m[Kbounded_five_int32_arr[m[K[0]);
+[10.738s]                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.738s]                                            [32m[Kset__bounded_five_int32_arr[m[K
+[10.938s] CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:77: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o' failed
+[10.939s] make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o] Error 1
+[10.942s] CMakeFiles/Makefile2:369: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all' failed
+[10.943s] make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[10.945s] make: *** [all] Error 2
+[10.947s] Makefile:140: recipe for target 'all' failed
+[10.950s] Invoked command in '/home/jiseongyoo/ros2_examples/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces -- -j2 -l2

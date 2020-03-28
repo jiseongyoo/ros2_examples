@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000550] (service_cpp_example) JobQueued: {'identifier': 'service_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.000990] (service_cpp_example) JobStarted: {'identifier': 'service_cpp_example'}
+[0.063254] (service_cpp_example) JobProgress: {'identifier': 'service_cpp_example', 'progress': 'cmake'}
+[0.067297] (service_cpp_example) JobProgress: {'identifier': 'service_cpp_example', 'progress': 'build'}
+[0.072059] (service_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/service_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/service_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2438'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2361,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2361'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77e01214_05b9_4aec_8113_29fc04bcd497'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.68'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/service_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[0.093879] (-) TimerEvent: {}
+[0.201164] (-) TimerEvent: {}
+[0.286739] (service_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target service_client_cpp\x1b[0m\n'}
+[0.301339] (-) TimerEvent: {}
+[0.374240] (service_cpp_example) StdoutLine: {'line': b'[ 50%] Built target service_server_cpp\n'}
+[0.401554] (-) TimerEvent: {}
+[0.403549] (service_cpp_example) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o\x1b[0m\n'}
+[0.501764] (-) TimerEvent: {}
+[0.602533] (-) TimerEvent: {}
+[0.703296] (-) TimerEvent: {}
+[0.804071] (-) TimerEvent: {}
+[0.904829] (-) TimerEvent: {}
+[1.005622] (-) TimerEvent: {}
+[1.106619] (-) TimerEvent: {}
+[1.207595] (-) TimerEvent: {}
+[1.308618] (-) TimerEvent: {}
+[1.409599] (-) TimerEvent: {}
+[1.510331] (-) TimerEvent: {}
+[1.611389] (-) TimerEvent: {}
+[1.714198] (-) TimerEvent: {}
+[1.816627] (-) TimerEvent: {}
+[1.917358] (-) TimerEvent: {}
+[2.018083] (-) TimerEvent: {}
+[2.118815] (-) TimerEvent: {}
+[2.219848] (-) TimerEvent: {}
+[2.320839] (-) TimerEvent: {}
+[2.421831] (-) TimerEvent: {}
+[2.522826] (-) TimerEvent: {}
+[2.623823] (-) TimerEvent: {}
+[2.724820] (-) TimerEvent: {}
+[2.825826] (-) TimerEvent: {}
+[2.926813] (-) TimerEvent: {}
+[3.027822] (-) TimerEvent: {}
+[3.129308] (-) TimerEvent: {}
+[3.231736] (-) TimerEvent: {}
+[3.332716] (-) TimerEvent: {}
+[3.434153] (-) TimerEvent: {}
+[3.536632] (-) TimerEvent: {}
+[3.637621] (-) TimerEvent: {}
+[3.738967] (-) TimerEvent: {}
+[3.841447] (-) TimerEvent: {}
+[3.942446] (-) TimerEvent: {}
+[4.043438] (-) TimerEvent: {}
+[4.144470] (-) TimerEvent: {}
+[4.245465] (-) TimerEvent: {}
+[4.346940] (-) TimerEvent: {}
+[4.449426] (-) TimerEvent: {}
+[4.550165] (-) TimerEvent: {}
+[4.651106] (-) TimerEvent: {}
+[4.751823] (-) TimerEvent: {}
+[4.852721] (-) TimerEvent: {}
+[4.953450] (-) TimerEvent: {}
+[5.054529] (-) TimerEvent: {}
+[5.156943] (-) TimerEvent: {}
+[5.257667] (-) TimerEvent: {}
+[5.358393] (-) TimerEvent: {}
+[5.459147] (-) TimerEvent: {}
+[5.545724] (service_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0\x1b[m\x1b[K,\n'}
+[5.546845] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:3\x1b[m\x1b[K:\n'}
+[5.547320] (service_cpp_example) StderrLine: {'line': b'/opt/ros/eloquent/include/rclcpp/executors.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>) [with NodeT = rclcpp::Client<interfaces::srv::Example>; FutureT = std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > >; TimeRepT = long int; TimeT = std::ratio<1, 1000>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.547733] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:28:64:\x1b[m\x1b[K   required from here\n'}
+[5.548087] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:121:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp::Client<interfaces::srv::Example> {aka class rclcpp::Client<interfaces::srv::Example>}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_node_base_interface\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.548443] (service_cpp_example) StderrLine: {'line': b'   return rclcpp::spin_until_future_complete(\x1b[01;31m\x1b[Knode_ptr->get_node_base_interface\x1b[m\x1b[K(), future, timeout);\n'}
+[5.548785] (service_cpp_example) StderrLine: {'line': b'                                             \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.559589] (-) TimerEvent: {}
+[5.660556] (-) TimerEvent: {}
+[5.761370] (-) TimerEvent: {}
+[5.862185] (-) TimerEvent: {}
+[5.962997] (-) TimerEvent: {}
+[6.063819] (-) TimerEvent: {}
+[6.164615] (-) TimerEvent: {}
+[6.265805] (-) TimerEvent: {}
+[6.368133] (-) TimerEvent: {}
+[6.470355] (-) TimerEvent: {}
+[6.572579] (-) TimerEvent: {}
+[6.621497] (service_cpp_example) StdoutLine: {'line': b"CMakeFiles/service_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o' failed\n"}
+[6.622504] (service_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o] Error 1\n'}
+[6.623809] (service_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/service_client_cpp.dir/all' failed\n"}
+[6.624572] (service_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[6.625273] (service_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/service_client_cpp.dir/all] Error 2\n'}
+[6.625959] (service_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[6.631122] (service_cpp_example) CommandEnded: {'returncode': 2}
+[6.633326] (service_cpp_example) JobEnded: {'identifier': 'service_cpp_example', 'rc': 2}
+[6.648046] (-) EventReactorShutdown: {}

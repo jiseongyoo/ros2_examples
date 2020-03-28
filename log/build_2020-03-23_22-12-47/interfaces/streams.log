@@ -1,0 +1,84 @@
+[0.072s] Invoking command in '/home/jiseongyoo/ros2_examples/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces -- -j2 -l2
+[0.204s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.314s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.316s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.054s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[1.268s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.635s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[2.521s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[2.586s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[3.246s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[3.358s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[3.361s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[3.474s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.474s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[3.475s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[3.872s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[3.962s] -- Added test 'lint_cmake' to check CMake code style
+[3.971s] -- Added test 'xmllint' to check XML markup files
+[3.992s] -- Configuring done
+[4.774s] -- Generating done
+[4.793s] -- Build files have been written to: /home/jiseongyoo/ros2_examples/build/interfaces
+[4.903s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.904s] [35m[1mScanning dependencies of target interfaces__cpp[0m
+[4.949s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.485s] [  4%] Built target interfaces__cpp
+[11.542s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.720s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[11.809s] [  8%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/action_collection__functions.c.o[0m
+[11.870s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__functions.h:19:0[m[K,
+[11.871s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__functions.c:4[m[K:
+[11.871s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__struct.h:24:27:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING[m[K’
+[11.872s]  static const char * const [01;31m[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING[m[K = "CONSTANT_STRING";
+[11.872s]                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.872s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__struct.h:21:27:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING[m[K’ was here
+[11.873s]  static const char * const [01;36m[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING[m[K = "CONSTANT_STRING";
+[11.873s]                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.873s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__struct.h:27:27:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING[m[K’
+[11.874s]  static const char * const [01;31m[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING[m[K = "CONSTANT_STRING";
+[11.874s]                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.874s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/action/action_collection__struct.h:24:27:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING[m[K’ was here
+[11.875s]  static const char * const [01;36m[Kinterfaces__action__ActionCollection_Goal__CONSTANT_STRING[m[K = "CONSTANT_STRING";
+[11.876s]                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.903s] CMakeFiles/interfaces__rosidl_generator_c.dir/build.make:130: recipe for target 'CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/action_collection__functions.c.o' failed
+[11.903s] make[2]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/action_collection__functions.c.o] Error 1
+[11.905s] CMakeFiles/Makefile2:247: recipe for target 'CMakeFiles/interfaces__rosidl_generator_c.dir/all' failed
+[11.905s] make[1]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/all] Error 2
+[11.905s] make[1]: *** Waiting for unfinished jobs....
+[18.497s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[18.646s] [ 11%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp.o[0m
+[18.650s] [ 13%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o[0m
+[19.511s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/action/action_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[19.512s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp:4[m[K:
+[19.512s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:293:123:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[19.512s]  s<char>, typename ContainerAllocator::template rebind<char>::other> [01;31m[KCONSTANT_STRING[m[K;
+[19.513s]                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.513s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:292:123:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[19.513s]  s<char>, typename ContainerAllocator::template rebind<char>::other> [01;36m[KCONSTANT_STRING[m[K;
+[19.514s]                                                                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[19.514s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:294:123:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[19.514s]  s<char>, typename ContainerAllocator::template rebind<char>::other> [01;31m[KCONSTANT_STRING[m[K;
+[19.515s]                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.515s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:292:123:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[19.516s]  s<char>, typename ContainerAllocator::template rebind<char>::other> [01;36m[KCONSTANT_STRING[m[K;
+[19.516s]                                                                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[19.524s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:420:45:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[19.525s]  ActionCollection_Goal_<ContainerAllocator>::[01;31m[KCONSTANT_STRING[m[K = "CONSTANT_STRING";
+[19.525s]                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.525s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:417:1:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING[m[K’ previously declared here
+[19.526s]  [01;36m[KActionCollection_Goal_<ContainerAllocator>[m[K::CONSTANT_STRING = "CONSTANT_STRING";
+[19.526s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.526s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:423:45:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[19.527s]  ActionCollection_Goal_<ContainerAllocator>::[01;31m[KCONSTANT_STRING[m[K = "CONSTANT_STRING";
+[19.527s]                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.528s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/action/action_collection__struct.hpp:417:1:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::action::ActionCollection_Goal_<ContainerAllocator>::CONSTANT_STRING[m[K’ previously declared here
+[19.528s]  [01;36m[KActionCollection_Goal_<ContainerAllocator>[m[K::CONSTANT_STRING = "CONSTANT_STRING";
+[19.528s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.338s] CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:98: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp.o' failed
+[20.338s] make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp.o] Error 1
+[20.339s] make[2]: *** Waiting for unfinished jobs....
+[20.631s] make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[20.631s] CMakeFiles/Makefile2:369: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all' failed
+[20.633s] Makefile:140: recipe for target 'all' failed
+[20.633s] make: *** [all] Error 2
+[20.645s] Invoked command in '/home/jiseongyoo/ros2_examples/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces -- -j2 -l2

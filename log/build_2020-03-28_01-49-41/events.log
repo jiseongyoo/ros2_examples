@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.000819] (composition_cpp_example) JobQueued: {'identifier': 'composition_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.000979] (composition_cpp_example) JobStarted: {'identifier': 'composition_cpp_example'}
+[0.058481] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'cmake'}
+[0.065859] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'build'}
+[0.067411] (composition_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2419,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b512f5cd_d853_4304_902b_8e961c09afb9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.73'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.092482] (-) TimerEvent: {}
+[0.192026] (composition_cpp_example) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.193573] (-) TimerEvent: {}
+[0.295390] (-) TimerEvent: {}
+[0.300711] (composition_cpp_example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.395548] (-) TimerEvent: {}
+[0.496534] (-) TimerEvent: {}
+[0.601396] (-) TimerEvent: {}
+[0.702820] (-) TimerEvent: {}
+[0.805599] (-) TimerEvent: {}
+[0.908439] (-) TimerEvent: {}
+[1.011329] (-) TimerEvent: {}
+[1.079004] (composition_cpp_example) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.111847] (-) TimerEvent: {}
+[1.127716] (composition_cpp_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.212388] (-) TimerEvent: {}
+[1.270138] (composition_cpp_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.275056] (composition_cpp_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.312902] (-) TimerEvent: {}
+[1.400603] (composition_cpp_example) StdoutLine: {'line': b'-- Found rclcpp_action: 0.8.4 (/opt/ros/eloquent/share/rclcpp_action/cmake)\n'}
+[1.413505] (-) TimerEvent: {}
+[1.515695] (-) TimerEvent: {}
+[1.618336] (-) TimerEvent: {}
+[1.645008] (composition_cpp_example) StdoutLine: {'line': b'-- Found rclcpp_components: 0.8.4 (/opt/ros/eloquent/share/rclcpp_components/cmake)\n'}
+[1.655342] (composition_cpp_example) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)\n'}
+[1.718978] (-) TimerEvent: {}
+[1.726222] (composition_cpp_example) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake)\n'}
+[1.819551] (-) TimerEvent: {}
+[1.921435] (-) TimerEvent: {}
+[2.024059] (-) TimerEvent: {}
+[2.126596] (-) TimerEvent: {}
+[2.230335] (-) TimerEvent: {}
+[2.332939] (-) TimerEvent: {}
+[2.342326] (composition_cpp_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[2.433117] (-) TimerEvent: {}
+[2.534340] (-) TimerEvent: {}
+[2.624240] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[2.628634] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.631118] (composition_cpp_example) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jiseongyoo/ros2_examples/src/composition_cpp_example/include\n'}
+[2.635109] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.636255] (-) TimerEvent: {}
+[2.637346] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.641951] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.643647] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.657903] (composition_cpp_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.736935] (-) TimerEvent: {}
+[2.839860] (-) TimerEvent: {}
+[2.941853] (-) TimerEvent: {}
+[3.043337] (-) TimerEvent: {}
+[3.114930] (composition_cpp_example) StdoutLine: {'line': b'-- Generating done\n'}
+[3.122753] (composition_cpp_example) StdoutLine: {'line': b'-- Build files have been written to: /home/jiseongyoo/ros2_examples/build/composition_cpp_example\n'}
+[3.143516] (-) TimerEvent: {}
+[3.239851] (composition_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target component_action_server_cpp\x1b[0m\n'}
+[3.243719] (-) TimerEvent: {}
+[3.342187] (composition_cpp_example) StdoutLine: {'line': b'[ 16%] Built target component_service_server_cpp\n'}
+[3.343904] (-) TimerEvent: {}
+[3.416703] (composition_cpp_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o\x1b[0m\n'}
+[3.444106] (-) TimerEvent: {}
+[3.479318] (composition_cpp_example) StdoutLine: {'line': b'[ 41%] Built target component_sub_cpp\n'}
+[3.544324] (-) TimerEvent: {}
+[3.624661] (composition_cpp_example) StdoutLine: {'line': b'[ 58%] Built target component_service_client_cpp\n'}
+[3.644535] (-) TimerEvent: {}
+[3.745694] (-) TimerEvent: {}
+[3.749567] (composition_cpp_example) StdoutLine: {'line': b'[ 75%] Built target component_pub_cpp\n'}
+[3.846012] (-) TimerEvent: {}
+[3.948523] (-) TimerEvent: {}
+[4.050672] (-) TimerEvent: {}
+[4.153545] (-) TimerEvent: {}
+[4.256312] (-) TimerEvent: {}
+[4.359098] (-) TimerEvent: {}
+[4.461494] (-) TimerEvent: {}
+[4.564347] (-) TimerEvent: {}
+[4.666946] (-) TimerEvent: {}
+[4.769374] (-) TimerEvent: {}
+[4.872325] (-) TimerEvent: {}
+[4.975149] (-) TimerEvent: {}
+[5.076561] (-) TimerEvent: {}
+[5.179158] (-) TimerEvent: {}
+[5.285398] (-) TimerEvent: {}
+[5.389413] (-) TimerEvent: {}
+[5.490406] (-) TimerEvent: {}
+[5.591467] (-) TimerEvent: {}
+[5.692534] (-) TimerEvent: {}
+[5.793598] (-) TimerEvent: {}
+[5.894645] (-) TimerEvent: {}
+[5.995774] (-) TimerEvent: {}
+[6.096974] (-) TimerEvent: {}
+[6.198087] (-) TimerEvent: {}
+[6.298880] (-) TimerEvent: {}
+[6.399696] (-) TimerEvent: {}
+[6.500504] (-) TimerEvent: {}
+[6.601363] (-) TimerEvent: {}
+[6.702194] (-) TimerEvent: {}
+[6.803039] (-) TimerEvent: {}
+[6.903890] (-) TimerEvent: {}
+[7.004746] (-) TimerEvent: {}
+[7.105529] (-) TimerEvent: {}
+[7.206304] (-) TimerEvent: {}
+[7.307464] (-) TimerEvent: {}
+[7.411247] (-) TimerEvent: {}
+[7.513888] (-) TimerEvent: {}
+[7.616737] (-) TimerEvent: {}
+[7.719597] (-) TimerEvent: {}
+[7.822532] (-) TimerEvent: {}
+[7.925352] (-) TimerEvent: {}
+[8.028273] (-) TimerEvent: {}
+[8.130267] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1:0\x1b[m\x1b[K:\n'}
+[8.132168] (-) TimerEvent: {}
+[8.134218] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:33:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KComoponentActionServerExample\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[8.136265] (composition_cpp_example) StderrLine: {'line': b'     ComoponentActionServerExample(const rclcpp::NodeOptions & options\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[8.138106] (composition_cpp_example) StderrLine: {'line': b'                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.145559] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[8.146302] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[8.146756] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.147187] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.147620] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.148050] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.148480] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.148917] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.149389] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[8.149857] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:5\x1b[m\x1b[K,\n'}
+[8.150316] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[8.150742] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse component::ComponentActionServerExample::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.151213] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:13:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_server_name\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.151673] (composition_cpp_example) StderrLine: {'line': b'     RCLCPP_INFO(this->get_logger(), "Action requested \'%s\' : %s", action_server_->\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_server_name(), goal->goal.c_str());\n'}
+[8.152099] (composition_cpp_example) StderrLine: {'line': b'                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.152558] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.153045] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[8.153577] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.154046] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.154553] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[8.155019] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.155474] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.155940] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[8.156400] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.156866] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:13:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.158670] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action requested \'%s\' : %s", action_server_->get_server_name(), goal->goal.c_str());\n'}
+[8.166310] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.166752] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse component::ComponentActionServerExample::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.167131] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:34:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_server_name\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.169937] (composition_cpp_example) StderrLine: {'line': b'     RCLCPP_INFO(this->get_logger(), "Action \'%s\' : canceled", action_server_->\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_server_name());\n'}
+[8.170400] (composition_cpp_example) StderrLine: {'line': b'                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.170750] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.171099] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[8.171436] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.171772] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.172142] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[8.172480] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.172810] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.173165] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[8.173755] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.174217] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:34:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.174660] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'%s\' : canceled", action_server_->get_server_name());\n'}
+[8.175083] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.204816] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid component::ComponentActionServerExample::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.206785] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:53:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_server_name\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.208441] (composition_cpp_example) StderrLine: {'line': b'     RCLCPP_INFO(this->get_logger(), "Action \'%s\' : executed", action_server_->\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_server_name());\n'}
+[8.210034] (composition_cpp_example) StderrLine: {'line': b'                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.211589] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.213140] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[8.214408] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.214828] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.215250] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[8.215694] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.216108] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.216560] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[8.216988] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.217465] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:53:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.217897] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'%s\' : executed", action_server_->get_server_name());\n'}
+[8.218313] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.232591] (-) TimerEvent: {}
+[8.274143] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:74:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_server_name\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.274783] (composition_cpp_example) StderrLine: {'line': b'         RCLCPP_INFO(this->get_logger(), "Action \'s\' : canceled", action_server_->\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_server_name());\n'}
+[8.275137] (composition_cpp_example) StderrLine: {'line': b'                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.275499] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.275839] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[8.276174] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.277720] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.279015] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[8.279494] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.279934] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.280400] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[8.280864] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.281324] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:74:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.281787] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'s\' : canceled", action_server_->get_server_name());\n'}
+[8.282214] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.282644] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:90:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_server_name\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.283105] (composition_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(), "Feedback published \'%s\' : %s", action_server_->\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_server_name(), feedback->feedback.c_str());\n'}
+[8.283546] (composition_cpp_example) StderrLine: {'line': b'                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.283971] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.284402] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[8.287119] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.287815] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.288264] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[8.288697] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.289125] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.289633] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[8.290083] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.290543] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:90:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.290983] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Feedback published \'%s\' : %s", action_server_->get_server_name(), feedback->feedback.c_str());\n'}
+[8.291419] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.291842] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_server_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.292276] (composition_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(), "Action \'%s\' : %s", action_server_-\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_server_name(), result->result.c_str());\n'}
+[8.292705] (composition_cpp_example) StderrLine: {'line': b'                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.293138] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.293643] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[8.294106] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.294525] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.294958] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[8.295405] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.295835] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.296434] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[8.296880] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.297322] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.297793] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'%s\' : %s", action_server_-get_server_name(), result->result.c_str());\n'}
+[8.299151] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.299675] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kget_node_names\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.300121] (composition_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(), "Action \'%s\' : %s", action_server_-\x1b[01;36m\x1b[Kg\x1b[m\x1b[Ket_server_name(), result->result.c_str());\n'}
+[8.300557] (composition_cpp_example) StderrLine: {'line': b'                                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.300983] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.301474] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[8.301912] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.302340] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.302772] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[8.303204] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.303630] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.304094] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[8.304525] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.304955] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.305418] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'%s\' : %s", action_server_-get_server_name(), result->result.c_str());\n'}
+[8.305848] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.306288] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.306721] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:110:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KComoponentActionServerExample\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[8.307156] (composition_cpp_example) StderrLine: {'line': b'   ComponentActionServerExample::ComoponentActionServerExample(const rclcpp::NodeOptions & options\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[8.307577] (composition_cpp_example) StderrLine: {'line': b'                                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.307998] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint component::ComponentActionServerExample::ComoponentActionServerExample(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.308455] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:111:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[8.308882] (composition_cpp_example) StderrLine: {'line': b'     : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("action_server", options){\n'}
+[8.309327] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.309756] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcreate_server\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.310220] (composition_cpp_example) StderrLine: {'line': b'     action_server_ = \x1b[01;31m\x1b[Kcreate_server\x1b[m\x1b[K<interfaces::action::Example>(\n'}
+[8.310648] (composition_cpp_example) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.311071] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative:\n'}
+[8.311498] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:39:0\x1b[m\x1b[K,\n'}
+[8.311929] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:7\x1b[m\x1b[K,\n'}
+[8.312398] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[8.312826] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:133:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::create_server\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.313280] (composition_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[8.313723] (composition_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.314151] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.314613] (composition_cpp_example) StderrLine: {'line': b'     action_server_ = create_server<interfaces::action::Example\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[8.315048] (composition_cpp_example) StderrLine: {'line': b'                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.317108] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:124:109:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[8.317830] (composition_cpp_example) StderrLine: {'line': b'     std::bind(&ComponentActionServerExample::handle_goal, this, std::placeholders::_1, std::placeholders::_2\x1b[01;35m\x1b[K)\x1b[m\x1b[K,\n'}
+[8.318278] (composition_cpp_example) StderrLine: {'line': b'                                                                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.325962] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:128:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.326880] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.327358] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.333039] (-) TimerEvent: {}
+[8.434842] (-) TimerEvent: {}
+[8.537850] (-) TimerEvent: {}
+[8.639823] (-) TimerEvent: {}
+[8.742030] (-) TimerEvent: {}
+[8.844877] (-) TimerEvent: {}
+[8.947704] (-) TimerEvent: {}
+[9.050639] (-) TimerEvent: {}
+[9.153066] (-) TimerEvent: {}
+[9.254554] (-) TimerEvent: {}
+[9.357350] (-) TimerEvent: {}
+[9.404679] (composition_cpp_example) StdoutLine: {'line': b"CMakeFiles/component_action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o' failed\n"}
+[9.409335] (composition_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o] Error 1\n'}
+[9.411342] (composition_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/component_action_server_cpp.dir/all] Error 2\n'}
+[9.413288] (composition_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[9.417159] (composition_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:108: recipe for target 'CMakeFiles/component_action_server_cpp.dir/all' failed\n"}
+[9.418170] (composition_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[9.419978] (composition_cpp_example) CommandEnded: {'returncode': 2}
+[9.422182] (composition_cpp_example) JobEnded: {'identifier': 'composition_cpp_example', 'rc': 2}
+[9.438565] (-) EventReactorShutdown: {}

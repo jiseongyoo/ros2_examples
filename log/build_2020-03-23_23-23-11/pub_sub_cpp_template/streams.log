@@ -1,0 +1,18 @@
+[0.075s] Invoking command in '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template -- -j2 -l2
+[0.251s] [35m[1mScanning dependencies of target pub_cpp_template[0m
+[0.394s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o[0m
+[4.666s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:[m[K In constructor ‘[01m[KpublisherTemplate::publisherTemplate()[m[K’:
+[4.669s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublihser_[m[K’ was not declared in this scope
+[4.672s]      [01;31m[Kpublihser_[m[K = this->create_publisher<std::string>("topic", 10);
+[4.672s]      [01;31m[K^~~~~~~~~~[m[K
+[4.673s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:36:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpublisher_[m[K’
+[4.673s]      [01;36m[Kpublihser_[m[K = this->create_publisher<std::string>("topic", 10);
+[4.674s]      [01;36m[K^~~~~~~~~~[m[K
+[4.674s]      [32m[Kpublisher_[m[K
+[6.997s] make[2]: *** [CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o] Error 1
+[6.998s] CMakeFiles/pub_cpp_template.dir/build.make:62: recipe for target 'CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o' failed
+[7.005s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp_template.dir/all' failed
+[7.006s] Makefile:140: recipe for target 'all' failed
+[7.011s] make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2
+[7.012s] make: *** [all] Error 2
+[7.013s] Invoked command in '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template -- -j2 -l2

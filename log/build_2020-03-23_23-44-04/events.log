@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.003142] (pub_sub_cpp_template) JobQueued: {'identifier': 'pub_sub_cpp_template', 'dependencies': OrderedDict()}
+[0.008007] (pub_sub_cpp_template) JobStarted: {'identifier': 'pub_sub_cpp_template'}
+[0.061022] (pub_sub_cpp_template) JobProgress: {'identifier': 'pub_sub_cpp_template', 'progress': 'cmake'}
+[0.064514] (pub_sub_cpp_template) JobProgress: {'identifier': 'pub_sub_cpp_template', 'progress': 'build'}
+[0.068637] (pub_sub_cpp_template) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc64aaa8_d6d8_48fa_beab_a266e3d891a2'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.096971] (-) TimerEvent: {}
+[0.194475] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.197336] (-) TimerEvent: {}
+[0.298404] (-) TimerEvent: {}
+[0.310924] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.398913] (-) TimerEvent: {}
+[0.501542] (-) TimerEvent: {}
+[0.604353] (-) TimerEvent: {}
+[0.706840] (-) TimerEvent: {}
+[0.809450] (-) TimerEvent: {}
+[0.910929] (-) TimerEvent: {}
+[1.013568] (-) TimerEvent: {}
+[1.054683] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.104440] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.114159] (-) TimerEvent: {}
+[1.216540] (-) TimerEvent: {}
+[1.249029] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.254466] (pub_sub_cpp_template) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.317198] (-) TimerEvent: {}
+[1.419650] (-) TimerEvent: {}
+[1.440902] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[1.521961] (-) TimerEvent: {}
+[1.624863] (-) TimerEvent: {}
+[1.719597] (pub_sub_cpp_template) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[1.723283] (pub_sub_cpp_template) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.724601] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.725541] (-) TimerEvent: {}
+[1.728880] (pub_sub_cpp_template) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.730145] (pub_sub_cpp_template) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.733818] (pub_sub_cpp_template) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.735553] (pub_sub_cpp_template) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.742603] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.788414] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Generating done\n'}
+[1.794291] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Build files have been written to: /home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template\n'}
+[1.825840] (-) TimerEvent: {}
+[1.877337] (pub_sub_cpp_template) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_cpp_template\x1b[0m\n'}
+[1.926185] (-) TimerEvent: {}
+[2.028237] (-) TimerEvent: {}
+[2.046064] (pub_sub_cpp_template) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o\x1b[0m\n'}
+[2.128438] (-) TimerEvent: {}
+[2.229241] (-) TimerEvent: {}
+[2.330002] (-) TimerEvent: {}
+[2.430743] (-) TimerEvent: {}
+[2.531537] (-) TimerEvent: {}
+[2.632291] (-) TimerEvent: {}
+[2.733154] (-) TimerEvent: {}
+[2.834872] (-) TimerEvent: {}
+[2.937007] (-) TimerEvent: {}
+[3.039155] (-) TimerEvent: {}
+[3.141460] (-) TimerEvent: {}
+[3.243774] (-) TimerEvent: {}
+[3.345522] (-) TimerEvent: {}
+[3.447200] (-) TimerEvent: {}
+[3.549223] (-) TimerEvent: {}
+[3.651310] (-) TimerEvent: {}
+[3.753615] (-) TimerEvent: {}
+[3.855716] (-) TimerEvent: {}
+[3.957499] (-) TimerEvent: {}
+[4.059685] (-) TimerEvent: {}
+[4.161801] (-) TimerEvent: {}
+[4.263973] (-) TimerEvent: {}
+[4.366809] (-) TimerEvent: {}
+[4.469676] (-) TimerEvent: {}
+[4.572323] (-) TimerEvent: {}
+[4.675040] (-) TimerEvent: {}
+[4.777833] (-) TimerEvent: {}
+[4.879117] (-) TimerEvent: {}
+[4.981815] (-) TimerEvent: {}
+[5.084668] (-) TimerEvent: {}
+[5.187609] (-) TimerEvent: {}
+[5.290374] (-) TimerEvent: {}
+[5.393152] (-) TimerEvent: {}
+[5.495634] (-) TimerEvent: {}
+[5.597876] (-) TimerEvent: {}
+[5.700024] (-) TimerEvent: {}
+[5.802511] (-) TimerEvent: {}
+[5.905163] (-) TimerEvent: {}
+[6.007773] (-) TimerEvent: {}
+[6.110556] (-) TimerEvent: {}
+[6.213310] (-) TimerEvent: {}
+[6.314645] (-) TimerEvent: {}
+[6.415869] (-) TimerEvent: {}
+[6.518389] (-) TimerEvent: {}
+[6.621428] (-) TimerEvent: {}
+[6.728378] (-) TimerEvent: {}
+[6.831159] (-) TimerEvent: {}
+[6.933197] (-) TimerEvent: {}
+[7.034676] (-) TimerEvent: {}
+[7.137687] (-) TimerEvent: {}
+[7.240041] (-) TimerEvent: {}
+[7.342821] (-) TimerEvent: {}
+[7.445643] (-) TimerEvent: {}
+[7.547928] (-) TimerEvent: {}
+[7.650377] (-) TimerEvent: {}
+[7.752488] (-) TimerEvent: {}
+[7.855341] (-) TimerEvent: {}
+[7.958265] (-) TimerEvent: {}
+[8.061137] (-) TimerEvent: {}
+[8.163579] (-) TimerEvent: {}
+[8.266531] (-) TimerEvent: {}
+[8.369190] (-) TimerEvent: {}
+[8.472235] (-) TimerEvent: {}
+[8.575092] (-) TimerEvent: {}
+[8.678029] (-) TimerEvent: {}
+[8.781093] (-) TimerEvent: {}
+[8.883725] (-) TimerEvent: {}
+[8.985308] (-) TimerEvent: {}
+[9.087974] (-) TimerEvent: {}
+[9.190901] (-) TimerEvent: {}
+[9.293604] (-) TimerEvent: {}
+[9.396289] (-) TimerEvent: {}
+[9.499146] (-) TimerEvent: {}
+[9.601589] (-) TimerEvent: {}
+[9.704557] (-) TimerEvent: {}
+[9.806905] (-) TimerEvent: {}
+[9.909477] (-) TimerEvent: {}
+[10.012382] (-) TimerEvent: {}
+[10.114950] (-) TimerEvent: {}
+[10.217278] (-) TimerEvent: {}
+[10.319249] (-) TimerEvent: {}
+[10.421542] (-) TimerEvent: {}
+[10.524212] (-) TimerEvent: {}
+[10.626977] (-) TimerEvent: {}
+[10.729240] (-) TimerEvent: {}
+[10.830584] (-) TimerEvent: {}
+[10.932782] (-) TimerEvent: {}
+[11.035081] (-) TimerEvent: {}
+[11.128408] (pub_sub_cpp_template) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_cpp_template\x1b[0m\n'}
+[11.135375] (-) TimerEvent: {}
+[11.236171] (-) TimerEvent: {}
+[11.337126] (-) TimerEvent: {}
+[11.439312] (-) TimerEvent: {}
+[11.542297] (-) TimerEvent: {}
+[11.645266] (-) TimerEvent: {}
+[11.747784] (-) TimerEvent: {}
+[11.850277] (-) TimerEvent: {}
+[11.851612] (pub_sub_cpp_template) StderrLine: {'line': b"CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o: In function `rclcpp::Publisher<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':\n"}
+[11.853399] (pub_sub_cpp_template) StderrLine: {'line': b"pub_cpp_template.cpp:(.text._ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC2EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE[_ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC5EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE]+0x6a): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >()'\n"}
+[11.862465] (pub_sub_cpp_template) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[11.868865] (pub_sub_cpp_template) StdoutLine: {'line': b"CMakeFiles/pub_cpp_template.dir/build.make:129: recipe for target 'pub_cpp_template' failed\n"}
+[11.870006] (pub_sub_cpp_template) StderrLine: {'line': b'make[2]: *** [pub_cpp_template] Error 1\n'}
+[11.870726] (pub_sub_cpp_template) StdoutLine: {'line': b"CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp_template.dir/all' failed\n"}
+[11.871607] (pub_sub_cpp_template) StderrLine: {'line': b'make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2\n'}
+[11.872161] (pub_sub_cpp_template) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[11.890690] (pub_sub_cpp_template) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[11.891704] (pub_sub_cpp_template) CommandEnded: {'returncode': 2}
+[11.894547] (pub_sub_cpp_template) JobEnded: {'identifier': 'pub_sub_cpp_template', 'rc': 2}
+[11.904320] (-) EventReactorShutdown: {}

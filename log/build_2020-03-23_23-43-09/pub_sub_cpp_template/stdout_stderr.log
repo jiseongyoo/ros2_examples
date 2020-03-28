@@ -1,0 +1,27 @@
+[0.174s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.272s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.048s] -- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.099s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.248s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.442s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[1.733s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.737s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.741s] -- Configured cppcheck include dirs: 
+[1.749s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.750s] -- Added test 'lint_cmake' to check CMake code style
+[1.753s] -- Added test 'uncrustify' to check C / C++ code style
+[1.754s] -- Added test 'xmllint' to check XML markup files
+[1.762s] -- Configuring done
+[1.808s] -- Generating done
+[1.812s] -- Build files have been written to: /home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template
+[1.975s] [ 50%] [32m[1mLinking CXX executable pub_cpp_template[0m
+[2.730s] CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o: In function `rclcpp::Publisher<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[2.733s] pub_cpp_template.cpp:(.text._ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC2EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE[_ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC5EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE]+0x6a): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >()'
+[2.745s] collect2: error: ld returned 1 exit status
+[2.755s] CMakeFiles/pub_cpp_template.dir/build.make:129: recipe for target 'pub_cpp_template' failed
+[2.759s] make[2]: *** [pub_cpp_template] Error 1
+[2.759s] make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2
+[2.760s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp_template.dir/all' failed
+[2.760s] Makefile:140: recipe for target 'all' failed
+[2.761s] make: *** [all] Error 2

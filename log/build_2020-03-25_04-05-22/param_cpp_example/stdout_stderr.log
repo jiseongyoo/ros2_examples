@@ -1,0 +1,126 @@
+[0.277s] [35m[1mScanning dependencies of target param_client_cpp[0m
+[0.372s] [ 25%] [32mBuilding CXX object CMakeFiles/param_server_cpp.dir/src/param_server_cpp_example.cpp.o[0m
+[0.491s] [ 50%] [32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o[0m
+[5.102s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:4:43:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[5.103s]  class ParameterClientExample : public Node[01;31m[K{[m[K
+[5.103s]                                            [01;31m[K^[m[K
+[5.104s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:6:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared<rclcpp::SyncParametersClient>[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[5.104s]    std::make_shared[01;31m[K<[m[Krclcpp::SyncParametersClient> parameter_client_;
+[5.105s]                    [01;31m[K^[m[K
+[5.106s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:23:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.107s]  }
+[5.107s]   [01;31m[K^[m[K
+[5.108s]   [32m[K;[m[K
+[5.108s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In constructor ‘[01m[KParameterClientExample::ParameterClientExample()[m[K’:
+[5.109s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:8:30:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KParameterClientExample[m[K’ does not have any field named ‘[01m[KNode[m[K’
+[5.109s]    ParameterClientExample() : [01;31m[KNode[m[K("Parameter_Client"){
+[5.110s]                               [01;31m[K^~~~[m[K
+[5.111s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameter_client_[m[K’ was not declared in this scope
+[5.112s]      [01;31m[Kparameter_client_[m[K = std::make_shared<rclcpp::SyncParametersClient>(node, "ParameterServer");
+[5.113s]      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.128s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:9:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krmw_client_t[m[K’
+[5.128s]      [01;36m[Kparameter_client_[m[K = std::make_shared<rclcpp::SyncParametersClient>(node, "ParameterServer");
+[5.129s]      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.129s]      [32m[Krmw_client_t[m[K
+[5.130s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:9:72:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[5.131s]      parameter_client_ = std::make_shared<rclcpp::SyncParametersClient>([01;31m[Knode[m[K, "ParameterServer");
+[5.131s]                                                                         [01;31m[K^~~~[m[K
+[5.137s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:11:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameter_client[m[K’ was not declared in this scope
+[5.138s]      auto set_parameter_result = [01;31m[Kparameter_client[m[K->set_parameters({rclcpp::Parameter("param1", 10)});
+[5.138s]                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.154s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:11:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krmw_create_client[m[K’
+[5.155s]      auto set_parameter_result = [01;36m[Kparameter_client[m[K->set_parameters({rclcpp::Parameter("param1", 10)});
+[5.155s]                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.156s]                                  [32m[Krmw_create_client[m[K
+[5.159s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/service.hpp:33:0[m[K,
+[5.159s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:25[m[K,
+[5.160s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.160s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.161s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.161s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.162s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.162s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.163s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.163s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:2[m[K:
+[5.164s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1421:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.164s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[5.165s]                                                                                              [01;31m[K^[m[K
+[5.165s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:13:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ERROR[m[K’
+[5.168s]        [01;36m[KRCLCPP_ERROR[m[K(node->get_logger(), "Failed to set parameter: %s", set_parameter_result.reason.c_str());
+[5.168s]        [01;36m[K^~~~~~~~~~~~[m[K
+[5.171s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1421:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.173s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[5.180s]                                                                                                     [01;31m[K^[m[K
+[5.181s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:13:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ERROR[m[K’
+[5.184s]        [01;36m[KRCLCPP_ERROR[m[K(node->get_logger(), "Failed to set parameter: %s", set_parameter_result.reason.c_str());
+[5.186s]        [01;36m[K^~~~~~~~~~~~[m[K
+[5.187s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1422:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.188s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[5.190s]                                 [01;31m[K^[m[K
+[5.191s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:13:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ERROR[m[K’
+[5.193s]        [01;36m[KRCLCPP_ERROR[m[K(node->get_logger(), "Failed to set parameter: %s", set_parameter_result.reason.c_str());
+[5.194s]        [01;36m[K^~~~~~~~~~~~[m[K
+[5.196s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.198s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[5.199s]                                                                                              [01;31m[K^[m[K
+[5.201s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:16:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.201s]        [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "Successed to set parameter %s : %s",
+[5.203s]        [01;36m[K^~~~~~~~~~~[m[K
+[5.204s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.206s]        ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[5.208s]                                                                                                     [01;31m[K^[m[K
+[5.210s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:16:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.211s]        [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "Successed to set parameter %s : %s",
+[5.213s]        [01;36m[K^~~~~~~~~~~[m[K
+[5.214s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.215s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[5.217s]                                 [01;31m[K^[m[K
+[5.218s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:16:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.220s]        [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "Successed to set parameter %s : %s",
+[5.221s]        [01;36m[K^~~~~~~~~~~[m[K
+[5.244s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.245s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:28:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<ParameterClientExample>)[m[K’
+[5.246s]    rclcpp::spin(std::make_shared<ParameterClientExample>()[01;31m[K)[m[K;
+[5.246s]                                                           [01;31m[K^[m[K
+[5.247s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0[m[K,
+[5.247s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:2[m[K:
+[5.247s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:44:1:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)
+[5.248s]  [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[5.248s]  [01;36m[K^~~~[m[K
+[5.249s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:44:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ParameterClientExample>[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr {aka std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>}[m[K’
+[5.250s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:48:1:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::spin(rclcpp::Node::SharedPtr)
+[5.251s]  [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[5.251s]  [01;36m[K^~~~[m[K
+[5.252s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:48:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ParameterClientExample>[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr {aka std::shared_ptr<rclcpp::Node>}[m[K’
+[5.735s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.735s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:23:33:[m[K [01;31m[Kerror: [m[K‘[01m[KParameterServer[m[K’ was not declared in this scope
+[5.736s]    rclcpp::spin(std::make_shared<[01;31m[KParameterServer[m[K>());
+[5.736s]                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.743s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:23:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KParameterServerExample[m[K’
+[5.744s]    rclcpp::spin(std::make_shared<[01;36m[KParameterServer[m[K>());
+[5.745s]                                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.745s]                                  [32m[KParameterServerExample[m[K
+[5.746s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:23:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[5.746s]    rclcpp::spin(std::make_shared<ParameterServer>([01;31m[K)[m[K);
+[5.747s]                                                   [01;31m[K^[m[K
+[5.747s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[5.748s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[5.748s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:6[m[K:
+[5.749s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)
+[5.749s]      [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[5.749s]      [01;36m[K^~~~~~~~~~~[m[K
+[5.750s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.750s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:23:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.759s]    rclcpp::spin(std::make_shared<ParameterServer>([01;31m[K)[m[K);
+[5.759s]                                                   [01;31m[K^[m[K
+[5.926s] CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed
+[5.928s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.929s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed
+[5.929s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.930s] make[1]: *** Waiting for unfinished jobs....
+[6.415s] CMakeFiles/param_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_server_cpp.dir/src/param_server_cpp_example.cpp.o' failed
+[6.416s] make[2]: *** [CMakeFiles/param_server_cpp.dir/src/param_server_cpp_example.cpp.o] Error 1
+[6.417s] make[1]: *** [CMakeFiles/param_server_cpp.dir/all] Error 2
+[6.417s] make: *** [all] Error 2
+[6.418s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/param_server_cpp.dir/all' failed
+[6.422s] Makefile:140: recipe for target 'all' failed

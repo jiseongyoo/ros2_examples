@@ -1,0 +1,22 @@
+[0.371s] [ 11%] Built target component_service_server_cpp
+[0.383s] [ 22%] Built target component_subscriber_cpp
+[0.494s] [ 33%] Built target component_publisher_cpp
+[0.523s] [ 44%] Built target component_service_client_cpp
+[0.577s] [35m[1mScanning dependencies of target component_action_server_cpp[0m
+[0.646s] [ 55%] Built target component_action_client_cpp
+[0.834s] [ 61%] [32mBuilding CXX object CMakeFiles/component_action_server_cpp.dir/src/action_server_cpp_example.cpp.o[0m
+[0.882s] [ 72%] Built target component_parameter_server_cpp
+[1.026s] [ 83%] Built target component_parameter_client_cpp
+[5.856s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse component::ActionServerExample::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)[m[K’:
+[5.857s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KTRUE[m[K’ was not declared in this scope
+[5.857s]      if ([01;31m[KTRUE[m[K || goal->goal.c_str() == ""){
+[5.858s]          [01;31m[K^~~~[m[K
+[5.860s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:17:39:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[5.861s]      if (TRUE || goal->goal.c_str() == [01;35m[K""[m[K){
+[5.862s]                                        [01;35m[K^~[m[K
+[8.973s] CMakeFiles/component_action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_action_server_cpp.dir/src/action_server_cpp_example.cpp.o' failed
+[8.975s] CMakeFiles/Makefile2:316: recipe for target 'CMakeFiles/component_action_server_cpp.dir/all' failed
+[8.978s] make[2]: *** [CMakeFiles/component_action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[8.983s] make[1]: *** [CMakeFiles/component_action_server_cpp.dir/all] Error 2
+[8.984s] Makefile:140: recipe for target 'all' failed
+[8.984s] make: *** [all] Error 2

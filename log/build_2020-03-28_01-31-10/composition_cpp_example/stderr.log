@@ -1,0 +1,153 @@
+[5.337s] In file included from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1:0[m[K:
+[5.338s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:36:70:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KComoponentActionServerExample[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[5.339s]      ComoponentActionServerExample(const rclcpp::NodeOptions & options[01;31m[K)[m[K;
+[5.339s]                                                                       [01;31m[K^[m[K
+[5.357s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.357s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.358s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.359s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.359s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.360s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.365s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.366s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.366s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.366s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:8[m[K,
+[5.367s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1[m[K:
+[5.367s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse component::ComponentActionServerExample::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)[m[K’:
+[5.368s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:13:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}[m[K’ has no member named ‘[01m[Kget_action_name[m[K’
+[5.368s]      RCLCPP_INFO(this->get_logger(), "Action requested '%s' : %s", action_server_->[01;31m[Kg[m[Ket_action_name(), goal->goal.c_str());
+[5.369s]                                                                                    [01;31m[K^[m[K
+[5.369s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.370s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.370s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.371s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.371s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.371s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.372s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.372s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.373s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.373s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:13:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.374s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action requested '%s' : %s", action_server_->get_action_name(), goal->goal.c_str());
+[5.374s]      [01;36m[K^~~~~~~~~~~[m[K
+[5.380s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse component::ComponentActionServerExample::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)[m[K’:
+[5.381s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:34:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}[m[K’ has no member named ‘[01m[Kget_action_name[m[K’
+[5.381s]      RCLCPP_INFO(this->get_logger(), "Action '%s' : canceled", action_server_->[01;31m[Kg[m[Ket_action_name());
+[5.382s]                                                                                [01;31m[K^[m[K
+[5.382s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.383s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.383s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.384s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.384s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.385s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.386s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.386s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.387s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.388s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:34:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.388s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action '%s' : canceled", action_server_->get_action_name());
+[5.389s]      [01;36m[K^~~~~~~~~~~[m[K
+[5.432s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ComponentActionServerExample::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)[m[K’:
+[5.436s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:53:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}[m[K’ has no member named ‘[01m[Kget_action_name[m[K’
+[5.437s]      RCLCPP_INFO(this->get_logger(), "Action '%s' : executed", action_server_->[01;31m[Kg[m[Ket_action_name());
+[5.438s]                                                                                [01;31m[K^[m[K
+[5.439s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.439s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.440s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.440s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.441s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.442s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.443s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.445s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.446s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.446s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:53:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.447s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action '%s' : executed", action_server_->get_action_name());
+[5.447s]      [01;36m[K^~~~~~~~~~~[m[K
+[5.488s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:74:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}[m[K’ has no member named ‘[01m[Kget_action_name[m[K’
+[5.489s]          RCLCPP_INFO(this->get_logger(), "Action 's' : canceled", action_server_->[01;31m[Kg[m[Ket_action_name());
+[5.489s]                                                                                   [01;31m[K^[m[K
+[5.490s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.490s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.491s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.494s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.494s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.495s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.497s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.497s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.498s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.498s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:74:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.499s]          [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action 's' : canceled", action_server_->get_action_name());
+[5.500s]          [01;36m[K^~~~~~~~~~~[m[K
+[5.500s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:90:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::Server<interfaces::action::Example> {aka class rclcpp_action::Server<interfaces::action::Example>}[m[K’ has no member named ‘[01m[Kget_action_name[m[K’
+[5.501s]        RCLCPP_INFO(this->get_logger(), "Feedback published '%s' : %s", action_server_->[01;31m[Kg[m[Ket_action_name(), feedback->feedback.c_str());
+[5.501s]                                                                                        [01;31m[K^[m[K
+[5.502s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.502s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.503s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.503s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.504s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.507s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.508s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.509s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.510s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.515s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:90:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.516s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Feedback published '%s' : %s", action_server_->get_action_name(), feedback->feedback.c_str());
+[5.516s]        [01;36m[K^~~~~~~~~~~[m[K
+[5.517s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_action_name[m[K’ was not declared in this scope
+[5.517s]        RCLCPP_INFO(this->get_logger(), "Action '%s' : %s", action_server_-[01;31m[Kg[m[Ket_action_name(), result->result.c_str());
+[5.518s]                                                                           [01;31m[K^[m[K
+[5.518s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.519s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.519s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.520s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.520s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.521s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.521s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.521s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.523s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.524s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.525s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action '%s' : %s", action_server_-get_action_name(), result->result.c_str());
+[5.526s]        [01;36m[K^~~~~~~~~~~[m[K
+[5.526s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:74:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kget_node_names[m[K’
+[5.527s]        RCLCPP_INFO(this->get_logger(), "Action '%s' : %s", action_server_-[01;36m[Kg[m[Ket_action_name(), result->result.c_str());
+[5.527s]                                                                           [01;36m[K^[m[K
+[5.528s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.528s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.529s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.529s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.530s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.530s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.530s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.531s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.531s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.532s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.532s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action '%s' : %s", action_server_-get_action_name(), result->result.c_str());
+[5.533s]        [01;36m[K^~~~~~~~~~~[m[K
+[5.533s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:[m[K At global scope:
+[5.534s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:110:98:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KComoponentActionServerExample[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[5.534s]    ComponentActionServerExample::ComoponentActionServerExample(const rclcpp::NodeOptions & options[01;31m[K)[m[K
+[5.535s]                                                                                                   [01;31m[K^[m[K
+[5.535s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:[m[K In member function ‘[01m[Kint component::ComponentActionServerExample::ComoponentActionServerExample(const rclcpp::NodeOptions&)[m[K’:
+[5.538s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:111:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[5.539s]      : [01;31m[KNode[m[K("action_server", options){
+[5.539s]        [01;31m[K^~~~[m[K
+[5.539s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_server[m[K’ was not declared in this scope
+[5.540s]      action_server_ = [01;31m[Kcreate_server[m[K<interfaces::action::Example>(
+[5.540s]                       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.541s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:22:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[5.541s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:39:0[m[K,
+[5.542s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:10[m[K,
+[5.542s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1[m[K:
+[5.543s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:133:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::create_server[m[K’
+[5.543s]  [01;36m[Kcreate_server[m[K(
+[5.544s]  [01;36m[K^~~~~~~~~~~~~[m[K
+[5.544s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.547s]      action_server_ = create_server<interfaces::action::Example[01;31m[K>[m[K(
+[5.548s]                                                                [01;31m[K^[m[K
+[5.559s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:124:109:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[5.560s]      std::bind(&ComponentActionServerExample::handle_goal, this, std::placeholders::_1, std::placeholders::_2[01;35m[K)[m[K,
+[5.561s]                                                                                                              [01;35m[K^[m[K
+[5.569s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:128:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[5.571s]    [01;35m[K}[m[K
+[5.572s]    [01;35m[K^[m[K
+[6.705s] make[2]: *** [CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o] Error 1
+[6.712s] make[1]: *** [CMakeFiles/component_action_server_cpp.dir/all] Error 2
+[6.713s] make: *** [all] Error 2

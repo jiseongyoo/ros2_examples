@@ -1,0 +1,21 @@
+[0.339s] [ 11%] Built target component_subscriber_cpp
+[0.341s] [ 22%] Built target component_service_server_cpp
+[0.484s] [ 44%] Built target component_publisher_cpp
+[0.486s] [ 44%] Built target component_service_client_cpp
+[0.612s] [ 55%] Built target component_action_client_cpp
+[0.614s] [ 66%] Built target component_action_server_cpp
+[0.728s] [ 77%] Built target component_parameter_server_cpp
+[0.732s] [ 88%] Built target component_parameter_client_cpp
+[0.781s] [35m[1mScanning dependencies of target component_container[0m
+[0.929s] [ 94%] [32mBuilding CXX object CMakeFiles/component_container.dir/src/component_container.cpp.o[0m
+[1.206s] In file included from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:2:0[m[K:
+[1.207s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/publisher_cpp_example.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces/msg/example.hpp: No such file or directory
+[1.208s]  #include [01;31m[K"interfaces/msg/example.hpp"[m[K
+[1.209s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.210s] compilation terminated.
+[1.242s] CMakeFiles/component_container.dir/build.make:62: recipe for target 'CMakeFiles/component_container.dir/src/component_container.cpp.o' failed
+[1.243s] CMakeFiles/Makefile2:427: recipe for target 'CMakeFiles/component_container.dir/all' failed
+[1.249s] Makefile:140: recipe for target 'all' failed
+[1.251s] make[2]: *** [CMakeFiles/component_container.dir/src/component_container.cpp.o] Error 1
+[1.252s] make[1]: *** [CMakeFiles/component_container.dir/all] Error 2
+[1.253s] make: *** [all] Error 2

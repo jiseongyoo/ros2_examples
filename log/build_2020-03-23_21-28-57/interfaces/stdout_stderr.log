@@ -1,0 +1,46 @@
+[0.147s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.267s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.111s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[1.345s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.774s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[2.301s] CMake Error at /opt/ros/eloquent/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[2.302s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[2.304s]   interfaces --arguments-file
+[2.305s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter__arguments__interfaces.json
+[2.306s]   --output-dir
+[2.308s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter/interfaces
+[2.309s]   --output-file
+[2.309s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter/interfaces.idls)
+[2.310s]   returned error code 1:
+[2.310s] 
+[2.310s]   Traceback (most recent call last):
+[2.311s] 
+[2.311s]     File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+[2.312s]       "__main__", mod_spec)
+[2.312s]     File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+[2.313s]       exec(code, run_globals)
+[2.314s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.314s]       sys.exit(main())
+[2.315s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main
+[2.318s]       pathlib.Path(relative_path), output_dir)
+[2.319s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl
+[2.319s]       package_dir, package_name, interface_file, output_dir / 'msg')
+[2.320s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[2.320s]       msg = parse_message_string(package_name, input_file.stem, content)
+[2.321s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 531, in parse_message_string
+[2.321s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[2.322s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 382, in __init__
+[2.322s]       pkg_name + PACKAGE_NAME_MESSAGE_TYPE_SEPARATOR + msg_name)
+[2.323s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 200, in __init__
+[2.323s]       self.type, VALID_MESSAGE_NAME_PATTERN.pattern))
+[2.324s] 
+[2.324s]   rosidl_adapter.parser.InvalidResourceName: 'Msg_collection' is an invalid
+[2.325s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[2.325s] 
+[2.325s] Call Stack (most recent call first):
+[2.326s]   /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.326s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[2.327s] 
+[2.327s] 
+[2.328s] -- Configuring incomplete, errors occurred!
+[2.329s] See also "/home/jiseongyoo/ros2_examples/build/interfaces/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,14 @@
+[0.058s] Invoking command in '/home/jiseongyoo/ros2_examples/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/cpp_pubsub -- -j2 -l2
+[0.250s] [35m[1mScanning dependencies of target talker[0m
+[0.410s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[9.889s] [100%] [32m[1mLinking CXX executable talker[0m
+[10.731s] CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: In function `rclcpp::Publisher<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[10.733s] publisher_member_function.cpp:(.text._ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC2EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE[_ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC5EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE]+0x6a): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >()'
+[10.748s] collect2: error: ld returned 1 exit status
+[10.752s] make[2]: *** [talker] Error 1
+[10.753s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[10.764s] CMakeFiles/talker.dir/build.make:136: recipe for target 'talker' failed
+[10.765s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/talker.dir/all' failed
+[10.765s] Makefile:140: recipe for target 'all' failed
+[10.765s] make: *** [all] Error 2
+[10.767s] Invoked command in '/home/jiseongyoo/ros2_examples/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/cpp_pubsub -- -j2 -l2

@@ -1,0 +1,710 @@
+[0.000000] (-) TimerEvent: {}
+[0.001776] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.002480] (pubsub_cpp_example) JobQueued: {'identifier': 'pubsub_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.002781] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.060845] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.065667] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.068914] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/interfaces', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e07146a_666d_4f16_ba9a_c8d8a7610070'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.286'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.094176] (-) TimerEvent: {}
+[0.196146] (-) TimerEvent: {}
+[0.205729] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.296380] (-) TimerEvent: {}
+[0.319237] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.396576] (-) TimerEvent: {}
+[0.497424] (-) TimerEvent: {}
+[0.598434] (-) TimerEvent: {}
+[0.700129] (-) TimerEvent: {}
+[0.800780] (-) TimerEvent: {}
+[0.901598] (-) TimerEvent: {}
+[1.002449] (-) TimerEvent: {}
+[1.104918] (-) TimerEvent: {}
+[1.154840] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[1.205104] (-) TimerEvent: {}
+[1.306579] (-) TimerEvent: {}
+[1.379616] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.407106] (-) TimerEvent: {}
+[1.509378] (-) TimerEvent: {}
+[1.611748] (-) TimerEvent: {}
+[1.714367] (-) TimerEvent: {}
+[1.728470] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[1.814653] (-) TimerEvent: {}
+[1.919812] (-) TimerEvent: {}
+[2.022206] (-) TimerEvent: {}
+[2.122894] (-) TimerEvent: {}
+[2.223859] (-) TimerEvent: {}
+[2.324605] (-) TimerEvent: {}
+[2.425388] (-) TimerEvent: {}
+[2.526133] (-) TimerEvent: {}
+[2.626847] (-) TimerEvent: {}
+[2.714766] (interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[2.727045] (-) TimerEvent: {}
+[2.781853] (interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[2.827486] (-) TimerEvent: {}
+[2.930567] (-) TimerEvent: {}
+[3.034501] (-) TimerEvent: {}
+[3.136212] (-) TimerEvent: {}
+[3.237238] (-) TimerEvent: {}
+[3.338651] (-) TimerEvent: {}
+[3.395641] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[3.438787] (-) TimerEvent: {}
+[3.498309] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.500325] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[3.539411] (-) TimerEvent: {}
+[3.594823] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.596108] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[3.597135] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[3.639900] (-) TimerEvent: {}
+[3.742513] (-) TimerEvent: {}
+[3.844841] (-) TimerEvent: {}
+[3.937961] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[3.945327] (-) TimerEvent: {}
+[3.988489] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.994387] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.007981] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.045933] (-) TimerEvent: {}
+[4.148775] (-) TimerEvent: {}
+[4.251257] (-) TimerEvent: {}
+[4.352317] (-) TimerEvent: {}
+[4.456812] (-) TimerEvent: {}
+[4.559615] (-) TimerEvent: {}
+[4.662517] (-) TimerEvent: {}
+[4.731168] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.746153] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jiseongyoo/ros2_examples/build/interfaces\n'}
+[4.762754] (-) TimerEvent: {}
+[4.835130] (interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.838336] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[4.862935] (-) TimerEvent: {}
+[4.884717] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.963117] (-) TimerEvent: {}
+[5.064109] (-) TimerEvent: {}
+[5.165100] (-) TimerEvent: {}
+[5.266114] (-) TimerEvent: {}
+[5.367104] (-) TimerEvent: {}
+[5.468096] (-) TimerEvent: {}
+[5.569054] (-) TimerEvent: {}
+[5.670027] (-) TimerEvent: {}
+[5.770979] (-) TimerEvent: {}
+[5.871942] (-) TimerEvent: {}
+[5.972909] (-) TimerEvent: {}
+[6.073862] (-) TimerEvent: {}
+[6.174845] (-) TimerEvent: {}
+[6.275787] (-) TimerEvent: {}
+[6.376756] (-) TimerEvent: {}
+[6.478355] (-) TimerEvent: {}
+[6.579307] (-) TimerEvent: {}
+[6.680259] (-) TimerEvent: {}
+[6.781269] (-) TimerEvent: {}
+[6.882293] (-) TimerEvent: {}
+[6.983259] (-) TimerEvent: {}
+[7.084230] (-) TimerEvent: {}
+[7.185192] (-) TimerEvent: {}
+[7.286175] (-) TimerEvent: {}
+[7.387147] (-) TimerEvent: {}
+[7.488125] (-) TimerEvent: {}
+[7.589089] (-) TimerEvent: {}
+[7.690082] (-) TimerEvent: {}
+[7.791024] (-) TimerEvent: {}
+[7.891968] (-) TimerEvent: {}
+[7.992902] (-) TimerEvent: {}
+[8.093839] (-) TimerEvent: {}
+[8.194779] (-) TimerEvent: {}
+[8.295730] (-) TimerEvent: {}
+[8.396661] (-) TimerEvent: {}
+[8.497621] (-) TimerEvent: {}
+[8.598543] (-) TimerEvent: {}
+[8.699464] (-) TimerEvent: {}
+[8.800410] (-) TimerEvent: {}
+[8.901363] (-) TimerEvent: {}
+[9.002325] (-) TimerEvent: {}
+[9.103274] (-) TimerEvent: {}
+[9.204297] (-) TimerEvent: {}
+[9.305347] (-) TimerEvent: {}
+[9.406322] (-) TimerEvent: {}
+[9.507321] (-) TimerEvent: {}
+[9.608260] (-) TimerEvent: {}
+[9.709228] (-) TimerEvent: {}
+[9.812405] (-) TimerEvent: {}
+[9.938076] (-) TimerEvent: {}
+[10.039031] (-) TimerEvent: {}
+[10.140003] (-) TimerEvent: {}
+[10.247291] (-) TimerEvent: {}
+[10.348067] (-) TimerEvent: {}
+[10.448877] (-) TimerEvent: {}
+[10.549680] (-) TimerEvent: {}
+[10.650490] (-) TimerEvent: {}
+[10.751229] (-) TimerEvent: {}
+[10.852024] (-) TimerEvent: {}
+[10.952878] (-) TimerEvent: {}
+[11.053636] (-) TimerEvent: {}
+[11.154570] (-) TimerEvent: {}
+[11.255295] (-) TimerEvent: {}
+[11.356035] (-) TimerEvent: {}
+[11.456779] (-) TimerEvent: {}
+[11.557501] (-) TimerEvent: {}
+[11.658478] (-) TimerEvent: {}
+[11.759183] (-) TimerEvent: {}
+[11.859919] (-) TimerEvent: {}
+[11.960654] (-) TimerEvent: {}
+[12.061394] (-) TimerEvent: {}
+[12.162161] (-) TimerEvent: {}
+[12.262892] (-) TimerEvent: {}
+[12.363614] (-) TimerEvent: {}
+[12.464360] (-) TimerEvent: {}
+[12.565117] (-) TimerEvent: {}
+[12.665908] (-) TimerEvent: {}
+[12.766688] (-) TimerEvent: {}
+[12.867547] (-) TimerEvent: {}
+[12.968375] (-) TimerEvent: {}
+[13.069212] (-) TimerEvent: {}
+[13.170054] (-) TimerEvent: {}
+[13.270886] (-) TimerEvent: {}
+[13.371698] (-) TimerEvent: {}
+[13.403635] (interfaces) StdoutLine: {'line': b'[  2%] Built target interfaces__cpp\n'}
+[13.455764] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.471885] (-) TimerEvent: {}
+[13.541839] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[13.572070] (-) TimerEvent: {}
+[13.614077] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/action_collection__functions.c.o\x1b[0m\n'}
+[13.672288] (-) TimerEvent: {}
+[13.773058] (-) TimerEvent: {}
+[13.873834] (-) TimerEvent: {}
+[13.910895] (interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/message_collection__functions.c.o\x1b[0m\n'}
+[13.974016] (-) TimerEvent: {}
+[14.054692] (interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/service_collection__functions.c.o\x1b[0m\n'}
+[14.074195] (-) TimerEvent: {}
+[14.174974] (-) TimerEvent: {}
+[14.232920] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/action_interface_example__functions.c.o\x1b[0m\n'}
+[14.275155] (-) TimerEvent: {}
+[14.375935] (-) TimerEvent: {}
+[14.476709] (-) TimerEvent: {}
+[14.518732] (interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/example__functions.c.o\x1b[0m\n'}
+[14.576895] (-) TimerEvent: {}
+[14.655624] (interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/service_interface_example__functions.c.o\x1b[0m\n'}
+[14.677082] (-) TimerEvent: {}
+[14.777847] (-) TimerEvent: {}
+[14.812179] (interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[14.878029] (-) TimerEvent: {}
+[14.978815] (-) TimerEvent: {}
+[14.982478] (interfaces) StdoutLine: {'line': b'[ 14%] Built target interfaces__rosidl_generator_c\n'}
+[15.028588] (interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.078998] (-) TimerEvent: {}
+[15.179767] (-) TimerEvent: {}
+[15.280532] (-) TimerEvent: {}
+[15.381338] (-) TimerEvent: {}
+[15.482153] (-) TimerEvent: {}
+[15.582905] (-) TimerEvent: {}
+[15.683662] (-) TimerEvent: {}
+[15.784423] (-) TimerEvent: {}
+[15.885170] (-) TimerEvent: {}
+[15.985937] (-) TimerEvent: {}
+[16.086692] (-) TimerEvent: {}
+[16.187441] (-) TimerEvent: {}
+[16.288224] (-) TimerEvent: {}
+[16.389001] (-) TimerEvent: {}
+[16.489760] (-) TimerEvent: {}
+[16.590489] (-) TimerEvent: {}
+[16.691917] (-) TimerEvent: {}
+[16.792651] (-) TimerEvent: {}
+[16.893382] (-) TimerEvent: {}
+[16.994123] (-) TimerEvent: {}
+[17.094844] (-) TimerEvent: {}
+[17.195555] (-) TimerEvent: {}
+[17.296281] (-) TimerEvent: {}
+[17.397007] (-) TimerEvent: {}
+[17.497770] (-) TimerEvent: {}
+[17.598520] (-) TimerEvent: {}
+[17.699277] (-) TimerEvent: {}
+[17.800050] (-) TimerEvent: {}
+[17.900815] (-) TimerEvent: {}
+[18.001582] (-) TimerEvent: {}
+[18.102346] (-) TimerEvent: {}
+[18.203081] (-) TimerEvent: {}
+[18.329812] (-) TimerEvent: {}
+[18.430560] (-) TimerEvent: {}
+[18.531312] (-) TimerEvent: {}
+[18.632070] (-) TimerEvent: {}
+[18.732835] (-) TimerEvent: {}
+[18.833597] (-) TimerEvent: {}
+[18.934379] (-) TimerEvent: {}
+[19.035125] (-) TimerEvent: {}
+[19.135875] (-) TimerEvent: {}
+[19.236638] (-) TimerEvent: {}
+[19.337390] (-) TimerEvent: {}
+[19.438210] (-) TimerEvent: {}
+[19.538999] (-) TimerEvent: {}
+[19.639763] (-) TimerEvent: {}
+[19.740502] (-) TimerEvent: {}
+[19.841239] (-) TimerEvent: {}
+[19.941986] (-) TimerEvent: {}
+[20.042733] (-) TimerEvent: {}
+[20.143529] (-) TimerEvent: {}
+[20.244335] (-) TimerEvent: {}
+[20.345069] (-) TimerEvent: {}
+[20.445820] (-) TimerEvent: {}
+[20.546553] (-) TimerEvent: {}
+[20.647279] (-) TimerEvent: {}
+[20.748007] (-) TimerEvent: {}
+[20.848740] (-) TimerEvent: {}
+[20.949498] (-) TimerEvent: {}
+[21.050244] (-) TimerEvent: {}
+[21.150985] (-) TimerEvent: {}
+[21.251753] (-) TimerEvent: {}
+[21.352647] (-) TimerEvent: {}
+[21.453345] (-) TimerEvent: {}
+[21.554065] (-) TimerEvent: {}
+[21.654845] (-) TimerEvent: {}
+[21.755675] (-) TimerEvent: {}
+[21.856506] (-) TimerEvent: {}
+[21.954608] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[21.956663] (-) TimerEvent: {}
+[22.057661] (-) TimerEvent: {}
+[22.094677] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_collection__type_support.cpp.o\x1b[0m\n'}
+[22.157909] (-) TimerEvent: {}
+[22.258726] (-) TimerEvent: {}
+[22.359549] (-) TimerEvent: {}
+[22.380883] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[22.459771] (-) TimerEvent: {}
+[22.478667] (interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/action_collection__type_support.cpp.o\x1b[0m\n'}
+[22.563103] (-) TimerEvent: {}
+[22.663902] (-) TimerEvent: {}
+[22.764715] (-) TimerEvent: {}
+[22.865539] (-) TimerEvent: {}
+[22.966379] (-) TimerEvent: {}
+[23.067196] (-) TimerEvent: {}
+[23.168000] (-) TimerEvent: {}
+[23.268827] (-) TimerEvent: {}
+[23.395506] (-) TimerEvent: {}
+[23.496339] (-) TimerEvent: {}
+[23.597158] (-) TimerEvent: {}
+[23.697988] (-) TimerEvent: {}
+[23.798818] (-) TimerEvent: {}
+[23.899637] (-) TimerEvent: {}
+[24.004407] (-) TimerEvent: {}
+[24.105270] (-) TimerEvent: {}
+[24.110694] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/message_collection__type_support.cpp.o\x1b[0m\n'}
+[24.205487] (-) TimerEvent: {}
+[24.306378] (-) TimerEvent: {}
+[24.407204] (-) TimerEvent: {}
+[24.468489] (interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/message_collection__type_support.cpp.o\x1b[0m\n'}
+[24.507420] (-) TimerEvent: {}
+[24.608230] (-) TimerEvent: {}
+[24.709047] (-) TimerEvent: {}
+[24.809891] (-) TimerEvent: {}
+[24.910704] (-) TimerEvent: {}
+[25.011521] (-) TimerEvent: {}
+[25.112348] (-) TimerEvent: {}
+[25.213171] (-) TimerEvent: {}
+[25.313988] (-) TimerEvent: {}
+[25.414802] (-) TimerEvent: {}
+[25.459874] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/service_collection__type_support.cpp.o\x1b[0m\n'}
+[25.514994] (-) TimerEvent: {}
+[25.615799] (-) TimerEvent: {}
+[25.716620] (-) TimerEvent: {}
+[25.817454] (-) TimerEvent: {}
+[25.918280] (-) TimerEvent: {}
+[26.019097] (-) TimerEvent: {}
+[26.119935] (-) TimerEvent: {}
+[26.220805] (-) TimerEvent: {}
+[26.321633] (-) TimerEvent: {}
+[26.422555] (-) TimerEvent: {}
+[26.513650] (interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/dds_fastrtps/service_collection__type_support.cpp.o\x1b[0m\n'}
+[26.522741] (-) TimerEvent: {}
+[26.623848] (-) TimerEvent: {}
+[26.724690] (-) TimerEvent: {}
+[26.825537] (-) TimerEvent: {}
+[26.901941] (interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/action_interface_example__type_support.cpp.o\x1b[0m\n'}
+[26.925871] (-) TimerEvent: {}
+[27.026664] (-) TimerEvent: {}
+[27.127484] (-) TimerEvent: {}
+[27.228315] (-) TimerEvent: {}
+[27.329142] (-) TimerEvent: {}
+[27.429968] (-) TimerEvent: {}
+[27.530787] (-) TimerEvent: {}
+[27.631597] (-) TimerEvent: {}
+[27.732434] (-) TimerEvent: {}
+[27.833271] (-) TimerEvent: {}
+[27.934381] (-) TimerEvent: {}
+[28.033458] (interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/example__type_support.cpp.o\x1b[0m\n'}
+[28.034471] (-) TimerEvent: {}
+[28.135205] (-) TimerEvent: {}
+[28.236028] (-) TimerEvent: {}
+[28.336847] (-) TimerEvent: {}
+[28.437676] (-) TimerEvent: {}
+[28.538522] (-) TimerEvent: {}
+[28.639356] (-) TimerEvent: {}
+[28.643275] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/dds_fastrtps/action_interface_example__type_support.cpp.o\x1b[0m\n'}
+[28.739541] (-) TimerEvent: {}
+[28.840352] (-) TimerEvent: {}
+[28.941179] (-) TimerEvent: {}
+[29.042011] (-) TimerEvent: {}
+[29.047519] (interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/service_interface_example__type_support.cpp.o\x1b[0m\n'}
+[29.142216] (-) TimerEvent: {}
+[29.243043] (-) TimerEvent: {}
+[29.343875] (-) TimerEvent: {}
+[29.444715] (-) TimerEvent: {}
+[29.545526] (-) TimerEvent: {}
+[29.646349] (-) TimerEvent: {}
+[29.747171] (-) TimerEvent: {}
+[29.848001] (-) TimerEvent: {}
+[29.948834] (-) TimerEvent: {}
+[30.034453] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[30.049052] (-) TimerEvent: {}
+[30.149881] (-) TimerEvent: {}
+[30.250730] (-) TimerEvent: {}
+[30.351590] (-) TimerEvent: {}
+[30.429332] (interfaces) StdoutLine: {'line': b'[ 31%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[30.451802] (-) TimerEvent: {}
+[30.467094] (interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/example__type_support.cpp.o\x1b[0m\n'}
+[30.480576] (interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/dds_fastrtps/service_interface_example__type_support.cpp.o\x1b[0m\n'}
+[30.552021] (-) TimerEvent: {}
+[30.652824] (-) TimerEvent: {}
+[30.753651] (-) TimerEvent: {}
+[30.854500] (-) TimerEvent: {}
+[30.955302] (-) TimerEvent: {}
+[31.056125] (-) TimerEvent: {}
+[31.156963] (-) TimerEvent: {}
+[31.257839] (-) TimerEvent: {}
+[31.358648] (-) TimerEvent: {}
+[31.459464] (-) TimerEvent: {}
+[31.560279] (-) TimerEvent: {}
+[31.661152] (-) TimerEvent: {}
+[31.761982] (-) TimerEvent: {}
+[31.862819] (-) TimerEvent: {}
+[31.963619] (-) TimerEvent: {}
+[32.043175] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[32.047745] (interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[32.063825] (-) TimerEvent: {}
+[32.164666] (-) TimerEvent: {}
+[32.265519] (-) TimerEvent: {}
+[32.366375] (-) TimerEvent: {}
+[32.467326] (-) TimerEvent: {}
+[32.491944] (interfaces) StdoutLine: {'line': b'[ 37%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[32.548741] (interfaces) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.567492] (-) TimerEvent: {}
+[32.668207] (-) TimerEvent: {}
+[32.768919] (-) TimerEvent: {}
+[32.870076] (-) TimerEvent: {}
+[32.970816] (-) TimerEvent: {}
+[33.071582] (-) TimerEvent: {}
+[33.172357] (-) TimerEvent: {}
+[33.273125] (-) TimerEvent: {}
+[33.373899] (-) TimerEvent: {}
+[33.497265] (-) TimerEvent: {}
+[33.598062] (-) TimerEvent: {}
+[33.698850] (-) TimerEvent: {}
+[33.799604] (-) TimerEvent: {}
+[33.900363] (-) TimerEvent: {}
+[34.001118] (-) TimerEvent: {}
+[34.101922] (-) TimerEvent: {}
+[34.202672] (-) TimerEvent: {}
+[34.303430] (-) TimerEvent: {}
+[34.404200] (-) TimerEvent: {}
+[34.504959] (-) TimerEvent: {}
+[34.605734] (-) TimerEvent: {}
+[34.706487] (-) TimerEvent: {}
+[34.809860] (-) TimerEvent: {}
+[34.910594] (-) TimerEvent: {}
+[35.011360] (-) TimerEvent: {}
+[35.112272] (-) TimerEvent: {}
+[35.213012] (-) TimerEvent: {}
+[35.313785] (-) TimerEvent: {}
+[35.414546] (-) TimerEvent: {}
+[35.515301] (-) TimerEvent: {}
+[35.616038] (-) TimerEvent: {}
+[35.716789] (-) TimerEvent: {}
+[35.817534] (-) TimerEvent: {}
+[35.918284] (-) TimerEvent: {}
+[36.019012] (-) TimerEvent: {}
+[36.119753] (-) TimerEvent: {}
+[36.220507] (-) TimerEvent: {}
+[36.321212] (-) TimerEvent: {}
+[36.422084] (-) TimerEvent: {}
+[36.522826] (-) TimerEvent: {}
+[36.624525] (-) TimerEvent: {}
+[36.725235] (-) TimerEvent: {}
+[36.825997] (-) TimerEvent: {}
+[36.926688] (-) TimerEvent: {}
+[37.027419] (-) TimerEvent: {}
+[37.128357] (-) TimerEvent: {}
+[37.229293] (-) TimerEvent: {}
+[37.330266] (-) TimerEvent: {}
+[37.431155] (-) TimerEvent: {}
+[37.532047] (-) TimerEvent: {}
+[37.632929] (-) TimerEvent: {}
+[37.733836] (-) TimerEvent: {}
+[37.834729] (-) TimerEvent: {}
+[37.935656] (-) TimerEvent: {}
+[38.036527] (-) TimerEvent: {}
+[38.137403] (-) TimerEvent: {}
+[38.238218] (-) TimerEvent: {}
+[38.339348] (-) TimerEvent: {}
+[38.440269] (-) TimerEvent: {}
+[38.561847] (-) TimerEvent: {}
+[38.662535] (-) TimerEvent: {}
+[38.763264] (-) TimerEvent: {}
+[38.864016] (-) TimerEvent: {}
+[38.964785] (-) TimerEvent: {}
+[39.065515] (-) TimerEvent: {}
+[39.166266] (-) TimerEvent: {}
+[39.266970] (-) TimerEvent: {}
+[39.367703] (-) TimerEvent: {}
+[39.468382] (-) TimerEvent: {}
+[39.569111] (-) TimerEvent: {}
+[39.670190] (-) TimerEvent: {}
+[39.773168] (-) TimerEvent: {}
+[39.874052] (-) TimerEvent: {}
+[39.976176] (-) TimerEvent: {}
+[40.076901] (-) TimerEvent: {}
+[40.177618] (-) TimerEvent: {}
+[40.259008] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[40.277808] (-) TimerEvent: {}
+[40.365849] (interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/action_collection__type_support.c.o\x1b[0m\n'}
+[40.380726] (-) TimerEvent: {}
+[40.481436] (-) TimerEvent: {}
+[40.582457] (-) TimerEvent: {}
+[40.683281] (-) TimerEvent: {}
+[40.732681] (interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/message_collection__type_support.c.o\x1b[0m\n'}
+[40.783538] (-) TimerEvent: {}
+[40.884392] (-) TimerEvent: {}
+[40.901368] (interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/service_collection__type_support.c.o\x1b[0m\n'}
+[40.984589] (-) TimerEvent: {}
+[41.085426] (-) TimerEvent: {}
+[41.186313] (-) TimerEvent: {}
+[41.193373] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/action_interface_example__type_support.c.o\x1b[0m\n'}
+[41.286533] (-) TimerEvent: {}
+[41.387849] (-) TimerEvent: {}
+[41.405310] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[41.488054] (-) TimerEvent: {}
+[41.494786] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/example__type_support.c.o\x1b[0m\n'}
+[41.581380] (interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/action_collection__type_support_c.cpp.o\x1b[0m\n'}
+[41.593331] (-) TimerEvent: {}
+[41.662602] (interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/service_interface_example__type_support.c.o\x1b[0m\n'}
+[41.693540] (-) TimerEvent: {}
+[41.794445] (-) TimerEvent: {}
+[41.840091] (interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[41.894665] (-) TimerEvent: {}
+[41.991015] (interfaces) StdoutLine: {'line': b'[ 50%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[41.994883] (-) TimerEvent: {}
+[42.027396] (interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/message_collection__type_support_c.cpp.o\x1b[0m\n'}
+[42.095090] (-) TimerEvent: {}
+[42.195889] (-) TimerEvent: {}
+[42.296717] (-) TimerEvent: {}
+[42.397535] (-) TimerEvent: {}
+[42.498361] (-) TimerEvent: {}
+[42.599192] (-) TimerEvent: {}
+[42.700027] (-) TimerEvent: {}
+[42.800848] (-) TimerEvent: {}
+[42.902104] (-) TimerEvent: {}
+[43.002913] (-) TimerEvent: {}
+[43.103752] (-) TimerEvent: {}
+[43.204603] (-) TimerEvent: {}
+[43.305425] (-) TimerEvent: {}
+[43.406277] (-) TimerEvent: {}
+[43.507116] (-) TimerEvent: {}
+[43.607982] (-) TimerEvent: {}
+[43.616996] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/service_collection__type_support_c.cpp.o\x1b[0m\n'}
+[43.618804] (interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[43.708905] (-) TimerEvent: {}
+[43.809806] (-) TimerEvent: {}
+[43.910629] (-) TimerEvent: {}
+[44.013891] (-) TimerEvent: {}
+[44.114641] (-) TimerEvent: {}
+[44.215429] (-) TimerEvent: {}
+[44.325919] (-) TimerEvent: {}
+[44.426683] (-) TimerEvent: {}
+[44.532906] (-) TimerEvent: {}
+[44.634150] (-) TimerEvent: {}
+[44.737882] (-) TimerEvent: {}
+[44.844253] (-) TimerEvent: {}
+[44.945005] (-) TimerEvent: {}
+[45.045805] (-) TimerEvent: {}
+[45.146774] (-) TimerEvent: {}
+[45.247760] (-) TimerEvent: {}
+[45.348734] (-) TimerEvent: {}
+[45.449767] (-) TimerEvent: {}
+[45.550749] (-) TimerEvent: {}
+[45.652890] (-) TimerEvent: {}
+[45.754116] (-) TimerEvent: {}
+[45.756585] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/action_interface_example__type_support_c.cpp.o\x1b[0m\n'}
+[45.854317] (-) TimerEvent: {}
+[45.955331] (-) TimerEvent: {}
+[46.056340] (-) TimerEvent: {}
+[46.157312] (-) TimerEvent: {}
+[46.258946] (-) TimerEvent: {}
+[46.360484] (-) TimerEvent: {}
+[46.461460] (-) TimerEvent: {}
+[46.562440] (-) TimerEvent: {}
+[46.663161] (-) TimerEvent: {}
+[46.764027] (-) TimerEvent: {}
+[46.864804] (-) TimerEvent: {}
+[46.965657] (-) TimerEvent: {}
+[47.066724] (-) TimerEvent: {}
+[47.167459] (-) TimerEvent: {}
+[47.268381] (-) TimerEvent: {}
+[47.369954] (-) TimerEvent: {}
+[47.471143] (-) TimerEvent: {}
+[47.571920] (-) TimerEvent: {}
+[47.578262] (interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/example__type_support_c.cpp.o\x1b[0m\n'}
+[47.672155] (-) TimerEvent: {}
+[47.773058] (-) TimerEvent: {}
+[47.874013] (-) TimerEvent: {}
+[47.974779] (-) TimerEvent: {}
+[48.075541] (-) TimerEvent: {}
+[48.176318] (-) TimerEvent: {}
+[48.277529] (-) TimerEvent: {}
+[48.378389] (-) TimerEvent: {}
+[48.479173] (-) TimerEvent: {}
+[48.579975] (-) TimerEvent: {}
+[48.680733] (-) TimerEvent: {}
+[48.781520] (-) TimerEvent: {}
+[48.882857] (-) TimerEvent: {}
+[48.983625] (-) TimerEvent: {}
+[49.069878] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/service_interface_example__type_support_c.cpp.o\x1b[0m\n'}
+[49.083784] (-) TimerEvent: {}
+[49.184539] (-) TimerEvent: {}
+[49.285311] (-) TimerEvent: {}
+[49.386096] (-) TimerEvent: {}
+[49.486903] (-) TimerEvent: {}
+[49.587726] (-) TimerEvent: {}
+[49.688554] (-) TimerEvent: {}
+[49.789315] (-) TimerEvent: {}
+[49.890110] (-) TimerEvent: {}
+[49.990868] (-) TimerEvent: {}
+[50.091609] (-) TimerEvent: {}
+[50.192345] (-) TimerEvent: {}
+[50.293104] (-) TimerEvent: {}
+[50.393834] (-) TimerEvent: {}
+[50.494586] (-) TimerEvent: {}
+[50.595384] (-) TimerEvent: {}
+[50.656440] (interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[50.695544] (-) TimerEvent: {}
+[50.796323] (-) TimerEvent: {}
+[50.897187] (-) TimerEvent: {}
+[50.999246] (-) TimerEvent: {}
+[51.100061] (-) TimerEvent: {}
+[51.140968] (interfaces) StdoutLine: {'line': b'[ 60%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[51.189913] (interfaces) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[51.200274] (-) TimerEvent: {}
+[51.241021] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[51.300478] (-) TimerEvent: {}
+[51.402553] (-) TimerEvent: {}
+[51.409212] (interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/action_collection__type_support.cpp.o\x1b[0m\n'}
+[51.504355] (-) TimerEvent: {}
+[51.605115] (-) TimerEvent: {}
+[51.706471] (-) TimerEvent: {}
+[51.817912] (-) TimerEvent: {}
+[51.922058] (-) TimerEvent: {}
+[52.022810] (-) TimerEvent: {}
+[52.129626] (-) TimerEvent: {}
+[52.250988] (-) TimerEvent: {}
+[52.356049] (-) TimerEvent: {}
+[52.461975] (-) TimerEvent: {}
+[52.565965] (-) TimerEvent: {}
+[52.672670] (-) TimerEvent: {}
+[52.775807] (-) TimerEvent: {}
+[52.879886] (-) TimerEvent: {}
+[52.993889] (-) TimerEvent: {}
+[53.097883] (-) TimerEvent: {}
+[53.211128] (-) TimerEvent: {}
+[53.312087] (-) TimerEvent: {}
+[53.412851] (-) TimerEvent: {}
+[53.513820] (-) TimerEvent: {}
+[53.614623] (-) TimerEvent: {}
+[53.716297] (-) TimerEvent: {}
+[53.753994] (interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/message_collection__type_support.cpp.o\x1b[0m\n'}
+[53.816499] (-) TimerEvent: {}
+[53.917298] (-) TimerEvent: {}
+[54.018092] (-) TimerEvent: {}
+[54.118870] (-) TimerEvent: {}
+[54.219625] (-) TimerEvent: {}
+[54.323819] (-) TimerEvent: {}
+[54.424580] (-) TimerEvent: {}
+[54.525345] (-) TimerEvent: {}
+[54.626116] (-) TimerEvent: {}
+[54.726878] (-) TimerEvent: {}
+[54.827634] (-) TimerEvent: {}
+[54.928410] (-) TimerEvent: {}
+[55.029176] (-) TimerEvent: {}
+[55.129979] (-) TimerEvent: {}
+[55.230747] (-) TimerEvent: {}
+[55.331537] (-) TimerEvent: {}
+[55.432257] (-) TimerEvent: {}
+[55.491482] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/service_collection__type_support.cpp.o\x1b[0m\n'}
+[55.532453] (-) TimerEvent: {}
+[55.604722] (interfaces) StdoutLine: {'line': b"CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make:147: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/service_collection__type_support.cpp.o' failed\n"}
+[55.607202] (interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/service_collection__type_support.cpp.o] Interrupt\n'}
+[55.607825] (interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[55.608278] (interfaces) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>\n'}
+[55.608700] (interfaces) StderrLine: {'line': b'    sys.exit(main())\n'}
+[55.609121] (interfaces) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main\n'}
+[55.609547] (interfaces) StderrLine: {'line': b'    return generate_c(args.generator_arguments_file, args.typesupports)\n'}
+[55.610070] (interfaces) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_typesupport_c/__init__.py", line 24, in generate_c\n'}
+[55.610496] (interfaces) StderrLine: {'line': b"    additional_context={'type_supports': type_supports})\n"}
+[55.610916] (interfaces) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 89, in generate_files\n'}
+[55.611376] (interfaces) StderrLine: {'line': b'    post_process_callback=post_process_callback)\n'}
+[55.611797] (interfaces) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 148, in expand_template\n'}
+[55.612217] (interfaces) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[55.612631] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[55.632662] (-) TimerEvent: {}
+[55.634194] (interfaces) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[55.635215] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[55.645487] (interfaces) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[55.645966] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[55.649335] (interfaces) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[55.652989] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[55.655581] (interfaces) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[55.659852] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[55.660422] (interfaces) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[55.666298] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[55.666726] (interfaces) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[55.667070] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[55.669268] (interfaces) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[55.669989] (interfaces) StderrLine: {'line': b'  File "<string>", line 5, in <module>\n'}
+[55.670392] (interfaces) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 197, in _expand_template\n'}
+[55.670742] (interfaces) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[55.671094] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[55.671430] (interfaces) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[55.671760] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[55.672092] (interfaces) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[55.672420] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse\n'}
+[55.672747] (interfaces) StderrLine: {'line': b'    token = scanner.one()\n'}
+[55.673073] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[55.680862] (interfaces) StderrLine: {'line': b'    token.scan(self)\n'}
+[55.684093] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan\n'}
+[55.684782] (interfaces) StderrLine: {'line': b'    self.subscan(scanner, self.type)\n'}
+[55.685158] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan\n'}
+[55.685522] (interfaces) StderrLine: {'line': b'    token = scanner.one()\n'}
+[55.686699] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1961, in one\n'}
+[55.687215] (interfaces) StderrLine: {'line': b'    loc = self.find(self.prefix)\n'}
+[55.687651] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1794, in find\n'}
+[55.688083] (interfaces) StderrLine: {'line': b'    return self.rest().find(sub, start)\n'}
+[55.688522] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1752, in rest\n'}
+[55.689001] (interfaces) StderrLine: {'line': b'    return self[:]\n'}
+[55.690804] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1685, in __getitem__\n'}
+[55.691525] (interfaces) StderrLine: {'line': b'    return self.__getslice__(index.start, index.stop)\n'}
+[55.692862] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1693, in __getslice__\n'}
+[55.694033] (interfaces) StderrLine: {'line': b'    stop = len(self)\n'}
+[55.694585] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1680, in __len__\n'}
+[55.695027] (interfaces) StderrLine: {'line': b'    def __len__(self): return len(self.buffer) - self.pointer\n'}
+[55.695472] (interfaces) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[55.731543] (interfaces) StderrLine: {'line': b'Exception ignored in: <bound method Interpreter.__del__ of <empy pseudomodule/interpreter at 0x7f4a5adbf550>>\n'}
+[55.732242] (interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[55.732592] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[55.732954] (-) TimerEvent: {}
+[55.733477] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[55.733941] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize\n'}
+[55.734334] (interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[55.734679] (interfaces) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[55.764154] (interfaces) StdoutLine: {'line': b"CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make:79: recipe for target 'rosidl_typesupport_c/interfaces/action/action_collection__type_support.cpp' failed\n"}
+[55.765216] (interfaces) StderrLine: {'line': b'make[2]: *** [rosidl_typesupport_c/interfaces/action/action_collection__type_support.cpp] Error 1\n'}
+[55.768335] (interfaces) StdoutLine: {'line': b"CMakeFiles/Makefile2:210: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_c.dir/all' failed\n"}
+[55.768925] (interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_c.dir/all] Interrupt\n'}
+[55.773500] (interfaces) StderrLine: {'line': b'make[1]: *** wait: No child processes.  Stop.\n'}
+[55.774088] (interfaces) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[55.774512] (interfaces) StderrLine: {'line': b'make[1]: *** wait: No child processes.  Stop.\n'}
+[55.774917] (interfaces) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[55.775346] (interfaces) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[55.775774] (interfaces) CommandEnded: {'returncode': -2}
+[55.780969] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 'SIGINT'}
+[55.791764] (pubsub_cpp_example) JobSkipped: {'identifier': 'pubsub_cpp_example'}
+[55.791915] (-) EventReactorShutdown: {}

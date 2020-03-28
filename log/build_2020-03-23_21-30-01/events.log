@@ -1,0 +1,1057 @@
+[0.000000] (-) TimerEvent: {}
+[0.004186] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.004451] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.058705] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.062240] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/jiseongyoo/ros2_examples/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/jiseongyoo/ros2_examples/install/interfaces'], 'cwd': '/home/jiseongyoo/ros2_examples/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc64aaa8_d6d8_48fa_beab_a266e3d891a2'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.091424] (-) TimerEvent: {}
+[0.139103] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.191788] (-) TimerEvent: {}
+[0.260157] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.261444] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.292314] (-) TimerEvent: {}
+[0.394876] (-) TimerEvent: {}
+[0.496171] (-) TimerEvent: {}
+[0.597329] (-) TimerEvent: {}
+[0.699563] (-) TimerEvent: {}
+[0.802433] (-) TimerEvent: {}
+[0.904571] (-) TimerEvent: {}
+[1.005282] (-) TimerEvent: {}
+[1.102231] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[1.105467] (-) TimerEvent: {}
+[1.206549] (-) TimerEvent: {}
+[1.307337] (-) TimerEvent: {}
+[1.325285] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.407712] (-) TimerEvent: {}
+[1.508478] (-) TimerEvent: {}
+[1.609344] (-) TimerEvent: {}
+[1.710534] (-) TimerEvent: {}
+[1.713487] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[1.810669] (-) TimerEvent: {}
+[1.911408] (-) TimerEvent: {}
+[2.012200] (-) TimerEvent: {}
+[2.113235] (-) TimerEvent: {}
+[2.214489] (-) TimerEvent: {}
+[2.315975] (-) TimerEvent: {}
+[2.319261] (interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[2.340295] (interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[2.416158] (-) TimerEvent: {}
+[2.517349] (-) TimerEvent: {}
+[2.619519] (-) TimerEvent: {}
+[2.720696] (-) TimerEvent: {}
+[2.729371] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[2.821055] (-) TimerEvent: {}
+[2.856050] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[2.893087] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[2.921502] (-) TimerEvent: {}
+[3.023294] (-) TimerEvent: {}
+[3.114664] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.116880] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.117495] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[3.117881] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[3.123887] (-) TimerEvent: {}
+[3.215837] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.224504] (-) TimerEvent: {}
+[3.325823] (-) TimerEvent: {}
+[3.427427] (-) TimerEvent: {}
+[3.529184] (-) TimerEvent: {}
+[3.629980] (-) TimerEvent: {}
+[3.731683] (-) TimerEvent: {}
+[3.774358] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[3.831833] (-) TimerEvent: {}
+[3.889748] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.896986] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.913393] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.932029] (-) TimerEvent: {}
+[4.033162] (-) TimerEvent: {}
+[4.113617] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.127428] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jiseongyoo/ros2_examples/build/interfaces\n'}
+[4.133330] (-) TimerEvent: {}
+[4.146876] (interfaces) CommandEnded: {'returncode': 0}
+[4.151972] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[4.162223] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/interfaces', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc64aaa8_d6d8_48fa_beab_a266e3d891a2'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[4.233584] (-) TimerEvent: {}
+[4.334766] (-) TimerEvent: {}
+[4.362332] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[4.367793] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.409666] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.434950] (-) TimerEvent: {}
+[4.535899] (-) TimerEvent: {}
+[4.636876] (-) TimerEvent: {}
+[4.737841] (-) TimerEvent: {}
+[4.838774] (-) TimerEvent: {}
+[4.939707] (-) TimerEvent: {}
+[5.040678] (-) TimerEvent: {}
+[5.141605] (-) TimerEvent: {}
+[5.242521] (-) TimerEvent: {}
+[5.343440] (-) TimerEvent: {}
+[5.444356] (-) TimerEvent: {}
+[5.545623] (-) TimerEvent: {}
+[5.646531] (-) TimerEvent: {}
+[5.749290] (-) TimerEvent: {}
+[5.850209] (-) TimerEvent: {}
+[5.951107] (-) TimerEvent: {}
+[6.052040] (-) TimerEvent: {}
+[6.152964] (-) TimerEvent: {}
+[6.253928] (-) TimerEvent: {}
+[6.354953] (-) TimerEvent: {}
+[6.395580] (interfaces) StdoutLine: {'line': b'[  6%] Built target interfaces__cpp\n'}
+[6.439224] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.455171] (-) TimerEvent: {}
+[6.504232] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[6.555382] (-) TimerEvent: {}
+[6.585310] (interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/msg_collection__functions.c.o\x1b[0m\n'}
+[6.655562] (-) TimerEvent: {}
+[6.756927] (-) TimerEvent: {}
+[6.775378] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.857146] (-) TimerEvent: {}
+[6.926649] (interfaces) StdoutLine: {'line': b'[ 17%] Built target interfaces__rosidl_generator_c\n'}
+[6.957311] (-) TimerEvent: {}
+[6.967192] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.057475] (-) TimerEvent: {}
+[7.158377] (-) TimerEvent: {}
+[7.259296] (-) TimerEvent: {}
+[7.360219] (-) TimerEvent: {}
+[7.461154] (-) TimerEvent: {}
+[7.562080] (-) TimerEvent: {}
+[7.663005] (-) TimerEvent: {}
+[7.763921] (-) TimerEvent: {}
+[7.864853] (-) TimerEvent: {}
+[7.965783] (-) TimerEvent: {}
+[8.066703] (-) TimerEvent: {}
+[8.167592] (-) TimerEvent: {}
+[8.268492] (-) TimerEvent: {}
+[8.369439] (-) TimerEvent: {}
+[8.433631] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.469631] (-) TimerEvent: {}
+[8.539256] (interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o\x1b[0m\n'}
+[8.569819] (-) TimerEvent: {}
+[8.670792] (-) TimerEvent: {}
+[8.771744] (-) TimerEvent: {}
+[8.872752] (-) TimerEvent: {}
+[8.887819] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.963715] (interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp.o\x1b[0m\n'}
+[8.972936] (-) TimerEvent: {}
+[9.073889] (-) TimerEvent: {}
+[9.174857] (-) TimerEvent: {}
+[9.275842] (-) TimerEvent: {}
+[9.376879] (-) TimerEvent: {}
+[9.478161] (-) TimerEvent: {}
+[9.579128] (-) TimerEvent: {}
+[9.680114] (-) TimerEvent: {}
+[9.689749] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.690643] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.691744] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:107:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int8_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int8_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.692501] (interfaces) StderrLine: {'line': b'   _int8_t_type \x1b[01;31m\x1b[Kint8_t\x1b[m\x1b[K;\n'}
+[9.693141] (interfaces) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.694049] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/sys/types.h:156:0\x1b[m\x1b[K,\n'}
+[9.694730] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/stdlib.h:394\x1b[m\x1b[K,\n'}
+[9.695324] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdlib:75\x1b[m\x1b[K,\n'}
+[9.695864] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algo.h:59\x1b[m\x1b[K,\n'}
+[9.696401] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/algorithm:62\x1b[m\x1b[K,\n'}
+[9.696969] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[9.697519] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8\x1b[m\x1b[K,\n'}
+[9.698048] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[9.698582] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.699592] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:24:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kint8_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __int8_t int8_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.700104] (interfaces) StderrLine: {'line': b' typedef __int8_t \x1b[01;31m\x1b[Kint8_t\x1b[m\x1b[K;\n'}
+[9.700454] (interfaces) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.705354] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.710171] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.710692] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:110:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint8_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint8_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.711054] (interfaces) StderrLine: {'line': b'   _uint8_t_type \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K;\n'}
+[9.711400] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.711745] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:37:0\x1b[m\x1b[K,\n'}
+[9.712094] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[9.712434] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[9.720112] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[9.724745] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[9.725331] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[9.725683] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[9.726024] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/tuple:39\x1b[m\x1b[K,\n'}
+[9.726485] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[9.726837] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:80\x1b[m\x1b[K,\n'}
+[9.727180] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[9.727521] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8\x1b[m\x1b[K,\n'}
+[9.728287] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[9.728711] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.729099] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:24:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __uint8_t uint8_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.729473] (interfaces) StderrLine: {'line': b' typedef __uint8_t \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K;\n'}
+[9.729819] (interfaces) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.730156] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.730539] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.737645] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:113:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int16_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int16_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.738106] (interfaces) StderrLine: {'line': b'   _int16_t_type \x1b[01;31m\x1b[Kint16_t\x1b[m\x1b[K;\n'}
+[9.738463] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.738898] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/sys/types.h:156:0\x1b[m\x1b[K,\n'}
+[9.739440] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/stdlib.h:394\x1b[m\x1b[K,\n'}
+[9.739812] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdlib:75\x1b[m\x1b[K,\n'}
+[9.740161] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algo.h:59\x1b[m\x1b[K,\n'}
+[9.745550] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/algorithm:62\x1b[m\x1b[K,\n'}
+[9.745926] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[9.746276] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8\x1b[m\x1b[K,\n'}
+[9.746743] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[9.747108] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.747455] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:25:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kint16_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __int16_t int16_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.747802] (interfaces) StderrLine: {'line': b' typedef __int16_t \x1b[01;31m\x1b[Kint16_t\x1b[m\x1b[K;\n'}
+[9.748144] (interfaces) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.748477] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.748862] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.749206] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:116:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint16_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint16_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.749626] (interfaces) StderrLine: {'line': b'   _uint16_t_type \x1b[01;31m\x1b[Kuint16_t\x1b[m\x1b[K;\n'}
+[9.749970] (interfaces) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.750309] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:37:0\x1b[m\x1b[K,\n'}
+[9.750650] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[9.750989] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[9.751350] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[9.751694] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[9.752030] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[9.752393] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[9.761681] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/tuple:39\x1b[m\x1b[K,\n'}
+[9.762118] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[9.762469] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:80\x1b[m\x1b[K,\n'}
+[9.762813] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[9.763154] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8\x1b[m\x1b[K,\n'}
+[9.763504] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[9.763889] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.764239] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:25:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __uint16_t uint16_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.764650] (interfaces) StderrLine: {'line': b' typedef __uint16_t \x1b[01;31m\x1b[Kuint16_t\x1b[m\x1b[K;\n'}
+[9.764999] (interfaces) StderrLine: {'line': b'                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.765335] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.765672] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.794208] (-) TimerEvent: {}
+[9.794900] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int32_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.795407] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.795800] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.796148] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/sys/types.h:156:0\x1b[m\x1b[K,\n'}
+[9.796494] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/stdlib.h:394\x1b[m\x1b[K,\n'}
+[9.797030] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdlib:75\x1b[m\x1b[K,\n'}
+[9.797398] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algo.h:59\x1b[m\x1b[K,\n'}
+[9.797747] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/algorithm:62\x1b[m\x1b[K,\n'}
+[9.798092] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[9.798439] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8\x1b[m\x1b[K,\n'}
+[9.798782] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[9.799121] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.799460] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:26:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kint32_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __int32_t int32_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.799825] (interfaces) StderrLine: {'line': b' typedef __int32_t \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.800163] (interfaces) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.800496] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.800887] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.801262] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:122:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint32_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint32_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.801633] (interfaces) StderrLine: {'line': b'   _uint32_t_type \x1b[01;31m\x1b[Kuint32_t\x1b[m\x1b[K;\n'}
+[9.801975] (interfaces) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.802311] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:37:0\x1b[m\x1b[K,\n'}
+[9.802646] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[9.802982] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[9.803317] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[9.803650] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[9.804014] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[9.804350] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[9.811631] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/tuple:39\x1b[m\x1b[K,\n'}
+[9.812083] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[9.812439] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:80\x1b[m\x1b[K,\n'}
+[9.813109] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[9.813489] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8\x1b[m\x1b[K,\n'}
+[9.813841] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[9.814184] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.814529] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:26:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __uint32_t uint32_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.814873] (interfaces) StderrLine: {'line': b' typedef __uint32_t \x1b[01;31m\x1b[Kuint32_t\x1b[m\x1b[K;\n'}
+[9.815211] (interfaces) StderrLine: {'line': b'                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.815546] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.815887] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.816231] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:125:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int64_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int64_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.816610] (interfaces) StderrLine: {'line': b'   _int64_t_type \x1b[01;31m\x1b[Kint64_t\x1b[m\x1b[K;\n'}
+[9.817065] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.817419] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/sys/types.h:156:0\x1b[m\x1b[K,\n'}
+[9.817761] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/stdlib.h:394\x1b[m\x1b[K,\n'}
+[9.818100] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdlib:75\x1b[m\x1b[K,\n'}
+[9.818436] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algo.h:59\x1b[m\x1b[K,\n'}
+[9.818774] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/algorithm:62\x1b[m\x1b[K,\n'}
+[9.819114] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[9.819496] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8\x1b[m\x1b[K,\n'}
+[9.819839] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[9.820202] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.821479] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:27:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __int64_t int64_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.821922] (interfaces) StderrLine: {'line': b' typedef __int64_t \x1b[01;31m\x1b[Kint64_t\x1b[m\x1b[K;\n'}
+[9.822268] (interfaces) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.822607] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.822953] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.823299] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:128:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint64_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint64_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.823676] (interfaces) StderrLine: {'line': b'   _uint64_t_type \x1b[01;31m\x1b[Kuint64_t\x1b[m\x1b[K;\n'}
+[9.824315] (interfaces) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.824741] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:37:0\x1b[m\x1b[K,\n'}
+[9.825097] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[9.825436] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[9.825771] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[9.826103] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[9.826433] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[9.826761] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[9.828176] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/tuple:39\x1b[m\x1b[K,\n'}
+[9.828730] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[9.829096] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:80\x1b[m\x1b[K,\n'}
+[9.829445] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rosidl_generator_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[9.829829] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:8\x1b[m\x1b[K,\n'}
+[9.830175] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[9.830593] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.831488] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:27:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __uint64_t uint64_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.831891] (interfaces) StderrLine: {'line': b' typedef __uint64_t \x1b[01;31m\x1b[Kuint64_t\x1b[m\x1b[K;\n'}
+[9.832238] (interfaces) StderrLine: {'line': b'                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.832604] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[9.832967] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[9.833316] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.833689] (interfaces) StderrLine: {'line': b'     std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[9.834356] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.834727] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.835112] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.835456] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.835813] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.836172] (interfaces) StderrLine: {'line': b'     std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[9.836539] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.836891] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.837237] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.837579] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.837937] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.838312] (interfaces) StderrLine: {'line': b'     std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[9.838726] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.839254] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.839661] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.840007] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.840343] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.840729] (interfaces) StderrLine: {'line': b'   std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[9.841078] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.841419] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.841942] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.842298] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.842633] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.842978] (interfaces) StderrLine: {'line': b'   std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[9.843317] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.843655] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.843996] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.844332] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.845118] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.845547] (interfaces) StderrLine: {'line': b'   std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[9.845899] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.846243] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.846630] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.846969] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.847441] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.847827] (interfaces) StderrLine: {'line': b' :vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[9.848195] (interfaces) StderrLine: {'line': b'                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.848569] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:131:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_unbounded_int32_arr_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[K_uint32_t_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.849157] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K_unbounded_int32_arr_type\x1b[m\x1b[K unbounded_int32_arr;\n'}
+[9.849682] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.850027] (interfaces) StderrLine: {'line': b'   \x1b[32m\x1b[K_uint32_t_type\x1b[m\x1b[K\n'}
+[9.850365] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.850748] (interfaces) StderrLine: {'line': b'     std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>;\n'}
+[9.851091] (interfaces) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.851587] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.851955] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.852296] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.854876] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.855384] (interfaces) StderrLine: {'line': b'     std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>;\n'}
+[9.855999] (interfaces) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.856612] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.857015] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.858244] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.858693] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.859109] (interfaces) StderrLine: {'line': b'     std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>;\n'}
+[9.859460] (interfaces) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.859808] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.860157] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.860499] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.860879] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.861223] (interfaces) StderrLine: {'line': b'     std::array<int32_t, 5\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[9.861559] (interfaces) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.861894] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:134:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_static_five_int32_arr_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.862241] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K_static_five_int32_arr_type\x1b[m\x1b[K static_five_int32_arr;\n'}
+[9.862577] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.863117] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.863489] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[9.863831] (interfaces) StderrLine: {'line': b'                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.864174] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.864589] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.864950] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.865287] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.865659] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[9.866009] (interfaces) StderrLine: {'line': b'                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.866346] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.867654] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.868157] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.868559] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.868946] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[9.869294] (interfaces) StderrLine: {'line': b'                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.869634] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.869977] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.870568] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.870938] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.871291] (interfaces) StderrLine: {'line': b' ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[9.871633] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.871971] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.872315] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.872690] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.873034] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.873378] (interfaces) StderrLine: {'line': b' ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[9.873709] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.874036] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.874368] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.874696] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.875023] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.875360] (interfaces) StderrLine: {'line': b' ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[9.875724] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.876053] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.876387] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.876768] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.877100] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.878262] (interfaces) StderrLine: {'line': b' ctor<int32_t, 5, typename ContainerAllocator::template rebind<int32_t>::other\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[9.878793] (interfaces) StderrLine: {'line': b'                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.879158] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:137:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_bounded_five_int32_arr_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.879503] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K_bounded_five_int32_arr_type\x1b[m\x1b[K bounded_five_int32_arr;\n'}
+[9.879833] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.880188] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:171:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.880625] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K & _arg)\n'}
+[9.881805] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.882173] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:189:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint8_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.882520] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kint8_t\x1b[m\x1b[K & _arg)\n'}
+[9.882857] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.883188] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:195:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.883523] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K & _arg)\n'}
+[9.883852] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.884179] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:201:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint16_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.884510] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kint16_t\x1b[m\x1b[K & _arg)\n'}
+[9.884880] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.885206] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:207:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.885577] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint16_t\x1b[m\x1b[K & _arg)\n'}
+[9.885911] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.886243] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:213:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint32_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.886580] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K & _arg)\n'}
+[9.886912] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.887243] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:219:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.899004] (-) TimerEvent: {}
+[9.899656] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint32_t\x1b[m\x1b[K & _arg)\n'}
+[9.900113] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.900453] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:225:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.902172] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kint64_t\x1b[m\x1b[K & _arg)\n'}
+[9.902603] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.902953] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:231:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.903306] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint64_t\x1b[m\x1b[K & _arg)\n'}
+[9.903648] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.903985] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.904342] (interfaces) StderrLine: {'line': b'     const std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[9.904724] (interfaces) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.905102] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.905451] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.912778] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.913291] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.919184] (interfaces) StderrLine: {'line': b'     const std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[9.919684] (interfaces) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.920035] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.920387] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.920839] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.921199] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.921559] (interfaces) StderrLine: {'line': b'     const std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[9.921901] (interfaces) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.922238] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.922581] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.922922] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.923259] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.923609] (interfaces) StderrLine: {'line': b' t std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[9.923951] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.924288] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.924676] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.931026] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.931830] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.932220] (interfaces) StderrLine: {'line': b' t std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[9.932643] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.938448] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.938905] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.939259] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.939605] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.940012] (interfaces) StderrLine: {'line': b' t std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[9.940363] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.940790] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.941146] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.941513] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.941855] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.942214] (interfaces) StderrLine: {'line': b' <int32_t, typename ContainerAllocator::template rebind<int32_t>::other\x1b[01;31m\x1b[K>\x1b[m\x1b[K & _arg)\n'}
+[9.942550] (interfaces) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.942881] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.943225] (interfaces) StderrLine: {'line': b'     const std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5> & _arg)\n'}
+[9.943558] (interfaces) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.949208] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.949712] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.950070] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.950416] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.950779] (interfaces) StderrLine: {'line': b'     const std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5> & _arg)\n'}
+[9.951117] (interfaces) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.951452] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.951793] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.952135] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.952472] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.952889] (interfaces) StderrLine: {'line': b'     const std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5> & _arg)\n'}
+[9.953231] (interfaces) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.953567] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.953908] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.954248] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.954591] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.954934] (interfaces) StderrLine: {'line': b'     const std::array<int32_t, 5\x1b[01;31m\x1b[K>\x1b[m\x1b[K & _arg)\n'}
+[9.965018] (interfaces) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.965482] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.965881] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[9.966233] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.967454] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.967893] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.968245] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.968628] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.969007] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[9.969392] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.969743] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.970112] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.970460] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.970802] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.971150] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[9.971517] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.971859] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.972218] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.972590] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.972945] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.973295] (interfaces) StderrLine: {'line': b' ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[9.973634] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.973965] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.974296] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.974625] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.974959] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.975297] (interfaces) StderrLine: {'line': b' ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[9.975625] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.975960] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.976289] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.984999] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.985462] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.985833] (interfaces) StderrLine: {'line': b' ndedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[9.986180] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.986517] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.986860] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[9.987231] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.987566] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:119:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.987906] (interfaces) StderrLine: {'line': b' t32_t, 5, typename ContainerAllocator::template rebind<int32_t>::other\x1b[01;31m\x1b[K>\x1b[m\x1b[K & _arg)\n'}
+[10.002916] (-) TimerEvent: {}
+[10.003531] (interfaces) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.003996] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[10.004386] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[10.007326] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(rosidl_generator_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.007780] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[10.008133] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.013377] (interfaces) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.014324] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.014753] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5\x1b[01;31m\x1b[K>\x1b[m\x1b[K::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.015169] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.018321] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a type, got \xe2\x80\x98\x1b[01m\x1b[K((interfaces::msg::MsgCollection_<ContainerAllocator>*)this)->interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.018929] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[10.019298] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5>::iterator, \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.019647] (interfaces) StderrLine: {'line': b'                                                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.025549] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0\x1b[m\x1b[K,\n'}
+[10.025997] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[10.026356] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(const ContainerAllocator&, rosidl_generator_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.026735] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:61:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.027085] (interfaces) StderrLine: {'line': b'   : \x1b[01;31m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K(_alloc),\n'}
+[10.027426] (interfaces) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.027766] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[10.028111] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.028453] (interfaces) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.031811] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.032236] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5\x1b[01;31m\x1b[K>\x1b[m\x1b[K::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.036900] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.037407] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a type, got \xe2\x80\x98\x1b[01m\x1b[K((interfaces::msg::MsgCollection_<ContainerAllocator>*)this)->interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.037780] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[10.038174] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5>::iterator, \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.038526] (interfaces) StderrLine: {'line': b'                                                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.039896] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.040327] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:107:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int8_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int8_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.040730] (interfaces) StderrLine: {'line': b'   _int8_t_type \x1b[01;31m\x1b[Kint8_t\x1b[m\x1b[K;\n'}
+[10.041088] (interfaces) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.041429] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:34:0\x1b[m\x1b[K,\n'}
+[10.041766] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[10.042102] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[10.042436] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[10.042766] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[10.043095] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.043421] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.049204] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.049712] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:24:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kint8_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __int8_t int8_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.050074] (interfaces) StderrLine: {'line': b' typedef __int8_t \x1b[01;31m\x1b[Kint8_t\x1b[m\x1b[K;\n'}
+[10.050428] (interfaces) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.050771] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.051118] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:110:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint8_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint8_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.051474] (interfaces) StderrLine: {'line': b'   _uint8_t_type \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K;\n'}
+[10.051813] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.052148] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:37:0\x1b[m\x1b[K,\n'}
+[10.052484] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[10.056898] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[10.057325] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[10.057676] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[10.058039] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.058383] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.058724] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.067326] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:24:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __uint8_t uint8_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.067840] (interfaces) StderrLine: {'line': b' typedef __uint8_t \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K;\n'}
+[10.068191] (interfaces) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.068562] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.068924] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:113:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int16_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int16_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.069306] (interfaces) StderrLine: {'line': b'   _int16_t_type \x1b[01;31m\x1b[Kint16_t\x1b[m\x1b[K;\n'}
+[10.069651] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.069997] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:34:0\x1b[m\x1b[K,\n'}
+[10.071625] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[10.072014] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[10.072359] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[10.072764] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[10.073120] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.073466] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.079623] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.080081] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:25:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kint16_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __int16_t int16_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.080439] (interfaces) StderrLine: {'line': b' typedef __int16_t \x1b[01;31m\x1b[Kint16_t\x1b[m\x1b[K;\n'}
+[10.081277] (interfaces) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.081767] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.082129] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:116:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint16_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint16_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.082490] (interfaces) StderrLine: {'line': b'   _uint16_t_type \x1b[01;31m\x1b[Kuint16_t\x1b[m\x1b[K;\n'}
+[10.082831] (interfaces) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.083172] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:37:0\x1b[m\x1b[K,\n'}
+[10.083510] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[10.083847] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[10.084182] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[10.084547] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[10.084904] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.085240] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.085566] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.085894] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:25:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __uint16_t uint16_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.086228] (interfaces) StderrLine: {'line': b' typedef __uint16_t \x1b[01;31m\x1b[Kuint16_t\x1b[m\x1b[K;\n'}
+[10.086578] (interfaces) StderrLine: {'line': b'                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.086910] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.087259] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int32_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.087605] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.087939] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.088271] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:34:0\x1b[m\x1b[K,\n'}
+[10.099660] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[10.100152] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[10.100613] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[10.101015] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[10.101648] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.101994] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.102334] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.105296] (-) TimerEvent: {}
+[10.108423] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:26:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kint32_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __int32_t int32_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.109049] (interfaces) StderrLine: {'line': b' typedef __int32_t \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.110200] (interfaces) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.110795] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.111166] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:122:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint32_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint32_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.117684] (interfaces) StderrLine: {'line': b'   _uint32_t_type \x1b[01;31m\x1b[Kuint32_t\x1b[m\x1b[K;\n'}
+[10.118137] (interfaces) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.118489] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:37:0\x1b[m\x1b[K,\n'}
+[10.118838] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[10.119182] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[10.119622] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[10.120226] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[10.120625] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.120981] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.121326] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.121673] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:26:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __uint32_t uint32_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.122025] (interfaces) StderrLine: {'line': b' typedef __uint32_t \x1b[01;31m\x1b[Kuint32_t\x1b[m\x1b[K;\n'}
+[10.122364] (interfaces) StderrLine: {'line': b'                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.122703] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.130486] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:125:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_int64_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::int64_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.133657] (interfaces) StderrLine: {'line': b'   _int64_t_type \x1b[01;31m\x1b[Kint64_t\x1b[m\x1b[K;\n'}
+[10.134033] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.134377] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:34:0\x1b[m\x1b[K,\n'}
+[10.134724] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[10.135093] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[10.135444] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[10.135803] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[10.136662] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.142889] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.143337] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.143943] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:27:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __int64_t int64_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.144371] (interfaces) StderrLine: {'line': b' typedef __int64_t \x1b[01;31m\x1b[Kint64_t\x1b[m\x1b[K;\n'}
+[10.145236] (interfaces) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.145647] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.146006] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:128:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::_uint64_t_type interfaces::msg::MsgCollection_<ContainerAllocator>::uint64_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.146370] (interfaces) StderrLine: {'line': b'   _uint64_t_type \x1b[01;31m\x1b[Kuint64_t\x1b[m\x1b[K;\n'}
+[10.146713] (interfaces) StderrLine: {'line': b'                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.147055] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdint.h:37:0\x1b[m\x1b[K,\n'}
+[10.147403] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:9\x1b[m\x1b[K,\n'}
+[10.147745] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdint:41\x1b[m\x1b[K,\n'}
+[10.148087] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/char_traits.h:501\x1b[m\x1b[K,\n'}
+[10.148473] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:40\x1b[m\x1b[K,\n'}
+[10.148862] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.149206] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.149544] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.157394] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:27:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kchanges meaning of \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktypedef __uint64_t uint64_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[10.157792] (interfaces) StderrLine: {'line': b' typedef __uint64_t \x1b[01;31m\x1b[Kuint64_t\x1b[m\x1b[K;\n'}
+[10.158143] (interfaces) StderrLine: {'line': b'                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.158489] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.158834] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.159182] (interfaces) StderrLine: {'line': b'     std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[10.159556] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.161306] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.161687] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.162036] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.164494] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.165160] (interfaces) StderrLine: {'line': b'     std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[10.165530] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.165897] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.166251] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.166592] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.166930] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.170312] (interfaces) StderrLine: {'line': b'     std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[10.170799] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.171160] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.171508] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.171854] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.172193] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.172586] (interfaces) StderrLine: {'line': b'     std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[10.172950] (interfaces) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.173290] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.173629] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.173958] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.174282] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.174617] (interfaces) StderrLine: {'line': b'     std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[10.174950] (interfaces) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.175283] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.175617] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.175948] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.176273] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.188987] (interfaces) StderrLine: {'line': b'     std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[10.189456] (interfaces) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.189809] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.190280] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.190670] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.191010] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:130:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.191353] (interfaces) StderrLine: {'line': b'     std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[10.191689] (interfaces) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.192045] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:131:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_unbounded_int32_arr_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[K_uint32_t_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.192415] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K_unbounded_int32_arr_type\x1b[m\x1b[K unbounded_int32_arr;\n'}
+[10.192794] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.197583] (interfaces) StderrLine: {'line': b'   \x1b[32m\x1b[K_uint32_t_type\x1b[m\x1b[K\n'}
+[10.198034] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.198433] (interfaces) StderrLine: {'line': b'     std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>;\n'}
+[10.198779] (interfaces) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.199123] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.199499] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.199844] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.201835] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202257] (interfaces) StderrLine: {'line': b'     std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>;\n'}
+[10.202595] (interfaces) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.202929] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.203267] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.203602] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.203929] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204308] (interfaces) StderrLine: {'line': b'     std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>;\n'}
+[10.212998] (-) TimerEvent: {}
+[10.213623] (interfaces) StderrLine: {'line': b'                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.214096] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.214450] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.214787] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.215118] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:133:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.215460] (interfaces) StderrLine: {'line': b'     std::array<int32_t, 5\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[10.215793] (interfaces) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.216123] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:134:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_static_five_int32_arr_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.216463] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K_static_five_int32_arr_type\x1b[m\x1b[K static_five_int32_arr;\n'}
+[10.216851] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.217191] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.217545] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[10.217890] (interfaces) StderrLine: {'line': b'                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.218231] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.218574] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.218912] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.219252] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.219649] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[10.224152] (interfaces) StderrLine: {'line': b'                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.224819] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.225186] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.225530] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.225868] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.226264] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other>;\n'}
+[10.226626] (interfaces) StderrLine: {'line': b'                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.226965] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.227306] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.227641] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.227973] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.228318] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[10.228689] (interfaces) StderrLine: {'line': b'                                                                                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.229034] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.229371] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.229698] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.230030] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.230381] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[10.239993] (interfaces) StderrLine: {'line': b'                                                                                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.240811] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.241183] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.241528] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.241877] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.242240] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other>;\n'}
+[10.242629] (interfaces) StderrLine: {'line': b'                                                                                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.242977] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.243323] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.243666] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.244006] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:136:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.244372] (interfaces) StderrLine: {'line': b'     rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<int32_t>::other\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[10.249151] (interfaces) StderrLine: {'line': b'                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.249636] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:137:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_bounded_five_int32_arr_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.250006] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K_bounded_five_int32_arr_type\x1b[m\x1b[K bounded_five_int32_arr;\n'}
+[10.256621] (interfaces) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.257080] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:171:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.257483] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K & _arg)\n'}
+[10.257841] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.258185] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:189:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint8_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.258532] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kint8_t\x1b[m\x1b[K & _arg)\n'}
+[10.258868] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.259200] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:195:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.259536] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint8_t\x1b[m\x1b[K & _arg)\n'}
+[10.259873] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.260211] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:201:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint16_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.269304] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kint16_t\x1b[m\x1b[K & _arg)\n'}
+[10.269868] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.270245] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:207:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.271646] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint16_t\x1b[m\x1b[K & _arg)\n'}
+[10.272106] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.272690] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:213:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint32_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.273113] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K & _arg)\n'}
+[10.273466] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.273806] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:219:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.274151] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint32_t\x1b[m\x1b[K & _arg)\n'}
+[10.274488] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.274821] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:225:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.275156] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kint64_t\x1b[m\x1b[K & _arg)\n'}
+[10.275485] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.275814] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:231:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.276152] (interfaces) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kuint64_t\x1b[m\x1b[K & _arg)\n'}
+[10.276485] (interfaces) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.276854] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.277216] (interfaces) StderrLine: {'line': b'     const std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[10.277559] (interfaces) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.277932] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.278278] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.278616] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.278974] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.279330] (interfaces) StderrLine: {'line': b'     const std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[10.279688] (interfaces) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.280026] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.280366] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.289144] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.289589] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.289960] (interfaces) StderrLine: {'line': b'     const std::vector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[10.290313] (interfaces) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.291939] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.292390] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.292789] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.293140] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.293500] (interfaces) StderrLine: {'line': b'     const std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[10.293847] (interfaces) StderrLine: {'line': b'                                                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.294190] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.294536] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.294878] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.295214] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.295565] (interfaces) StderrLine: {'line': b'     const std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[10.295906] (interfaces) StderrLine: {'line': b'                                                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.296249] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.296619] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.296972] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.297349] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.297700] (interfaces) StderrLine: {'line': b'     const std::vector<int32_t, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[10.298042] (interfaces) StderrLine: {'line': b'                                                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.298375] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.298729] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.299061] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.299392] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:237:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.299747] (interfaces) StderrLine: {'line': b'     const std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other\x1b[01;31m\x1b[K>\x1b[m\x1b[K & _arg)\n'}
+[10.300087] (interfaces) StderrLine: {'line': b'                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.300419] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.312568] (interfaces) StderrLine: {'line': b'     const std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5> & _arg)\n'}
+[10.313435] (-) TimerEvent: {}
+[10.314096] (interfaces) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.314588] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.314948] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.315288] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.315624] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.315975] (interfaces) StderrLine: {'line': b'     const std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5> & _arg)\n'}
+[10.316310] (interfaces) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.319843] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.320306] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.320705] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.321061] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.321468] (interfaces) StderrLine: {'line': b'     const std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5> & _arg)\n'}
+[10.321812] (interfaces) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.322153] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.322499] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.322841] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.323178] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:243:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.323524] (interfaces) StderrLine: {'line': b'     const std::array<int32_t, 5\x1b[01;31m\x1b[K>\x1b[m\x1b[K & _arg)\n'}
+[10.323863] (interfaces) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.330010] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.330489] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[10.333049] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.333501] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.333860] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.334213] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.334558] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.334958] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[10.335315] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.335658] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.336027] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.336373] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.336750] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.337131] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)\n'}
+[10.337492] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.337834] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.338177] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.338516] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.338852] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.339201] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[10.349810] (interfaces) StderrLine: {'line': b'                                                                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.350374] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.350737] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.351085] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.351428] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.351791] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[10.352138] (interfaces) StderrLine: {'line': b'                                                                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.354892] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.355539] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.359833] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.360270] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.360938] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>::other> & _arg)\n'}
+[10.361437] (interfaces) StderrLine: {'line': b'                                                                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.361843] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.362207] (interfaces) StderrLine: {'line': b'   _int32_t_type \x1b[01;36m\x1b[Kint32_t\x1b[m\x1b[K;\n'}
+[10.362551] (interfaces) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.362892] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:249:119:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.363264] (interfaces) StderrLine: {'line': b'     const rosidl_generator_cpp::BoundedVector<int32_t, 5, typename ContainerAllocator::template rebind<int32_t>::other\x1b[01;31m\x1b[K>\x1b[m\x1b[K & _arg)\n'}
+[10.363614] (interfaces) StderrLine: {'line': b'                                                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.363981] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.364330] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(rosidl_generator_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.364713] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[10.365091] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.365435] (interfaces) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.365775] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.366127] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5\x1b[01;31m\x1b[K>\x1b[m\x1b[K::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.366467] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.366803] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a type, got \xe2\x80\x98\x1b[01m\x1b[K((interfaces::msg::MsgCollection_<ContainerAllocator>*)this)->interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.367151] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[10.367519] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5>::iterator, \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.367863] (interfaces) StderrLine: {'line': b'                                                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.368204] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.379841] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(const ContainerAllocator&, rosidl_generator_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.380463] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:61:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.381359] (interfaces) StderrLine: {'line': b'   : \x1b[01;31m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K(_alloc),\n'}
+[10.381761] (interfaces) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.382097] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[10.382442] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<\x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.382781] (interfaces) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.383111] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.383507] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5\x1b[01;31m\x1b[K>\x1b[m\x1b[K::iterator, int32_t>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.383854] (interfaces) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.384187] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a type, got \xe2\x80\x98\x1b[01m\x1b[K((interfaces::msg::MsgCollection_<ContainerAllocator>*)this)->interfaces::msg::MsgCollection_<ContainerAllocator>::int32_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.390447] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:82:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[10.391182] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5>::iterator, \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K>(this->static_five_int32_arr.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.391581] (interfaces) StderrLine: {'line': b'                                                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.391931] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/_G_config.h:19:0\x1b[m\x1b[K,\n'}
+[10.392278] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/libio.h:35\x1b[m\x1b[K,\n'}
+[10.392693] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/stdio.h:41\x1b[m\x1b[K,\n'}
+[10.393053] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/cstdio:42\x1b[m\x1b[K,\n'}
+[10.393396] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/ext/string_conversions.h:43\x1b[m\x1b[K,\n'}
+[10.393738] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6361\x1b[m\x1b[K,\n'}
+[10.394081] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/string:52\x1b[m\x1b[K,\n'}
+[10.394420] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[10.394759] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[10.395102] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[10.395445] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:\x1b[m\x1b[K At global scope:\n'}
+[10.395786] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:419:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.396146] (interfaces) StderrLine: {'line': b'     offsetof(interfaces::msg::MsgCollection, \x1b[01;31m\x1b[Ku\x1b[m\x1b[Knbounded_int32_arr),  // bytes offset in struct\n'}
+[10.396488] (interfaces) StderrLine: {'line': b'                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.396863] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:434:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.397220] (interfaces) StderrLine: {'line': b'     offsetof(interfaces::msg::MsgCollection, \x1b[01;31m\x1b[Ks\x1b[m\x1b[Ktatic_five_int32_arr),  // bytes offset in struct\n'}
+[10.397559] (interfaces) StderrLine: {'line': b'                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.397895] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:449:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.398301] (interfaces) StderrLine: {'line': b'     offsetof(interfaces::msg::MsgCollection, \x1b[01;31m\x1b[Kb\x1b[m\x1b[Kounded_five_int32_arr),  // bytes offset in struct\n'}
+[10.398665] (interfaces) StderrLine: {'line': b'                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.427393] (-) TimerEvent: {}
+[10.429184] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:12:0\x1b[m\x1b[K:\n'}
+[10.429725] (interfaces) StderrLine: {'line': b'/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::MsgCollection_<ContainerAllocator>::MsgCollection_(rosidl_generator_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.434935] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp:31:60:\x1b[m\x1b[K   required from here\n'}
+[10.435584] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::msg::MsgCollection_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.435976] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5>::iterator, int32_t>(\x1b[01;31m\x1b[Kthis->static_five_int32_arr\x1b[m\x1b[K.begin(), this->static_five_int32_arr.end(), 0l);\n'}
+[10.436335] (interfaces) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.449073] (interfaces) StderrLine: {'line': b'                                                                     \x1b[32m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\n'}
+[10.450385] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/msg/msg_collection__struct.hpp:53:112:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::msg::MsgCollection_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.450997] (interfaces) StderrLine: {'line': b'       std::fill<typename std::array<int32_t, 5>::iterator, int32_t>(this->static_five_int32_arr.begin(), \x1b[01;31m\x1b[Kthis->static_five_int32_arr\x1b[m\x1b[K.end(), 0l);\n'}
+[10.451357] (interfaces) StderrLine: {'line': b'                                                                                                          \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.451712] (interfaces) StderrLine: {'line': b'                                                                                                          \x1b[32m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\n'}
+[10.527958] (-) TimerEvent: {}
+[10.577843] (interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp.o] Error 1\n'}
+[10.578805] (interfaces) StdoutLine: {'line': b"CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:77: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp.o' failed\n"}
+[10.579308] (interfaces) StdoutLine: {'line': b"CMakeFiles/Makefile2:519: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/all' failed\n"}
+[10.579674] (interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[10.580027] (interfaces) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[10.628487] (-) TimerEvent: {}
+[10.710201] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool interfaces::msg::typesupport_fastrtps_cpp::cdr_serialize(const MsgCollection&, eprosima::fastcdr::Cdr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.710846] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:63:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.711213] (interfaces) StderrLine: {'line': b'     cdr << ros_message.\x1b[01;31m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K;\n'}
+[10.711550] (interfaces) StderrLine: {'line': b'                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.711919] (interfaces) StderrLine: {'line': b'                        \x1b[32m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\n'}
+[10.712257] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:67:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.712673] (interfaces) StderrLine: {'line': b'     cdr << ros_message.\x1b[01;31m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K;\n'}
+[10.713024] (interfaces) StderrLine: {'line': b'                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.713355] (interfaces) StderrLine: {'line': b'                        \x1b[32m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\n'}
+[10.714150] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:71:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.714719] (interfaces) StderrLine: {'line': b'     size_t size = ros_message.\x1b[01;31m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K.size();\n'}
+[10.715152] (interfaces) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.715572] (interfaces) StderrLine: {'line': b'                               \x1b[32m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\n'}
+[10.715991] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:77:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.716459] (interfaces) StderrLine: {'line': b'       cdr << ros_message.\x1b[01;31m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K[i];\n'}
+[10.716961] (interfaces) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.717385] (interfaces) StderrLine: {'line': b'                          \x1b[32m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\n'}
+[10.723016] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool interfaces::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, interfaces::msg::MsgCollection&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.723863] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:168:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.724748] (interfaces) StderrLine: {'line': b'     cdr >> ros_message.\x1b[01;31m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K;\n'}
+[10.725306] (interfaces) StderrLine: {'line': b'                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.725813] (interfaces) StderrLine: {'line': b'                        \x1b[32m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\n'}
+[10.726330] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:173:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.726888] (interfaces) StderrLine: {'line': b'     cdr >> ros_message.\x1b[01;31m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K;\n'}
+[10.727389] (interfaces) StderrLine: {'line': b'                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.727887] (interfaces) StderrLine: {'line': b'                        \x1b[32m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\n'}
+[10.729473] (-) TimerEvent: {}
+[10.729962] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:181:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.730665] (interfaces) StderrLine: {'line': b'     ros_message.\x1b[01;31m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K.resize(size);\n'}
+[10.731195] (interfaces) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.731703] (interfaces) StderrLine: {'line': b'                 \x1b[32m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\n'}
+[10.732215] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:183:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MsgCollection = struct interfaces::msg::MsgCollection_<std::allocator<void> > {aka struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.732853] (interfaces) StderrLine: {'line': b'       cdr >> ros_message.\x1b[01;31m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K[i];\n'}
+[10.733345] (interfaces) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.733758] (interfaces) StderrLine: {'line': b'                          \x1b[32m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\n'}
+[10.734169] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksize_t interfaces::msg::typesupport_fastrtps_cpp::get_serialized_size(const MsgCollection&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.734932] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:321:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.735427] (interfaces) StderrLine: {'line': b'     size_t array_size = ros_message.\x1b[01;31m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K.size();\n'}
+[10.735856] (interfaces) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.736277] (interfaces) StderrLine: {'line': b'                                     \x1b[32m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\n'}
+[10.736729] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:325:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.737215] (interfaces) StderrLine: {'line': b'     size_t item_size = sizeof(ros_message.\x1b[01;31m\x1b[Kunbounded_int32_arr\x1b[m\x1b[K[0]);\n'}
+[10.737637] (interfaces) StderrLine: {'line': b'                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.738059] (interfaces) StderrLine: {'line': b'                                           \x1b[32m\x1b[Kset__unbounded_int32_arr\x1b[m\x1b[K\n'}
+[10.738477] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:332:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.738942] (interfaces) StderrLine: {'line': b'     size_t item_size = sizeof(ros_message.\x1b[01;31m\x1b[Kstatic_five_int32_arr\x1b[m\x1b[K[0]);\n'}
+[10.739362] (interfaces) StderrLine: {'line': b'                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.739781] (interfaces) StderrLine: {'line': b'                                           \x1b[32m\x1b[Kset__static_five_int32_arr\x1b[m\x1b[K\n'}
+[10.740193] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:338:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.740670] (interfaces) StderrLine: {'line': b'     size_t array_size = ros_message.\x1b[01;31m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K.size();\n'}
+[10.741132] (interfaces) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.741576] (interfaces) StderrLine: {'line': b'                                     \x1b[32m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\n'}
+[10.741995] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp:345:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst MsgCollection {aka const struct interfaces::msg::MsgCollection_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.742423] (interfaces) StderrLine: {'line': b'     size_t item_size = sizeof(ros_message.\x1b[01;31m\x1b[Kbounded_five_int32_arr\x1b[m\x1b[K[0]);\n'}
+[10.742854] (interfaces) StderrLine: {'line': b'                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.743278] (interfaces) StderrLine: {'line': b'                                           \x1b[32m\x1b[Kset__bounded_five_int32_arr\x1b[m\x1b[K\n'}
+[10.829698] (-) TimerEvent: {}
+[10.930490] (-) TimerEvent: {}
+[10.942315] (interfaces) StdoutLine: {'line': b"CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:77: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o' failed\n"}
+[10.943735] (interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o] Error 1\n'}
+[10.946570] (interfaces) StdoutLine: {'line': b"CMakeFiles/Makefile2:369: recipe for target 'CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all' failed\n"}
+[10.948121] (interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[10.949403] (interfaces) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[10.952043] (interfaces) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[10.953996] (interfaces) CommandEnded: {'returncode': 2}
+[10.956349] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 2}
+[11.027377] (-) EventReactorShutdown: {}

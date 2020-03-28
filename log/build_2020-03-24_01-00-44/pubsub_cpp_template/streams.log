@@ -1,0 +1,14 @@
+[0.074s] Invoking command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_template': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_template -- -j2 -l2
+[0.283s] [35m[1mScanning dependencies of target pub_cpp[0m
+[0.422s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o[0m
+[10.122s] [100%] [32m[1mLinking CXX executable pub_cpp[0m
+[10.881s] CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o: In function `rclcpp::Publisher<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[10.882s] pub_cpp_template.cpp:(.text._ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC2EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE[_ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC5EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE]+0x6a): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >()'
+[10.901s] collect2: error: ld returned 1 exit status
+[10.909s] CMakeFiles/pub_cpp.dir/build.make:136: recipe for target 'pub_cpp' failed
+[10.912s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp.dir/all' failed
+[10.913s] Makefile:140: recipe for target 'all' failed
+[10.913s] make[2]: *** [pub_cpp] Error 1
+[10.914s] make[1]: *** [CMakeFiles/pub_cpp.dir/all] Error 2
+[10.914s] make: *** [all] Error 2
+[10.916s] Invoked command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_template' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_template -- -j2 -l2

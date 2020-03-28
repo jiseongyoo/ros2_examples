@@ -1,0 +1,25 @@
+[4.673s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:8:26:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[4.676s]    rclcpp::Publisher<std::[01;31m[KString[m[K>::SharedPtr publisher_;
+[4.678s]                           [01;31m[K^~~~~~[m[K
+[4.681s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:8:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kto_string[m[K’
+[4.682s]    rclcpp::Publisher<std::[01;36m[KString[m[K>::SharedPtr publisher_;
+[4.683s]                           [01;36m[K^~~~~~[m[K
+[4.683s]                           [32m[Kto_string[m[K
+[4.684s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:8:26:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[4.684s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:8:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kto_string[m[K’
+[4.685s]    rclcpp::Publisher<std::[01;36m[KString[m[K>::SharedPtr publisher_;
+[4.685s]                           [01;36m[K^~~~~~[m[K
+[4.685s]                           [32m[Kto_string[m[K
+[4.686s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:8:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.686s]    rclcpp::Publisher<std::String[01;31m[K>[m[K::SharedPtr publisher_;
+[4.687s]                                 [01;31m[K^[m[K
+[4.687s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:8:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.688s]    rclcpp::Publisher<std::String>::[01;31m[KSharedPtr[m[K publisher_;
+[4.688s]                                    [01;31m[K^~~~~~~~~[m[K
+[4.688s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:8:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[4.689s]    rclcpp::Publisher<std::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[4.690s]                                              [01;31m[K^~~~~~~~~~[m[K
+[4.691s]                                              [32m[Krcl_publisher_t[m[K
+[5.305s] make[2]: *** [CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o] Error 1
+[5.306s] make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2
+[5.308s] make: *** [all] Error 2

@@ -1,0 +1,134 @@
+[0.084s] Invoking command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2
+[0.372s] [ 20%] Built target component_service_server_cpp
+[0.377s] [ 40%] Built target component_sub_cpp
+[0.423s] [35m[1mScanning dependencies of target component_service_client_cpp[0m
+[0.521s] [ 60%] Built target component_pub_cpp
+[0.588s] [ 70%] [32mBuilding CXX object CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o[0m
+[5.066s] In file included from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1:0[m[K:
+[5.068s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:20:49:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeOption[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[5.069s]      ComponentServiceClientExample(const rclcpp::[01;31m[KNodeOption[m[K & options);
+[5.071s]                                                  [01;31m[K^~~~~~~~~~[m[K
+[5.093s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ComponentServiceClientExample::send_request()[m[K’:
+[5.094s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ksimple_interfaces[m[K’ was not declared in this scope
+[5.095s]      auto response_received_callback = [this](rclcpp::Client<[01;31m[Ksimple_interfaces[m[K::srv::AddThreeInts>::SharedFuture result) {
+[5.096s]                                                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.111s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:97:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.113s]  allback = [this](rclcpp::Client<simple_interfaces::srv::AddThreeInts[01;31m[K>[m[K::SharedFuture result) {
+[5.115s]                                                                      [01;31m[K^[m[K
+[5.120s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:113:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kresult[m[K’
+[5.121s]  s](rclcpp::Client<simple_interfaces::srv::AddThreeInts>::SharedFuture [01;31m[Kresult[m[K) {
+[5.121s]                                                                        [01;31m[K^~~~~~[m[K
+[5.122s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:113:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kresult[m[K’
+[5.123s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:[m[K In lambda function:
+[5.123s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:113:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kresult[m[K’
+[5.124s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ComponentServiceClientExample::send_request()[m[K’:
+[5.125s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:113:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kresult[m[K’
+[5.125s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:31:0[m[K,
+[5.126s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.127s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.127s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.128s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.129s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.129s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.130s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.130s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.136s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8[m[K,
+[5.137s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1[m[K:
+[5.137s] /opt/ros/eloquent/include/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<void (component::ComponentServiceClientExample::send_request()::<lambda(...)>::*)(...) const>[m[K’:
+[5.138s] [01m[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:52:82:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::function_traits<component::ComponentServiceClientExample::send_request()::<lambda(...)> >[m[K’
+[5.138s] [01m[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:138:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::function_traits<component::ComponentServiceClientExample::send_request()::<lambda(...)>&>[m[K’
+[5.138s] [01m[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:161:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<component::ComponentServiceClientExample::send_request()::<lambda(...)>&, std::function<void(std::shared_future<std::pair<std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > > >)> >[m[K’
+[5.139s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:254:17:[m[K   required by substitution of ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<interfaces::srv::Example>::SharedFutureWithRequest rclcpp::Client<interfaces::srv::Example>::async_send_request<CallbackT, <enumerator> >(rclcpp::Client<interfaces::srv::Example>::SharedRequest, CallbackT&&) [with CallbackT = component::ComponentServiceClientExample::send_request()::<lambda(...)>&; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>][m[K’
+[5.139s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:39:97:[m[K   required from here
+[5.141s] [01m[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (component::ComponentServiceClientExample::send_request()::<lambda(...)>::*)(...) const[m[K’
+[5.142s]      typename function_traits<decltype( [01;31m[K&FunctionT[m[K::operator())>::arguments>::type;
+[5.143s]                                         [01;31m[K^~~~~~~~~~[m[K
+[5.143s] [01m[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (component::ComponentServiceClientExample::send_request()::<lambda(...)>::*)(...) const[m[K’
+[5.143s] [01m[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (component::ComponentServiceClientExample::send_request()::<lambda(...)>::*)(...) const[m[K’
+[5.144s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:39:97:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<interfaces::srv::Example>::async_send_request(std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >&, component::ComponentServiceClientExample::send_request()::<lambda(...)>&)[m[K’
+[5.144s]  ult = service_client_->async_send_request(request, response_received_callback[01;31m[K)[m[K;
+[5.145s]                                                                               [01;31m[K^[m[K
+[5.146s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23:0[m[K,
+[5.146s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.146s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.147s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.147s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.148s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.148s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.149s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.149s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8[m[K,
+[5.149s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1[m[K:
+[5.150s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:216:3:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = interfaces::srv::Example; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >; typename ServiceT::Response::SharedPtr = std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > >; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >]
+[5.150s]    [01;36m[Kasync_send_request[m[K(SharedRequest request)
+[5.150s]    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.151s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:216:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[5.151s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:231:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = interfaces::srv::Example]
+[5.151s]    [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[5.152s]    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.152s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:231:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.153s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:228:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Krclcpp::function_traits::same_arguments<component::ComponentServiceClientExample::send_request()::<lambda(...)>&, std::function<void(std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >)> >[m[K’
+[5.153s]      >::type * = [01;31m[Knullptr[m[K
+[5.153s]                  [01;31m[K^~~~~~~[m[K
+[5.154s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:228:17:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[5.154s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:257:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequest rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <enumerator>; ServiceT = interfaces::srv::Example]
+[5.154s]    [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[5.155s]    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.155s] [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:257:3:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[5.155s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:[m[K At global scope:
+[5.156s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:45:78:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeOption[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[5.156s]  ntServiceClientExample::ComponentServiceClientExample(const rclcpp::[01;31m[KNodeOption[m[K & options)
+[5.156s]                                                                      [01;31m[K^~~~~~~~~~[m[K
+[5.157s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:[m[K In constructor ‘[01m[Kcomponent::ComponentServiceClientExample::ComponentServiceClientExample(const int&)[m[K’:
+[5.157s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:46:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(const char [15], const int&)[m[K’
+[5.158s]      : Node("service_client", options[01;31m[K)[m[K{
+[5.158s]                                      [01;31m[K^[m[K
+[5.159s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[5.159s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[5.159s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.160s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8[m[K,
+[5.160s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1[m[K:
+[5.160s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1080:3:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const rclcpp::Node&, const string&)
+[5.161s]    [01;36m[KNode[m[K(
+[5.161s]    [01;36m[K^~~~[m[K
+[5.162s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1080:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [15][m[K’ to ‘[01m[Kconst rclcpp::Node&[m[K’
+[5.162s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)
+[5.162s]    explicit [01;36m[KNode[m[K(
+[5.163s]             [01;36m[K^~~~[m[K
+[5.163s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[5.163s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)
+[5.164s]    explicit [01;36m[KNode[m[K(
+[5.164s]             [01;36m[K^~~~[m[K
+[5.164s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst rclcpp::NodeOptions&[m[K’
+[5.165s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:57:99:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_goal[m[K’ is not a member of ‘[01m[Kcomponent::ComponentServiceClientExample[m[K’
+[5.165s]  (std::chrono::seconds(1), std::bind(&ComponentServiceClientExample::[01;31m[Ksend_goal[m[K,this));
+[5.166s]                                                                      [01;31m[K^~~~~~~~~[m[K
+[6.552s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+[6.552s]                  from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+[6.553s]                  from [01m[K/usr/include/c++/7/memory:63[m[K,
+[6.553s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[6.554s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8[m[K,
+[6.554s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1[m[K:
+[6.554s] /usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = component::ComponentServiceClientExample; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample][m[K’:
+[6.555s] [01m[K/usr/include/c++/7/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = component::ComponentServiceClientExample; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<component::ComponentServiceClientExample>][m[K’
+[6.555s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:526:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample; _Alloc = std::allocator<component::ComponentServiceClientExample>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[6.555s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:637:4:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = component::ComponentServiceClientExample; _Alloc = std::allocator<component::ComponentServiceClientExample>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[6.556s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<component::ComponentServiceClientExample>; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[6.556s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:344:64:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<component::ComponentServiceClientExample>; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample][m[K’
+[6.557s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:690:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = component::ComponentServiceClientExample; _Alloc = std::allocator<component::ComponentServiceClientExample>; _Args = {const rclcpp::NodeOptions&}][m[K’
+[6.557s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:706:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = component::ComponentServiceClientExample; _Args = {const rclcpp::NodeOptions&}][m[K’
+[6.557s] [01m[K/opt/ros/eloquent/include/rclcpp_components/node_factory_template.hpp:45:40:[m[K   required from ‘[01m[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = component::ComponentServiceClientExample][m[K’
+[6.558s] [01m[K/opt/ros/eloquent/include/rclcpp/node_options.hpp:63:3:[m[K   required from here
+[6.558s] [01m[K/usr/include/c++/7/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcomponent::ComponentServiceClientExample::ComponentServiceClientExample(const rclcpp::NodeOptions&)[m[K’
+[6.558s]   { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[6.559s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.559s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:45:3:[m[K [01;36m[Knote: [m[Kcandidate: component::ComponentServiceClientExample::ComponentServiceClientExample(const int&)
+[6.559s]    [01;36m[KComponentServiceClientExample[m[K::ComponentServiceClientExample(const rclcpp::NodeOption & options)
+[6.560s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.560s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:45:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst rclcpp::NodeOptions[m[K’ to ‘[01m[Kconst int&[m[K’
+[6.778s] CMakeFiles/component_service_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o' failed
+[6.779s] make[2]: *** [CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o] Error 1
+[6.779s] make[1]: *** [CMakeFiles/component_service_client_cpp.dir/all] Error 2
+[6.780s] CMakeFiles/Makefile2:208: recipe for target 'CMakeFiles/component_service_client_cpp.dir/all' failed
+[6.780s] Makefile:140: recipe for target 'all' failed
+[6.781s] make: *** [all] Error 2
+[6.791s] Invoked command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example' returned '2': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2

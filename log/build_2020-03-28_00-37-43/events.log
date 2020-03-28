@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.001255] (composition_cpp_example) JobQueued: {'identifier': 'composition_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.003393] (composition_cpp_example) JobStarted: {'identifier': 'composition_cpp_example'}
+[0.063199] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'cmake'}
+[0.066824] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'build'}
+[0.071000] (composition_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2419,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b512f5cd_d853_4304_902b_8e961c09afb9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.73'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.098774] (-) TimerEvent: {}
+[0.199632] (-) TimerEvent: {}
+[0.203240] (composition_cpp_example) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.299851] (-) TimerEvent: {}
+[0.322258] (composition_cpp_example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400035] (-) TimerEvent: {}
+[0.501032] (-) TimerEvent: {}
+[0.602065] (-) TimerEvent: {}
+[0.703010] (-) TimerEvent: {}
+[0.803984] (-) TimerEvent: {}
+[0.904930] (-) TimerEvent: {}
+[1.005940] (-) TimerEvent: {}
+[1.107165] (-) TimerEvent: {}
+[1.127520] (composition_cpp_example) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.182574] (composition_cpp_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.207702] (-) TimerEvent: {}
+[1.309925] (-) TimerEvent: {}
+[1.330700] (composition_cpp_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.345551] (composition_cpp_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.410070] (-) TimerEvent: {}
+[1.491808] (composition_cpp_example) StdoutLine: {'line': b'-- Found rclcpp_components: 0.8.4 (/opt/ros/eloquent/share/rclcpp_components/cmake)\n'}
+[1.499580] (composition_cpp_example) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)\n'}
+[1.510521] (-) TimerEvent: {}
+[1.576931] (composition_cpp_example) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake)\n'}
+[1.610696] (-) TimerEvent: {}
+[1.711832] (-) TimerEvent: {}
+[1.813896] (-) TimerEvent: {}
+[1.915930] (-) TimerEvent: {}
+[2.017800] (-) TimerEvent: {}
+[2.060095] (composition_cpp_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[2.117916] (-) TimerEvent: {}
+[2.218653] (-) TimerEvent: {}
+[2.319537] (-) TimerEvent: {}
+[2.333101] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[2.337709] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.340351] (composition_cpp_example) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jiseongyoo/ros2_examples/src/composition_cpp_example/include\n'}
+[2.344010] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.346445] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.351650] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.354969] (composition_cpp_example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.363951] (composition_cpp_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.419684] (-) TimerEvent: {}
+[2.520463] (-) TimerEvent: {}
+[2.621209] (-) TimerEvent: {}
+[2.705583] (composition_cpp_example) StdoutLine: {'line': b'-- Generating done\n'}
+[2.716767] (composition_cpp_example) StdoutLine: {'line': b'-- Build files have been written to: /home/jiseongyoo/ros2_examples/build/composition_cpp_example\n'}
+[2.721651] (-) TimerEvent: {}
+[2.822500] (-) TimerEvent: {}
+[2.827620] (composition_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target component_service_server_cpp\x1b[0m\n'}
+[2.925381] (-) TimerEvent: {}
+[2.976665] (composition_cpp_example) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/component_service_server_cpp.dir/src/component_service_server_cpp_example.cpp.o\x1b[0m\n'}
+[3.021927] (composition_cpp_example) StdoutLine: {'line': b'[ 30%] Built target component_sub_cpp\n'}
+[3.032716] (-) TimerEvent: {}
+[3.073805] (composition_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target component_service_client_cpp\x1b[0m\n'}
+[3.132898] (-) TimerEvent: {}
+[3.233892] (-) TimerEvent: {}
+[3.314849] (composition_cpp_example) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o\x1b[0m\n'}
+[3.334094] (-) TimerEvent: {}
+[3.435148] (-) TimerEvent: {}
+[3.536193] (-) TimerEvent: {}
+[3.637267] (-) TimerEvent: {}
+[3.738294] (-) TimerEvent: {}
+[3.839346] (-) TimerEvent: {}
+[3.940403] (-) TimerEvent: {}
+[4.041466] (-) TimerEvent: {}
+[4.142522] (-) TimerEvent: {}
+[4.243571] (-) TimerEvent: {}
+[4.344639] (-) TimerEvent: {}
+[4.445703] (-) TimerEvent: {}
+[4.546734] (-) TimerEvent: {}
+[4.647783] (-) TimerEvent: {}
+[4.748849] (-) TimerEvent: {}
+[4.873863] (-) TimerEvent: {}
+[4.974883] (-) TimerEvent: {}
+[5.075939] (-) TimerEvent: {}
+[5.177187] (-) TimerEvent: {}
+[5.278227] (-) TimerEvent: {}
+[5.379280] (-) TimerEvent: {}
+[5.480317] (-) TimerEvent: {}
+[5.581352] (-) TimerEvent: {}
+[5.682411] (-) TimerEvent: {}
+[5.783445] (-) TimerEvent: {}
+[5.884485] (-) TimerEvent: {}
+[5.985570] (-) TimerEvent: {}
+[6.086627] (-) TimerEvent: {}
+[6.187668] (-) TimerEvent: {}
+[6.288695] (-) TimerEvent: {}
+[6.389757] (-) TimerEvent: {}
+[6.490792] (-) TimerEvent: {}
+[6.591857] (-) TimerEvent: {}
+[6.692898] (-) TimerEvent: {}
+[6.793964] (-) TimerEvent: {}
+[6.895011] (-) TimerEvent: {}
+[6.996052] (-) TimerEvent: {}
+[7.097077] (-) TimerEvent: {}
+[7.198152] (-) TimerEvent: {}
+[7.299220] (-) TimerEvent: {}
+[7.400291] (-) TimerEvent: {}
+[7.501355] (-) TimerEvent: {}
+[7.602418] (-) TimerEvent: {}
+[7.703476] (-) TimerEvent: {}
+[7.804537] (-) TimerEvent: {}
+[7.889437] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1:0\x1b[m\x1b[K:\n'}
+[7.890452] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:20:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNodeOption\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.891021] (composition_cpp_example) StderrLine: {'line': b'     ComponentServiceClientExample(const rclcpp::\x1b[01;31m\x1b[KNodeOption\x1b[m\x1b[K & options);\n'}
+[7.891467] (composition_cpp_example) StderrLine: {'line': b'                                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.891928] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:21:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[7.892426] (composition_cpp_example) StderrLine: {'line': b'   }\n'}
+[7.892857] (composition_cpp_example) StderrLine: {'line': b'    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.893321] (composition_cpp_example) StderrLine: {'line': b'    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.904746] (-) TimerEvent: {}
+[7.915328] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid component::ComponentServiceClientExample::send_request()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.916551] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksimple_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.917074] (composition_cpp_example) StderrLine: {'line': b'     auto response_received_callback = [this](rclcpp::Client<\x1b[01;31m\x1b[Ksimple_interfaces\x1b[m\x1b[K::srv::AddThreeInts>::SharedFuture result) {\n'}
+[7.917617] (composition_cpp_example) StderrLine: {'line': b'                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.932686] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.933910] (composition_cpp_example) StderrLine: {'line': b'     auto response_received_callback = [this](rclcpp::Client<simple_interfaces::srv::AddThreeInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedFuture result) {\n'}
+[7.937942] (composition_cpp_example) StderrLine: {'line': b'                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.938491] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.938962] (composition_cpp_example) StderrLine: {'line': b'     auto response_received_callback = [this](rclcpp::Client<simple_interfaces::srv::AddThreeInts>::SharedFuture \x1b[01;31m\x1b[Kresult\x1b[m\x1b[K) {\n'}
+[7.939403] (composition_cpp_example) StderrLine: {'line': b'                                                                                                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.939859] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.940322] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[7.941006] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.941522] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid component::ComponentServiceClientExample::send_request()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.942012] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:32:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.942468] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:31:0\x1b[m\x1b[K,\n'}
+[7.942911] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[7.943345] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.946499] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[7.946998] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.948155] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[7.957746] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.958220] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.958589] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[7.958940] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[7.959291] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[7.959641] (composition_cpp_example) StderrLine: {'line': b'/opt/ros/eloquent/include/rclcpp/function_traits.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<void (component::ComponentServiceClientExample::send_request()::<lambda(...)>::*)(...) const>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.960009] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:52:82:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<component::ComponentServiceClientExample::send_request()::<lambda(...)> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.960361] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:138:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<component::ComponentServiceClientExample::send_request()::<lambda(...)>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.960739] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:161:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::same_arguments<component::ComponentServiceClientExample::send_request()::<lambda(...)>&, std::function<void(std::shared_future<std::pair<std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > > >)> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.961104] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:254:17:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<interfaces::srv::Example>::SharedFutureWithRequest rclcpp::Client<interfaces::srv::Example>::async_send_request<CallbackT, <enumerator> >(rclcpp::Client<interfaces::srv::Example>::SharedRequest, CallbackT&&) [with CallbackT = component::ComponentServiceClientExample::send_request()::<lambda(...)>&; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.968167] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:39:97:\x1b[m\x1b[K   required from here\n'}
+[7.973620] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperator()\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvoid (component::ComponentServiceClientExample::send_request()::<lambda(...)>::*)(...) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.974114] (composition_cpp_example) StderrLine: {'line': b'     typename function_traits<decltype( \x1b[01;31m\x1b[K&FunctionT\x1b[m\x1b[K::operator())>::arguments>::type;\n'}
+[7.974473] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.974823] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperator()\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvoid (component::ComponentServiceClientExample::send_request()::<lambda(...)>::*)(...) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.975179] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/function_traits.hpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperator()\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvoid (component::ComponentServiceClientExample::send_request()::<lambda(...)>::*)(...) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.975573] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:39:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<interfaces::srv::Example>::async_send_request(std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >&, component::ComponentServiceClientExample::send_request()::<lambda(...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.975937] (composition_cpp_example) StderrLine: {'line': b'     auto future_result = service_client_->async_send_request(request, response_received_callback\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.976288] (composition_cpp_example) StderrLine: {'line': b'                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.976636] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23:0\x1b[m\x1b[K,\n'}
+[7.976984] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.977401] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[7.977757] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.978099] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[7.978448] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.978797] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.979163] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[7.979504] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[7.979846] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[7.980189] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:216:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: rclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = interfaces::srv::Example; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >; typename ServiceT::Response::SharedPtr = std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > >; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >]\n'}
+[7.980589] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request)\n'}
+[7.989859] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.990258] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:216:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.990623] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:231:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = interfaces::srv::Example]\n'}
+[7.991018] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[7.991370] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.991717] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:231:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.992096] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:228:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::function_traits::same_arguments<component::ComponentServiceClientExample::send_request()::<lambda(...)>&, std::function<void(std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >)> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.992484] (composition_cpp_example) StderrLine: {'line': b'     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[7.992829] (composition_cpp_example) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.993198] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:228:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[7.993562] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:257:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequest rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <enumerator>; ServiceT = interfaces::srv::Example]\n'}
+[7.993959] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[7.994330] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.994683] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:257:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  substitution of deduced template arguments resulted in errors seen above\n'}
+[7.995030] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:\x1b[m\x1b[K At global scope:\n'}
+[7.995375] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:45:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNodeOption\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.995743] (composition_cpp_example) StderrLine: {'line': b'   ComponentServiceClientExample::ComponentServiceClientExample(const rclcpp::\x1b[01;31m\x1b[KNodeOption\x1b[m\x1b[K & options){\n'}
+[7.996086] (composition_cpp_example) StderrLine: {'line': b'                                                                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.996424] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcomponent::ComponentServiceClientExample::ComponentServiceClientExample(const int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.996781] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:45:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.001793] (composition_cpp_example) StderrLine: {'line': b'   ComponentServiceClientExample::ComponentServiceClientExample(const rclcpp::NodeOption & options\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[8.002482] (composition_cpp_example) StderrLine: {'line': b'                                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.002857] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[8.003211] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.003569] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[8.003918] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[8.004269] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[8.004616] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:1080:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: rclcpp::Node::Node(const rclcpp::Node&, const string&)\n'}
+[8.004949] (-) TimerEvent: {}
+[8.013397] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[8.014000] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.014358] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:1080:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[8.014743] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: rclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\n'}
+[8.015097] (composition_cpp_example) StderrLine: {'line': b'   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[8.015442] (composition_cpp_example) StderrLine: {'line': b'            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.015780] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[8.016120] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:83:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: rclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\n'}
+[8.016467] (composition_cpp_example) StderrLine: {'line': b'   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[8.016807] (composition_cpp_example) StderrLine: {'line': b'            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.017176] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:83:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[8.017538] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:56:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_goal\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcomponent::ComponentServiceClientExample\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.017895] (composition_cpp_example) StderrLine: {'line': b'     timer_ = create_wall_timer(std::chrono::seconds(1), std::bind(&ComponentServiceClientExample::\x1b[01;31m\x1b[Ksend_goal\x1b[m\x1b[K,this));\n'}
+[8.018262] (composition_cpp_example) StderrLine: {'line': b'                                                                                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.018601] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:45:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[8.018960] (composition_cpp_example) StderrLine: {'line': b'   ComponentServiceClientExample::ComponentServiceClientExample(const rclcpp::NodeOption & \x1b[01;35m\x1b[Koptions\x1b[m\x1b[K){\n'}
+[8.019302] (composition_cpp_example) StderrLine: {'line': b'                                                                                           \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.105223] (-) TimerEvent: {}
+[8.206024] (-) TimerEvent: {}
+[8.306807] (-) TimerEvent: {}
+[8.407598] (-) TimerEvent: {}
+[8.508402] (-) TimerEvent: {}
+[8.609208] (-) TimerEvent: {}
+[8.710195] (-) TimerEvent: {}
+[8.811197] (-) TimerEvent: {}
+[8.912200] (-) TimerEvent: {}
+[9.013268] (-) TimerEvent: {}
+[9.114240] (-) TimerEvent: {}
+[9.215246] (-) TimerEvent: {}
+[9.316252] (-) TimerEvent: {}
+[9.417318] (-) TimerEvent: {}
+[9.518357] (-) TimerEvent: {}
+[9.549707] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0\x1b[m\x1b[K,\n'}
+[9.551973] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.552806] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:63\x1b[m\x1b[K,\n'}
+[9.553325] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[9.553693] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[9.554043] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[9.554389] (composition_cpp_example) StderrLine: {'line': b'/usr/include/c++/7/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = component::ComponentServiceClientExample; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.554771] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/alloc_traits.h:475:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = component::ComponentServiceClientExample; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<component::ComponentServiceClientExample>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.555128] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:526:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample; _Alloc = std::allocator<component::ComponentServiceClientExample>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.555485] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:637:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = component::ComponentServiceClientExample; _Alloc = std::allocator<component::ComponentServiceClientExample>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.555893] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<component::ComponentServiceClientExample>; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.556250] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:344:64:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<component::ComponentServiceClientExample>; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceClientExample]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.556598] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:690:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = component::ComponentServiceClientExample; _Alloc = std::allocator<component::ComponentServiceClientExample>; _Args = {const rclcpp::NodeOptions&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.556946] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:706:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = component::ComponentServiceClientExample; _Args = {const rclcpp::NodeOptions&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.557341] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_components/node_factory_template.hpp:45:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = component::ComponentServiceClientExample]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.557725] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node_options.hpp:63:3:\x1b[m\x1b[K   required from here\n'}
+[9.558073] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/ext/new_allocator.h:136:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcomponent::ComponentServiceClientExample::ComponentServiceClientExample(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.558439] (composition_cpp_example) StderrLine: {'line': b'  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[9.558784] (composition_cpp_example) StderrLine: {'line': b'    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.559124] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:45:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: component::ComponentServiceClientExample::ComponentServiceClientExample(const int&)\n'}
+[9.559468] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[KComponentServiceClientExample\x1b[m\x1b[K::ComponentServiceClientExample(const rclcpp::NodeOption & options){\n'}
+[9.559807] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.560170] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:45:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.618587] (-) TimerEvent: {}
+[9.719383] (-) TimerEvent: {}
+[9.783928] (composition_cpp_example) StdoutLine: {'line': b"CMakeFiles/component_service_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o' failed\n"}
+[9.784669] (composition_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o] Error 1\n'}
+[9.786494] (composition_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:208: recipe for target 'CMakeFiles/component_service_client_cpp.dir/all' failed\n"}
+[9.787002] (composition_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/component_service_client_cpp.dir/all] Error 2\n'}
+[9.787439] (composition_cpp_example) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[9.819993] (-) TimerEvent: {}
+[9.922065] (-) TimerEvent: {}
+[10.024982] (-) TimerEvent: {}
+[10.128064] (-) TimerEvent: {}
+[10.230934] (-) TimerEvent: {}
+[10.333707] (-) TimerEvent: {}
+[10.436514] (-) TimerEvent: {}
+[10.539365] (-) TimerEvent: {}
+[10.642207] (-) TimerEvent: {}
+[10.744993] (-) TimerEvent: {}
+[10.847911] (-) TimerEvent: {}
+[10.950748] (-) TimerEvent: {}
+[11.053742] (-) TimerEvent: {}
+[11.154825] (-) TimerEvent: {}
+[11.257311] (-) TimerEvent: {}
+[11.358502] (-) TimerEvent: {}
+[11.364714] (composition_cpp_example) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcomponent_service_server_cpp.so\x1b[0m\n'}
+[11.459724] (-) TimerEvent: {}
+[11.560767] (-) TimerEvent: {}
+[11.661839] (-) TimerEvent: {}
+[11.762886] (-) TimerEvent: {}
+[11.863914] (-) TimerEvent: {}
+[11.964940] (-) TimerEvent: {}
+[12.064719] (composition_cpp_example) StdoutLine: {'line': b'[ 50%] Built target component_service_server_cpp\n'}
+[12.066304] (-) TimerEvent: {}
+[12.069678] (composition_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[12.074058] (composition_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[12.077344] (composition_cpp_example) CommandEnded: {'returncode': 2}
+[12.080173] (composition_cpp_example) JobEnded: {'identifier': 'composition_cpp_example', 'rc': 2}
+[12.100087] (-) EventReactorShutdown: {}

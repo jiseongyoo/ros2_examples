@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.009926] (composition_cpp_example) JobQueued: {'identifier': 'composition_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.010238] (composition_cpp_example) JobStarted: {'identifier': 'composition_cpp_example'}
+[0.058878] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'cmake'}
+[0.062112] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'build'}
+[0.065789] (composition_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2419,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b512f5cd_d853_4304_902b_8e961c09afb9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.73'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.092783] (-) TimerEvent: {}
+[0.194122] (-) TimerEvent: {}
+[0.295600] (-) TimerEvent: {}
+[0.335548] (composition_cpp_example) StdoutLine: {'line': b'[ 20%] Built target component_sub_cpp\n'}
+[0.341038] (composition_cpp_example) StdoutLine: {'line': b'[ 40%] Built target component_service_server_cpp\n'}
+[0.384571] (composition_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target component_service_client_cpp\x1b[0m\n'}
+[0.395810] (-) TimerEvent: {}
+[0.454604] (composition_cpp_example) StdoutLine: {'line': b'[ 60%] Built target component_pub_cpp\n'}
+[0.496083] (-) TimerEvent: {}
+[0.588435] (composition_cpp_example) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o\x1b[0m\n'}
+[0.601587] (-) TimerEvent: {}
+[0.702398] (-) TimerEvent: {}
+[0.803732] (-) TimerEvent: {}
+[0.905588] (-) TimerEvent: {}
+[1.007123] (-) TimerEvent: {}
+[1.107877] (-) TimerEvent: {}
+[1.208594] (-) TimerEvent: {}
+[1.309367] (-) TimerEvent: {}
+[1.410140] (-) TimerEvent: {}
+[1.510921] (-) TimerEvent: {}
+[1.611695] (-) TimerEvent: {}
+[1.712489] (-) TimerEvent: {}
+[1.813247] (-) TimerEvent: {}
+[1.914018] (-) TimerEvent: {}
+[2.014783] (-) TimerEvent: {}
+[2.115536] (-) TimerEvent: {}
+[2.216307] (-) TimerEvent: {}
+[2.317579] (-) TimerEvent: {}
+[2.419987] (-) TimerEvent: {}
+[2.520976] (-) TimerEvent: {}
+[2.622133] (-) TimerEvent: {}
+[2.724532] (-) TimerEvent: {}
+[2.825545] (-) TimerEvent: {}
+[2.927012] (-) TimerEvent: {}
+[3.029469] (-) TimerEvent: {}
+[3.130448] (-) TimerEvent: {}
+[3.231421] (-) TimerEvent: {}
+[3.332754] (-) TimerEvent: {}
+[3.435681] (-) TimerEvent: {}
+[3.538490] (-) TimerEvent: {}
+[3.640938] (-) TimerEvent: {}
+[3.741966] (-) TimerEvent: {}
+[3.843341] (-) TimerEvent: {}
+[3.946045] (-) TimerEvent: {}
+[4.048800] (-) TimerEvent: {}
+[4.151828] (-) TimerEvent: {}
+[4.254659] (-) TimerEvent: {}
+[4.357470] (-) TimerEvent: {}
+[4.458810] (-) TimerEvent: {}
+[4.561756] (-) TimerEvent: {}
+[4.664534] (-) TimerEvent: {}
+[4.767560] (-) TimerEvent: {}
+[4.870714] (-) TimerEvent: {}
+[4.978155] (-) TimerEvent: {}
+[5.080397] (-) TimerEvent: {}
+[5.182473] (-) TimerEvent: {}
+[5.201073] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.202767] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.204526] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.204956] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.205342] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.206174] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.206547] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.206900] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.207240] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.207577] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.207943] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.208291] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.208639] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:35:144:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(interfaces::srv::Example_Response_<std::allocator<void> >::_response_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.209002] (composition_cpp_example) StderrLine: {'line': b' e_client_->get_service_name(), std::to_string(result.get()->response\x1b[01;31m\x1b[K)\x1b[m\x1b[K.c_str());\n'}
+[5.209345] (composition_cpp_example) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.209731] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.212064] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.212763] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.213134] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.213529] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.213887] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.214223] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.214564] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.214902] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.215236] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:35:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.215648] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service responsed \'%s\' : %s", service_client_->get_service_name(), std::to_string(result.get()->response).c_str());\n'}
+[5.216026] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.216366] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28:0\x1b[m\x1b[K,\n'}
+[5.216703] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:49\x1b[m\x1b[K,\n'}
+[5.217038] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.217373] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.217998] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.218421] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.218766] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.219121] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter.hpp:236:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::to_string(const rclcpp::Parameter&)\n'}
+[5.219456] (composition_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const rclcpp::Parameter & param);\n'}
+[5.219784] (composition_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.222447] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter.hpp:236:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Parameter&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.223041] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter.hpp:241:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::to_string(const std::vector<rclcpp::Parameter>&)\n'}
+[5.223408] (composition_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const std::vector<rclcpp::Parameter> & parameters);\n'}
+[5.223757] (composition_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.224095] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/parameter.hpp:241:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<rclcpp::Parameter>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.224453] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/string:52:0\x1b[m\x1b[K,\n'}
+[5.224794] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/stdexcept:39\x1b[m\x1b[K,\n'}
+[5.225172] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/array:39\x1b[m\x1b[K,\n'}
+[5.225556] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/tuple:39\x1b[m\x1b[K,\n'}
+[5.225911] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[5.226254] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:80\x1b[m\x1b[K,\n'}
+[5.226595] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.226934] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.227273] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.227611] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6466:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long double)\n'}
+[5.227950] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long double __val)\n'}
+[5.228285] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.228621] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6466:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.228970] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6457:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(double)\n'}
+[5.229326] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(double __val)\n'}
+[5.229709] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.230053] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6457:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.230429] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6448:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(float)\n'}
+[5.230772] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(float __val)\n'}
+[5.231109] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.231445] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6448:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.231806] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6442:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long unsigned int)\n'}
+[5.232162] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[5.232500] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.232849] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6442:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.234123] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6436:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long int)\n'}
+[5.234667] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[5.235121] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.235474] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6436:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.235863] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6430:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long unsigned int)\n'}
+[5.236209] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[5.236547] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.236887] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6430:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.237238] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6425:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long int)\n'}
+[5.237664] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[5.238013] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.238347] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6425:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.238697] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6419:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(unsigned int)\n'}
+[5.239035] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[5.239369] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.239703] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6419:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.240100] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6414:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::__cxx11::string std::__cxx11::to_string(int)\n'}
+[5.240440] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[5.240772] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.241269] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.h:6414:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::srv::Example_Response_<std::allocator<void> >::_response_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.282916] (-) TimerEvent: {}
+[5.384710] (-) TimerEvent: {}
+[5.486270] (-) TimerEvent: {}
+[5.588844] (-) TimerEvent: {}
+[5.691082] (-) TimerEvent: {}
+[5.792684] (-) TimerEvent: {}
+[5.895487] (-) TimerEvent: {}
+[5.998365] (-) TimerEvent: {}
+[6.101028] (-) TimerEvent: {}
+[6.202543] (-) TimerEvent: {}
+[6.305052] (-) TimerEvent: {}
+[6.408017] (-) TimerEvent: {}
+[6.510861] (-) TimerEvent: {}
+[6.613797] (-) TimerEvent: {}
+[6.716585] (-) TimerEvent: {}
+[6.819512] (-) TimerEvent: {}
+[6.922313] (-) TimerEvent: {}
+[7.025088] (-) TimerEvent: {}
+[7.127747] (-) TimerEvent: {}
+[7.230742] (-) TimerEvent: {}
+[7.333593] (-) TimerEvent: {}
+[7.436421] (-) TimerEvent: {}
+[7.538970] (-) TimerEvent: {}
+[7.638962] (composition_cpp_example) StdoutLine: {'line': b"CMakeFiles/component_service_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o' failed\n"}
+[7.639731] (-) TimerEvent: {}
+[7.640125] (composition_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o] Error 1\n'}
+[7.641783] (composition_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/component_service_client_cpp.dir/all] Error 2\n'}
+[7.644251] (composition_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:208: recipe for target 'CMakeFiles/component_service_client_cpp.dir/all' failed\n"}
+[7.648066] (composition_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[7.648456] (composition_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[7.648818] (composition_cpp_example) CommandEnded: {'returncode': 2}
+[7.651553] (composition_cpp_example) JobEnded: {'identifier': 'composition_cpp_example', 'rc': 2}
+[7.663293] (-) EventReactorShutdown: {}

@@ -1,0 +1,53 @@
+[16.680s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[16.681s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:12:31:[m[K [01;31m[Kerror: [m[K‘[01m[KComponentPublisherExample[m[K’ was not declared in this scope
+[16.681s]    auto pub = std::make_shared<[01;31m[KComponentPublisherExample[m[K>(options);
+[16.682s]                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.682s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:12:31:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[16.683s] In file included from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:2:0[m[K:
+[16.683s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_pub_cpp_example.hpp:14:9:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcomponent::ComponentPublisherExample[m[K’
+[16.683s]    class [01;36m[KComponentPublisherExample[m[K : public rclcpp::Node{
+[16.684s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.685s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:12:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(rclcpp::NodeOptions&)[m[K’
+[16.686s]    auto pub = std::make_shared<ComponentPublisherExample>(options[01;31m[K)[m[K;
+[16.686s]                                                                  [01;31m[K^[m[K
+[16.687s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[16.687s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[16.688s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:1[m[K:
+[16.688s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)
+[16.688s]      [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[16.689s]      [01;36m[K^~~~~~~~~~~[m[K
+[16.689s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.690s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:12:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[16.690s]    auto pub = std::make_shared<ComponentPublisherExample>(options[01;31m[K)[m[K;
+[16.691s]                                                                  [01;31m[K^[m[K
+[16.691s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/service.hpp:33:0[m[K,
+[16.691s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:25[m[K,
+[16.692s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[16.692s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[16.693s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[16.693s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[16.694s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.694s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[16.694s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[16.695s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:1[m[K:
+[16.695s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[16.696s]  ename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[16.696s]                                                                      [01;31m[K^[m[K
+[16.696s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:15:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[16.697s]    exec.add_node(pub); [01;36m[KRCLCPP_INFO[m[K(pub->get_logger(), "%s is added to executor", pub->get_name().c_str());
+[16.697s]                        [01;36m[K^~~~~~~~~~~[m[K
+[16.698s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[16.698s]  std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[16.699s]                                                                       [01;31m[K^[m[K
+[16.699s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:15:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[16.699s]    exec.add_node(pub); [01;36m[KRCLCPP_INFO[m[K(pub->get_logger(), "%s is added to executor", pub->get_name().c_str());
+[16.700s]                        [01;36m[K^~~~~~~~~~~[m[K
+[16.700s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[16.701s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[16.701s]                                 [01;31m[K^[m[K
+[16.702s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:15:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[16.702s]    exec.add_node(pub); [01;36m[KRCLCPP_INFO[m[K(pub->get_logger(), "%s is added to executor", pub->get_name().c_str());
+[16.702s]                        [01;36m[K^~~~~~~~~~~[m[K
+[17.294s] make[2]: *** [CMakeFiles/component_container.dir/src/component_container.cpp.o] Error 1
+[17.295s] make[1]: *** [CMakeFiles/component_container.dir/all] Error 2
+[17.296s] make: *** [all] Error 2

@@ -1,0 +1,338 @@
+[0.687s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.687s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5fea1e6828>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5fea1e6828>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5fea1e6be0>)
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.868s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jiseongyoo/ros2_examples'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extensions ['colcon_pkg']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extension 'colcon_pkg'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extensions ['colcon_meta']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extension 'colcon_meta'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extensions ['ros']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_cpp_example) by extension 'ros'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_cpp_example' with type 'ros.ament_cmake' and name 'action_cpp_example'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/param_cpp_example) by extension 'ros'
+[0.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/param_cpp_example' with type 'ros.ament_cmake' and name 'param_cpp_example'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extensions ['colcon_pkg']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_cpp_example) by extension 'ros'
+[0.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pubsub_cpp_example' with type 'ros.ament_cmake' and name 'pubsub_cpp_example'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extension 'ignore_ament_install'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extension 'colcon_meta'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extensions ['ros']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp_example) by extension 'ros'
+[0.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_cpp_example' with type 'ros.ament_cmake' and name 'service_cpp_example'
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.993s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.996s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiseongyoo/ros2_examples/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiseongyoo/ros2_examples/install/interfaces', 'merge_install': False, 'path': '/home/jiseongyoo/ros2_examples/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.008s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'cmake_args' from command line to 'None'
+[1.008s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'cmake_target' from command line to 'None'
+[1.008s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.008s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'param_cpp_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.009s] DEBUG:colcon.colcon_core.verb:Building package 'param_cpp_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiseongyoo/ros2_examples/build/param_cpp_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiseongyoo/ros2_examples/install/param_cpp_example', 'merge_install': False, 'path': '/home/jiseongyoo/ros2_examples/src/param_cpp_example', 'symlink_install': False, 'test_result_base': None}
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'cmake_target' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'action_cpp_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.024s] DEBUG:colcon.colcon_core.verb:Building package 'action_cpp_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiseongyoo/ros2_examples/build/action_cpp_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiseongyoo/ros2_examples/install/action_cpp_example', 'merge_install': False, 'path': '/home/jiseongyoo/ros2_examples/src/action_cpp_example', 'symlink_install': False, 'test_result_base': None}
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'cmake_args' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'cmake_target' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'pubsub_cpp_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.037s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub_cpp_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example', 'merge_install': False, 'path': '/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example', 'symlink_install': False, 'test_result_base': None}
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'cmake_target' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'service_cpp_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.051s] DEBUG:colcon.colcon_core.verb:Building package 'service_cpp_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiseongyoo/ros2_examples/build/service_cpp_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiseongyoo/ros2_examples/install/service_cpp_example', 'merge_install': False, 'path': '/home/jiseongyoo/ros2_examples/src/service_cpp_example', 'symlink_install': False, 'test_result_base': None}
+[1.053s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.061s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.064s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiseongyoo/ros2_examples/src/interfaces' with build type 'ament_cmake'
+[1.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.085s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiseongyoo/ros2_examples/src/interfaces'
+[1.087s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.089s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.105s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.116s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiseongyoo/ros2_examples/src/param_cpp_example' with build type 'ament_cmake'
+[1.121s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiseongyoo/ros2_examples/src/param_cpp_example'
+[1.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.140s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces -- -j2 -l2
+[1.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example -- -j2 -l2
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example -- -j2 -l2
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example --target install -- -j2 -l2
+[2.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(param_cpp_example)
+[2.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example --target install -- -j2 -l2
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/param_cpp_example' for CMake module files
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/param_cpp_example' for CMake config files
+[2.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('param_cpp_example', 'cmake_prefix_path')
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/hook/cmake_prefix_path.ps1'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/hook/cmake_prefix_path.dsv'
+[2.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/hook/cmake_prefix_path.sh'
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/param_cpp_example/lib'
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/param_cpp_example/bin'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/param_cpp_example/lib/pkgconfig/param_cpp_example.pc'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/param_cpp_example/lib/python3.6/site-packages'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/package.ps1'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/package.dsv'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/package.sh'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/package.bash'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/package.zsh'
+[2.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiseongyoo/ros2_examples/install/param_cpp_example/share/colcon-core/packages/param_cpp_example)
+[2.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces -- -j2 -l2
+[3.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces --target install -- -j2 -l2
+[4.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/interfaces' for CMake module files
+[4.949s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/interfaces' for CMake config files
+[4.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces --target install -- -j2 -l2
+[4.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.970s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/interfaces/lib'
+[4.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.978s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/interfaces/bin'
+[4.979s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.979s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages'
+[4.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[4.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[4.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[4.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.ps1'
+[4.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.dsv'
+[4.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.sh'
+[4.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.bash'
+[5.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.zsh'
+[5.002s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiseongyoo/ros2_examples/install/interfaces/share/colcon-core/packages/interfaces)
+[5.007s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiseongyoo/ros2_examples/src/action_cpp_example' with build type 'ament_cmake'
+[5.012s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiseongyoo/ros2_examples/src/action_cpp_example'
+[5.017s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.037s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[5.047s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example' with build type 'ament_cmake'
+[5.053s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example'
+[5.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.056s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.070s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[5.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2
+[5.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_example -- -j2 -l2
+[5.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example' returned '0': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2
+[6.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example --target install -- -j2 -l2
+[7.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_cpp_example)
+[7.246s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/action_cpp_example' for CMake module files
+[7.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example' returned '0': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example --target install -- -j2 -l2
+[7.261s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/action_cpp_example' for CMake config files
+[7.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_cpp_example', 'cmake_prefix_path')
+[7.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/hook/cmake_prefix_path.ps1'
+[7.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/hook/cmake_prefix_path.dsv'
+[7.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/hook/cmake_prefix_path.sh'
+[7.278s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/action_cpp_example/lib'
+[7.285s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/action_cpp_example/bin'
+[7.285s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/action_cpp_example/lib/pkgconfig/action_cpp_example.pc'
+[7.286s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/action_cpp_example/lib/python3.6/site-packages'
+[7.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/package.ps1'
+[7.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/package.dsv'
+[7.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/package.sh'
+[7.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/package.bash'
+[7.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/package.zsh'
+[7.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiseongyoo/ros2_examples/install/action_cpp_example/share/colcon-core/packages/action_cpp_example)
+[7.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiseongyoo/ros2_examples/src/service_cpp_example' with build type 'ament_cmake'
+[7.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiseongyoo/ros2_examples/src/service_cpp_example'
+[7.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.370s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[7.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/service_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/service_cpp_example -- -j2 -l2
+[8.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/service_cpp_example' returned '0': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/service_cpp_example -- -j2 -l2
+[8.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/service_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/service_cpp_example --target install -- -j2 -l2
+[9.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_cpp_example)
+[9.426s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/service_cpp_example' for CMake module files
+[9.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/service_cpp_example' returned '0': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/service_cpp_example --target install -- -j2 -l2
+[9.437s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/service_cpp_example' for CMake config files
+[9.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_cpp_example', 'cmake_prefix_path')
+[9.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/hook/cmake_prefix_path.ps1'
+[9.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/hook/cmake_prefix_path.dsv'
+[9.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/hook/cmake_prefix_path.sh'
+[9.457s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/service_cpp_example/lib'
+[9.458s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/service_cpp_example/bin'
+[9.458s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/service_cpp_example/lib/pkgconfig/service_cpp_example.pc'
+[9.458s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/service_cpp_example/lib/python3.6/site-packages'
+[9.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/package.ps1'
+[9.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/package.dsv'
+[9.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/package.sh'
+[9.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/package.bash'
+[9.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/package.zsh'
+[9.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiseongyoo/ros2_examples/install/service_cpp_example/share/colcon-core/packages/service_cpp_example)
+[22.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example' returned '0': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_example -- -j2 -l2
+[22.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_example --target install -- -j2 -l2
+[23.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub_cpp_example)
+[23.147s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example' for CMake module files
+[23.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example' returned '0': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_example --target install -- -j2 -l2
+[23.154s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example' for CMake config files
+[23.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_cpp_example', 'cmake_prefix_path')
+[23.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/hook/cmake_prefix_path.ps1'
+[23.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/hook/cmake_prefix_path.dsv'
+[23.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/hook/cmake_prefix_path.sh'
+[23.169s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/lib'
+[23.169s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/bin'
+[23.170s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/lib/pkgconfig/pubsub_cpp_example.pc'
+[23.170s] Level 1:colcon.colcon_core.environment:checking '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/lib/python3.6/site-packages'
+[23.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/package.ps1'
+[23.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/package.dsv'
+[23.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/package.sh'
+[23.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/package.bash'
+[23.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/package.zsh'
+[23.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/colcon-core/packages/pubsub_cpp_example)
+[23.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.199s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.233s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.248s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.251s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiseongyoo/ros2_examples/install/local_setup.ps1'
+[23.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiseongyoo/ros2_examples/install/_local_setup_util_ps1.py'
+[23.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiseongyoo/ros2_examples/install/setup.ps1'
+[23.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiseongyoo/ros2_examples/install/local_setup.sh'
+[23.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiseongyoo/ros2_examples/install/_local_setup_util_sh.py'
+[23.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiseongyoo/ros2_examples/install/setup.sh'
+[23.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiseongyoo/ros2_examples/install/local_setup.bash'
+[23.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiseongyoo/ros2_examples/install/setup.bash'
+[23.326s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiseongyoo/ros2_examples/install/local_setup.zsh'
+[23.333s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiseongyoo/ros2_examples/install/setup.zsh'

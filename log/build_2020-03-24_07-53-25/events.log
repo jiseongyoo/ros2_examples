@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.001003] (service_cpp_example) JobQueued: {'identifier': 'service_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.001200] (service_cpp_example) JobStarted: {'identifier': 'service_cpp_example'}
+[0.057003] (service_cpp_example) JobProgress: {'identifier': 'service_cpp_example', 'progress': 'cmake'}
+[0.061077] (service_cpp_example) JobProgress: {'identifier': 'service_cpp_example', 'progress': 'build'}
+[0.063888] (service_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/service_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/service_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2438'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2361,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2361'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77e01214_05b9_4aec_8113_29fc04bcd497'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.68'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/service_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[0.086926] (-) TimerEvent: {}
+[0.187912] (-) TimerEvent: {}
+[0.242003] (service_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target service_server_cpp\x1b[0m\n'}
+[0.288110] (-) TimerEvent: {}
+[0.326077] (service_cpp_example) StdoutLine: {'line': b'[ 50%] Built target service_client_cpp\n'}
+[0.392371] (-) TimerEvent: {}
+[0.429910] (service_cpp_example) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/service_server_cpp.dir/src/service_server_cpp_example.cpp.o\x1b[0m\n'}
+[0.492581] (-) TimerEvent: {}
+[0.593376] (-) TimerEvent: {}
+[0.694162] (-) TimerEvent: {}
+[0.795020] (-) TimerEvent: {}
+[0.895783] (-) TimerEvent: {}
+[0.996545] (-) TimerEvent: {}
+[1.097316] (-) TimerEvent: {}
+[1.198099] (-) TimerEvent: {}
+[1.298889] (-) TimerEvent: {}
+[1.399918] (-) TimerEvent: {}
+[1.523048] (-) TimerEvent: {}
+[1.624179] (-) TimerEvent: {}
+[1.725603] (-) TimerEvent: {}
+[1.828016] (-) TimerEvent: {}
+[1.930493] (-) TimerEvent: {}
+[2.031675] (-) TimerEvent: {}
+[2.132767] (-) TimerEvent: {}
+[2.234149] (-) TimerEvent: {}
+[2.335290] (-) TimerEvent: {}
+[2.437801] (-) TimerEvent: {}
+[2.540337] (-) TimerEvent: {}
+[2.641659] (-) TimerEvent: {}
+[2.743404] (-) TimerEvent: {}
+[2.844620] (-) TimerEvent: {}
+[2.946970] (-) TimerEvent: {}
+[3.049577] (-) TimerEvent: {}
+[3.152140] (-) TimerEvent: {}
+[3.254696] (-) TimerEvent: {}
+[3.357629] (-) TimerEvent: {}
+[3.460517] (-) TimerEvent: {}
+[3.563343] (-) TimerEvent: {}
+[3.665802] (-) TimerEvent: {}
+[3.768107] (-) TimerEvent: {}
+[3.870353] (-) TimerEvent: {}
+[3.973142] (-) TimerEvent: {}
+[4.075676] (-) TimerEvent: {}
+[4.177273] (-) TimerEvent: {}
+[4.278688] (-) TimerEvent: {}
+[4.380989] (-) TimerEvent: {}
+[4.482842] (-) TimerEvent: {}
+[4.584115] (-) TimerEvent: {}
+[4.661035] (service_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/service.hpp:33:0\x1b[m\x1b[K,\n'}
+[4.661756] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[4.662134] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.664645] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[4.665610] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.665977] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[4.666361] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.666733] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.667076] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[4.667414] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[4.667767] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid service_callback(std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.668137] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.668483] (service_cpp_example) StderrLine: {'line': b'   RCLCPP_INFO(\x1b[01;31m\x1b[Kt\x1b[m\x1b[Khis->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.668819] (service_cpp_example) StderrLine: {'line': b'               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.669158] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.670586] (service_cpp_example) StderrLine: {'line': b' ame<typename std::remove_cv<typename std::remove_reference<decltype(\x1b[01;36m\x1b[Klogger\x1b[m\x1b[K)>::type>::type, \\\n'}
+[4.671111] (service_cpp_example) StderrLine: {'line': b'                                                                     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.671560] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.672003] (service_cpp_example) StderrLine: {'line': b'   RCLCPP_INFO(\x1b[01;31m\x1b[Kt\x1b[m\x1b[Khis->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.672439] (service_cpp_example) StderrLine: {'line': b'               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.677075] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.677658] (service_cpp_example) StderrLine: {'line': b' ame<typename std::remove_cv<typename std::remove_reference<decltype(\x1b[01;36m\x1b[Klogger\x1b[m\x1b[K)>::type>::type, \\\n'}
+[4.678104] (service_cpp_example) StderrLine: {'line': b'                                                                     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.678622] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.679120] (service_cpp_example) StderrLine: {'line': b' ename std::remove_cv<typename std::remove_reference<decltype(logger)\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type>::type, \\\n'}
+[4.679566] (service_cpp_example) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.679991] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.680467] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.680905] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.681334] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.681761] (service_cpp_example) StderrLine: {'line': b' std::remove_cv<typename std::remove_reference<decltype(logger)>::type\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type, \\\n'}
+[4.682186] (service_cpp_example) StderrLine: {'line': b'                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.682671] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.683118] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.683573] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.684000] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:538:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.684413] (-) TimerEvent: {}
+[4.684970] (service_cpp_example) StderrLine: {'line': b'       typename ::rclcpp::Logger\x1b[01;31m\x1b[K>\x1b[m\x1b[K::value, \\\n'}
+[4.685547] (service_cpp_example) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.686818] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.687450] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.687896] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.688327] (service_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[4.688750] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.689179] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.690045] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[4.690683] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.691128] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[4.691600] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.692032] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.692468] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[4.692897] (service_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[4.693584] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.694267] (service_cpp_example) StderrLine: {'line': b'   RCLCPP_INFO(\x1b[01;31m\x1b[Kt\x1b[m\x1b[Khis->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.694731] (service_cpp_example) StderrLine: {'line': b'               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.695709] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:70:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.696226] (service_cpp_example) StderrLine: {'line': b'     if (rcutils_logging_logger_is_enabled_for(\x1b[01;36m\x1b[Kname\x1b[m\x1b[K, severity)) { \\\n'}
+[4.696660] (service_cpp_example) StderrLine: {'line': b'                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.697090] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.697541] (service_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[4.697972] (service_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.698436] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.698877] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.699302] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.699721] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.700149] (service_cpp_example) StderrLine: {'line': b'   RCLCPP_INFO(\x1b[01;31m\x1b[Kt\x1b[m\x1b[Khis->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.700606] (service_cpp_example) StderrLine: {'line': b'               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.701031] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.701453] (service_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, \x1b[01;36m\x1b[Kname\x1b[m\x1b[K, __VA_ARGS__); \\\n'}
+[4.701870] (service_cpp_example) StderrLine: {'line': b'                                                          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.702383] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.703503] (service_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[4.704001] (service_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.704473] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.704934] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service is requested \'%s\'", request->request.c_str());\n'}
+[4.705369] (service_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.705791] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.706246] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.706702] (service_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[Knode\x1b[m\x1b[K->create_service<interfaces::srv::Example>("service", &service_callback);\n'}
+[4.707129] (service_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.707547] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:15:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.707975] (service_cpp_example) StderrLine: {'line': b'     node->create_service<interfaces::srv::Example\x1b[01;31m\x1b[K>\x1b[m\x1b[K("service", &service_callback);\n'}
+[4.708401] (service_cpp_example) StderrLine: {'line': b'                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.708823] (service_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:15:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[4.709250] (service_cpp_example) StderrLine: {'line': b'     node->create_service<interfaces::srv::Example>("service", &\x1b[01;35m\x1b[Kservice_callback\x1b[m\x1b[K);\n'}
+[4.709668] (service_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.785048] (-) TimerEvent: {}
+[4.886151] (-) TimerEvent: {}
+[4.988495] (-) TimerEvent: {}
+[5.091105] (-) TimerEvent: {}
+[5.192238] (-) TimerEvent: {}
+[5.293405] (-) TimerEvent: {}
+[5.323778] (service_cpp_example) StdoutLine: {'line': b"CMakeFiles/service_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/service_server_cpp.dir/src/service_server_cpp_example.cpp.o' failed\n"}
+[5.324537] (service_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/service_server_cpp.dir/src/service_server_cpp_example.cpp.o] Error 1\n'}
+[5.325647] (service_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/service_server_cpp.dir/all] Error 2\n'}
+[5.326444] (service_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/service_server_cpp.dir/all' failed\n"}
+[5.329019] (service_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[5.331450] (service_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[5.336789] (service_cpp_example) CommandEnded: {'returncode': 2}
+[5.339561] (service_cpp_example) JobEnded: {'identifier': 'service_cpp_example', 'rc': 2}
+[5.351017] (-) EventReactorShutdown: {}

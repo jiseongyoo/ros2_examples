@@ -1,0 +1,14 @@
+[0.082s] Invoking command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_template': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_template -- -j2 -l2
+[0.265s] [35m[1mScanning dependencies of target pub_cpp[0m
+[0.385s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o[0m
+[4.649s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_template/src/pub_cpp_template.cpp:[m[K In constructor ‘[01m[KpublisherTemplate::publisherTemplate()[m[K’:
+[4.651s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_template/src/pub_cpp_template.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+[4.653s]        500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+[4.654s]                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.817s] CMakeFiles/pub_cpp.dir/build.make:62: recipe for target 'CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o' failed
+[6.819s] make[2]: *** [CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o] Error 1
+[6.820s] make[1]: *** [CMakeFiles/pub_cpp.dir/all] Error 2
+[6.821s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp.dir/all' failed
+[6.822s] Makefile:140: recipe for target 'all' failed
+[6.822s] make: *** [all] Error 2
+[6.827s] Invoked command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_template' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_template -- -j2 -l2

@@ -1,0 +1,10 @@
+[0.334s] [ 50%] [32m[1mLinking CXX executable pub_cpp_template[0m
+[1.112s] CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o: In function `rclcpp::Publisher<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[1.113s] pub_cpp_template.cpp:(.text._ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC2EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE[_ZN6rclcpp9PublisherINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIvEEC5EPNS_15node_interfaces17NodeBaseInterfaceERKS6_RKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS7_EE]+0x6a): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >()'
+[1.141s] collect2: error: ld returned 1 exit status
+[1.151s] CMakeFiles/pub_cpp_template.dir/build.make:129: recipe for target 'pub_cpp_template' failed
+[1.152s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp_template.dir/all' failed
+[1.153s] make[2]: *** [pub_cpp_template] Error 1
+[1.153s] make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2
+[1.153s] Makefile:140: recipe for target 'all' failed
+[1.154s] make: *** [all] Error 2

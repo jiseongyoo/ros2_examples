@@ -1,0 +1,19 @@
+[0.072s] Invoking command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example -- -j2 -l2
+[0.269s] [35m[1mScanning dependencies of target param_server_cpp[0m
+[0.273s] [35m[1mScanning dependencies of target param_client_cpp[0m
+[0.395s] [ 25%] [32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o[0m
+[0.524s] [ 50%] [32mBuilding CXX object CMakeFiles/param_server_cpp.dir/src/param_server_cpp_example.cpp.o[0m
+[5.506s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In constructor ‘[01m[KParameterClientExample::ParameterClientExample()[m[K’:
+[5.507s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:29:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ParameterClientExample[m[K’ has no member named ‘[01m[Kshutdown[m[K’
+[5.508s]      this->[01;31m[Kshutdown[m[K();
+[5.508s]            [01;31m[K^~~~~~~~[m[K
+[6.564s] CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed
+[6.565s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[6.565s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed
+[6.566s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[6.566s] make[1]: *** Waiting for unfinished jobs....
+[6.805s] [ 75%] [32m[1mLinking CXX executable param_server_cpp[0m
+[7.367s] [ 75%] Built target param_server_cpp
+[7.371s] make: *** [all] Error 2
+[7.372s] Makefile:140: recipe for target 'all' failed
+[7.380s] Invoked command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example -- -j2 -l2

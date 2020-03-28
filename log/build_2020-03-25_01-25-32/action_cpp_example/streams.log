@@ -1,0 +1,79 @@
+[0.084s] Invoking command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2
+[0.283s] [35m[1mScanning dependencies of target action_client_cpp[0m
+[0.364s] [ 50%] Built target action_server_cpp
+[0.464s] [ 75%] [32mBuilding CXX object CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o[0m
+[4.903s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ActionClientExample::send_goal()[m[K’:
+[4.911s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:66:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_action::Client<interfaces::action::Example>::async_send_goal(interfaces::action::Example_Goal_<std::allocator<void> >&, std::shared_ptr<rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions>&)[m[K’
+[4.911s]      this->action_client_->async_send_goal(goal, send_goal_options[01;31m[K)[m[K;
+[4.912s]                                                                   [01;31m[K^[m[K
+[4.912s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:36:0[m[K,
+[4.912s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:4[m[K:
+[4.913s] [01m[K/opt/ros/eloquent/include/rclcpp_action/client.hpp:343:3:[m[K [01;36m[Knote: [m[Kcandidate: std::shared_future<typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr> rclcpp_action::Client<ActionT>::async_send_goal(const Goal&, const rclcpp_action::Client<ActionT>::SendGoalOptions&) [with ActionT = interfaces::action::Example; typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::ClientGoalHandle<interfaces::action::Example> >; rclcpp_action::Client<ActionT>::Goal = interfaces::action::Example_Goal_<std::allocator<void> >]
+[4.913s]    [01;36m[Kasync_send_goal[m[K(const Goal & goal, const SendGoalOptions & options = SendGoalOptions())
+[4.913s]    [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.915s] [01m[K/opt/ros/eloquent/include/rclcpp_action/client.hpp:343:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::shared_ptr<rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions>[m[K’ to ‘[01m[Kconst rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions&[m[K’
+[4.916s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:[m[K In constructor ‘[01m[KActionClientExample::ActionClientExample(const rclcpp::NodeOptions&)[m[K’:
+[4.916s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:71:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::create_client<interfaces::action::Example>[m[K’ is not a class member
+[4.917s]       this->action_client_ = this->[01;31m[Krclcpp_action[m[K::create_client<interfaces::action::Example>(
+[4.918s]                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[4.923s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:79:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::create_wall_timer[m[K’ is not a class member
+[4.924s]       this->timer_ = this->[01;31m[Krclcpp[m[K::create_wall_timer(
+[4.924s]                            [01;31m[K^~~~~~[m[K
+[4.942s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:84:94:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::shared_ptr<rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions>[m[K’ and ‘[01m[Krclcpp_action::Client<interfaces::action::Example>::SendGoalOptions[m[K’)
+[4.942s]  ptions = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions([01;31m[K)[m[K;
+[4.943s]                                                                               [01;31m[K^[m[K
+[4.944s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[4.944s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[4.945s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:3[m[K:
+[4.945s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:296:19:[m[K [01;36m[Knote: [m[Kcandidate: std::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions]
+[4.946s]        shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[4.946s]                    [01;36m[K^~~~~~~~[m[K
+[4.947s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:296:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp_action::Client<interfaces::action::Example>::SendGoalOptions[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions>&[m[K’
+[4.947s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:300:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions]
+[4.947s]   [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[4.948s]   [01;36m[K^~~~~~~~[m[K
+[4.948s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:300:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.949s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:84:94:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::Client<interfaces::action::Example>::SendGoalOptions[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[4.949s]  ptions = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions([01;36m[K)[m[K;
+[4.950s]                                                                               [01;36m[K^[m[K
+[4.950s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[4.951s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[4.951s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:3[m[K:
+[4.951s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:309:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions]
+[4.952s]   [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[4.952s]   [01;36m[K^~~~~~~~[m[K
+[4.953s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:309:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.956s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:84:94:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::Client<interfaces::action::Example>::SendGoalOptions[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[4.956s]  ptions = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions([01;36m[K)[m[K;
+[4.957s]                                                                               [01;36m[K^[m[K
+[4.957s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[4.958s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[4.958s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:3[m[K:
+[4.958s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:317:7:[m[K [01;36m[Knote: [m[Kcandidate: std::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions]
+[4.959s]        [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[4.959s]        [01;36m[K^~~~~~~~[m[K
+[4.960s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:317:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp_action::Client<interfaces::action::Example>::SendGoalOptions[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions>&&[m[K’
+[4.960s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:325:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions]
+[4.960s]   [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[4.961s]   [01;36m[K^~~~~~~~[m[K
+[4.961s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:325:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.961s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:84:94:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::Client<interfaces::action::Example>::SendGoalOptions[m[K’ is not derived from ‘[01m[Kstd::shared_ptr<_Tp>[m[K’
+[4.962s]  ptions = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions([01;36m[K)[m[K;
+[4.962s]                                                                               [01;36m[K^[m[K
+[4.962s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[4.963s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[4.963s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:3[m[K:
+[4.963s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:333:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions]
+[4.964s]   [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[4.964s]   [01;36m[K^~~~~~~~[m[K
+[4.964s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:333:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.965s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:84:94:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::Client<interfaces::action::Example>::SendGoalOptions[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[4.965s]  ptions = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions([01;36m[K)[m[K;
+[4.966s]                                                                               [01;36m[K^[m[K
+[5.985s] make[2]: *** [CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o] Error 1
+[5.990s] CMakeFiles/action_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o' failed
+[5.990s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/action_client_cpp.dir/all' failed
+[5.991s] make[1]: *** [CMakeFiles/action_client_cpp.dir/all] Error 2
+[5.994s] make: *** [all] Error 2
+[5.994s] Makefile:140: recipe for target 'all' failed
+[5.996s] Invoked command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example' returned '2': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2

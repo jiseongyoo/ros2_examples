@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.001389] (pub_sub_cpp_template) JobQueued: {'identifier': 'pub_sub_cpp_template', 'dependencies': OrderedDict()}
+[0.001653] (pub_sub_cpp_template) JobStarted: {'identifier': 'pub_sub_cpp_template'}
+[0.054050] (pub_sub_cpp_template) JobProgress: {'identifier': 'pub_sub_cpp_template', 'progress': 'cmake'}
+[0.060464] (pub_sub_cpp_template) JobProgress: {'identifier': 'pub_sub_cpp_template', 'progress': 'build'}
+[0.060783] (pub_sub_cpp_template) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc64aaa8_d6d8_48fa_beab_a266e3d891a2'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.091967] (-) TimerEvent: {}
+[0.193673] (-) TimerEvent: {}
+[0.277502] (pub_sub_cpp_template) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_cpp_template\x1b[0m\n'}
+[0.294284] (-) TimerEvent: {}
+[0.396180] (-) TimerEvent: {}
+[0.443390] (pub_sub_cpp_template) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o\x1b[0m\n'}
+[0.496333] (-) TimerEvent: {}
+[0.597338] (-) TimerEvent: {}
+[0.698344] (-) TimerEvent: {}
+[0.799329] (-) TimerEvent: {}
+[0.900343] (-) TimerEvent: {}
+[1.001355] (-) TimerEvent: {}
+[1.102545] (-) TimerEvent: {}
+[1.204926] (-) TimerEvent: {}
+[1.305942] (-) TimerEvent: {}
+[1.406937] (-) TimerEvent: {}
+[1.507929] (-) TimerEvent: {}
+[1.608929] (-) TimerEvent: {}
+[1.709915] (-) TimerEvent: {}
+[1.810904] (-) TimerEvent: {}
+[1.911905] (-) TimerEvent: {}
+[2.012894] (-) TimerEvent: {}
+[2.114113] (-) TimerEvent: {}
+[2.216733] (-) TimerEvent: {}
+[2.319509] (-) TimerEvent: {}
+[2.422307] (-) TimerEvent: {}
+[2.524801] (-) TimerEvent: {}
+[2.627697] (-) TimerEvent: {}
+[2.730066] (-) TimerEvent: {}
+[2.832542] (-) TimerEvent: {}
+[2.935463] (-) TimerEvent: {}
+[3.038230] (-) TimerEvent: {}
+[3.141039] (-) TimerEvent: {}
+[3.243577] (-) TimerEvent: {}
+[3.346104] (-) TimerEvent: {}
+[3.448721] (-) TimerEvent: {}
+[3.551422] (-) TimerEvent: {}
+[3.653705] (-) TimerEvent: {}
+[3.756595] (-) TimerEvent: {}
+[3.858943] (-) TimerEvent: {}
+[3.961425] (-) TimerEvent: {}
+[4.063650] (-) TimerEvent: {}
+[4.164392] (-) TimerEvent: {}
+[4.265608] (-) TimerEvent: {}
+[4.368442] (-) TimerEvent: {}
+[4.471424] (-) TimerEvent: {}
+[4.574167] (-) TimerEvent: {}
+[4.676993] (-) TimerEvent: {}
+[4.779303] (-) TimerEvent: {}
+[4.883061] (-) TimerEvent: {}
+[4.986015] (-) TimerEvent: {}
+[5.088763] (-) TimerEvent: {}
+[5.191252] (-) TimerEvent: {}
+[5.292599] (-) TimerEvent: {}
+[5.396375] (-) TimerEvent: {}
+[5.497375] (-) TimerEvent: {}
+[5.598468] (-) TimerEvent: {}
+[5.699450] (-) TimerEvent: {}
+[5.800445] (-) TimerEvent: {}
+[5.901440] (-) TimerEvent: {}
+[6.002446] (-) TimerEvent: {}
+[6.103435] (-) TimerEvent: {}
+[6.204490] (-) TimerEvent: {}
+[6.306102] (-) TimerEvent: {}
+[6.408963] (-) TimerEvent: {}
+[6.511687] (-) TimerEvent: {}
+[6.614318] (-) TimerEvent: {}
+[6.717295] (-) TimerEvent: {}
+[6.819861] (-) TimerEvent: {}
+[6.921334] (-) TimerEvent: {}
+[7.024225] (-) TimerEvent: {}
+[7.126970] (-) TimerEvent: {}
+[7.229546] (-) TimerEvent: {}
+[7.332503] (-) TimerEvent: {}
+[7.435345] (-) TimerEvent: {}
+[7.537884] (-) TimerEvent: {}
+[7.640573] (-) TimerEvent: {}
+[7.741699] (-) TimerEvent: {}
+[7.844668] (-) TimerEvent: {}
+[7.947111] (-) TimerEvent: {}
+[8.050001] (-) TimerEvent: {}
+[8.152414] (-) TimerEvent: {}
+[8.255298] (-) TimerEvent: {}
+[8.358067] (-) TimerEvent: {}
+[8.460646] (-) TimerEvent: {}
+[8.563334] (-) TimerEvent: {}
+[8.666054] (-) TimerEvent: {}
+[8.768281] (-) TimerEvent: {}
+[8.871365] (-) TimerEvent: {}
+[8.974223] (-) TimerEvent: {}
+[9.077085] (-) TimerEvent: {}
+[9.180004] (-) TimerEvent: {}
+[9.282897] (-) TimerEvent: {}
+[9.385706] (-) TimerEvent: {}
+[9.488577] (-) TimerEvent: {}
+[9.591056] (-) TimerEvent: {}
+[9.692472] (-) TimerEvent: {}
+[9.795980] (-) TimerEvent: {}
+[9.899364] (-) TimerEvent: {}
+[9.917954] (pub_sub_cpp_template) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_cpp_template\x1b[0m\n'}
+[9.999590] (-) TimerEvent: {}
+[10.100661] (-) TimerEvent: {}
+[10.201512] (-) TimerEvent: {}
+[10.302834] (-) TimerEvent: {}
+[10.405755] (-) TimerEvent: {}
+[10.508680] (-) TimerEvent: {}
+[10.611394] (-) TimerEvent: {}
+[10.627196] (pub_sub_cpp_template) StderrLine: {'line': b"CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o: In function `rclcpp::Publisher<int, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':\n"}
+[10.628190] (pub_sub_cpp_template) StderrLine: {'line': b"pub_cpp_template.cpp:(.text._ZN6rclcpp9PublisherIiSaIvEEC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS1_EE[_ZN6rclcpp9PublisherIiSaIvEEC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS1_EE]+0x6a): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<int>()'\n"}
+[10.643219] (pub_sub_cpp_template) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[10.648135] (pub_sub_cpp_template) StdoutLine: {'line': b"CMakeFiles/pub_cpp_template.dir/build.make:129: recipe for target 'pub_cpp_template' failed\n"}
+[10.649391] (pub_sub_cpp_template) StdoutLine: {'line': b"CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp_template.dir/all' failed\n"}
+[10.655897] (pub_sub_cpp_template) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[10.656901] (pub_sub_cpp_template) StderrLine: {'line': b'make[2]: *** [pub_cpp_template] Error 1\n'}
+[10.658343] (pub_sub_cpp_template) StderrLine: {'line': b'make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2\n'}
+[10.658799] (pub_sub_cpp_template) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[10.660445] (pub_sub_cpp_template) CommandEnded: {'returncode': 2}
+[10.663139] (pub_sub_cpp_template) JobEnded: {'identifier': 'pub_sub_cpp_template', 'rc': 2}
+[10.676995] (-) EventReactorShutdown: {}

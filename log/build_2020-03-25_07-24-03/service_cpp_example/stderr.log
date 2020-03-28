@@ -1,0 +1,25 @@
+[4.626s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ServiceClientExample::send_request()[m[K’:
+[4.628s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(ServiceClientExample*, std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >&)[m[K’
+[4.631s]      if (rclcpp::spin_until_future_complete(this, response[01;31m[K)[m[K == rclcpp::executor::FutureReturnCode::SUCCESS){
+[4.633s]                                                           [01;31m[K^[m[K
+[4.633s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0[m[K,
+[4.634s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:14[m[K:
+[4.635s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+[4.636s]  [01;36m[Kspin_until_future_complete[m[K(
+[4.636s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.637s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.637s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:58:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(ServiceClientExample*)this[m[K’ (type ‘[01m[KServiceClientExample*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr {aka std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>}[m[K’
+[4.638s]      if (rclcpp::spin_until_future_complete(this, response[01;36m[K)[m[K == rclcpp::executor::FutureReturnCode::SUCCESS){
+[4.639s]                                                           [01;36m[K^[m[K
+[4.639s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0[m[K,
+[4.640s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:14[m[K:
+[4.641s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+[4.641s]  [01;36m[Kspin_until_future_complete[m[K(
+[4.641s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.642s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.642s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KServiceClientExample*[m[K’
+[4.643s]      if (rclcpp::spin_until_future_complete(this, response[01;36m[K)[m[K == rclcpp::executor::FutureReturnCode::SUCCESS){
+[4.646s]                                                           [01;36m[K^[m[K
+[6.083s] make[2]: *** [CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o] Error 1
+[6.086s] make[1]: *** [CMakeFiles/service_client_cpp.dir/all] Error 2
+[6.087s] make: *** [all] Error 2

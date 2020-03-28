@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.001551] (composition_cpp_example) JobQueued: {'identifier': 'composition_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.002973] (composition_cpp_example) JobStarted: {'identifier': 'composition_cpp_example'}
+[0.062827] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'cmake'}
+[0.067203] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'build'}
+[0.072166] (composition_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2419,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b512f5cd_d853_4304_902b_8e961c09afb9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.73'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.098775] (-) TimerEvent: {}
+[0.200229] (-) TimerEvent: {}
+[0.301255] (-) TimerEvent: {}
+[0.341872] (composition_cpp_example) StdoutLine: {'line': b'[ 12%] Built target component_service_client_cpp\n'}
+[0.347101] (composition_cpp_example) StdoutLine: {'line': b'[ 25%] Built target component_service_server_cpp\n'}
+[0.401469] (-) TimerEvent: {}
+[0.459703] (composition_cpp_example) StdoutLine: {'line': b'[ 37%] Built target component_sub_cpp\n'}
+[0.471950] (composition_cpp_example) StdoutLine: {'line': b'[ 50%] Built target component_action_client_cpp\n'}
+[0.501686] (-) TimerEvent: {}
+[0.520424] (composition_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target component_parameter_server_cpp\x1b[0m\n'}
+[0.601900] (-) TimerEvent: {}
+[0.627503] (composition_cpp_example) StdoutLine: {'line': b'[ 62%] Built target component_action_server_cpp\n'}
+[0.689959] (composition_cpp_example) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/component_parameter_server_cpp.dir/src/component_parameter_server_cpp_example.cpp.o\x1b[0m\n'}
+[0.702138] (-) TimerEvent: {}
+[0.793283] (composition_cpp_example) StdoutLine: {'line': b'[ 81%] Built target component_pub_cpp\n'}
+[0.802359] (-) TimerEvent: {}
+[0.903444] (-) TimerEvent: {}
+[1.004178] (-) TimerEvent: {}
+[1.104906] (-) TimerEvent: {}
+[1.206318] (-) TimerEvent: {}
+[1.313013] (-) TimerEvent: {}
+[1.415438] (-) TimerEvent: {}
+[1.516434] (-) TimerEvent: {}
+[1.617766] (-) TimerEvent: {}
+[1.720752] (-) TimerEvent: {}
+[1.823234] (-) TimerEvent: {}
+[1.924221] (-) TimerEvent: {}
+[2.025607] (-) TimerEvent: {}
+[2.128500] (-) TimerEvent: {}
+[2.231297] (-) TimerEvent: {}
+[2.334092] (-) TimerEvent: {}
+[2.436913] (-) TimerEvent: {}
+[2.539184] (-) TimerEvent: {}
+[2.640784] (-) TimerEvent: {}
+[2.743653] (-) TimerEvent: {}
+[2.846655] (-) TimerEvent: {}
+[2.949415] (-) TimerEvent: {}
+[3.052294] (-) TimerEvent: {}
+[3.155165] (-) TimerEvent: {}
+[3.257252] (-) TimerEvent: {}
+[3.360116] (-) TimerEvent: {}
+[3.462969] (-) TimerEvent: {}
+[3.565603] (-) TimerEvent: {}
+[3.667892] (-) TimerEvent: {}
+[3.770077] (-) TimerEvent: {}
+[3.872718] (-) TimerEvent: {}
+[3.975530] (-) TimerEvent: {}
+[4.078072] (-) TimerEvent: {}
+[4.180444] (-) TimerEvent: {}
+[4.283120] (-) TimerEvent: {}
+[4.385284] (-) TimerEvent: {}
+[4.487951] (-) TimerEvent: {}
+[4.590917] (-) TimerEvent: {}
+[4.693713] (-) TimerEvent: {}
+[4.797922] (-) TimerEvent: {}
+[4.900446] (-) TimerEvent: {}
+[5.003443] (-) TimerEvent: {}
+[5.106301] (-) TimerEvent: {}
+[5.209248] (-) TimerEvent: {}
+[5.312078] (-) TimerEvent: {}
+[5.414701] (-) TimerEvent: {}
+[5.518365] (-) TimerEvent: {}
+[5.621173] (-) TimerEvent: {}
+[5.724096] (-) TimerEvent: {}
+[5.826790] (-) TimerEvent: {}
+[5.929699] (-) TimerEvent: {}
+[6.032004] (-) TimerEvent: {}
+[6.133054] (-) TimerEvent: {}
+[6.234051] (-) TimerEvent: {}
+[6.335020] (-) TimerEvent: {}
+[6.437761] (-) TimerEvent: {}
+[6.540751] (-) TimerEvent: {}
+[6.643241] (-) TimerEvent: {}
+[6.744215] (-) TimerEvent: {}
+[6.762600] (composition_cpp_example) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libcomponent_parameter_server_cpp.so\x1b[0m\n'}
+[6.844726] (-) TimerEvent: {}
+[6.947238] (-) TimerEvent: {}
+[7.050094] (-) TimerEvent: {}
+[7.153125] (-) TimerEvent: {}
+[7.255997] (-) TimerEvent: {}
+[7.327273] (composition_cpp_example) StdoutLine: {'line': b'[ 87%] Built target component_parameter_server_cpp\n'}
+[7.356152] (-) TimerEvent: {}
+[7.382681] (composition_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target component_container\x1b[0m\n'}
+[7.456345] (-) TimerEvent: {}
+[7.528244] (composition_cpp_example) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/component_container.dir/src/component_container.cpp.o\x1b[0m\n'}
+[7.556628] (-) TimerEvent: {}
+[7.657536] (-) TimerEvent: {}
+[7.758324] (-) TimerEvent: {}
+[7.859055] (-) TimerEvent: {}
+[7.959806] (-) TimerEvent: {}
+[8.060520] (-) TimerEvent: {}
+[8.161260] (-) TimerEvent: {}
+[8.262023] (-) TimerEvent: {}
+[8.362805] (-) TimerEvent: {}
+[8.463577] (-) TimerEvent: {}
+[8.564808] (-) TimerEvent: {}
+[8.666919] (-) TimerEvent: {}
+[8.769193] (-) TimerEvent: {}
+[8.871395] (-) TimerEvent: {}
+[8.973157] (-) TimerEvent: {}
+[9.074429] (-) TimerEvent: {}
+[9.176512] (-) TimerEvent: {}
+[9.278528] (-) TimerEvent: {}
+[9.380611] (-) TimerEvent: {}
+[9.482663] (-) TimerEvent: {}
+[9.584794] (-) TimerEvent: {}
+[9.686975] (-) TimerEvent: {}
+[9.789207] (-) TimerEvent: {}
+[9.891458] (-) TimerEvent: {}
+[9.994783] (-) TimerEvent: {}
+[10.096917] (-) TimerEvent: {}
+[10.198595] (-) TimerEvent: {}
+[10.300526] (-) TimerEvent: {}
+[10.402563] (-) TimerEvent: {}
+[10.504717] (-) TimerEvent: {}
+[10.606584] (-) TimerEvent: {}
+[10.709765] (-) TimerEvent: {}
+[10.812187] (-) TimerEvent: {}
+[10.914472] (-) TimerEvent: {}
+[11.016564] (-) TimerEvent: {}
+[11.118693] (-) TimerEvent: {}
+[11.220745] (-) TimerEvent: {}
+[11.322973] (-) TimerEvent: {}
+[11.425098] (-) TimerEvent: {}
+[11.526941] (-) TimerEvent: {}
+[11.627744] (-) TimerEvent: {}
+[11.728557] (-) TimerEvent: {}
+[11.829373] (-) TimerEvent: {}
+[11.930204] (-) TimerEvent: {}
+[12.031006] (-) TimerEvent: {}
+[12.132017] (-) TimerEvent: {}
+[12.233037] (-) TimerEvent: {}
+[12.334079] (-) TimerEvent: {}
+[12.435563] (-) TimerEvent: {}
+[12.538247] (-) TimerEvent: {}
+[12.640222] (-) TimerEvent: {}
+[12.743016] (-) TimerEvent: {}
+[12.845924] (-) TimerEvent: {}
+[12.948803] (-) TimerEvent: {}
+[13.049690] (-) TimerEvent: {}
+[13.151128] (-) TimerEvent: {}
+[13.254002] (-) TimerEvent: {}
+[13.357083] (-) TimerEvent: {}
+[13.459908] (-) TimerEvent: {}
+[13.562335] (-) TimerEvent: {}
+[13.663361] (-) TimerEvent: {}
+[13.764138] (-) TimerEvent: {}
+[13.865282] (-) TimerEvent: {}
+[13.968278] (-) TimerEvent: {}
+[14.070612] (-) TimerEvent: {}
+[14.173420] (-) TimerEvent: {}
+[14.276302] (-) TimerEvent: {}
+[14.379279] (-) TimerEvent: {}
+[14.482085] (-) TimerEvent: {}
+[14.585104] (-) TimerEvent: {}
+[14.688034] (-) TimerEvent: {}
+[14.790874] (-) TimerEvent: {}
+[14.893386] (-) TimerEvent: {}
+[14.995909] (-) TimerEvent: {}
+[15.025246] (composition_cpp_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable component_container\x1b[0m\n'}
+[15.096340] (-) TimerEvent: {}
+[15.197958] (-) TimerEvent: {}
+[15.300626] (-) TimerEvent: {}
+[15.402026] (-) TimerEvent: {}
+[15.504924] (-) TimerEvent: {}
+[15.608033] (-) TimerEvent: {}
+[15.711106] (-) TimerEvent: {}
+[15.813766] (-) TimerEvent: {}
+[15.916093] (-) TimerEvent: {}
+[16.017370] (-) TimerEvent: {}
+[16.120420] (-) TimerEvent: {}
+[16.223257] (-) TimerEvent: {}
+[16.326290] (-) TimerEvent: {}
+[16.428847] (-) TimerEvent: {}
+[16.531457] (-) TimerEvent: {}
+[16.607743] (composition_cpp_example) StdoutLine: {'line': b'[100%] Built target component_container\n'}
+[16.631691] (-) TimerEvent: {}
+[16.651909] (composition_cpp_example) CommandEnded: {'returncode': 0}
+[16.732067] (-) TimerEvent: {}
+[16.833417] (-) TimerEvent: {}
+[16.864033] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'install'}
+[16.909328] (composition_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2419,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b512f5cd_d853_4304_902b_8e961c09afb9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.73'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[16.933775] (-) TimerEvent: {}
+[17.034839] (-) TimerEvent: {}
+[17.135603] (-) TimerEvent: {}
+[17.150515] (composition_cpp_example) StdoutLine: {'line': b'[ 12%] Built target component_service_client_cpp\n'}
+[17.168898] (composition_cpp_example) StdoutLine: {'line': b'[ 25%] Built target component_service_server_cpp\n'}
+[17.235816] (-) TimerEvent: {}
+[17.261613] (composition_cpp_example) StdoutLine: {'line': b'[ 37%] Built target component_sub_cpp\n'}
+[17.294768] (composition_cpp_example) StdoutLine: {'line': b'[ 50%] Built target component_action_client_cpp\n'}
+[17.336021] (-) TimerEvent: {}
+[17.379772] (composition_cpp_example) StdoutLine: {'line': b'[ 62%] Built target component_action_server_cpp\n'}
+[17.411503] (composition_cpp_example) StdoutLine: {'line': b'[ 75%] Built target component_parameter_server_cpp\n'}
+[17.436229] (-) TimerEvent: {}
+[17.505875] (composition_cpp_example) StdoutLine: {'line': b'[ 87%] Built target component_pub_cpp\n'}
+[17.536440] (-) TimerEvent: {}
+[17.637245] (-) TimerEvent: {}
+[17.670843] (composition_cpp_example) StdoutLine: {'line': b'[100%] Built target component_container\n'}
+[17.737829] (-) TimerEvent: {}
+[17.757722] (composition_cpp_example) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[17.800520] (composition_cpp_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.805150] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/libcomponent_pub_cpp.so\n'}
+[17.809663] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/libcomponent_sub_cpp.so\n'}
+[17.814254] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/libcomponent_service_server_cpp.so\n'}
+[17.816361] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/libcomponent_service_client_cpp.so\n'}
+[17.817655] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/libcomponent_action_server_cpp.so\n'}
+[17.819815] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/libcomponent_action_client_cpp.so\n'}
+[17.822257] (composition_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/libcomponent_parameter_server_cpp.so\n'}
+[17.823960] (composition_cpp_example) StdoutLine: {'line': b'-- Set runtime path of "/home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/libcomponent_parameter_server_cpp.so" to ""\n'}
+[17.826624] (composition_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/composition_cpp_example/component_container\n'}
+[17.829001] (composition_cpp_example) StdoutLine: {'line': b'-- Set runtime path of "/home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib/composition_cpp_example/component_container" to ""\n'}
+[17.831258] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/ament_index/resource_index/package_run_dependencies/composition_cpp_example\n'}
+[17.832569] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/ament_index/resource_index/parent_prefix_path/composition_cpp_example\n'}
+[17.833446] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/environment/ament_prefix_path.sh\n'}
+[17.833986] (composition_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/environment/ament_prefix_path.dsv\n'}
+[17.834491] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/environment/path.sh\n'}
+[17.834964] (composition_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/environment/path.dsv\n'}
+[17.835418] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/local_setup.bash\n'}
+[17.835874] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/local_setup.sh\n'}
+[17.836326] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/local_setup.zsh\n'}
+[17.837566] (composition_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/local_setup.dsv\n'}
+[17.838074] (-) TimerEvent: {}
+[17.838532] (composition_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/package.dsv\n'}
+[17.839082] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/ament_index/resource_index/packages/composition_cpp_example\n'}
+[17.839540] (composition_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/ament_index/resource_index/rclcpp_components/composition_cpp_example\n'}
+[17.840009] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/cmake/composition_cpp_exampleConfig.cmake\n'}
+[17.840465] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/cmake/composition_cpp_exampleConfig-version.cmake\n'}
+[17.840940] (composition_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/composition_cpp_example/share/composition_cpp_example/package.xml\n'}
+[17.847164] (composition_cpp_example) CommandEnded: {'returncode': 0}
+[17.935019] (composition_cpp_example) JobEnded: {'identifier': 'composition_cpp_example', 'rc': 0}
+[17.944572] (-) TimerEvent: {}
+[17.944969] (-) EventReactorShutdown: {}

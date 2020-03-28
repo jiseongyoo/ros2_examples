@@ -1,0 +1,776 @@
+[0.000000] (-) TimerEvent: {}
+[0.008413] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.009175] (param_cpp_example) JobQueued: {'identifier': 'param_cpp_example', 'dependencies': OrderedDict()}
+[0.009533] (action_cpp_example) JobQueued: {'identifier': 'action_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.009667] (pubsub_cpp_example) JobQueued: {'identifier': 'pubsub_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.011127] (service_cpp_example) JobQueued: {'identifier': 'service_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.011926] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.054349] (param_cpp_example) JobStarted: {'identifier': 'param_cpp_example'}
+[0.092980] (-) TimerEvent: {}
+[0.104971] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.110553] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.115194] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/interfaces', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[0.150275] (param_cpp_example) JobProgress: {'identifier': 'param_cpp_example', 'progress': 'cmake'}
+[0.153899] (param_cpp_example) JobProgress: {'identifier': 'param_cpp_example', 'progress': 'build'}
+[0.155146] (param_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/param_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/param_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/param_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[0.193133] (-) TimerEvent: {}
+[0.294103] (-) TimerEvent: {}
+[0.394953] (-) TimerEvent: {}
+[0.445827] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__cpp\n'}
+[0.495167] (-) TimerEvent: {}
+[0.499398] (interfaces) StdoutLine: {'line': b'[ 13%] Built target interfaces__rosidl_generator_c\n'}
+[0.522804] (param_cpp_example) StdoutLine: {'line': b'[ 50%] Built target param_server_cpp\n'}
+[0.543046] (param_cpp_example) StdoutLine: {'line': b'[100%] Built target param_client_cpp\n'}
+[0.587722] (param_cpp_example) CommandEnded: {'returncode': 0}
+[0.595936] (-) TimerEvent: {}
+[0.682215] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.695942] (-) TimerEvent: {}
+[0.702383] (interfaces) StdoutLine: {'line': b'[ 36%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.789388] (param_cpp_example) JobProgress: {'identifier': 'param_cpp_example', 'progress': 'install'}
+[0.796758] (-) TimerEvent: {}
+[0.831350] (interfaces) StdoutLine: {'line': b'[ 47%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.864677] (interfaces) StdoutLine: {'line': b'[ 59%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.917058] (param_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/param_cpp_example', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/param_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/param_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[0.921374] (-) TimerEvent: {}
+[1.031642] (-) TimerEvent: {}
+[1.051312] (interfaces) StdoutLine: {'line': b'[ 71%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[1.131840] (-) TimerEvent: {}
+[1.151131] (interfaces) StdoutLine: {'line': b'[ 82%] Built target interfaces__rosidl_typesupport_c\n'}
+[1.186203] (param_cpp_example) StdoutLine: {'line': b'[ 50%] Built target param_client_cpp\n'}
+[1.209688] (param_cpp_example) StdoutLine: {'line': b'[100%] Built target param_server_cpp\n'}
+[1.232043] (-) TimerEvent: {}
+[1.267852] (interfaces) StdoutLine: {'line': b'[ 82%] Built target interfaces\n'}
+[1.287182] (param_cpp_example) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[1.328721] (param_cpp_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.329946] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/lib/param_cpp_example/param_server_cpp\n'}
+[1.332037] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/lib/param_cpp_example/param_client_cpp\n'}
+[1.332595] (-) TimerEvent: {}
+[1.333290] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/ament_index/resource_index/package_run_dependencies/param_cpp_example\n'}
+[1.333990] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/ament_index/resource_index/parent_prefix_path/param_cpp_example\n'}
+[1.334649] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/environment/ament_prefix_path.sh\n'}
+[1.335229] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/environment/ament_prefix_path.dsv\n'}
+[1.335782] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/environment/path.sh\n'}
+[1.336344] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/environment/path.dsv\n'}
+[1.336714] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/local_setup.bash\n'}
+[1.337066] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/local_setup.sh\n'}
+[1.337714] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/local_setup.zsh\n'}
+[1.338213] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/local_setup.dsv\n'}
+[1.338674] (param_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/package.dsv\n'}
+[1.339052] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/ament_index/resource_index/packages/param_cpp_example\n'}
+[1.339404] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/cmake/param_cpp_exampleConfig.cmake\n'}
+[1.339754] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/cmake/param_cpp_exampleConfig-version.cmake\n'}
+[1.340109] (param_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/param_cpp_example/share/param_cpp_example/package.xml\n'}
+[1.349283] (param_cpp_example) CommandEnded: {'returncode': 0}
+[1.371221] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__py\n'}
+[1.423275] (param_cpp_example) JobEnded: {'identifier': 'param_cpp_example', 'rc': 0}
+[1.432765] (-) TimerEvent: {}
+[1.509398] (interfaces) StdoutLine: {'line': b'[ 94%] Built target interfaces__python\n'}
+[1.533135] (-) TimerEvent: {}
+[1.634300] (-) TimerEvent: {}
+[1.646302] (interfaces) StdoutLine: {'line': b'[ 97%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[1.656183] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.712274] (interfaces) CommandEnded: {'returncode': 0}
+[1.734982] (-) TimerEvent: {}
+[1.836199] (-) TimerEvent: {}
+[1.937034] (-) TimerEvent: {}
+[2.038396] (-) TimerEvent: {}
+[2.139259] (-) TimerEvent: {}
+[2.240508] (-) TimerEvent: {}
+[2.304144] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[2.306282] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/interfaces', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[2.341120] (-) TimerEvent: {}
+[2.444461] (-) TimerEvent: {}
+[2.546329] (-) TimerEvent: {}
+[2.566363] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__cpp\n'}
+[2.571196] (interfaces) StdoutLine: {'line': b'[ 13%] Built target interfaces__rosidl_generator_c\n'}
+[2.646600] (-) TimerEvent: {}
+[2.672478] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.694316] (interfaces) StdoutLine: {'line': b'[ 36%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.746791] (-) TimerEvent: {}
+[2.776384] (interfaces) StdoutLine: {'line': b'[ 47%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[2.817506] (interfaces) StdoutLine: {'line': b'[ 59%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.846993] (-) TimerEvent: {}
+[2.892854] (interfaces) StdoutLine: {'line': b'[ 71%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[2.929309] (interfaces) StdoutLine: {'line': b'[ 82%] Built target interfaces__rosidl_typesupport_c\n'}
+[2.947198] (-) TimerEvent: {}
+[3.041974] (interfaces) StdoutLine: {'line': b'[ 82%] Built target interfaces\n'}
+[3.047390] (-) TimerEvent: {}
+[3.148328] (-) TimerEvent: {}
+[3.150299] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__py\n'}
+[3.248788] (-) TimerEvent: {}
+[3.270583] (interfaces) StdoutLine: {'line': b'[ 94%] Built target interfaces__python\n'}
+[3.349035] (-) TimerEvent: {}
+[3.378089] (interfaces) StdoutLine: {'line': b'[ 97%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[3.392830] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.449650] (-) TimerEvent: {}
+[3.494401] (interfaces) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[3.550386] (-) TimerEvent: {}
+[3.556780] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.559037] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[3.561109] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[3.564158] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[3.565808] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[3.567435] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[3.568544] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces\n'}
+[3.569274] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg\n'}
+[3.569984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_c.h\n'}
+[3.570571] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__rosidl_typesupport_fastrtps_c.h\n'}
+[3.571244] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__rosidl_typesupport_fastrtps_c.h\n'}
+[3.571775] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__rosidl_typesupport_fastrtps_c.h\n'}
+[3.572348] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__rosidl_typesupport_fastrtps_c.h\n'}
+[3.572967] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.573323] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action\n'}
+[3.573703] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__rosidl_typesupport_fastrtps_c.h\n'}
+[3.574073] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__rosidl_typesupport_fastrtps_c.h\n'}
+[3.574423] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__rosidl_typesupport_fastrtps_c.h\n'}
+[3.574825] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv\n'}
+[3.575446] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__rosidl_typesupport_fastrtps_c.h\n'}
+[3.575842] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__rosidl_typesupport_fastrtps_c.h\n'}
+[3.576199] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__rosidl_typesupport_fastrtps_c.h\n'}
+[3.576550] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.577196] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces\n'}
+[3.577723] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg\n'}
+[3.580521] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example.h\n'}
+[3.581377] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__functions.h\n'}
+[3.582193] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__type_support.h\n'}
+[3.582907] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__functions.c\n'}
+[3.583582] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__functions.h\n'}
+[3.584168] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example.h\n'}
+[3.584706] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection.h\n'}
+[3.585350] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__functions.c\n'}
+[3.585927] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__functions.c\n'}
+[3.586626] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.587351] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__type_support.h\n'}
+[3.587922] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__struct.h\n'}
+[3.591124] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__type_support.h\n'}
+[3.591987] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__type_support.h\n'}
+[3.592711] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__functions.h\n'}
+[3.593387] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__functions.h\n'}
+[3.593980] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__functions.h\n'}
+[3.594354] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__functions.c\n'}
+[3.594757] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__struct.h\n'}
+[3.595112] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__struct.h\n'}
+[3.595464] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection.h\n'}
+[3.596048] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1.h\n'}
+[3.596441] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__functions.c\n'}
+[3.596796] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__struct.h\n'}
+[3.597144] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__struct.h\n'}
+[3.597683] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__type_support.h\n'}
+[3.598225] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action\n'}
+[3.598905] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example.h\n'}
+[3.599497] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__functions.h\n'}
+[3.600105] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__type_support.h\n'}
+[3.600823] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__type_support.h\n'}
+[3.601354] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__functions.c\n'}
+[3.603152] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__functions.h\n'}
+[3.603778] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example.h\n'}
+[3.604150] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__struct.h\n'}
+[3.604508] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__struct.h\n'}
+[3.604861] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection.h\n'}
+[3.605220] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__functions.c\n'}
+[3.605575] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__functions.c\n'}
+[3.605933] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__type_support.h\n'}
+[3.606582] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__struct.h\n'}
+[3.606959] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__functions.h\n'}
+[3.607317] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv\n'}
+[3.607666] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection.h\n'}
+[3.608265] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__functions.h\n'}
+[3.608997] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__functions.c\n'}
+[3.609560] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__functions.h\n'}
+[3.609926] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example.h\n'}
+[3.610276] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__functions.h\n'}
+[3.610671] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__type_support.h\n'}
+[3.611022] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__type_support.h\n'}
+[3.611368] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__functions.c\n'}
+[3.611721] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__struct.h\n'}
+[3.612069] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__functions.c\n'}
+[3.612449] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example.h\n'}
+[3.613201] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__type_support.h\n'}
+[3.614169] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__struct.h\n'}
+[3.614616] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__struct.h\n'}
+[3.614977] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[3.615323] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces\n'}
+[3.615668] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg\n'}
+[3.616049] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.616398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.617146] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.617521] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/dds_fastrtps\n'}
+[3.618029] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.618384] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.618942] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.619436] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action\n'}
+[3.619925] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/dds_fastrtps\n'}
+[3.620286] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.620635] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.621223] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.621638] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv\n'}
+[3.622135] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.622637] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/dds_fastrtps\n'}
+[3.623133] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.623502] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.623887] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.624465] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces\n'}
+[3.624978] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg\n'}
+[3.625332] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example.hpp\n'}
+[3.625681] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__struct.hpp\n'}
+[3.626030] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__struct.hpp\n'}
+[3.626675] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__struct.hpp\n'}
+[3.627177] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example.hpp\n'}
+[3.627683] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__struct.hpp\n'}
+[3.628061] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__traits.hpp\n'}
+[3.628572] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1.hpp\n'}
+[3.629055] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection.hpp\n'}
+[3.629537] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection.hpp\n'}
+[3.629902] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__traits.hpp\n'}
+[3.630250] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__struct.hpp\n'}
+[3.631538] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__traits.hpp\n'}
+[3.632211] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__traits.hpp\n'}
+[3.632581] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__traits.hpp\n'}
+[3.632935] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action\n'}
+[3.633289] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection.hpp\n'}
+[3.633648] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example.hpp\n'}
+[3.634280] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example.hpp\n'}
+[3.635021] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__struct.hpp\n'}
+[3.635407] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__traits.hpp\n'}
+[3.635767] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__struct.hpp\n'}
+[3.636421] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__struct.hpp\n'}
+[3.636791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__traits.hpp\n'}
+[3.637143] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__traits.hpp\n'}
+[3.637498] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv\n'}
+[3.638609] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example.hpp\n'}
+[3.639339] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example.hpp\n'}
+[3.639726] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__traits.hpp\n'}
+[3.640087] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__struct.hpp\n'}
+[3.640698] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__struct.hpp\n'}
+[3.641195] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__traits.hpp\n'}
+[3.641557] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__struct.hpp\n'}
+[3.642798] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection.hpp\n'}
+[3.643709] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__traits.hpp\n'}
+[3.644556] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces\n'}
+[3.645317] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg\n'}
+[3.646055] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__rosidl_typesupport_introspection_c.h\n'}
+[3.646836] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__rosidl_typesupport_introspection_c.h\n'}
+[3.647703] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__type_support.c\n'}
+[3.648331] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.648783] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__rosidl_typesupport_introspection_c.h\n'}
+[3.649219] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__rosidl_typesupport_introspection_c.h\n'}
+[3.649890] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__type_support.c\n'}
+[3.650369] (-) TimerEvent: {}
+[3.651121] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__type_support.c\n'}
+[3.652062] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__rosidl_typesupport_introspection_c.h\n'}
+[3.652906] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__type_support.c\n'}
+[3.653752] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__type_support.c\n'}
+[3.654541] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action\n'}
+[3.655332] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__rosidl_typesupport_introspection_c.h\n'}
+[3.656051] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__type_support.c\n'}
+[3.656789] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__type_support.c\n'}
+[3.657398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__rosidl_typesupport_introspection_c.h\n'}
+[3.657840] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__type_support.c\n'}
+[3.658266] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__rosidl_typesupport_introspection_c.h\n'}
+[3.658745] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv\n'}
+[3.659430] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__rosidl_typesupport_introspection_c.h\n'}
+[3.659880] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__type_support.c\n'}
+[3.660506] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__type_support.c\n'}
+[3.661611] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__type_support.c\n'}
+[3.662521] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__rosidl_typesupport_introspection_c.h\n'}
+[3.663039] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__rosidl_typesupport_introspection_c.h\n'}
+[3.663601] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.664100] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces\n'}
+[3.664547] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg\n'}
+[3.664980] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__type_support.cpp\n'}
+[3.665594] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.666090] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__type_support.cpp\n'}
+[3.666553] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection1__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.667050] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.667520] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/example__type_support.cpp\n'}
+[3.667964] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_interface_example__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.668421] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.668852] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__type_support.cpp\n'}
+[3.669323] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/message_collection__type_support.cpp\n'}
+[3.669760] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action\n'}
+[3.670191] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.670659] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__type_support.cpp\n'}
+[3.671108] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/example__type_support.cpp\n'}
+[3.671537] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.671964] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_collection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.672393] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/action/action_interface_example__type_support.cpp\n'}
+[3.672832] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv\n'}
+[3.673258] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.673681] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.674104] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_interface_example__type_support.cpp\n'}
+[3.674564] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/example__type_support.cpp\n'}
+[3.675003] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.675429] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/srv/service_collection__type_support.cpp\n'}
+[3.675861] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.676296] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[3.678816] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[3.679517] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py\n'}
+[3.750595] (-) TimerEvent: {}
+[3.848068] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/action\n'}
+[3.849677] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/action/_example.py\n'}
+[3.852130] (-) TimerEvent: {}
+[3.853607] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/action/_action_interface_example.py\n'}
+[3.854509] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/action/_action_collection_s.c\n'}
+[3.855213] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/action/_example_s.c\n'}
+[3.856253] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/action/_action_collection.py\n'}
+[3.856910] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/action/_action_interface_example_s.c\n'}
+[3.857583] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/action/__init__.py\n'}
+[3.858177] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg\n'}
+[3.858904] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_message_collection_s.c\n'}
+[3.860183] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_message_interface_example.py\n'}
+[3.861129] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_example.py\n'}
+[3.861798] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_message_collection.py\n'}
+[3.862395] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_message_interface_example_s.c\n'}
+[3.862902] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_msg_collection1_s.c\n'}
+[3.863984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_msg_collection.py\n'}
+[3.864539] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_example_s.c\n'}
+[3.865197] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/__init__.py\n'}
+[3.865832] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_msg_collection1.py\n'}
+[3.866854] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_msg_collection_s.c\n'}
+[3.867646] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/srv\n'}
+[3.868205] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_service_collection_s.c\n'}
+[3.868795] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_example.py\n'}
+[3.869406] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_service_interface_example.py\n'}
+[3.869968] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_example_s.c\n'}
+[3.870631] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/srv/__init__.py\n'}
+[3.871298] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_service_collection.py\n'}
+[3.871857] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_service_interface_example_s.c\n'}
+[3.872388] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[3.873788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[3.874554] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__python.so\n'}
+[3.875161] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/action/ActionCollection.idl\n'}
+[3.875707] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/msg/MessageCollection.idl\n'}
+[3.876280] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/srv/ServiceCollection.idl\n'}
+[3.876895] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/action/Example.idl\n'}
+[3.877444] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/msg/Example.idl\n'}
+[3.877970] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/srv/Example.idl\n'}
+[3.878623] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/action/ActionCollection.action\n'}
+[3.879829] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/msg/MessageCollection.msg\n'}
+[3.881210] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/srv/ServiceCollection.srv\n'}
+[3.881895] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/srv/ServiceCollection_Request.msg\n'}
+[3.882506] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/srv/ServiceCollection_Response.msg\n'}
+[3.883120] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/action/Example.action\n'}
+[3.883716] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/msg/Example.msg\n'}
+[3.884352] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/srv/Example.srv\n'}
+[3.884894] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/srv/Example_Request.msg\n'}
+[3.885345] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/srv/Example_Response.msg\n'}
+[3.885706] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[3.886063] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[3.886626] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[3.887099] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[3.887522] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/path.sh\n'}
+[3.887879] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[3.888228] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/local_setup.bash\n'}
+[3.888632] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/local_setup.sh\n'}
+[3.891363] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[3.891898] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[3.892275] (interfaces) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.dsv\n'}
+[3.895321] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[3.905174] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.906283] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.907097] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.907812] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.908566] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[3.916077] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[3.916771] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.xml\n'}
+[3.917389] (interfaces) CommandEnded: {'returncode': 0}
+[3.993082] (-) TimerEvent: {}
+[4.032038] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[4.035081] (action_cpp_example) JobStarted: {'identifier': 'action_cpp_example'}
+[4.070722] (pubsub_cpp_example) JobStarted: {'identifier': 'pubsub_cpp_example'}
+[4.093737] (-) TimerEvent: {}
+[4.126328] (action_cpp_example) JobProgress: {'identifier': 'action_cpp_example', 'progress': 'cmake'}
+[4.131586] (action_cpp_example) JobProgress: {'identifier': 'action_cpp_example', 'progress': 'build'}
+[4.134545] (action_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/action_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/action_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/action_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[4.160267] (pubsub_cpp_example) JobProgress: {'identifier': 'pubsub_cpp_example', 'progress': 'cmake'}
+[4.164613] (pubsub_cpp_example) JobProgress: {'identifier': 'pubsub_cpp_example', 'progress': 'build'}
+[4.165827] (pubsub_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[4.194035] (-) TimerEvent: {}
+[4.295335] (-) TimerEvent: {}
+[4.392944] (action_cpp_example) StdoutLine: {'line': b'[ 50%] Built target action_server_cpp\n'}
+[4.395472] (-) TimerEvent: {}
+[4.464211] (action_cpp_example) StdoutLine: {'line': b'[100%] Built target action_client_cpp\n'}
+[4.465598] (pubsub_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sub_cpp\x1b[0m\n'}
+[4.482329] (pubsub_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_cpp\x1b[0m\n'}
+[4.495691] (-) TimerEvent: {}
+[4.525097] (action_cpp_example) CommandEnded: {'returncode': 0}
+[4.596733] (-) TimerEvent: {}
+[4.701706] (pubsub_cpp_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pub_cpp.dir/src/pub_cpp_example.cpp.o\x1b[0m\n'}
+[4.702411] (-) TimerEvent: {}
+[4.810663] (-) TimerEvent: {}
+[4.854026] (action_cpp_example) JobProgress: {'identifier': 'action_cpp_example', 'progress': 'install'}
+[4.874217] (action_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/action_cpp_example', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/action_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/action_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[4.882072] (pubsub_cpp_example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sub_cpp.dir/src/sub_cpp_example.cpp.o\x1b[0m\n'}
+[4.910947] (-) TimerEvent: {}
+[5.012184] (-) TimerEvent: {}
+[5.118682] (-) TimerEvent: {}
+[5.219470] (-) TimerEvent: {}
+[5.320290] (-) TimerEvent: {}
+[5.421139] (-) TimerEvent: {}
+[5.521941] (-) TimerEvent: {}
+[5.622920] (-) TimerEvent: {}
+[5.703821] (action_cpp_example) StdoutLine: {'line': b'[ 50%] Built target action_client_cpp\n'}
+[5.723060] (-) TimerEvent: {}
+[5.725674] (action_cpp_example) StdoutLine: {'line': b'[100%] Built target action_server_cpp\n'}
+[5.823247] (-) TimerEvent: {}
+[5.854236] (action_cpp_example) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[5.923445] (-) TimerEvent: {}
+[5.936792] (action_cpp_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.938392] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/lib/action_cpp_example/action_server_cpp\n'}
+[5.940555] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/lib/action_cpp_example/action_client_cpp\n'}
+[5.941906] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/ament_index/resource_index/package_run_dependencies/action_cpp_example\n'}
+[5.952792] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/ament_index/resource_index/parent_prefix_path/action_cpp_example\n'}
+[5.953724] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/environment/ament_prefix_path.sh\n'}
+[5.954587] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/environment/ament_prefix_path.dsv\n'}
+[5.957759] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/environment/path.sh\n'}
+[5.958305] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/environment/path.dsv\n'}
+[5.959011] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/local_setup.bash\n'}
+[5.959754] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/local_setup.sh\n'}
+[5.960398] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/local_setup.zsh\n'}
+[5.960791] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/local_setup.dsv\n'}
+[5.961149] (action_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/package.dsv\n'}
+[5.961568] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/ament_index/resource_index/packages/action_cpp_example\n'}
+[5.961960] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/cmake/action_cpp_exampleConfig.cmake\n'}
+[5.962369] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/cmake/action_cpp_exampleConfig-version.cmake\n'}
+[5.962773] (action_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/action_cpp_example/share/action_cpp_example/package.xml\n'}
+[5.977247] (action_cpp_example) CommandEnded: {'returncode': 0}
+[6.027948] (-) TimerEvent: {}
+[6.059995] (action_cpp_example) JobEnded: {'identifier': 'action_cpp_example', 'rc': 0}
+[6.064377] (service_cpp_example) JobStarted: {'identifier': 'service_cpp_example'}
+[6.135023] (-) TimerEvent: {}
+[6.204180] (service_cpp_example) JobProgress: {'identifier': 'service_cpp_example', 'progress': 'cmake'}
+[6.227905] (service_cpp_example) JobProgress: {'identifier': 'service_cpp_example', 'progress': 'build'}
+[6.229187] (service_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/service_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/service_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/service_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[6.244499] (-) TimerEvent: {}
+[6.347471] (-) TimerEvent: {}
+[6.440222] (service_cpp_example) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[6.447656] (-) TimerEvent: {}
+[6.544151] (service_cpp_example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.547853] (-) TimerEvent: {}
+[6.648693] (-) TimerEvent: {}
+[6.749524] (-) TimerEvent: {}
+[6.850357] (-) TimerEvent: {}
+[6.951190] (-) TimerEvent: {}
+[7.051962] (-) TimerEvent: {}
+[7.152790] (-) TimerEvent: {}
+[7.253531] (-) TimerEvent: {}
+[7.354274] (-) TimerEvent: {}
+[7.455156] (-) TimerEvent: {}
+[7.555935] (-) TimerEvent: {}
+[7.656760] (-) TimerEvent: {}
+[7.757611] (-) TimerEvent: {}
+[7.858406] (-) TimerEvent: {}
+[7.909360] (service_cpp_example) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[7.958614] (-) TimerEvent: {}
+[8.014501] (service_cpp_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[8.058860] (-) TimerEvent: {}
+[8.159713] (-) TimerEvent: {}
+[8.260527] (-) TimerEvent: {}
+[8.361311] (-) TimerEvent: {}
+[8.362660] (service_cpp_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[8.384345] (service_cpp_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.461501] (-) TimerEvent: {}
+[8.562353] (-) TimerEvent: {}
+[8.663212] (-) TimerEvent: {}
+[8.713178] (service_cpp_example) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake)\n'}
+[8.763402] (-) TimerEvent: {}
+[8.864232] (-) TimerEvent: {}
+[8.965036] (-) TimerEvent: {}
+[9.065860] (-) TimerEvent: {}
+[9.133782] (service_cpp_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[9.166053] (-) TimerEvent: {}
+[9.266924] (-) TimerEvent: {}
+[9.367777] (-) TimerEvent: {}
+[9.468637] (-) TimerEvent: {}
+[9.570248] (-) TimerEvent: {}
+[9.627466] (service_cpp_example) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[9.637357] (service_cpp_example) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.640460] (service_cpp_example) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.648355] (service_cpp_example) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.655419] (service_cpp_example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.665567] (service_cpp_example) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.669897] (service_cpp_example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.670563] (-) TimerEvent: {}
+[9.701015] (service_cpp_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.770789] (-) TimerEvent: {}
+[9.871622] (-) TimerEvent: {}
+[9.972487] (-) TimerEvent: {}
+[9.996689] (service_cpp_example) StdoutLine: {'line': b'-- Generating done\n'}
+[10.016426] (service_cpp_example) StdoutLine: {'line': b'-- Build files have been written to: /home/jiseongyoo/ros2_examples/build/service_cpp_example\n'}
+[10.072685] (-) TimerEvent: {}
+[10.173546] (-) TimerEvent: {}
+[10.212431] (service_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target service_server_cpp\x1b[0m\n'}
+[10.230414] (service_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target service_client_cpp\x1b[0m\n'}
+[10.273732] (-) TimerEvent: {}
+[10.374512] (-) TimerEvent: {}
+[10.475367] (-) TimerEvent: {}
+[10.524335] (service_cpp_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/service_server_cpp.dir/src/service_server_cpp_example.cpp.o\x1b[0m\n'}
+[10.558156] (service_cpp_example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o\x1b[0m\n'}
+[10.575553] (-) TimerEvent: {}
+[10.676333] (-) TimerEvent: {}
+[10.777189] (-) TimerEvent: {}
+[10.877956] (-) TimerEvent: {}
+[10.978769] (-) TimerEvent: {}
+[11.079559] (-) TimerEvent: {}
+[11.180384] (-) TimerEvent: {}
+[11.281179] (-) TimerEvent: {}
+[11.382022] (-) TimerEvent: {}
+[11.483125] (-) TimerEvent: {}
+[11.585609] (-) TimerEvent: {}
+[11.686509] (-) TimerEvent: {}
+[11.787364] (-) TimerEvent: {}
+[11.888148] (-) TimerEvent: {}
+[11.989152] (-) TimerEvent: {}
+[12.089977] (-) TimerEvent: {}
+[12.190841] (-) TimerEvent: {}
+[12.291711] (-) TimerEvent: {}
+[12.392505] (-) TimerEvent: {}
+[12.493349] (-) TimerEvent: {}
+[12.594198] (-) TimerEvent: {}
+[12.695077] (-) TimerEvent: {}
+[12.795929] (-) TimerEvent: {}
+[12.896779] (-) TimerEvent: {}
+[12.997640] (-) TimerEvent: {}
+[13.098511] (-) TimerEvent: {}
+[13.199374] (-) TimerEvent: {}
+[13.300226] (-) TimerEvent: {}
+[13.401046] (-) TimerEvent: {}
+[13.501821] (-) TimerEvent: {}
+[13.602667] (-) TimerEvent: {}
+[13.703438] (-) TimerEvent: {}
+[13.804297] (-) TimerEvent: {}
+[13.905134] (-) TimerEvent: {}
+[14.005970] (-) TimerEvent: {}
+[14.106879] (-) TimerEvent: {}
+[14.207674] (-) TimerEvent: {}
+[14.308520] (-) TimerEvent: {}
+[14.409334] (-) TimerEvent: {}
+[14.511702] (-) TimerEvent: {}
+[14.615762] (-) TimerEvent: {}
+[14.718161] (-) TimerEvent: {}
+[14.818972] (-) TimerEvent: {}
+[14.919754] (-) TimerEvent: {}
+[15.020574] (-) TimerEvent: {}
+[15.121417] (-) TimerEvent: {}
+[15.222203] (-) TimerEvent: {}
+[15.323151] (-) TimerEvent: {}
+[15.423967] (-) TimerEvent: {}
+[15.524771] (-) TimerEvent: {}
+[15.625582] (-) TimerEvent: {}
+[15.726467] (-) TimerEvent: {}
+[15.827298] (-) TimerEvent: {}
+[15.928082] (-) TimerEvent: {}
+[16.028928] (-) TimerEvent: {}
+[16.129705] (-) TimerEvent: {}
+[16.230515] (-) TimerEvent: {}
+[16.331299] (-) TimerEvent: {}
+[16.432106] (-) TimerEvent: {}
+[16.532956] (-) TimerEvent: {}
+[16.633781] (-) TimerEvent: {}
+[16.734626] (-) TimerEvent: {}
+[16.835460] (-) TimerEvent: {}
+[16.936373] (-) TimerEvent: {}
+[17.037179] (-) TimerEvent: {}
+[17.138009] (-) TimerEvent: {}
+[17.238872] (-) TimerEvent: {}
+[17.339644] (-) TimerEvent: {}
+[17.440470] (-) TimerEvent: {}
+[17.541378] (-) TimerEvent: {}
+[17.642166] (-) TimerEvent: {}
+[17.743030] (-) TimerEvent: {}
+[17.843862] (-) TimerEvent: {}
+[17.944713] (-) TimerEvent: {}
+[18.045557] (-) TimerEvent: {}
+[18.147332] (-) TimerEvent: {}
+[18.249770] (-) TimerEvent: {}
+[18.350613] (-) TimerEvent: {}
+[18.452057] (-) TimerEvent: {}
+[18.552823] (-) TimerEvent: {}
+[18.653677] (-) TimerEvent: {}
+[18.754494] (-) TimerEvent: {}
+[18.855966] (-) TimerEvent: {}
+[18.957861] (-) TimerEvent: {}
+[19.058706] (-) TimerEvent: {}
+[19.159535] (-) TimerEvent: {}
+[19.260324] (-) TimerEvent: {}
+[19.361172] (-) TimerEvent: {}
+[19.462020] (-) TimerEvent: {}
+[19.562916] (-) TimerEvent: {}
+[19.667392] (-) TimerEvent: {}
+[19.770295] (-) TimerEvent: {}
+[19.871262] (-) TimerEvent: {}
+[19.972385] (-) TimerEvent: {}
+[20.073166] (-) TimerEvent: {}
+[20.174003] (-) TimerEvent: {}
+[20.276295] (-) TimerEvent: {}
+[20.377175] (-) TimerEvent: {}
+[20.485323] (-) TimerEvent: {}
+[20.586123] (-) TimerEvent: {}
+[20.686991] (-) TimerEvent: {}
+[20.787805] (-) TimerEvent: {}
+[20.888661] (-) TimerEvent: {}
+[20.989503] (-) TimerEvent: {}
+[21.090304] (-) TimerEvent: {}
+[21.193765] (-) TimerEvent: {}
+[21.297693] (-) TimerEvent: {}
+[21.401647] (-) TimerEvent: {}
+[21.502428] (-) TimerEvent: {}
+[21.612445] (-) TimerEvent: {}
+[21.713443] (-) TimerEvent: {}
+[21.814228] (-) TimerEvent: {}
+[21.915132] (-) TimerEvent: {}
+[22.015935] (-) TimerEvent: {}
+[22.116794] (-) TimerEvent: {}
+[22.217661] (-) TimerEvent: {}
+[22.318758] (-) TimerEvent: {}
+[22.419819] (-) TimerEvent: {}
+[22.520892] (-) TimerEvent: {}
+[22.622007] (-) TimerEvent: {}
+[22.722865] (-) TimerEvent: {}
+[22.823801] (-) TimerEvent: {}
+[22.924593] (-) TimerEvent: {}
+[23.025455] (-) TimerEvent: {}
+[23.126316] (-) TimerEvent: {}
+[23.227150] (-) TimerEvent: {}
+[23.328003] (-) TimerEvent: {}
+[23.428809] (-) TimerEvent: {}
+[23.529598] (-) TimerEvent: {}
+[23.630495] (-) TimerEvent: {}
+[23.731366] (-) TimerEvent: {}
+[23.832199] (-) TimerEvent: {}
+[23.933027] (-) TimerEvent: {}
+[24.038239] (-) TimerEvent: {}
+[24.140122] (-) TimerEvent: {}
+[24.241860] (-) TimerEvent: {}
+[24.342698] (-) TimerEvent: {}
+[24.443513] (-) TimerEvent: {}
+[24.544357] (-) TimerEvent: {}
+[24.645192] (-) TimerEvent: {}
+[24.749271] (-) TimerEvent: {}
+[24.850110] (-) TimerEvent: {}
+[24.951082] (-) TimerEvent: {}
+[25.051914] (-) TimerEvent: {}
+[25.152744] (-) TimerEvent: {}
+[25.253568] (-) TimerEvent: {}
+[25.354389] (-) TimerEvent: {}
+[25.455284] (-) TimerEvent: {}
+[25.556115] (-) TimerEvent: {}
+[25.656947] (-) TimerEvent: {}
+[25.757774] (-) TimerEvent: {}
+[25.858652] (-) TimerEvent: {}
+[25.905081] (service_cpp_example) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable service_server_cpp\x1b[0m\n'}
+[25.958856] (-) TimerEvent: {}
+[26.059668] (-) TimerEvent: {}
+[26.160520] (-) TimerEvent: {}
+[26.170964] (pubsub_cpp_example) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pub_cpp\x1b[0m\n'}
+[26.260757] (-) TimerEvent: {}
+[26.361601] (-) TimerEvent: {}
+[26.462427] (-) TimerEvent: {}
+[26.563254] (-) TimerEvent: {}
+[26.670643] (-) TimerEvent: {}
+[26.771493] (-) TimerEvent: {}
+[26.872338] (-) TimerEvent: {}
+[26.973157] (-) TimerEvent: {}
+[27.073987] (-) TimerEvent: {}
+[27.174848] (-) TimerEvent: {}
+[27.275711] (-) TimerEvent: {}
+[27.376528] (-) TimerEvent: {}
+[27.477290] (-) TimerEvent: {}
+[27.578116] (-) TimerEvent: {}
+[27.591269] (service_cpp_example) StdoutLine: {'line': b'[ 75%] Built target service_server_cpp\n'}
+[27.678335] (-) TimerEvent: {}
+[27.779177] (-) TimerEvent: {}
+[27.879999] (-) TimerEvent: {}
+[27.919340] (pubsub_cpp_example) StdoutLine: {'line': b'[ 75%] Built target pub_cpp\n'}
+[27.980205] (-) TimerEvent: {}
+[28.081053] (-) TimerEvent: {}
+[28.184632] (-) TimerEvent: {}
+[28.285916] (-) TimerEvent: {}
+[28.386785] (-) TimerEvent: {}
+[28.487669] (-) TimerEvent: {}
+[28.588496] (-) TimerEvent: {}
+[28.689440] (-) TimerEvent: {}
+[28.790552] (-) TimerEvent: {}
+[28.891352] (-) TimerEvent: {}
+[28.909534] (pubsub_cpp_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sub_cpp\x1b[0m\n'}
+[28.991555] (-) TimerEvent: {}
+[29.092518] (-) TimerEvent: {}
+[29.151833] (service_cpp_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable service_client_cpp\x1b[0m\n'}
+[29.192740] (-) TimerEvent: {}
+[29.293766] (-) TimerEvent: {}
+[29.394652] (-) TimerEvent: {}
+[29.495585] (-) TimerEvent: {}
+[29.596502] (-) TimerEvent: {}
+[29.697291] (-) TimerEvent: {}
+[29.798074] (-) TimerEvent: {}
+[29.898921] (-) TimerEvent: {}
+[30.000592] (-) TimerEvent: {}
+[30.070218] (pubsub_cpp_example) StdoutLine: {'line': b'[100%] Built target sub_cpp\n'}
+[30.088804] (service_cpp_example) StdoutLine: {'line': b'[100%] Built target service_client_cpp\n'}
+[30.100837] (-) TimerEvent: {}
+[30.117521] (pubsub_cpp_example) CommandEnded: {'returncode': 0}
+[30.148796] (service_cpp_example) CommandEnded: {'returncode': 0}
+[30.201285] (-) TimerEvent: {}
+[30.247186] (pubsub_cpp_example) JobProgress: {'identifier': 'pubsub_cpp_example', 'progress': 'install'}
+[30.248989] (pubsub_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[30.282585] (service_cpp_example) JobProgress: {'identifier': 'service_cpp_example', 'progress': 'install'}
+[30.284375] (service_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/service_cpp_example', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/service_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/service_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[30.301465] (-) TimerEvent: {}
+[30.402591] (-) TimerEvent: {}
+[30.503609] (-) TimerEvent: {}
+[30.568574] (service_cpp_example) StdoutLine: {'line': b'[ 50%] Built target service_server_cpp\n'}
+[30.583258] (pubsub_cpp_example) StdoutLine: {'line': b'[ 50%] Built target pub_cpp\n'}
+[30.603839] (-) TimerEvent: {}
+[30.700818] (pubsub_cpp_example) StdoutLine: {'line': b'[100%] Built target sub_cpp\n'}
+[30.704264] (-) TimerEvent: {}
+[30.709235] (service_cpp_example) StdoutLine: {'line': b'[100%] Built target service_client_cpp\n'}
+[30.779925] (pubsub_cpp_example) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[30.787935] (service_cpp_example) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[30.804470] (-) TimerEvent: {}
+[30.841003] (service_cpp_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.844174] (pubsub_cpp_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.845711] (service_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/service_cpp_example/lib/service_cpp_example/service_server_cpp\n'}
+[30.849856] (pubsub_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/lib/pubsub_cpp_example/pub_cpp\n'}
+[30.853352] (service_cpp_example) StdoutLine: {'line': b'-- Set runtime path of "/home/jiseongyoo/ros2_examples/install/service_cpp_example/lib/service_cpp_example/service_server_cpp" to ""\n'}
+[30.855958] (service_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/service_cpp_example/lib/service_cpp_example/service_client_cpp\n'}
+[30.862364] (pubsub_cpp_example) StdoutLine: {'line': b'-- Set runtime path of "/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/lib/pubsub_cpp_example/pub_cpp" to ""\n'}
+[30.865315] (service_cpp_example) StdoutLine: {'line': b'-- Set runtime path of "/home/jiseongyoo/ros2_examples/install/service_cpp_example/lib/service_cpp_example/service_client_cpp" to ""\n'}
+[30.866254] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/ament_index/resource_index/package_run_dependencies/service_cpp_example\n'}
+[30.866939] (service_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/ament_index/resource_index/parent_prefix_path/service_cpp_example\n'}
+[30.868173] (pubsub_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/lib/pubsub_cpp_example/sub_cpp\n'}
+[30.869089] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/environment/ament_prefix_path.sh\n'}
+[30.869594] (service_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/environment/ament_prefix_path.dsv\n'}
+[30.870264] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/environment/path.sh\n'}
+[30.870956] (service_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/environment/path.dsv\n'}
+[30.871783] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/local_setup.bash\n'}
+[30.872701] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/local_setup.sh\n'}
+[30.873186] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/local_setup.zsh\n'}
+[30.873644] (service_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/local_setup.dsv\n'}
+[30.876610] (service_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/package.dsv\n'}
+[30.877340] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/ament_index/resource_index/packages/service_cpp_example\n'}
+[30.877813] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/cmake/service_cpp_exampleConfig.cmake\n'}
+[30.878270] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/cmake/service_cpp_exampleConfig-version.cmake\n'}
+[30.878782] (service_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/service_cpp_example/share/service_cpp_example/package.xml\n'}
+[30.884287] (pubsub_cpp_example) StdoutLine: {'line': b'-- Set runtime path of "/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/lib/pubsub_cpp_example/sub_cpp" to ""\n'}
+[30.886463] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/ament_index/resource_index/package_run_dependencies/pubsub_cpp_example\n'}
+[30.888815] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/ament_index/resource_index/parent_prefix_path/pubsub_cpp_example\n'}
+[30.898646] (service_cpp_example) CommandEnded: {'returncode': 0}
+[30.906122] (-) TimerEvent: {}
+[30.906925] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/environment/ament_prefix_path.sh\n'}
+[30.907661] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/environment/ament_prefix_path.dsv\n'}
+[30.908364] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/environment/path.sh\n'}
+[30.908823] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/environment/path.dsv\n'}
+[30.909793] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/local_setup.bash\n'}
+[30.910671] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/local_setup.sh\n'}
+[30.911349] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/local_setup.zsh\n'}
+[30.915293] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/local_setup.dsv\n'}
+[30.916418] (pubsub_cpp_example) StdoutLine: {'line': b'-- Installing: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/package.dsv\n'}
+[30.916792] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/ament_index/resource_index/packages/pubsub_cpp_example\n'}
+[30.917696] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/cmake/pubsub_cpp_exampleConfig.cmake\n'}
+[30.918113] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/cmake/pubsub_cpp_exampleConfig-version.cmake\n'}
+[30.918528] (pubsub_cpp_example) StdoutLine: {'line': b'-- Up-to-date: /home/jiseongyoo/ros2_examples/install/pubsub_cpp_example/share/pubsub_cpp_example/package.xml\n'}
+[30.970158] (service_cpp_example) JobEnded: {'identifier': 'service_cpp_example', 'rc': 0}
+[30.975298] (pubsub_cpp_example) CommandEnded: {'returncode': 0}
+[31.010942] (-) TimerEvent: {}
+[31.020073] (pubsub_cpp_example) JobEnded: {'identifier': 'pubsub_cpp_example', 'rc': 0}
+[31.030490] (-) EventReactorShutdown: {}

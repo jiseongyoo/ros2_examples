@@ -1,0 +1,28 @@
+[3.867s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/srv/service_collection__functions.h:19:0[m[K,
+[3.868s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/srv/service_collection__functions.c:4[m[K:
+[3.869s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/srv/service_collection__struct.h:24:27:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kinterfaces__srv__ServiceCollection_Request__CONSTANT_STRING[m[K’
+[3.870s]  static const char * const [01;31m[Kinterfaces__srv__ServiceCollection_Request__CONSTANT_STRING[m[K = "CONSTANT_STRING";
+[3.870s]                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.871s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_c/interfaces/srv/service_collection__struct.h:21:27:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kinterfaces__srv__ServiceCollection_Request__CONSTANT_STRING[m[K’ was here
+[3.872s]  static const char * const [01;36m[Kinterfaces__srv__ServiceCollection_Request__CONSTANT_STRING[m[K = "CONSTANT_STRING";
+[3.873s]                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.918s] make[2]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/service_collection__functions.c.o] Error 1
+[3.919s] make[1]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/all] Error 2
+[3.919s] make[1]: *** Waiting for unfinished jobs....
+[4.631s] In file included from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/srv/service_collection__rosidl_typesupport_fastrtps_cpp.hpp:11:0[m[K,
+[4.632s]                  from [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/srv/dds_fastrtps/service_collection__type_support.cpp:4[m[K:
+[4.633s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/srv/service_collection__struct.hpp:293:123:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::srv::ServiceCollection_Request_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[4.634s]  s<char>, typename ContainerAllocator::template rebind<char>::other> [01;31m[KCONSTANT_STRING[m[K;
+[4.635s]                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.635s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/srv/service_collection__struct.hpp:292:123:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::srv::ServiceCollection_Request_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[4.636s]  s<char>, typename ContainerAllocator::template rebind<char>::other> [01;36m[KCONSTANT_STRING[m[K;
+[4.636s]                                                                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.647s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/srv/service_collection__struct.hpp:419:49:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::srv::ServiceCollection_Request_<ContainerAllocator>::CONSTANT_STRING[m[K’
+[4.648s]  ServiceCollection_Request_<ContainerAllocator>::[01;31m[KCONSTANT_STRING[m[K = "CONSTANT_STRING";
+[4.648s]                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.649s] [01m[K/home/jiseongyoo/ros2_examples/build/interfaces/rosidl_generator_cpp/interfaces/srv/service_collection__struct.hpp:416:1:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::__cxx11::basic_string<char, std::char_traits<char>, typename ContainerAllocator::rebind<char>::other> interfaces::srv::ServiceCollection_Request_<ContainerAllocator>::CONSTANT_STRING[m[K’ previously declared here
+[4.649s]  [01;36m[KServiceCollection_Request_<ContainerAllocator>[m[K::CONSTANT_STRING = "CONSTANT_STRING";
+[4.650s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.390s] make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/dds_fastrtps/service_collection__type_support.cpp.o] Error 1
+[5.391s] make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[5.398s] make: *** [all] Error 2

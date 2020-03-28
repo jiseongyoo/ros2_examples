@@ -1,0 +1,78 @@
+[4.626s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/service.hpp:33:0[m[K,
+[4.627s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:25[m[K,
+[4.628s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[4.628s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.628s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.629s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[4.632s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.632s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[4.633s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[4.633s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:1[m[K:
+[4.635s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:[m[K In function ‘[01m[Kvoid service_callback(std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > >)[m[K’:
+[4.635s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.636s]    RCLCPP_INFO([01;31m[Kt[m[Khis->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.636s]                [01;31m[K^[m[K
+[4.637s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.637s]  ame<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[4.638s]                                                                      [01;36m[K^~~~~~[m[K
+[4.638s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.638s]    RCLCPP_INFO([01;31m[Kt[m[Khis->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.639s]                [01;31m[K^[m[K
+[4.639s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.640s]  ame<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[4.640s]                                                                      [01;36m[K^~~~~~[m[K
+[4.641s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.641s]  ename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[4.642s]                                                                      [01;31m[K^[m[K
+[4.642s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.643s]    [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.643s]    [01;36m[K^~~~~~~~~~~[m[K
+[4.644s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.644s]  std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[4.644s]                                                                       [01;31m[K^[m[K
+[4.645s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.645s]    [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.646s]    [01;36m[K^~~~~~~~~~~[m[K
+[4.646s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.647s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[4.647s]                                 [01;31m[K^[m[K
+[4.648s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.648s]    [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.648s]    [01;36m[K^~~~~~~~~~~[m[K
+[4.649s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[4.649s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[4.650s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[4.650s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.651s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.651s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[4.652s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.652s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[4.652s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[4.653s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:1[m[K:
+[4.653s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.654s]    RCLCPP_INFO([01;31m[Kt[m[Khis->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.654s]                [01;31m[K^[m[K
+[4.655s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:70:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.655s]      if (rcutils_logging_logger_is_enabled_for([01;36m[Kname[m[K, severity)) { \
+[4.655s]                                                [01;36m[K^~~~[m[K
+[4.656s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.656s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.657s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.657s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.658s]    [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.658s]    [01;36m[K^~~~~~~~~~~[m[K
+[4.658s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.659s]    RCLCPP_INFO([01;31m[Kt[m[Khis->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.659s]                [01;31m[K^[m[K
+[4.660s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.660s]        rcutils_log(&__rcutils_logging_location, severity, [01;36m[Kname[m[K, __VA_ARGS__); \
+[4.661s]                                                           [01;36m[K^~~~[m[K
+[4.661s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.662s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.662s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.662s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:6:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.663s]    [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Service is requested '%s'", request->request.c_str());
+[4.663s]    [01;36m[K^~~~~~~~~~~[m[K
+[5.591s] make[2]: *** [CMakeFiles/service_server_cpp.dir/src/service_server_cpp_example.cpp.o] Error 1
+[5.591s] make[1]: *** [CMakeFiles/service_server_cpp.dir/all] Error 2
+[5.592s] make: *** [all] Error 2

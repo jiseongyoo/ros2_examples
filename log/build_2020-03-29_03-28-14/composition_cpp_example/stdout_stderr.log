@@ -1,0 +1,20 @@
+[0.366s] [ 11%] Built target component_subscriber_cpp
+[0.372s] [ 22%] Built target component_service_server_cpp
+[0.481s] [ 33%] Built target component_publisher_cpp
+[0.488s] [ 44%] Built target component_service_client_cpp
+[0.600s] [ 55%] Built target component_action_client_cpp
+[0.608s] [ 66%] Built target component_action_server_cpp
+[0.661s] [35m[1mScanning dependencies of target component_parameter_client_cpp[0m
+[0.716s] [ 77%] Built target component_parameter_server_cpp
+[0.854s] [ 83%] [32mBuilding CXX object CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o[0m
+[5.221s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ParameterClientExample::timer_callback()[m[K’:
+[5.222s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:39:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::AsyncParametersClient {aka class rclcpp::AsyncParametersClient}[m[K’ has no member named ‘[01m[Kget_parameter[m[K’; did you mean ‘[01m[Kget_parameters[m[K’?
+[5.222s]      auto param = parameter_client_->[01;31m[Kget_parameter[m[K({"parameter"});
+[5.223s]                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[5.223s]                                      [32m[Kget_parameters[m[K
+[6.616s] make[2]: *** [CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o] Error 1
+[6.618s] CMakeFiles/component_parameter_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o' failed
+[6.623s] CMakeFiles/Makefile2:390: recipe for target 'CMakeFiles/component_parameter_client_cpp.dir/all' failed
+[6.624s] Makefile:140: recipe for target 'all' failed
+[6.624s] make[1]: *** [CMakeFiles/component_parameter_client_cpp.dir/all] Error 2
+[6.626s] make: *** [all] Error 2

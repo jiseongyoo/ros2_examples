@@ -1,0 +1,7 @@
+[5.940s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse component::ActionServerExample::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)[m[K’:
+[5.941s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kc_str[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.942s]      if (goal->goal.c_str() == std::[01;31m[Kc_str[m[K("")){
+[5.942s]                                     [01;31m[K^~~~~[m[K
+[8.988s] make[2]: *** [CMakeFiles/component_action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[8.990s] make[1]: *** [CMakeFiles/component_action_server_cpp.dir/all] Error 2
+[8.996s] make: *** [all] Error 2

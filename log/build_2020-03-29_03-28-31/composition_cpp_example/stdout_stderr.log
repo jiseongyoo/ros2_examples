@@ -1,0 +1,42 @@
+[0.365s] [ 11%] Built target component_subscriber_cpp
+[0.372s] [ 22%] Built target component_service_server_cpp
+[0.481s] [ 33%] Built target component_publisher_cpp
+[0.485s] [ 44%] Built target component_service_client_cpp
+[0.603s] [ 55%] Built target component_action_client_cpp
+[0.604s] [ 66%] Built target component_action_server_cpp
+[0.657s] [35m[1mScanning dependencies of target component_parameter_client_cpp[0m
+[0.809s] [ 72%] [32mBuilding CXX object CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o[0m
+[0.845s] [ 83%] Built target component_parameter_server_cpp
+[5.040s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.041s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.042s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.043s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.044s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.045s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.045s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.046s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.047s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.050s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/parameter_client_cpp_example.hpp:7[m[K,
+[5.051s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:11[m[K:
+[5.052s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ParameterClientExample::timer_callback()[m[K’:
+[5.052s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:40:62:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstd::shared_future<std::vector<rclcpp::Parameter> >[m[K’
+[5.053s]      RCLCPP_INFO(this->get_logger(), "Parameter '%s': ", param[01;31m[K-[m[K>get_name());
+[5.053s]                                                               [01;31m[K^[m[K
+[5.054s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.054s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.055s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.055s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.056s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.056s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.056s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.057s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.057s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.058s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:40:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.058s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Parameter '%s': ", param->get_name());
+[5.059s]      [01;36m[K^~~~~~~~~~~[m[K
+[6.456s] make[2]: *** [CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o] Error 1
+[6.457s] make[1]: *** [CMakeFiles/component_parameter_client_cpp.dir/all] Error 2
+[6.458s] CMakeFiles/component_parameter_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o' failed
+[6.459s] CMakeFiles/Makefile2:390: recipe for target 'CMakeFiles/component_parameter_client_cpp.dir/all' failed
+[6.459s] Makefile:140: recipe for target 'all' failed
+[6.460s] make: *** [all] Error 2

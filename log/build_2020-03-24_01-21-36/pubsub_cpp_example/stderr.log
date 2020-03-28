@@ -1,0 +1,54 @@
+[6.214s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMessageInterfaceExample[m[K’ is not a member of ‘[01m[Kinterfaces::msg[m[K’
+[6.215s]    rclcpp::Publisher<interfaces::msg::[01;31m[KMessageInterfaceExample[m[K>::SharedPtr publisher_;
+[6.216s]                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.217s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMessageInterfaceExample[m[K’ is not a member of ‘[01m[Kinterfaces::msg[m[K’
+[6.217s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.218s]    rclcpp::Publisher<interfaces::msg::MessageInterfaceExample[01;31m[K>[m[K::SharedPtr publisher_;
+[6.218s]                                                              [01;31m[K^[m[K
+[6.219s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.220s]    rclcpp::Publisher<interfaces::msg::MessageInterfaceExample>::[01;31m[KSharedPtr[m[K publisher_;
+[6.220s]                                                                 [01;31m[K^~~~~~~~~[m[K
+[6.222s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[6.223s]  cpp::Publisher<interfaces::msg::MessageInterfaceExample>::SharedPtr [01;31m[Kpublisher_[m[K;
+[6.223s]                                                                      [01;31m[K^~~~~~~~~~[m[K
+[6.225s]                                                                           [32m[Krcl_publisher_t[m[K
+[6.225s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:[m[K In member function ‘[01m[Kvoid publisherTemplate::timer_callback()[m[K’:
+[6.226s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:23:37:[m[K [01;31m[Kerror: [m[K‘[01m[KMessageInterfaceExample[m[K’ is not a member of ‘[01m[Kinterfaces::msg[m[K’
+[6.226s]      auto message = interfaces::msg::[01;31m[KMessageInterfaceExample[m[K();
+[6.227s]                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.227s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[6.228s]      [01;31m[Kpublisher_[m[K->publish(message);
+[6.228s]      [01;31m[K^~~~~~~~~~[m[K
+[6.234s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:31:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[6.235s]      [01;36m[Kpublisher_[m[K->publish(message);
+[6.235s]      [01;36m[K^~~~~~~~~~[m[K
+[6.235s]      [32m[Krcl_publisher_t[m[K
+[6.236s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:[m[K In constructor ‘[01m[KpublisherTemplate::publisherTemplate()[m[K’:
+[6.239s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[6.240s]      [01;31m[Kpublisher_[m[K = this->create_publisher<interfaces::msg::MessageInterfaceExample>("topic", 10);
+[6.240s]      [01;31m[K^~~~~~~~~~[m[K
+[6.241s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[6.241s]      [01;36m[Kpublisher_[m[K = this->create_publisher<interfaces::msg::MessageInterfaceExample>("topic", 10);
+[6.241s]      [01;36m[K^~~~~~~~~~[m[K
+[6.242s]      [32m[Krcl_publisher_t[m[K
+[6.242s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:58:[m[K [01;31m[Kerror: [m[K‘[01m[KMessageInterfaceExample[m[K’ is not a member of ‘[01m[Kinterfaces::msg[m[K’
+[6.243s]      publisher_ = this->create_publisher<interfaces::msg::[01;31m[KMessageInterfaceExample[m[K>("topic", 10);
+[6.246s]                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.247s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:58:[m[K [01;31m[Kerror: [m[K‘[01m[KMessageInterfaceExample[m[K’ is not a member of ‘[01m[Kinterfaces::msg[m[K’
+[6.247s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KpublisherTemplate::create_publisher<<expression error> >(const char [6], int)[m[K’
+[6.248s]   this->create_publisher<interfaces::msg::MessageInterfaceExample>("topic", 10[01;31m[K)[m[K;
+[6.248s]                                                                               [01;31m[K^[m[K
+[6.249s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[6.249s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[6.250s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[6.250s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:5[m[K:
+[6.250s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:179:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)
+[6.251s]    [01;36m[Kcreate_publisher[m[K(
+[6.251s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.252s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:179:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.252s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.253s]   this->create_publisher<interfaces::msg::MessageInterfaceExample>("topic", 10[01;31m[K)[m[K;
+[6.253s]                                                                               [01;31m[K^[m[K
+[7.124s] make[2]: *** [CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o] Error 1
+[7.125s] make[1]: *** [CMakeFiles/pub_cpp.dir/all] Error 2
+[7.125s] make: *** [all] Error 2

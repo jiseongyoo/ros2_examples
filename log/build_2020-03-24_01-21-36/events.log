@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.008253] (pubsub_cpp_example) JobQueued: {'identifier': 'pubsub_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.008440] (pubsub_cpp_example) JobStarted: {'identifier': 'pubsub_cpp_example'}
+[0.065582] (pubsub_cpp_example) JobProgress: {'identifier': 'pubsub_cpp_example', 'progress': 'cmake'}
+[0.072900] (pubsub_cpp_example) JobProgress: {'identifier': 'pubsub_cpp_example', 'progress': 'build'}
+[0.074555] (pubsub_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e07146a_666d_4f16_ba9a_c8d8a7610070'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.286'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.098801] (-) TimerEvent: {}
+[0.183801] (pubsub_cpp_example) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.199145] (-) TimerEvent: {}
+[0.287710] (pubsub_cpp_example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299371] (-) TimerEvent: {}
+[0.400645] (-) TimerEvent: {}
+[0.503017] (-) TimerEvent: {}
+[0.605481] (-) TimerEvent: {}
+[0.707939] (-) TimerEvent: {}
+[0.810502] (-) TimerEvent: {}
+[0.911508] (-) TimerEvent: {}
+[1.013373] (pubsub_cpp_example) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.015212] (-) TimerEvent: {}
+[1.062365] (pubsub_cpp_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.115608] (-) TimerEvent: {}
+[1.204646] (pubsub_cpp_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.209542] (pubsub_cpp_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.215988] (-) TimerEvent: {}
+[1.317563] (-) TimerEvent: {}
+[1.335289] (pubsub_cpp_example) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake)\n'}
+[1.418093] (-) TimerEvent: {}
+[1.460858] (pubsub_cpp_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[1.518313] (-) TimerEvent: {}
+[1.619302] (-) TimerEvent: {}
+[1.720577] (-) TimerEvent: {}
+[1.750431] (pubsub_cpp_example) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[1.752992] (pubsub_cpp_example) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.754921] (pubsub_cpp_example) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.760825] (pubsub_cpp_example) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.761281] (pubsub_cpp_example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.761839] (pubsub_cpp_example) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.763534] (pubsub_cpp_example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.774025] (pubsub_cpp_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.821069] (-) TimerEvent: {}
+[1.838745] (pubsub_cpp_example) StdoutLine: {'line': b'-- Generating done\n'}
+[1.845849] (pubsub_cpp_example) StdoutLine: {'line': b'-- Build files have been written to: /home/jiseongyoo/ros2_examples/build/pubsub_cpp_example\n'}
+[1.921549] (-) TimerEvent: {}
+[1.945099] (pubsub_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_cpp\x1b[0m\n'}
+[2.021707] (-) TimerEvent: {}
+[2.075501] (pubsub_cpp_example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o\x1b[0m\n'}
+[2.121910] (-) TimerEvent: {}
+[2.222715] (-) TimerEvent: {}
+[2.323439] (-) TimerEvent: {}
+[2.424190] (-) TimerEvent: {}
+[2.524924] (-) TimerEvent: {}
+[2.625691] (-) TimerEvent: {}
+[2.726821] (-) TimerEvent: {}
+[2.829301] (-) TimerEvent: {}
+[2.932249] (-) TimerEvent: {}
+[3.034827] (-) TimerEvent: {}
+[3.137705] (-) TimerEvent: {}
+[3.240424] (-) TimerEvent: {}
+[3.341572] (-) TimerEvent: {}
+[3.444416] (-) TimerEvent: {}
+[3.547197] (-) TimerEvent: {}
+[3.649917] (-) TimerEvent: {}
+[3.755189] (-) TimerEvent: {}
+[3.858012] (-) TimerEvent: {}
+[3.960404] (-) TimerEvent: {}
+[4.062977] (-) TimerEvent: {}
+[4.165379] (-) TimerEvent: {}
+[4.266126] (-) TimerEvent: {}
+[4.367318] (-) TimerEvent: {}
+[4.470001] (-) TimerEvent: {}
+[4.572147] (-) TimerEvent: {}
+[4.675050] (-) TimerEvent: {}
+[4.777295] (-) TimerEvent: {}
+[4.880112] (-) TimerEvent: {}
+[4.982964] (-) TimerEvent: {}
+[5.085776] (-) TimerEvent: {}
+[5.188618] (-) TimerEvent: {}
+[5.291513] (-) TimerEvent: {}
+[5.394279] (-) TimerEvent: {}
+[5.497241] (-) TimerEvent: {}
+[5.600103] (-) TimerEvent: {}
+[5.702955] (-) TimerEvent: {}
+[5.805483] (-) TimerEvent: {}
+[5.908416] (-) TimerEvent: {}
+[6.011350] (-) TimerEvent: {}
+[6.114283] (-) TimerEvent: {}
+[6.217130] (-) TimerEvent: {}
+[6.222607] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMessageInterfaceExample\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.223556] (pubsub_cpp_example) StderrLine: {'line': b'   rclcpp::Publisher<interfaces::msg::\x1b[01;31m\x1b[KMessageInterfaceExample\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[6.224135] (pubsub_cpp_example) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.225113] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMessageInterfaceExample\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.225734] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.226299] (pubsub_cpp_example) StderrLine: {'line': b'   rclcpp::Publisher<interfaces::msg::MessageInterfaceExample\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[6.226892] (pubsub_cpp_example) StderrLine: {'line': b'                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.227439] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[6.227994] (pubsub_cpp_example) StderrLine: {'line': b'   rclcpp::Publisher<interfaces::msg::MessageInterfaceExample>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[6.228526] (pubsub_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.230690] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:18:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.231261] (pubsub_cpp_example) StderrLine: {'line': b' cpp::Publisher<interfaces::msg::MessageInterfaceExample>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[6.231758] (pubsub_cpp_example) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.233313] (pubsub_cpp_example) StderrLine: {'line': b'                                                                          \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[6.233834] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publisherTemplate::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.234350] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:23:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMessageInterfaceExample\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.234839] (pubsub_cpp_example) StderrLine: {'line': b'     auto message = interfaces::msg::\x1b[01;31m\x1b[KMessageInterfaceExample\x1b[m\x1b[K();\n'}
+[6.235283] (pubsub_cpp_example) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.235712] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:31:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.236171] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[6.236604] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.242206] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:31:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.242975] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[6.243432] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.243860] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[6.244279] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KpublisherTemplate::publisherTemplate()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.244738] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.248117] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<interfaces::msg::MessageInterfaceExample>("topic", 10);\n'}
+[6.248579] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.249006] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.249475] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<interfaces::msg::MessageInterfaceExample>("topic", 10);\n'}
+[6.249899] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.250359] (pubsub_cpp_example) StderrLine: {'line': b'     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[6.250874] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMessageInterfaceExample\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.251322] (pubsub_cpp_example) StderrLine: {'line': b'     publisher_ = this->create_publisher<interfaces::msg::\x1b[01;31m\x1b[KMessageInterfaceExample\x1b[m\x1b[K>("topic", 10);\n'}
+[6.254788] (pubsub_cpp_example) StderrLine: {'line': b'                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.255355] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMessageInterfaceExample\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.255809] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KpublisherTemplate::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.256253] (pubsub_cpp_example) StderrLine: {'line': b'  this->create_publisher<interfaces::msg::MessageInterfaceExample>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.256677] (pubsub_cpp_example) StderrLine: {'line': b'                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.257094] (pubsub_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[6.257513] (pubsub_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.257935] (pubsub_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[6.258347] (pubsub_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:5\x1b[m\x1b[K:\n'}
+[6.258813] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:179:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\n'}
+[6.259264] (pubsub_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[6.259694] (pubsub_cpp_example) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.260161] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:179:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.260604] (pubsub_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:38:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.261041] (pubsub_cpp_example) StderrLine: {'line': b'  this->create_publisher<interfaces::msg::MessageInterfaceExample>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.261467] (pubsub_cpp_example) StderrLine: {'line': b'                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.317629] (-) TimerEvent: {}
+[6.421929] (-) TimerEvent: {}
+[6.524717] (-) TimerEvent: {}
+[6.627178] (-) TimerEvent: {}
+[6.729823] (-) TimerEvent: {}
+[6.832411] (-) TimerEvent: {}
+[6.933778] (-) TimerEvent: {}
+[7.036204] (-) TimerEvent: {}
+[7.131204] (pubsub_cpp_example) StdoutLine: {'line': b"CMakeFiles/pub_cpp.dir/build.make:62: recipe for target 'CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o' failed\n"}
+[7.132468] (pubsub_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o] Error 1\n'}
+[7.132962] (pubsub_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/pub_cpp.dir/all] Error 2\n'}
+[7.133389] (pubsub_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp.dir/all' failed\n"}
+[7.133824] (pubsub_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[7.134253] (pubsub_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[7.136647] (-) TimerEvent: {}
+[7.141204] (pubsub_cpp_example) CommandEnded: {'returncode': 2}
+[7.144966] (pubsub_cpp_example) JobEnded: {'identifier': 'pubsub_cpp_example', 'rc': 2}
+[7.155298] (-) EventReactorShutdown: {}

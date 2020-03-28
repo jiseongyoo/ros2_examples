@@ -1,0 +1,31 @@
+[0.347s] [ 50%] Built target component_pub_cpp
+[0.400s] [35m[1mScanning dependencies of target component_container[0m
+[0.577s] [ 75%] [32mBuilding CXX object CMakeFiles/component_container.dir/src/component_container.cpp.o[0m
+[4.910s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.911s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:11:31:[m[K [01;31m[Kerror: [m[K‘[01m[KComponentPublisherExample[m[K’ was not declared in this scope
+[4.912s]    auto pub = std::make_shared<[01;31m[KComponentPublisherExample[m[K>();
+[4.913s]                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.914s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:11:31:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[4.916s] In file included from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:2:0[m[K:
+[4.917s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_pub_cpp_example.hpp:14:9:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcomponent::ComponentPublisherExample[m[K’
+[4.918s]    class [01;36m[KComponentPublisherExample[m[K : public rclcpp::Node{
+[4.918s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.919s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:11:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[4.919s]    auto pub = std::make_shared<ComponentPublisherExample>([01;31m[K)[m[K;
+[4.920s]                                                           [01;31m[K^[m[K
+[4.920s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[4.920s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[4.921s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:1[m[K:
+[4.921s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)
+[4.922s]      [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[4.922s]      [01;36m[K^~~~~~~~~~~[m[K
+[4.926s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.926s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:11:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.927s]    auto pub = std::make_shared<ComponentPublisherExample>([01;31m[K)[m[K;
+[4.927s]                                                           [01;31m[K^[m[K
+[5.496s] CMakeFiles/component_container.dir/build.make:62: recipe for target 'CMakeFiles/component_container.dir/src/component_container.cpp.o' failed
+[5.497s] make[2]: *** [CMakeFiles/component_container.dir/src/component_container.cpp.o] Error 1
+[5.498s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/component_container.dir/all' failed
+[5.498s] make[1]: *** [CMakeFiles/component_container.dir/all] Error 2
+[5.500s] make: *** [all] Error 2
+[5.506s] Makefile:140: recipe for target 'all' failed

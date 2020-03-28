@@ -1,0 +1,17 @@
+[0.247s] [35m[1mScanning dependencies of target param_client_cpp[0m
+[0.314s] [ 50%] Built target param_server_cpp
+[0.405s] [ 75%] [32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o[0m
+[4.597s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ParameterClientExample::parameters_set(T)[m[K’:
+[4.599s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:43:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::SyncParametersClient {aka class rclcpp::SyncParametersClient}[m[K’ has no member named ‘[01m[Kset_parameter[m[K’; did you mean ‘[01m[Kset_parameters[m[K’?
+[4.600s]        auto set_parameter_result = parameter_client_->[01;31m[Kset_parameter[m[K(*p);
+[4.601s]                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[4.605s]                                                       [32m[Kset_parameters[m[K
+[4.606s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:43:68:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Krclcpp::Parameter[m[K’)
+[4.606s]        auto set_parameter_result = parameter_client_->set_parameter([01;31m[K*p[m[K);
+[4.607s]                                                                     [01;31m[K^~[m[K
+[5.285s] CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed
+[5.287s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed
+[5.288s] Makefile:140: recipe for target 'all' failed
+[5.289s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.289s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.290s] make: *** [all] Error 2

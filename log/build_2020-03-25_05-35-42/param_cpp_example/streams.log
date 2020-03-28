@@ -1,0 +1,21 @@
+[0.074s] Invoking command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example -- -j2 -l2
+[0.288s] [35m[1mScanning dependencies of target param_client_cpp[0m
+[0.390s] [ 50%] Built target param_server_cpp
+[0.411s] [ 75%] [32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o[0m
+[4.735s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ParameterClientExample::parameters_set(T)[m[K’:
+[4.735s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:43:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::SyncParametersClient {aka class rclcpp::SyncParametersClient}[m[K’ has no member named ‘[01m[Kset_parameter[m[K’; did you mean ‘[01m[Kset_parameters[m[K’?
+[4.736s]        auto set_parameter_result = parameter_client_->[01;31m[Kset_parameter[m[K(rclcpp::Parameter(name, 43));
+[4.736s]                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[4.737s]                                                       [32m[Kset_parameters[m[K
+[5.023s] /home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp: In instantiation of ‘[01m[Kvoid ParameterClientExample::parameters_set(T) [with T = int][m[K’:
+[5.023s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:69:45:[m[K   required from here
+[5.024s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:21:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue_[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.024s]    void parameters_set(const T [01;35m[Kvalue_[m[K){
+[5.025s]                                [01;35m[K^~~~~~[m[K
+[5.520s] CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed
+[5.522s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.522s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed
+[5.523s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.524s] Makefile:140: recipe for target 'all' failed
+[5.526s] make: *** [all] Error 2
+[5.527s] Invoked command in '/home/jiseongyoo/ros2_examples/build/param_cpp_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/param_cpp_example -- -j2 -l2

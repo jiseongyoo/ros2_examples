@@ -1,0 +1,12 @@
+[0.261s] [35m[1mScanning dependencies of target pub_cpp_template[0m
+[0.390s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o[0m
+[4.548s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:[m[K In member function ‘[01m[Kvoid publisherTemplate::timer_callback()[m[K’:
+[4.550s] [01m[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:19:13:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[4.552s]      [01;31m[Kmessage.data[m[K = "Publihsing string";
+[4.554s]      [01;31m[K~~~~~~~~^~~~[m[K
+[5.144s] CMakeFiles/pub_cpp_template.dir/build.make:62: recipe for target 'CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o' failed
+[5.146s] make[2]: *** [CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o] Error 1
+[5.146s] make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2
+[5.147s] make: *** [all] Error 2
+[5.147s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp_template.dir/all' failed
+[5.148s] Makefile:140: recipe for target 'all' failed

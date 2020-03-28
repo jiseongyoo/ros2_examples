@@ -1,0 +1,67 @@
+[55.604s] make[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/service_collection__type_support.cpp.o] Interrupt
+[55.605s] Traceback (most recent call last):
+[55.605s]   File "/opt/ros/eloquent/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>
+[55.606s]     sys.exit(main())
+[55.606s]   File "/opt/ros/eloquent/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main
+[55.607s]     return generate_c(args.generator_arguments_file, args.typesupports)
+[55.607s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_typesupport_c/__init__.py", line 24, in generate_c
+[55.608s]     additional_context={'type_supports': type_supports})
+[55.608s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 89, in generate_files
+[55.609s]     post_process_callback=post_process_callback)
+[55.609s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 148, in expand_template
+[55.609s]     interpreter.string(template_content, template_path, locals=data)
+[55.610s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[55.631s]     self.safe(scanner, True, locals)
+[55.632s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[55.643s]     self.parse(scanner, locals)
+[55.643s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[55.648s]     token.run(self, locals)
+[55.650s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[55.656s]     self.subrun(info[0][1], interpreter, locals)
+[55.657s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[55.658s]     token.run(interpreter, locals)
+[55.663s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[55.664s]     interpreter.execute(self.code, locals)
+[55.664s]   File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+[55.667s]     _exec(statements, self.globals, locals)
+[55.667s]   File "<string>", line 5, in <module>
+[55.668s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 197, in _expand_template
+[55.668s]     interpreter.string(content, str(template_path), kwargs)
+[55.668s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[55.669s]     self.safe(scanner, True, locals)
+[55.669s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[55.669s]     self.parse(scanner, locals)
+[55.670s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[55.670s]     token = scanner.one()
+[55.670s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[55.678s]     token.scan(self)
+[55.681s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[55.682s]     self.subscan(scanner, self.type)
+[55.682s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[55.683s]     token = scanner.one()
+[55.684s]   File "/usr/lib/python3/dist-packages/em.py", line 1961, in one
+[55.684s]     loc = self.find(self.prefix)
+[55.685s]   File "/usr/lib/python3/dist-packages/em.py", line 1794, in find
+[55.685s]     return self.rest().find(sub, start)
+[55.686s]   File "/usr/lib/python3/dist-packages/em.py", line 1752, in rest
+[55.686s]     return self[:]
+[55.688s]   File "/usr/lib/python3/dist-packages/em.py", line 1685, in __getitem__
+[55.689s]     return self.__getslice__(index.start, index.stop)
+[55.691s]   File "/usr/lib/python3/dist-packages/em.py", line 1693, in __getslice__
+[55.691s]     stop = len(self)
+[55.692s]   File "/usr/lib/python3/dist-packages/em.py", line 1680, in __len__
+[55.692s]     def __len__(self): return len(self.buffer) - self.pointer
+[55.693s] KeyboardInterrupt
+[55.729s] Exception ignored in: <bound method Interpreter.__del__ of <empy pseudomodule/interpreter at 0x7f4a5adbf550>>
+[55.729s] Traceback (most recent call last):
+[55.730s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[55.731s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[55.731s]   File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize
+[55.731s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[55.732s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[55.763s] make[2]: *** [rosidl_typesupport_c/interfaces/action/action_collection__type_support.cpp] Error 1
+[55.766s] make[1]: *** [CMakeFiles/interfaces__rosidl_typesupport_c.dir/all] Interrupt
+[55.771s] make[1]: *** wait: No child processes.  Stop.
+[55.771s] make[1]: *** Waiting for unfinished jobs....
+[55.772s] make[1]: *** wait: No child processes.  Stop.
+[55.773s] make: *** [all] Error 2

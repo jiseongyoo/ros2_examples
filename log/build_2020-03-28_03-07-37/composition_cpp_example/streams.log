@@ -1,0 +1,42 @@
+[0.076s] Invoking command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2
+[0.319s] [ 14%] Built target component_action_server_cpp
+[0.340s] [ 28%] Built target component_service_server_cpp
+[0.368s] [35m[1mScanning dependencies of target component_action_client_cpp[0m
+[0.457s] [ 42%] Built target component_sub_cpp
+[0.602s] [ 50%] [32mBuilding CXX object CMakeFiles/component_action_client_cpp.dir/src/component_action_client_cpp_example.cpp.o[0m
+[0.735s] [ 64%] Built target component_service_client_cpp
+[0.880s] [ 78%] Built target component_pub_cpp
+[5.129s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.130s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.136s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.137s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.138s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.139s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.140s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.140s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.140s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.141s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_client_cpp_example.hpp:7[m[K,
+[5.141s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:1[m[K:
+[5.142s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ComponentActionClientExample::result_callback(const WrappedResult&)[m[K’:
+[5.142s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:18:94:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr {aka const class std::shared_ptr<interfaces::action::Example_Result_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kc_str[m[K’; did you mean ‘[01m[K_M_ptr[m[K’?
+[5.142s]            RCLCPP_INFO(this->get_logger(), "Action '/action' : succeeded : %s", result.result.[01;31m[Kc[m[K_str());
+[5.143s]                                                                                               [01;31m[K^[m[K
+[5.143s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.143s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.144s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.144s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.144s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.145s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.145s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.145s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.146s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.146s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_client_cpp_example.cpp:18:11:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.146s]            [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action '/action' : succeeded : %s", result.result.c_str());
+[5.147s]            [01;36m[K^~~~~~~~~~~[m[K
+[8.411s] CMakeFiles/component_action_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_action_client_cpp.dir/src/component_action_client_cpp_example.cpp.o' failed
+[8.413s] make[2]: *** [CMakeFiles/component_action_client_cpp.dir/src/component_action_client_cpp_example.cpp.o] Error 1
+[8.414s] CMakeFiles/Makefile2:146: recipe for target 'CMakeFiles/component_action_client_cpp.dir/all' failed
+[8.415s] make[1]: *** [CMakeFiles/component_action_client_cpp.dir/all] Error 2
+[8.419s] Makefile:140: recipe for target 'all' failed
+[8.420s] make: *** [all] Error 2
+[8.421s] Invoked command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example' returned '2': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2

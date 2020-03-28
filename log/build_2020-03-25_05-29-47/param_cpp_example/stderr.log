@@ -1,0 +1,8 @@
+[4.497s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ParameterClientExample::parameters_set(T)[m[K’:
+[4.498s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:42:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::SyncParametersClient {aka class rclcpp::SyncParametersClient}[m[K’ has no member named ‘[01m[Kset_parameter[m[K’; did you mean ‘[01m[Kset_parameters[m[K’?
+[4.499s]        auto set_parameter_result = parameter_client_->[01;31m[Kset_parameter[m[K({rclcpp::Parameter(param[0], value_)});
+[4.500s]                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[4.500s]                                                       [32m[Kset_parameters[m[K
+[5.205s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.208s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.211s] make: *** [all] Error 2

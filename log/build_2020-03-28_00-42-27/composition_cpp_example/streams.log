@@ -1,0 +1,40 @@
+[0.077s] Invoking command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2
+[0.336s] [ 20%] Built target component_service_server_cpp
+[0.341s] [ 40%] Built target component_sub_cpp
+[0.386s] [35m[1mScanning dependencies of target component_service_client_cpp[0m
+[0.518s] [ 60%] Built target component_pub_cpp
+[0.532s] [ 70%] [32mBuilding CXX object CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o[0m
+[4.763s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[4.765s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[4.766s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[4.767s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.768s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.769s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[4.770s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.771s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[4.772s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[4.773s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_client_cpp_example.hpp:8[m[K,
+[4.774s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:1[m[K:
+[4.774s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:[m[K In lambda function:
+[4.775s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:35:136:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct interfaces::srv::Example_Response_<std::allocator<void> > {aka struct interfaces::srv::Example_Response_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmessage[m[K’
+[4.775s]  , service_client_->get_service_name(), std::to_string(result.get()->[01;31m[Km[m[Kessage).c_str());
+[4.776s]                                                                      [01;31m[K^[m[K
+[4.776s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.776s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[4.777s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[4.777s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.778s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.778s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.779s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[4.779s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[4.779s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.780s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_client_cpp_example.cpp:35:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.780s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Service responsed '%s' : %s", service_client_->get_service_name(), std::to_string(result.get()->message).c_str());
+[4.781s]        [01;36m[K^~~~~~~~~~~[m[K
+[7.146s] CMakeFiles/component_service_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o' failed
+[7.147s] make[2]: *** [CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o] Error 1
+[7.149s] make[1]: *** [CMakeFiles/component_service_client_cpp.dir/all] Error 2
+[7.155s] CMakeFiles/Makefile2:208: recipe for target 'CMakeFiles/component_service_client_cpp.dir/all' failed
+[7.156s] Makefile:140: recipe for target 'all' failed
+[7.158s] make: *** [all] Error 2
+[7.161s] Invoked command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example' returned '2': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2

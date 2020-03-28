@@ -1,0 +1,43 @@
+[0.077s] Invoking command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2
+[0.199s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.311s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.096s] -- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.160s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.305s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.327s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.467s] -- Found rclcpp_action: 0.8.4 (/opt/ros/eloquent/share/rclcpp_action/cmake)
+[1.740s] -- Found rclcpp_components: 0.8.4 (/opt/ros/eloquent/share/rclcpp_components/cmake)
+[1.748s] -- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+[1.820s] -- Found interfaces: 0.0.0 (/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake)
+[2.443s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[2.734s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.739s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.741s] -- Configured cppcheck include dirs: /home/jiseongyoo/ros2_examples/src/composition_cpp_example/include
+[2.746s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.749s] -- Added test 'lint_cmake' to check CMake code style
+[2.753s] -- Added test 'uncrustify' to check C / C++ code style
+[2.755s] -- Added test 'xmllint' to check XML markup files
+[2.763s] -- Configuring done
+[3.215s] -- Generating done
+[3.225s] -- Build files have been written to: /home/jiseongyoo/ros2_examples/build/composition_cpp_example
+[3.315s] [35m[1mScanning dependencies of target component_action_server_cpp[0m
+[3.458s] [ 16%] Built target component_service_server_cpp
+[3.545s] [ 25%] [32mBuilding CXX object CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o[0m
+[3.628s] [ 41%] Built target component_sub_cpp
+[3.677s] [35m[1mScanning dependencies of target component_service_client_cpp[0m
+[3.862s] In file included from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1:0[m[K:
+[3.863s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp_action.hpp: No such file or directory
+[3.863s]  #include [01;31m[K"rclcpp/rclcpp_action.hpp"[m[K
+[3.863s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.864s] compilation terminated.
+[3.879s] [ 50%] [32mBuilding CXX object CMakeFiles/component_service_client_cpp.dir/src/component_service_client_cpp_example.cpp.o[0m
+[3.897s] CMakeFiles/component_action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o' failed
+[3.898s] make[2]: *** [CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o] Error 1
+[3.899s] make[1]: *** [CMakeFiles/component_action_server_cpp.dir/all] Error 2
+[3.899s] make[1]: *** Waiting for unfinished jobs....
+[3.900s] CMakeFiles/Makefile2:108: recipe for target 'CMakeFiles/component_action_server_cpp.dir/all' failed
+[12.866s] [ 58%] [32m[1mLinking CXX shared library libcomponent_service_client_cpp.so[0m
+[13.626s] [ 58%] Built target component_service_client_cpp
+[13.636s] make: *** [all] Error 2
+[13.637s] Makefile:140: recipe for target 'all' failed
+[13.642s] Invoked command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example' returned '2': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2

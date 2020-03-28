@@ -1,0 +1,73 @@
+[7.564s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[7.564s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[7.565s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[7.566s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[7.566s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[7.567s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[7.567s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.567s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[7.568s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[7.568s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:1[m[K:
+[7.569s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServerExample::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)[m[K’:
+[7.569s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:12:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct interfaces::action::Example_Goal_<std::allocator<void> > {aka const struct interfaces::action::Example_Goal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kgoal[m[K’
+[7.570s]  RCLCPP_INFO(this->get_logger(), "Received goal request '%s'", goal->[01;31m[Kg[m[Koal.c_str());
+[7.570s]                                                                      [01;31m[K^[m[K
+[7.571s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[7.571s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[7.571s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[7.572s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[7.572s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[7.573s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.574s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[7.576s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[7.576s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.577s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[7.577s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Received goal request '%s'", goal->goal.c_str());
+[7.578s]      [01;36m[K^~~~~~~~~~~[m[K
+[7.578s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:16:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct interfaces::action::Example_Goal_<std::allocator<void> > {aka const struct interfaces::action::Example_Goal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kgoal[m[K’
+[7.579s]      if (goal->[01;31m[Kgoal[m[K.c_str() == ""){
+[7.579s]                [01;31m[K^~~~[m[K
+[7.580s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ActionServerExample::handle_accept(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)[m[K’:
+[7.580s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:31:28:[m[K [01;31m[Kerror: [m[K‘[01m[KActionServer[m[K’ was not declared in this scope
+[7.581s]      std::thread{std::bind(&[01;31m[KActionServer[m[K::execute, this, std::placeholders::_1), goal_handle}.detach();
+[7.581s]                             [01;31m[K^~~~~~~~~~~~[m[K
+[7.581s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:31:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kaction_server_[m[K’
+[7.582s]      std::thread{std::bind(&[01;36m[KActionServer[m[K::execute, this, std::placeholders::_1), goal_handle}.detach();
+[7.582s]                             [01;36m[K^~~~~~~~~~~~[m[K
+[7.583s]                             [32m[Kaction_server_[m[K
+[7.583s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:31:92:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+[7.584s]  nd(&ActionServer::execute, this, std::placeholders::_1), goal_handle[01;31m[K}[m[K.detach();
+[7.584s]                                                                      [01;31m[K^[m[K
+[7.585s] In file included from [01m[K/usr/include/c++/7/future:39:0[m[K,
+[7.585s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:18[m[K,
+[7.586s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[7.586s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:1[m[K:
+[7.587s] [01m[K/usr/include/c++/7/thread:118:7:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Callable, class ... _Args> std::thread::thread(_Callable&&, _Args&& ...)
+[7.587s]        [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+[7.588s]        [01;36m[K^~~~~~[m[K
+[7.588s] [01m[K/usr/include/c++/7/thread:118:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.588s] [01m[K/usr/include/c++/7/thread:113:5:[m[K [01;36m[Knote: [m[Kcandidate: std::thread::thread(std::thread&&)
+[7.589s]      [01;36m[Kthread[m[K(thread&& __t) noexcept
+[7.589s]      [01;36m[K^~~~~~[m[K
+[7.590s] [01m[K/usr/include/c++/7/thread:113:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[7.590s] [01m[K/usr/include/c++/7/thread:106:5:[m[K [01;36m[Knote: [m[Kcandidate: std::thread::thread()
+[7.591s]      [01;36m[Kthread[m[K() noexcept = default;
+[7.591s]      [01;36m[K^~~~~~[m[K
+[7.591s] [01m[K/usr/include/c++/7/thread:106:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[7.642s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ActionServerExample::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)[m[K’:
+[7.642s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:44:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct interfaces::action::Example_Result_<std::allocator<void> > {aka struct interfaces::action::Example_Result_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kresult[m[K’
+[7.643s]          result->[01;31m[Kresult[m[K = "Action canceled";
+[7.643s]                  [01;31m[K^~~~~~[m[K
+[7.648s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:49:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kitos[m[K’ was not declared in this scope
+[7.648s]        feedback->feedback = "Feedback " + [01;31m[Kitos[m[K(i);
+[7.649s]                                           [01;31m[K^~~~[m[K
+[7.655s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:49:42:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Katol[m[K’
+[7.656s]        feedback->feedback = "Feedback " + [01;36m[Kitos[m[K(i);
+[7.656s]                                           [01;36m[K^~~~[m[K
+[7.657s]                                           [32m[Katol[m[K
+[7.661s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:56:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct interfaces::action::Example_Result_<std::allocator<void> > {aka struct interfaces::action::Example_Result_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kresult[m[K’
+[7.662s]        result->[01;31m[Kresult[m[K = "Action finished";
+[7.662s]                [01;31m[K^~~~~~[m[K
+[10.214s] make[2]: *** [CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[10.215s] make[1]: *** [CMakeFiles/action_server_cpp.dir/all] Error 2
+[10.217s] make: *** [all] Error 2

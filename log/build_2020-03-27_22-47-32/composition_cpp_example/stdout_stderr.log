@@ -1,0 +1,33 @@
+[0.288s] [35m[1mScanning dependencies of target component_pub_cpp[0m
+[0.434s] [ 25%] [32mBuilding CXX object CMakeFiles/component_pub_cpp.dir/src/component_pub_cpp_example.cpp.o[0m
+[4.908s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_pub_cpp_example.cpp:[m[K In constructor ‘[01m[Kcomponent::ComponentPublisherExample::ComponentPublisherExample()[m[K’:
+[4.909s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_pub_cpp_example.cpp:42:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[4.910s]    ComponentPublisherExample::ComponentPublisherExample([01;31m[K)[m[K{
+[4.911s]                                                         [01;31m[K^[m[K
+[4.912s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[4.916s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[4.917s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[4.917s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_pub_cpp_example.hpp:8[m[K,
+[4.922s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_pub_cpp_example.cpp:26[m[K:
+[4.923s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1080:3:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const rclcpp::Node&, const string&)
+[4.923s]    [01;36m[KNode[m[K(
+[4.924s]    [01;36m[K^~~~[m[K
+[4.924s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1080:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[4.925s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)
+[4.925s]    explicit [01;36m[KNode[m[K(
+[4.926s]             [01;36m[K^~~~[m[K
+[4.926s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[4.927s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)
+[4.927s]    explicit [01;36m[KNode[m[K(
+[4.927s]             [01;36m[K^~~~[m[K
+[4.928s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[4.928s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_pub_cpp_example.cpp:43:79:[m[K [01;31m[Kerror: [m[Kcannot call constructor ‘[01m[Kcomponent::ComponentPublisherExample::ComponentPublisherExample[m[K’ directly [[01;31m[K-fpermissive[m[K]
+[4.929s]     ComponentPublisherExample::ComponentPublisherExample(rclcpp::NodeOptions()[01;31m[K)[m[K;
+[4.929s]                                                                               [01;31m[K^[m[K
+[4.930s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_pub_cpp_example.cpp:43:79:[m[K [01;36m[Knote: [m[Kfor a function-style cast, remove the redundant ‘[01m[K::ComponentPublisherExample[m[K’
+[7.581s] CMakeFiles/component_pub_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_pub_cpp.dir/src/component_pub_cpp_example.cpp.o' failed
+[7.582s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/component_pub_cpp.dir/all' failed
+[7.582s] make[2]: *** [CMakeFiles/component_pub_cpp.dir/src/component_pub_cpp_example.cpp.o] Error 1
+[7.583s] make[1]: *** [CMakeFiles/component_pub_cpp.dir/all] Error 2
+[7.583s] make: *** [all] Error 2
+[7.586s] Makefile:140: recipe for target 'all' failed

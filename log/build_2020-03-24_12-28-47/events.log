@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.004988] (action_cpp_example) JobQueued: {'identifier': 'action_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.005291] (action_cpp_example) JobStarted: {'identifier': 'action_cpp_example'}
+[0.069323] (action_cpp_example) JobProgress: {'identifier': 'action_cpp_example', 'progress': 'cmake'}
+[0.072795] (action_cpp_example) JobProgress: {'identifier': 'action_cpp_example', 'progress': 'build'}
+[0.075586] (action_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/action_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/action_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2036'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/1959,unix/jiseongyoo-laptop:/tmp/.ICE-unix/1959'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50cc7584_4b35_43bd_8a66_43050a7fc6e4'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.65'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/action_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.099674] (-) TimerEvent: {}
+[0.201240] (-) TimerEvent: {}
+[0.271647] (action_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_server_cpp\x1b[0m\n'}
+[0.301422] (-) TimerEvent: {}
+[0.333889] (action_cpp_example) StdoutLine: {'line': b'[ 50%] Built target action_client_cpp\n'}
+[0.402596] (-) TimerEvent: {}
+[0.481063] (action_cpp_example) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o\x1b[0m\n'}
+[0.502768] (-) TimerEvent: {}
+[0.603552] (-) TimerEvent: {}
+[0.704787] (-) TimerEvent: {}
+[0.806711] (-) TimerEvent: {}
+[0.908106] (-) TimerEvent: {}
+[1.010974] (-) TimerEvent: {}
+[1.113846] (-) TimerEvent: {}
+[1.216785] (-) TimerEvent: {}
+[1.318821] (-) TimerEvent: {}
+[1.421722] (-) TimerEvent: {}
+[1.523678] (-) TimerEvent: {}
+[1.626572] (-) TimerEvent: {}
+[1.728565] (-) TimerEvent: {}
+[1.831440] (-) TimerEvent: {}
+[1.933478] (-) TimerEvent: {}
+[2.036395] (-) TimerEvent: {}
+[2.137993] (-) TimerEvent: {}
+[2.242045] (-) TimerEvent: {}
+[2.344680] (-) TimerEvent: {}
+[2.447347] (-) TimerEvent: {}
+[2.549738] (-) TimerEvent: {}
+[2.652605] (-) TimerEvent: {}
+[2.755113] (-) TimerEvent: {}
+[2.857793] (-) TimerEvent: {}
+[2.960665] (-) TimerEvent: {}
+[3.062721] (-) TimerEvent: {}
+[3.164789] (-) TimerEvent: {}
+[3.266941] (-) TimerEvent: {}
+[3.368709] (-) TimerEvent: {}
+[3.469815] (-) TimerEvent: {}
+[3.571873] (-) TimerEvent: {}
+[3.674742] (-) TimerEvent: {}
+[3.776766] (-) TimerEvent: {}
+[3.879685] (-) TimerEvent: {}
+[3.981590] (-) TimerEvent: {}
+[4.083355] (-) TimerEvent: {}
+[4.186179] (-) TimerEvent: {}
+[4.289214] (-) TimerEvent: {}
+[4.391066] (-) TimerEvent: {}
+[4.493885] (-) TimerEvent: {}
+[4.595954] (-) TimerEvent: {}
+[4.698510] (-) TimerEvent: {}
+[4.800063] (-) TimerEvent: {}
+[4.902510] (-) TimerEvent: {}
+[5.005185] (-) TimerEvent: {}
+[5.010679] (action_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KActionServerExample::ActionServerExample(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.011778] (action_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:67:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server<interfaces::action::Example>(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const char [14], std::_Bind_helper<false, rclcpp_action::GoalResponse (ActionServerExample::*)(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >), ActionServerExample*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (ActionServerExample::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >), ActionServerExample*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (ActionServerExample::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >), ActionServerExample*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.012599] (action_cpp_example) StderrLine: {'line': b'   std::bind(&ActionServerExample::handle_accept, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.013302] (action_cpp_example) StderrLine: {'line': b'                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.014001] (action_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.014742] (action_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:2\x1b[m\x1b[K:\n'}
+[5.015490] (action_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::callback_group::CallbackGroup::SharedPtr)\n'}
+[5.017107] (action_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[5.017543] (action_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.017900] (action_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.018288] (action_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:65:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = rclcpp_action::GoalResponse (ActionServerExample::*)(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >); _BoundArgs = {ActionServerExample*, const std::_Placeholder<1>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind<rclcpp_action::GoalResponse (ActionServerExample::*(ActionServerExample*, std::_Placeholder<1>))(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)>](((ActionServerExample*)this), std::placeholders::_1)\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, rclcpp_action::GoalResponse (ActionServerExample::*)(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >), ActionServerExample*, const std::_Placeholder<1>&>::type {aka std::_Bind<rclcpp_action::GoalResponse (ActionServerExample::*(ActionServerExample*, std::_Placeholder<1>))(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)>}\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Server<interfaces::action::Example>::GoalCallback {aka std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)>}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.018835] (action_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kstd::bind(&ActionServerExample::handle_goal, this, std::placeholders::_1)\x1b[m\x1b[K,\n'}
+[5.019215] (action_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.019566] (action_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.019913] (action_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:2\x1b[m\x1b[K:\n'}
+[5.020258] (action_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:133:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::callback_group::CallbackGroup::SharedPtr)\n'}
+[5.020628] (action_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[5.020973] (action_cpp_example) StderrLine: {'line': b' \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.021314] (action_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:133:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.021655] (action_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:67:82:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 8 provided\n'}
+[5.022017] (action_cpp_example) StderrLine: {'line': b'   std::bind(&ActionServerExample::handle_accept, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.022361] (action_cpp_example) StderrLine: {'line': b'                                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.105875] (-) TimerEvent: {}
+[5.208423] (-) TimerEvent: {}
+[5.311313] (-) TimerEvent: {}
+[5.414145] (-) TimerEvent: {}
+[5.517215] (-) TimerEvent: {}
+[5.619958] (-) TimerEvent: {}
+[5.721627] (-) TimerEvent: {}
+[5.824241] (-) TimerEvent: {}
+[5.927030] (-) TimerEvent: {}
+[5.973970] (action_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1\n'}
+[5.980380] (action_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/action_server_cpp.dir/all] Error 2\n'}
+[5.981193] (action_cpp_example) StdoutLine: {'line': b"CMakeFiles/action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o' failed\n"}
+[5.981926] (action_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/action_server_cpp.dir/all' failed\n"}
+[5.983887] (action_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[5.985626] (action_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[5.987620] (action_cpp_example) CommandEnded: {'returncode': 2}
+[5.991231] (action_cpp_example) JobEnded: {'identifier': 'action_cpp_example', 'rc': 2}
+[6.003267] (-) EventReactorShutdown: {}

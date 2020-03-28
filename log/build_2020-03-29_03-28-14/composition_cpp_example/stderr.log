@@ -1,0 +1,8 @@
+[5.221s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ParameterClientExample::timer_callback()[m[K’:
+[5.222s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:39:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::AsyncParametersClient {aka class rclcpp::AsyncParametersClient}[m[K’ has no member named ‘[01m[Kget_parameter[m[K’; did you mean ‘[01m[Kget_parameters[m[K’?
+[5.222s]      auto param = parameter_client_->[01;31m[Kget_parameter[m[K({"parameter"});
+[5.223s]                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[5.223s]                                      [32m[Kget_parameters[m[K
+[6.616s] make[2]: *** [CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o] Error 1
+[6.624s] make[1]: *** [CMakeFiles/component_parameter_client_cpp.dir/all] Error 2
+[6.626s] make: *** [all] Error 2

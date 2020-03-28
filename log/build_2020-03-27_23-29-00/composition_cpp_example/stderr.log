@@ -1,0 +1,8 @@
+[5.519s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_pub_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ComponentPublisherExample::timer_callback()[m[K’:
+[5.520s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_pub_cpp_example.cpp:33:44:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [19][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+[5.521s]      message.message = [01;31m[K"Publilshing string" + publisher_->get_topic_name()[m[K;
+[5.521s]                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.877s] make[2]: *** [CMakeFiles/component_pub_cpp.dir/src/component_pub_cpp_example.cpp.o] Error 1
+[8.879s] make[1]: *** [CMakeFiles/component_pub_cpp.dir/all] Error 2
+[8.879s] make[1]: *** Waiting for unfinished jobs....
+[14.178s] make: *** [all] Error 2

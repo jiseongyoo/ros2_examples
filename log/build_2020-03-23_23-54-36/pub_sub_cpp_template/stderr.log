@@ -1,0 +1,6 @@
+[10.626s] CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o: In function `rclcpp::Publisher<int, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[10.627s] pub_cpp_template.cpp:(.text._ZN6rclcpp9PublisherIiSaIvEEC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS1_EE[_ZN6rclcpp9PublisherIiSaIvEEC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS1_EE]+0x6a): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<int>()'
+[10.642s] collect2: error: ld returned 1 exit status
+[10.656s] make[2]: *** [pub_cpp_template] Error 1
+[10.657s] make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2
+[10.657s] make: *** [all] Error 2

@@ -1,0 +1,13 @@
+[0.269s] [35m[1mScanning dependencies of target param_client_cpp[0m
+[0.356s] [ 50%] Built target param_server_cpp
+[0.398s] [ 75%] [32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o[0m
+[4.807s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In constructor ‘[01m[KParameterClientExample::ParameterClientExample()[m[K’:
+[4.808s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:11:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[4.809s]      while (!parameter_client_->wait_for_service(std::chrono::seconds(1))[01;31m[K{[m[K
+[4.810s]                                                                          [01;31m[K^[m[K
+[5.659s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.663s] CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed
+[5.664s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed
+[5.664s] Makefile:140: recipe for target 'all' failed
+[5.665s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.665s] make: *** [all] Error 2

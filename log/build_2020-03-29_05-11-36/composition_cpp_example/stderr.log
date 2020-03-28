@@ -1,0 +1,12 @@
+[6.784s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse component::ActionServerExample::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)[m[K’:
+[6.785s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:17:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kc_str[m[K’ was not declared in this scope
+[6.786s]      if (goal->goal.c_str() == [01;31m[Kc_str[m[K("")){
+[6.787s]                                [01;31m[K^~~~~[m[K
+[6.792s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:17:31:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwcsstr[m[K’
+[6.793s]      if (goal->goal.c_str() == [01;36m[Kc_str[m[K("")){
+[6.794s]                                [01;36m[K^~~~~[m[K
+[6.795s]                                [32m[Kwcsstr[m[K
+[10.391s] make[2]: *** [CMakeFiles/component_action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[10.391s] make[1]: *** [CMakeFiles/component_action_server_cpp.dir/all] Error 2
+[10.392s] make[1]: *** Waiting for unfinished jobs....
+[15.619s] make: *** [all] Error 2

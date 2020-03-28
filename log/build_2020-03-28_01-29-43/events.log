@@ -1,0 +1,548 @@
+[0.000000] (-) TimerEvent: {}
+[0.009134] (composition_cpp_example) JobQueued: {'identifier': 'composition_cpp_example', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.009777] (composition_cpp_example) JobStarted: {'identifier': 'composition_cpp_example'}
+[0.072090] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'cmake'}
+[0.076042] (composition_cpp_example) JobProgress: {'identifier': 'composition_cpp_example', 'progress': 'build'}
+[0.079412] (composition_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/composition_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2419,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2419'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b512f5cd_d853_4304_902b_8e961c09afb9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.73'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/composition_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent')]), 'shell': False}
+[0.099661] (-) TimerEvent: {}
+[0.201484] (-) TimerEvent: {}
+[0.277674] (composition_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target component_action_server_cpp\x1b[0m\n'}
+[0.301658] (-) TimerEvent: {}
+[0.349133] (composition_cpp_example) StdoutLine: {'line': b'[ 16%] Built target component_service_server_cpp\n'}
+[0.406517] (-) TimerEvent: {}
+[0.507555] (-) TimerEvent: {}
+[0.548372] (composition_cpp_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o\x1b[0m\n'}
+[0.579672] (composition_cpp_example) StdoutLine: {'line': b'[ 41%] Built target component_sub_cpp\n'}
+[0.607769] (-) TimerEvent: {}
+[0.708801] (-) TimerEvent: {}
+[0.747776] (composition_cpp_example) StdoutLine: {'line': b'[ 58%] Built target component_service_client_cpp\n'}
+[0.809016] (-) TimerEvent: {}
+[0.904767] (composition_cpp_example) StdoutLine: {'line': b'[ 75%] Built target component_pub_cpp\n'}
+[0.909214] (-) TimerEvent: {}
+[1.010206] (-) TimerEvent: {}
+[1.111308] (-) TimerEvent: {}
+[1.212328] (-) TimerEvent: {}
+[1.313333] (-) TimerEvent: {}
+[1.414346] (-) TimerEvent: {}
+[1.515344] (-) TimerEvent: {}
+[1.616600] (-) TimerEvent: {}
+[1.718665] (-) TimerEvent: {}
+[1.821281] (-) TimerEvent: {}
+[1.923624] (-) TimerEvent: {}
+[2.025779] (-) TimerEvent: {}
+[2.128003] (-) TimerEvent: {}
+[2.230116] (-) TimerEvent: {}
+[2.332260] (-) TimerEvent: {}
+[2.434444] (-) TimerEvent: {}
+[2.536275] (-) TimerEvent: {}
+[2.637514] (-) TimerEvent: {}
+[2.739723] (-) TimerEvent: {}
+[2.842541] (-) TimerEvent: {}
+[2.945010] (-) TimerEvent: {}
+[3.047572] (-) TimerEvent: {}
+[3.150051] (-) TimerEvent: {}
+[3.251192] (-) TimerEvent: {}
+[3.354087] (-) TimerEvent: {}
+[3.457003] (-) TimerEvent: {}
+[3.560027] (-) TimerEvent: {}
+[3.663003] (-) TimerEvent: {}
+[3.765778] (-) TimerEvent: {}
+[3.867825] (-) TimerEvent: {}
+[3.970633] (-) TimerEvent: {}
+[4.073424] (-) TimerEvent: {}
+[4.176147] (-) TimerEvent: {}
+[4.279033] (-) TimerEvent: {}
+[4.381835] (-) TimerEvent: {}
+[4.484086] (-) TimerEvent: {}
+[4.586306] (-) TimerEvent: {}
+[4.689064] (-) TimerEvent: {}
+[4.792084] (-) TimerEvent: {}
+[4.894957] (-) TimerEvent: {}
+[4.997999] (-) TimerEvent: {}
+[5.072811] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1:0\x1b[m\x1b[K:\n'}
+[5.074119] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.075124] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::Server<interfaces::action::Example>::SharedPtr action_server_;\n'}
+[5.076014] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.076851] (composition_cpp_example) StderrLine: {'line': b'     \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.082552] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.083499] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,\n'}
+[5.084148] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.084785] (composition_cpp_example) StderrLine: {'line': b'     \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.092469] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.093612] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::CancelResponse handle_cancel(\n'}
+[5.094459] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.095274] (composition_cpp_example) StderrLine: {'line': b'     \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.096069] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.096912] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.097697] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.098499] (-) TimerEvent: {}
+[5.103130] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.104142] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.104597] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.105035] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.105477] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.105937] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.106450] (composition_cpp_example) StderrLine: {'line': b'                                                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.106909] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.107387] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.107839] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.113016] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.113893] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.114456] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.115003] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.115528] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.116086] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.116606] (composition_cpp_example) StderrLine: {'line': b'                                                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.117132] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.117667] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.118181] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.123122] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.123972] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.124533] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.125094] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.128274] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.129007] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.129587] (composition_cpp_example) StderrLine: {'line': b'                                                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.130163] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.130792] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.131376] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.133527] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.134434] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.134961] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.135395] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.135827] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.136261] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.136693] (composition_cpp_example) StderrLine: {'line': b'                                                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.137155] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.137597] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.138026] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.147861] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.148552] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.148934] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.149304] (composition_cpp_example) StderrLine: {'line': b'                             \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.149702] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.150068] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.154001] (composition_cpp_example) StderrLine: {'line': b'                                                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.155394] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of template-name \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 without an argument list\n'}
+[5.156145] (composition_cpp_example) StderrLine: {'line': b'       const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.157597] (composition_cpp_example) StderrLine: {'line': b'             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.158056] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kclass template argument deduction is only available with -std=c++1z or -std=gnu++1z\n'}
+[5.158567] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:52:0\x1b[m\x1b[K,\n'}
+[5.159023] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:81\x1b[m\x1b[K,\n'}
+[5.159456] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.159888] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.160332] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.160777] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:347:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> class std::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.161236] (composition_cpp_example) StderrLine: {'line': b'     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[5.161662] (composition_cpp_example) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.162090] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1:0\x1b[m\x1b[K:\n'}
+[5.162555] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:29:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.163031] (composition_cpp_example) StderrLine: {'line': b'       const std::shared_ptr\x1b[01;31m\x1b[K<\x1b[m\x1b[Krclcpp_action::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.163504] (composition_cpp_example) StderrLine: {'line': b'                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.163933] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.164369] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.166132] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.166747] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.167202] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.167636] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.168068] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.168515] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.168947] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.169380] (composition_cpp_example) StderrLine: {'line': b'                                                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.169829] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.170273] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.170742] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.171171] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.171611] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.172043] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.172471] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.172893] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.173354] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.173783] (composition_cpp_example) StderrLine: {'line': b'                                                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.174211] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.174695] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.175168] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.176254] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.176718] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.177152] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.177582] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.178007] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.178473] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.178915] (composition_cpp_example) StderrLine: {'line': b'                                                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.179346] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.180013] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.180496] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.186407] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.187177] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.187653] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.188112] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.188698] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.189252] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.189800] (composition_cpp_example) StderrLine: {'line': b'                                                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.190366] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.190928] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.191482] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.198933] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.199550] (-) TimerEvent: {}
+[5.199896] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.200277] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.200626] (composition_cpp_example) StderrLine: {'line': b'                                        \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.200971] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.201352] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle);\n'}
+[5.201703] (composition_cpp_example) StderrLine: {'line': b'                                                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.202040] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of template-name \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 without an argument list\n'}
+[5.202419] (composition_cpp_example) StderrLine: {'line': b'     void execute(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.202775] (composition_cpp_example) StderrLine: {'line': b'                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.203120] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kclass template argument deduction is only available with -std=c++1z or -std=gnu++1z\n'}
+[5.203499] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:52:0\x1b[m\x1b[K,\n'}
+[5.203844] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:81\x1b[m\x1b[K,\n'}
+[5.204189] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.204596] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.204969] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.205321] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:347:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> class std::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.205665] (composition_cpp_example) StderrLine: {'line': b'     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[5.206006] (composition_cpp_example) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.206366] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1:0\x1b[m\x1b[K:\n'}
+[5.206734] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:32:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.207091] (composition_cpp_example) StderrLine: {'line': b'     void execute(const std::shared_ptr\x1b[01;31m\x1b[K<\x1b[m\x1b[Krclcpp_action::ServerGoalHandle<interfaces::action::Example>> goal_handle);\n'}
+[5.207449] (composition_cpp_example) StderrLine: {'line': b'                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.207792] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:34:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KComoponentActionServerExample\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.208142] (composition_cpp_example) StderrLine: {'line': b'     ComoponentActionServerExample(const rclcpp::NodeOptions & options\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.208485] (composition_cpp_example) StderrLine: {'line': b'                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.211709] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:5:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.212375] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::GoalResponse ComponentActionServerExample::handle_goal(\n'}
+[5.212737] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.213114] (composition_cpp_example) StderrLine: {'line': b'   \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.218918] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:27:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.219604] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::CancelResponse ComponentActionServerExample::handle_cancel(\n'}
+[5.220016] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.220410] (composition_cpp_example) StderrLine: {'line': b'   \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.220804] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.221204] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.221597] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.232942] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.233792] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.234435] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.235036] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.235617] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.236201] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.236776] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.237353] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.237936] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.238511] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.247030] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.247603] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.247981] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.248335] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.249044] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.249528] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.249919] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.250782] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.251306] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.251707] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.263708] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.264314] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.264670] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.265012] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.265354] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.265703] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.266044] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.266467] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.266830] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.267170] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.276922] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.277889] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.278513] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.279092] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.279662] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.280232] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.280794] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.281355] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.281931] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.282513] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.287637] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.288516] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.289134] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.289729] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.290355] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.291009] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.291611] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.292207] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of template-name \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 without an argument list\n'}
+[5.292823] (composition_cpp_example) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.293411] (composition_cpp_example) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.294001] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kclass template argument deduction is only available with -std=c++1z or -std=gnu++1z\n'}
+[5.294667] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:52:0\x1b[m\x1b[K,\n'}
+[5.295269] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:81\x1b[m\x1b[K,\n'}
+[5.295860] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.296457] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.297053] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.297503] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:347:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> class std::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.297939] (composition_cpp_example) StderrLine: {'line': b'     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[5.298387] (composition_cpp_example) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.298823] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:43:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.299264] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr\x1b[01;31m\x1b[K<\x1b[m\x1b[Krclcpp_action::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.299676] (-) TimerEvent: {}
+[5.300083] (composition_cpp_example) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.349997] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid component::ComponentActionServerExample::handle_accept(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.350773] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:45:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.351233] (composition_cpp_example) StderrLine: {'line': b'     std::thread{std::bind(&ComponentActionServerExample::execute, this, std::placeholders::_1), \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K}.detach();\n'}
+[5.351714] (composition_cpp_example) StderrLine: {'line': b'                                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.360493] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:45:97:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Ksa_handler\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.361196] (composition_cpp_example) StderrLine: {'line': b'     std::thread{std::bind(&ComponentActionServerExample::execute, this, std::placeholders::_1), \x1b[01;36m\x1b[Kgoal_handle\x1b[m\x1b[K}.detach();\n'}
+[5.361647] (composition_cpp_example) StderrLine: {'line': b'                                                                                                 \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.362147] (composition_cpp_example) StderrLine: {'line': b'                                                                                                 \x1b[32m\x1b[Ksa_handler\x1b[m\x1b[K\n'}
+[5.367752] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:45:108:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.368504] (composition_cpp_example) StderrLine: {'line': b'     std::thread{std::bind(&ComponentActionServerExample::execute, this, std::placeholders::_1), goal_handle\x1b[01;31m\x1b[K}\x1b[m\x1b[K.detach();\n'}
+[5.368993] (composition_cpp_example) StderrLine: {'line': b'                                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.369443] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/future:39:0\x1b[m\x1b[K,\n'}
+[5.369877] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[5.370353] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.370881] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.371441] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.371968] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/thread:118:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Callable, class ... _Args> std::thread::thread(_Callable&&, _Args&& ...)\n'}
+[5.372493] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K(_Callable&& __f, _Args&&... __args)\n'}
+[5.373052] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.373576] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/thread:118:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.374635] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/thread:113:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::thread::thread(std::thread&&)\n'}
+[5.375200] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K(thread&& __t) noexcept\n'}
+[5.375723] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.376252] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/thread:113:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[5.376773] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/thread:106:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::thread::thread()\n'}
+[5.377297] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K() noexcept = default;\n'}
+[5.377811] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.378363] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/thread:106:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[5.378929] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.379490] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.380017] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.380543] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.381100] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.381535] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.381960] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.382423] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.382866] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.383299] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.383727] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.384580] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.385083] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.385526] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.385958] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.386443] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.386891] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.387338] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.387766] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.388204] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.388651] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.389101] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.389531] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.389958] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.394433] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.395162] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.395636] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.396102] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.396557] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.397025] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.397479] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.397937] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.398413] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.398882] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.399890] (-) TimerEvent: {}
+[5.405413] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.406282] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.406887] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.407440] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.407985] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.408538] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.409120] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.409670] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.410217] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.410827] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.415703] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.416511] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<\x1b[01;36m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.417059] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.417638] (composition_cpp_example) StderrLine: {'line': b'                           \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[5.419054] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.419630] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle){\n'}
+[5.420158] (composition_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.420709] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of template-name \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 without an argument list\n'}
+[5.421245] (composition_cpp_example) StderrLine: {'line': b'     const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.421766] (composition_cpp_example) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.422287] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kclass template argument deduction is only available with -std=c++1z or -std=gnu++1z\n'}
+[5.422862] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:52:0\x1b[m\x1b[K,\n'}
+[5.423395] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:81\x1b[m\x1b[K,\n'}
+[5.423914] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.424435] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.424967] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.425445] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr_base.h:347:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> class std::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.425878] (composition_cpp_example) StderrLine: {'line': b'     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[5.426308] (composition_cpp_example) StderrLine: {'line': b'           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.426816] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:50:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.427261] (composition_cpp_example) StderrLine: {'line': b'     const std::shared_ptr\x1b[01;31m\x1b[K<\x1b[m\x1b[Krclcpp_action::ServerGoalHandle<interfaces::action::Example>> goal_handle){\n'}
+[5.427716] (composition_cpp_example) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.428168] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.428600] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.429025] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.429452] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.429874] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.430304] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.430766] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.431192] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.431621] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.432053] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.432491] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.433168] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid component::ComponentActionServerExample::execute(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.433640] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:53:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.434080] (composition_cpp_example) StderrLine: {'line': b'     RCLCPP_INFO(this->get_logger(), "Action \'%s\' : executed", \x1b[01;31m\x1b[Ka\x1b[m\x1b[Kction_server_->get_action_name());\n'}
+[5.434597] (composition_cpp_example) StderrLine: {'line': b'                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.435046] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435482] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.435941] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.436381] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.436815] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.437243] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.437673] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.438102] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.438553] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.438986] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:53:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.439423] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'%s\' : executed", action_server_->get_action_name());\n'}
+[5.439852] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.440278] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:57:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.440988] (composition_cpp_example) StderrLine: {'line': b'     const auto goal = \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K->get_goal();\n'}
+[5.441444] (composition_cpp_example) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.441872] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:57:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Ksa_handler\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442308] (composition_cpp_example) StderrLine: {'line': b'     const auto goal = \x1b[01;36m\x1b[Kgoal_handle\x1b[m\x1b[K->get_goal();\n'}
+[5.442768] (composition_cpp_example) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.443198] (composition_cpp_example) StderrLine: {'line': b'                       \x1b[32m\x1b[Ksa_handler\x1b[m\x1b[K\n'}
+[5.487143] (composition_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[5.487846] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.488334] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.488775] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.489209] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.489640] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.490101] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.490579] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.491027] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.491458] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_action_server_cpp_example.hpp:8\x1b[m\x1b[K,\n'}
+[5.491890] (composition_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:1\x1b[m\x1b[K:\n'}
+[5.492327] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:74:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.492787] (composition_cpp_example) StderrLine: {'line': b'         RCLCPP_INFO(this->get_logger(), "Action \'s\' : canceled", \x1b[01;31m\x1b[Ka\x1b[m\x1b[Kction_server_->get_action_name());\n'}
+[5.493225] (composition_cpp_example) StderrLine: {'line': b'                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.493653] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.494114] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.494586] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.495021] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.495447] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.495894] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.496324] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.496752] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.497176] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.497629] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:74:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.498066] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'s\' : canceled", action_server_->get_action_name());\n'}
+[5.498532] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.500367] (-) TimerEvent: {}
+[5.515914] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:90:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.516900] (composition_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(), "Feedback published \'%s\' : %s", \x1b[01;31m\x1b[Ka\x1b[m\x1b[Kction_server_->get_action_name(), feedback->feedback.c_str());\n'}
+[5.517821] (composition_cpp_example) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.518785] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.519705] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.520608] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.521509] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.522441] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.523358] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.524258] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.525154] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.526047] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.526990] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:90:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.527453] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Feedback published \'%s\' : %s", action_server_->get_action_name(), feedback->feedback.c_str());\n'}
+[5.527885] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.532572] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.533312] (composition_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(), "Action \'%s\' : %s", \x1b[01;31m\x1b[Ka\x1b[m\x1b[Kction_server_-get_action_name(), result->result.c_str());\n'}
+[5.533769] (composition_cpp_example) StderrLine: {'line': b'                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.534204] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.534729] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.535181] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.535615] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.536057] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.536512] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.536941] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.537377] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.537805] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.538227] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.538725] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'%s\' : %s", action_server_-get_action_name(), result->result.c_str());\n'}
+[5.539171] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.550161] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_action_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.551026] (composition_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(), "Action \'%s\' : %s", action_server_-\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_action_name(), result->result.c_str());\n'}
+[5.551616] (composition_cpp_example) StderrLine: {'line': b'                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.552099] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.552570] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.553033] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.553497] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.554019] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.554531] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.555001] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.555463] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.555975] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.556979] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.557508] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'%s\' : %s", action_server_-get_action_name(), result->result.c_str());\n'}
+[5.557981] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.567605] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kget_node_names\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.568738] (composition_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(), "Action \'%s\' : %s", action_server_-\x1b[01;36m\x1b[Kg\x1b[m\x1b[Ket_action_name(), result->result.c_str());\n'}
+[5.569206] (composition_cpp_example) StderrLine: {'line': b'                                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.569663] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.570101] (composition_cpp_example) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[5.570590] (composition_cpp_example) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.571118] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.571738] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[5.572332] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.572959] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.573549] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[5.574131] (composition_cpp_example) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.574749] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:106:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.575400] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Action \'%s\' : %s", action_server_-get_action_name(), result->result.c_str());\n'}
+[5.575990] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.579273] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.579948] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:110:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KComoponentActionServerExample\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.580572] (composition_cpp_example) StderrLine: {'line': b'   ComponentActionServerExample::ComoponentActionServerExample(const rclcpp::NodeOptions & options\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.581173] (composition_cpp_example) StderrLine: {'line': b'                                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.582132] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint component::ComponentActionServerExample::ComoponentActionServerExample(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.582663] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:111:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[5.583111] (composition_cpp_example) StderrLine: {'line': b'     : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("action_server", options){\n'}
+[5.583547] (composition_cpp_example) StderrLine: {'line': b'       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.583977] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.584419] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[Kaction_server_\x1b[m\x1b[K = create_server<interfaces::action::Example>(\n'}
+[5.584854] (composition_cpp_example) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.585278] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcreate_server\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.585710] (composition_cpp_example) StderrLine: {'line': b'     action_server_ = \x1b[01;31m\x1b[Kcreate_server\x1b[m\x1b[K<interfaces::action::Example>(\n'}
+[5.586139] (composition_cpp_example) StderrLine: {'line': b'                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.590904] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kcreate_service\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.591619] (composition_cpp_example) StderrLine: {'line': b'     action_server_ = \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K<interfaces::action::Example>(\n'}
+[5.592580] (composition_cpp_example) StderrLine: {'line': b'                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.593127] (composition_cpp_example) StderrLine: {'line': b'                      \x1b[32m\x1b[Kcreate_service\x1b[m\x1b[K\n'}
+[5.593606] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:115:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.594088] (composition_cpp_example) StderrLine: {'line': b'     action_server_ = create_server<interfaces::action::Example\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[5.594598] (composition_cpp_example) StderrLine: {'line': b'                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.595085] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:124:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khandle_goal\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcomponent::ComponentActionServerExample\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.595577] (composition_cpp_example) StderrLine: {'line': b'     std::bind(&ComponentActionServerExample::\x1b[01;31m\x1b[Khandle_goal\x1b[m\x1b[K, this, std::placeholders::_1, std::placeholders::_2),\n'}
+[5.596079] (composition_cpp_example) StderrLine: {'line': b'                                              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.596556] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:125:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khandle_cancel\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcomponent::ComponentActionServerExample\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.597050] (composition_cpp_example) StderrLine: {'line': b'     std::bind(&ComponentActionServerExample::\x1b[01;31m\x1b[Khandle_cancel\x1b[m\x1b[K, this, std::placeholders::_1),\n'}
+[5.597521] (composition_cpp_example) StderrLine: {'line': b'                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.598010] (composition_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_action_server_cpp_example.cpp:128:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[5.598515] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[5.598999] (composition_cpp_example) StderrLine: {'line': b'   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.600786] (-) TimerEvent: {}
+[5.701700] (-) TimerEvent: {}
+[5.803022] (-) TimerEvent: {}
+[5.905646] (-) TimerEvent: {}
+[6.008462] (-) TimerEvent: {}
+[6.111032] (-) TimerEvent: {}
+[6.213145] (-) TimerEvent: {}
+[6.315299] (-) TimerEvent: {}
+[6.323289] (composition_cpp_example) StdoutLine: {'line': b"CMakeFiles/component_action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o' failed\n"}
+[6.324239] (composition_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/component_action_server_cpp.dir/src/component_action_server_cpp_example.cpp.o] Error 1\n'}
+[6.325854] (composition_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/component_action_server_cpp.dir/all] Error 2\n'}
+[6.326543] (composition_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:108: recipe for target 'CMakeFiles/component_action_server_cpp.dir/all' failed\n"}
+[6.327032] (composition_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[6.327519] (composition_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[6.335625] (composition_cpp_example) CommandEnded: {'returncode': 2}
+[6.338223] (composition_cpp_example) JobEnded: {'identifier': 'composition_cpp_example', 'rc': 2}
+[6.372526] (-) EventReactorShutdown: {}

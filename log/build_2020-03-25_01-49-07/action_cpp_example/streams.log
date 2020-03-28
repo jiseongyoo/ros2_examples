@@ -1,0 +1,27 @@
+[0.080s] Invoking command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2
+[0.286s] [35m[1mScanning dependencies of target action_server_cpp[0m
+[0.288s] [35m[1mScanning dependencies of target action_client_cpp[0m
+[0.469s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o[0m
+[0.599s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o[0m
+[1.028s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:176:0:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[1.030s]  }
+[1.030s]  
+[5.663s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:119:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.663s]        [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publish feedback '%s'", feedback->feedback.c_str();
+[5.664s]        [01;31m[K^~~~~~~~~~~[m[K
+[5.801s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ActionServerExample::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)[m[K’:
+[5.801s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:119:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[5.809s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:119:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.810s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:119:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.810s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K At global scope:
+[5.811s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:119:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[6.794s] CMakeFiles/action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o' failed
+[6.795s] make[2]: *** [CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[6.795s] make[1]: *** [CMakeFiles/action_server_cpp.dir/all] Error 2
+[6.796s] make[1]: *** Waiting for unfinished jobs....
+[6.796s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/action_server_cpp.dir/all' failed
+[12.623s] [ 75%] [32m[1mLinking CXX executable action_client_cpp[0m
+[13.703s] [ 75%] Built target action_client_cpp
+[13.710s] make: *** [all] Error 2
+[13.710s] Makefile:140: recipe for target 'all' failed
+[13.714s] Invoked command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example' returned '2': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2

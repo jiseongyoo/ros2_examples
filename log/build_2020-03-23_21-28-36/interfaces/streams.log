@@ -1,0 +1,17 @@
+[0.061s] Invoking command in '/home/jiseongyoo/ros2_examples/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jiseongyoo/ros2_examples/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/jiseongyoo/ros2_examples/install/interfaces
+[0.145s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.242s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.243s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.004s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[1.220s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.479s] CMake Error at /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.481s]   rosidl_generate_interfaces() the passed file 'msg/msg_collection.msg'
+[1.482s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.483s]   '/home/jiseongyoo/ros2_examples/src/interfaces'
+[1.485s] Call Stack (most recent call first):
+[1.486s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[1.487s] 
+[1.487s] 
+[1.488s] -- Configuring incomplete, errors occurred!
+[1.489s] See also "/home/jiseongyoo/ros2_examples/build/interfaces/CMakeFiles/CMakeOutput.log".
+[1.497s] Invoked command in '/home/jiseongyoo/ros2_examples/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jiseongyoo/ros2_examples/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/jiseongyoo/ros2_examples/install/interfaces

@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.001819] (pub_sub_cpp_template) JobQueued: {'identifier': 'pub_sub_cpp_template', 'dependencies': OrderedDict()}
+[0.003767] (pub_sub_cpp_template) JobStarted: {'identifier': 'pub_sub_cpp_template'}
+[0.064783] (pub_sub_cpp_template) JobProgress: {'identifier': 'pub_sub_cpp_template', 'progress': 'cmake'}
+[0.068564] (pub_sub_cpp_template) JobProgress: {'identifier': 'pub_sub_cpp_template', 'progress': 'build'}
+[0.072044] (pub_sub_cpp_template) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo/ros2_examples/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc64aaa8_d6d8_48fa_beab_a266e3d891a2'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.097291] (-) TimerEvent: {}
+[0.198367] (-) TimerEvent: {}
+[0.276860] (pub_sub_cpp_template) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_cpp_template\x1b[0m\n'}
+[0.298612] (-) TimerEvent: {}
+[0.399774] (-) TimerEvent: {}
+[0.404416] (pub_sub_cpp_template) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o\x1b[0m\n'}
+[0.499997] (-) TimerEvent: {}
+[0.600757] (-) TimerEvent: {}
+[0.701529] (-) TimerEvent: {}
+[0.802272] (-) TimerEvent: {}
+[0.903165] (-) TimerEvent: {}
+[1.005254] (-) TimerEvent: {}
+[1.106567] (-) TimerEvent: {}
+[1.207313] (-) TimerEvent: {}
+[1.308094] (-) TimerEvent: {}
+[1.408857] (-) TimerEvent: {}
+[1.509669] (-) TimerEvent: {}
+[1.610651] (-) TimerEvent: {}
+[1.711642] (-) TimerEvent: {}
+[1.812642] (-) TimerEvent: {}
+[1.913651] (-) TimerEvent: {}
+[2.014628] (-) TimerEvent: {}
+[2.115611] (-) TimerEvent: {}
+[2.216597] (-) TimerEvent: {}
+[2.317756] (-) TimerEvent: {}
+[2.420017] (-) TimerEvent: {}
+[2.522990] (-) TimerEvent: {}
+[2.625635] (-) TimerEvent: {}
+[2.728489] (-) TimerEvent: {}
+[2.831320] (-) TimerEvent: {}
+[2.933892] (-) TimerEvent: {}
+[3.036602] (-) TimerEvent: {}
+[3.139160] (-) TimerEvent: {}
+[3.241796] (-) TimerEvent: {}
+[3.344529] (-) TimerEvent: {}
+[3.447454] (-) TimerEvent: {}
+[3.550283] (-) TimerEvent: {}
+[3.652674] (-) TimerEvent: {}
+[3.753913] (-) TimerEvent: {}
+[3.856639] (-) TimerEvent: {}
+[3.959532] (-) TimerEvent: {}
+[4.062330] (-) TimerEvent: {}
+[4.164736] (-) TimerEvent: {}
+[4.265912] (-) TimerEvent: {}
+[4.368282] (-) TimerEvent: {}
+[4.469515] (-) TimerEvent: {}
+[4.572086] (-) TimerEvent: {}
+[4.674944] (-) TimerEvent: {}
+[4.777368] (-) TimerEvent: {}
+[4.879926] (-) TimerEvent: {}
+[4.888351] (pub_sub_cpp_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:7:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.890073] (pub_sub_cpp_template) StderrLine: {'line': b'   rclcpp::Publisher<std::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[4.891544] (pub_sub_cpp_template) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.892829] (pub_sub_cpp_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:7:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kto_string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.893570] (pub_sub_cpp_template) StderrLine: {'line': b'   rclcpp::Publisher<std::\x1b[01;36m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[4.894135] (pub_sub_cpp_template) StderrLine: {'line': b'                          \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.894680] (pub_sub_cpp_template) StderrLine: {'line': b'                          \x1b[32m\x1b[Kto_string\x1b[m\x1b[K\n'}
+[4.895224] (pub_sub_cpp_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:7:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.895821] (pub_sub_cpp_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:7:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kto_string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.896371] (pub_sub_cpp_template) StderrLine: {'line': b'   rclcpp::Publisher<std::\x1b[01;36m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[4.896910] (pub_sub_cpp_template) StderrLine: {'line': b'                          \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.897507] (pub_sub_cpp_template) StderrLine: {'line': b'                          \x1b[32m\x1b[Kto_string\x1b[m\x1b[K\n'}
+[4.898048] (pub_sub_cpp_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:7:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.899450] (pub_sub_cpp_template) StderrLine: {'line': b'   rclcpp::Publisher<std::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[4.899958] (pub_sub_cpp_template) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.900948] (pub_sub_cpp_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:7:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.901429] (pub_sub_cpp_template) StderrLine: {'line': b'   rclcpp::Publisher<std::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[4.901789] (pub_sub_cpp_template) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.902130] (pub_sub_cpp_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:7:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.902496] (pub_sub_cpp_template) StderrLine: {'line': b'   rclcpp::Publisher<std::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[4.902838] (pub_sub_cpp_template) StderrLine: {'line': b'                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.903172] (pub_sub_cpp_template) StderrLine: {'line': b'                                             \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[4.903509] (pub_sub_cpp_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/src/pub_cpp_template.cpp:10:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[4.903850] (pub_sub_cpp_template) StderrLine: {'line': b' }\n'}
+[4.904191] (pub_sub_cpp_template) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.904529] (pub_sub_cpp_template) StderrLine: {'line': b'  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.980347] (-) TimerEvent: {}
+[5.081847] (-) TimerEvent: {}
+[5.184649] (-) TimerEvent: {}
+[5.287587] (-) TimerEvent: {}
+[5.390422] (-) TimerEvent: {}
+[5.493053] (-) TimerEvent: {}
+[5.503223] (pub_sub_cpp_template) StdoutLine: {'line': b"CMakeFiles/pub_cpp_template.dir/build.make:62: recipe for target 'CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o' failed\n"}
+[5.504642] (pub_sub_cpp_template) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pub_cpp_template.dir/src/pub_cpp_template.cpp.o] Error 1\n'}
+[5.506211] (pub_sub_cpp_template) StderrLine: {'line': b'make[1]: *** [CMakeFiles/pub_cpp_template.dir/all] Error 2\n'}
+[5.507023] (pub_sub_cpp_template) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[5.508682] (pub_sub_cpp_template) StdoutLine: {'line': b"CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp_template.dir/all' failed\n"}
+[5.510204] (pub_sub_cpp_template) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[5.514031] (pub_sub_cpp_template) CommandEnded: {'returncode': 2}
+[5.516752] (pub_sub_cpp_template) JobEnded: {'identifier': 'pub_sub_cpp_template', 'rc': 2}
+[5.529727] (-) EventReactorShutdown: {}

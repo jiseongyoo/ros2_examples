@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000950] (pub_sub_cpp_template) JobQueued: {'identifier': 'pub_sub_cpp_template', 'dependencies': OrderedDict([('interfaces', '/home/jiseongyoo/ros2_examples/install/interfaces')])}
+[0.001172] (pub_sub_cpp_template) JobStarted: {'identifier': 'pub_sub_cpp_template'}
+[0.061280] (pub_sub_cpp_template) JobProgress: {'identifier': 'pub_sub_cpp_template', 'progress': 'cmake'}
+[0.064983] (pub_sub_cpp_template) JobProgress: {'identifier': 'pub_sub_cpp_template', 'progress': 'build'}
+[0.068907] (pub_sub_cpp_template) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('OLDPWD', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2279,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e70a919_9237_4eae_9ff3_9c674986bb28'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.279'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces')]), 'shell': False}
+[0.093643] (-) TimerEvent: {}
+[0.189313] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.194148] (-) TimerEvent: {}
+[0.290051] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.294590] (-) TimerEvent: {}
+[0.398192] (-) TimerEvent: {}
+[0.501741] (-) TimerEvent: {}
+[0.605167] (-) TimerEvent: {}
+[0.708466] (-) TimerEvent: {}
+[0.811975] (-) TimerEvent: {}
+[0.915481] (-) TimerEvent: {}
+[1.018669] (-) TimerEvent: {}
+[1.022126] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.070873] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.119009] (-) TimerEvent: {}
+[1.215709] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.219385] (-) TimerEvent: {}
+[1.221337] (pub_sub_cpp_template) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.319908] (-) TimerEvent: {}
+[1.358731] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake)\n'}
+[1.420375] (-) TimerEvent: {}
+[1.491592] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[1.520517] (-) TimerEvent: {}
+[1.621613] (-) TimerEvent: {}
+[1.700306] (pub_sub_cpp_template) StderrLine: {'line': b"Error parsing '/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/package.xml':\n"}
+[1.722182] (-) TimerEvent: {}
+[1.824065] (-) TimerEvent: {}
+[1.925202] (-) TimerEvent: {}
+[1.992527] (pub_sub_cpp_template) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.993584] (pub_sub_cpp_template) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 596, in parse_package_string\n'}
+[1.994490] (pub_sub_cpp_template) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[1.995265] (pub_sub_cpp_template) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/minidom.py", line 1968, in parseString\n'}
+[1.996028] (pub_sub_cpp_template) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[1.996788] (pub_sub_cpp_template) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[1.997549] (pub_sub_cpp_template) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[1.998352] (pub_sub_cpp_template) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[2.000411] (pub_sub_cpp_template) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[2.001402] (pub_sub_cpp_template) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 15, column 23\n'}
+[2.002020] (pub_sub_cpp_template) StderrLine: {'line': b'\n'}
+[2.002449] (pub_sub_cpp_template) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[2.002873] (pub_sub_cpp_template) StderrLine: {'line': b'\n'}
+[2.005979] (pub_sub_cpp_template) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.006677] (pub_sub_cpp_template) StderrLine: {'line': b'  File "/opt/ros/eloquent/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[2.007137] (pub_sub_cpp_template) StderrLine: {'line': b'    main()\n'}
+[2.007562] (pub_sub_cpp_template) StderrLine: {'line': b'  File "/opt/ros/eloquent/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[2.007987] (pub_sub_cpp_template) StderrLine: {'line': b'    raise e\n'}
+[2.008402] (pub_sub_cpp_template) StderrLine: {'line': b'  File "/opt/ros/eloquent/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[2.008817] (pub_sub_cpp_template) StderrLine: {'line': b'    args.package_xml.read(), filename=args.package_xml.name)\n'}
+[2.009234] (pub_sub_cpp_template) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 598, in parse_package_string\n'}
+[2.009676] (pub_sub_cpp_template) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[2.010142] (pub_sub_cpp_template) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/package.xml':\n"}
+[2.010572] (pub_sub_cpp_template) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[2.011104] (pub_sub_cpp_template) StderrLine: {'line': b'mismatched tag: line 15, column 23\n'}
+[2.025627] (-) TimerEvent: {}
+[2.053605] (pub_sub_cpp_template) StderrLine: {'line': b'CMake Error at /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[2.055768] (pub_sub_cpp_template) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[2.070696] (pub_sub_cpp_template) StderrLine: {'line': b'  /opt/ros/eloquent/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.071135] (pub_sub_cpp_template) StderrLine: {'line': b'  /home/jiseongyoo/ros2_examples/src/pub_sub_cpp_template/package.xml\n'}
+[2.071480] (pub_sub_cpp_template) StderrLine: {'line': b'  /home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template/ament_cmake_core/package.cmake)\n'}
+[2.071847] (pub_sub_cpp_template) StderrLine: {'line': b'  returned error code 1\n'}
+[2.072237] (pub_sub_cpp_template) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.072617] (pub_sub_cpp_template) StderrLine: {'line': b'  /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.073182] (pub_sub_cpp_template) StderrLine: {'line': b'  /opt/ros/eloquent/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[2.075221] (pub_sub_cpp_template) StderrLine: {'line': b'  CMakeLists.txt:41 (ament_lint_auto_find_test_dependencies)\n'}
+[2.076202] (pub_sub_cpp_template) StderrLine: {'line': b'\n'}
+[2.076734] (pub_sub_cpp_template) StderrLine: {'line': b'\n'}
+[2.077237] (pub_sub_cpp_template) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.079259] (pub_sub_cpp_template) StdoutLine: {'line': b'See also "/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template/CMakeFiles/CMakeOutput.log".\n'}
+[2.079844] (pub_sub_cpp_template) StdoutLine: {'line': b'See also "/home/jiseongyoo/ros2_examples/build/pub_sub_cpp_template/CMakeFiles/CMakeError.log".\n'}
+[2.080345] (pub_sub_cpp_template) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[2.080888] (pub_sub_cpp_template) StdoutLine: {'line': b"Makefile:266: recipe for target 'cmake_check_build_system' failed\n"}
+[2.081405] (pub_sub_cpp_template) CommandEnded: {'returncode': 2}
+[2.084025] (pub_sub_cpp_template) JobEnded: {'identifier': 'pub_sub_cpp_template', 'rc': 2}
+[2.102249] (-) EventReactorShutdown: {}

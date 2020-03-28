@@ -1,0 +1,14 @@
+[0.085s] Invoking command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_example -- -j2 -l2
+[0.284s] [35m[1mScanning dependencies of target pub_cpp[0m
+[0.393s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o[0m
+[0.675s] [01m[K/home/jiseongyoo/ros2_examples/src/pubsub_cpp_example/src/pub_cpp_template.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces/msg/messageInterfaceExample.hpp: No such file or directory
+[0.677s]  #include [01;31m[K"interfaces/msg/messageInterfaceExample.hpp"[m[K
+[0.678s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.678s] compilation terminated.
+[0.705s] CMakeFiles/pub_cpp.dir/build.make:62: recipe for target 'CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o' failed
+[0.713s] make[2]: *** [CMakeFiles/pub_cpp.dir/src/pub_cpp_template.cpp.o] Error 1
+[0.714s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/pub_cpp.dir/all' failed
+[0.715s] make[1]: *** [CMakeFiles/pub_cpp.dir/all] Error 2
+[0.716s] Makefile:140: recipe for target 'all' failed
+[0.718s] make: *** [all] Error 2
+[0.723s] Invoked command in '/home/jiseongyoo/ros2_examples/build/pubsub_cpp_example' returned '2': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/pubsub_cpp_example -- -j2 -l2

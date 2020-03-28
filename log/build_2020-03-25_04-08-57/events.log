@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.001871] (param_cpp_example) JobQueued: {'identifier': 'param_cpp_example', 'dependencies': OrderedDict()}
+[0.002128] (param_cpp_example) JobStarted: {'identifier': 'param_cpp_example'}
+[0.068604] (param_cpp_example) JobProgress: {'identifier': 'param_cpp_example', 'progress': 'cmake'}
+[0.072073] (param_cpp_example) JobProgress: {'identifier': 'param_cpp_example', 'progress': 'build'}
+[0.078453] (param_cpp_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiseongyoo/ros2_examples/build/param_cpp_example', '--', '-j2', '-l2'], 'cwd': '/home/jiseongyoo/ros2_examples/build/param_cpp_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiseongyoo'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2563'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jiseongyoo'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jiseongyoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jiseongyoo'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'jiseongyoo'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/jiseongyoo-laptop:@/tmp/.ICE-unix/2483,unix/jiseongyoo-laptop:/tmp/.ICE-unix/2483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9e53788_6a6d_4113_8daa_15742f3216c9'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jiseongyoo/ros2_examples/build/param_cpp_example'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent')]), 'shell': False}
+[0.100099] (-) TimerEvent: {}
+[0.201745] (-) TimerEvent: {}
+[0.283515] (param_cpp_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target param_client_cpp\x1b[0m\n'}
+[0.301938] (-) TimerEvent: {}
+[0.375059] (param_cpp_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/param_server_cpp.dir/src/param_server_cpp_example.cpp.o\x1b[0m\n'}
+[0.402130] (-) TimerEvent: {}
+[0.477465] (param_cpp_example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o\x1b[0m\n'}
+[0.502319] (-) TimerEvent: {}
+[0.603150] (-) TimerEvent: {}
+[0.704419] (-) TimerEvent: {}
+[0.805523] (-) TimerEvent: {}
+[0.906641] (-) TimerEvent: {}
+[1.007766] (-) TimerEvent: {}
+[1.108896] (-) TimerEvent: {}
+[1.209999] (-) TimerEvent: {}
+[1.311100] (-) TimerEvent: {}
+[1.412245] (-) TimerEvent: {}
+[1.513358] (-) TimerEvent: {}
+[1.614381] (-) TimerEvent: {}
+[1.715305] (-) TimerEvent: {}
+[1.816353] (-) TimerEvent: {}
+[1.917353] (-) TimerEvent: {}
+[2.018357] (-) TimerEvent: {}
+[2.119453] (-) TimerEvent: {}
+[2.220565] (-) TimerEvent: {}
+[2.321629] (-) TimerEvent: {}
+[2.422699] (-) TimerEvent: {}
+[2.523785] (-) TimerEvent: {}
+[2.624890] (-) TimerEvent: {}
+[2.725976] (-) TimerEvent: {}
+[2.827051] (-) TimerEvent: {}
+[2.928036] (-) TimerEvent: {}
+[3.029083] (-) TimerEvent: {}
+[3.130171] (-) TimerEvent: {}
+[3.231307] (-) TimerEvent: {}
+[3.332371] (-) TimerEvent: {}
+[3.433450] (-) TimerEvent: {}
+[3.534526] (-) TimerEvent: {}
+[3.635709] (-) TimerEvent: {}
+[3.736815] (-) TimerEvent: {}
+[3.837893] (-) TimerEvent: {}
+[3.938981] (-) TimerEvent: {}
+[4.040043] (-) TimerEvent: {}
+[4.141128] (-) TimerEvent: {}
+[4.242220] (-) TimerEvent: {}
+[4.343300] (-) TimerEvent: {}
+[4.444399] (-) TimerEvent: {}
+[4.545514] (-) TimerEvent: {}
+[4.646534] (-) TimerEvent: {}
+[4.747600] (-) TimerEvent: {}
+[4.848703] (-) TimerEvent: {}
+[4.949769] (-) TimerEvent: {}
+[5.050839] (-) TimerEvent: {}
+[5.151948] (-) TimerEvent: {}
+[5.253037] (-) TimerEvent: {}
+[5.344168] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KParameterClientExample::ParameterClientExample()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.345102] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:11:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameter_client\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.345609] (param_cpp_example) StderrLine: {'line': b'     auto set_parameter_result = \x1b[01;31m\x1b[Kparameter_client\x1b[m\x1b[K->set_parameters({rclcpp::Parameter("param1", 10)});\n'}
+[5.346101] (param_cpp_example) StderrLine: {'line': b'                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.349393] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:11:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kparameter_client_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.350119] (param_cpp_example) StderrLine: {'line': b'     auto set_parameter_result = \x1b[01;36m\x1b[Kparameter_client\x1b[m\x1b[K->set_parameters({rclcpp::Parameter("param1", 10)});\n'}
+[5.351132] (param_cpp_example) StderrLine: {'line': b'                                 \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.351651] (param_cpp_example) StderrLine: {'line': b'                                 \x1b[32m\x1b[Kparameter_client_\x1b[m\x1b[K\n'}
+[5.352143] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/service.hpp:33:0\x1b[m\x1b[K,\n'}
+[5.352633] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[5.353042] (-) TimerEvent: {}
+[5.353742] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.354296] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.354786] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.355214] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.355632] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.356157] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.356600] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.357075] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:2\x1b[m\x1b[K:\n'}
+[5.358316] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:13:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.359646] (param_cpp_example) StderrLine: {'line': b'       RCLCPP_ERROR(\x1b[01;31m\x1b[Kn\x1b[m\x1b[Kode->get_logger(), "Failed to set parameter: %s", set_parameter_result.reason.c_str());\n'}
+[5.365913] (param_cpp_example) StderrLine: {'line': b'                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.367357] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1421:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.370236] (param_cpp_example) StderrLine: {'line': b'       ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(\x1b[01;36m\x1b[Klogger\x1b[m\x1b[K)>::type>::type, \\\n'}
+[5.371453] (param_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.372766] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.373796] (param_cpp_example) StderrLine: {'line': b'       RCLCPP_ERROR(\x1b[01;36m\x1b[Kn\x1b[m\x1b[Kode->get_logger(), "Failed to set parameter: %s", set_parameter_result.reason.c_str());\n'}
+[5.375212] (param_cpp_example) StderrLine: {'line': b'                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.377243] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1421:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.379190] (param_cpp_example) StderrLine: {'line': b'       ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(\x1b[01;36m\x1b[Klogger\x1b[m\x1b[K)>::type>::type, \\\n'}
+[5.382547] (param_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.384407] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1421:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.386139] (param_cpp_example) StderrLine: {'line': b'       ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type>::type, \\\n'}
+[5.386951] (param_cpp_example) StderrLine: {'line': b'                                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.388627] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:13:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.390533] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node->get_logger(), "Failed to set parameter: %s", set_parameter_result.reason.c_str());\n'}
+[5.392434] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.393083] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1421:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.394892] (param_cpp_example) StderrLine: {'line': b'       ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type, \\\n'}
+[5.395410] (param_cpp_example) StderrLine: {'line': b'                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.399345] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:13:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.401412] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node->get_logger(), "Failed to set parameter: %s", set_parameter_result.reason.c_str());\n'}
+[5.402960] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.404847] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:1422:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.405890] (param_cpp_example) StderrLine: {'line': b'       typename ::rclcpp::Logger\x1b[01;31m\x1b[K>\x1b[m\x1b[K::value, \\\n'}
+[5.407357] (param_cpp_example) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.409335] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:13:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.412539] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node->get_logger(), "Failed to set parameter: %s", set_parameter_result.reason.c_str());\n'}
+[5.413090] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.414805] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:16:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.415550] (param_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(\x1b[01;31m\x1b[Kn\x1b[m\x1b[Kode->get_logger(), "Successed to set parameter %s : %s",\n'}
+[5.417831] (param_cpp_example) StderrLine: {'line': b'                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.418461] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.420381] (param_cpp_example) StderrLine: {'line': b'       ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(\x1b[01;36m\x1b[Klogger\x1b[m\x1b[K)>::type>::type, \\\n'}
+[5.421057] (param_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.422640] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:16:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.423372] (param_cpp_example) StderrLine: {'line': b'       RCLCPP_INFO(\x1b[01;36m\x1b[Kn\x1b[m\x1b[Kode->get_logger(), "Successed to set parameter %s : %s",\n'}
+[5.424858] (param_cpp_example) StderrLine: {'line': b'                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.426802] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.427708] (param_cpp_example) StderrLine: {'line': b'       ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(\x1b[01;36m\x1b[Klogger\x1b[m\x1b[K)>::type>::type, \\\n'}
+[5.429295] (param_cpp_example) StderrLine: {'line': b'                                                                                      \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.431186] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.431706] (param_cpp_example) StderrLine: {'line': b'       ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type>::type, \\\n'}
+[5.433365] (param_cpp_example) StderrLine: {'line': b'                                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.433925] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:16:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435942] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Successed to set parameter %s : %s",\n'}
+[5.437512] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.438132] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.439946] (param_cpp_example) StderrLine: {'line': b'       ::std::is_same<typename std::remove_cv<typename std::remove_reference<decltype(logger)>::type\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type, \\\n'}
+[5.440943] (param_cpp_example) StderrLine: {'line': b'                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.442328] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:16:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.444240] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Successed to set parameter %s : %s",\n'}
+[5.444776] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.446567] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/logging.hpp:538:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.447094] (param_cpp_example) StderrLine: {'line': b'       typename ::rclcpp::Logger\x1b[01;31m\x1b[K>\x1b[m\x1b[K::value, \\\n'}
+[5.448689] (param_cpp_example) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.449214] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:16:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.451133] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Successed to set parameter %s : %s",\n'}
+[5.451641] (param_cpp_example) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.453282] (-) TimerEvent: {}
+[5.509638] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.511376] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:23:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KParameterServer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.512019] (param_cpp_example) StderrLine: {'line': b'   rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[KParameterServer\x1b[m\x1b[K>());\n'}
+[5.512484] (param_cpp_example) StderrLine: {'line': b'                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.521614] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:23:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[KParameterServerExample\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.522571] (param_cpp_example) StderrLine: {'line': b'   rclcpp::spin(std::make_shared<\x1b[01;36m\x1b[KParameterServer\x1b[m\x1b[K>());\n'}
+[5.523275] (param_cpp_example) StderrLine: {'line': b'                                 \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.524068] (param_cpp_example) StderrLine: {'line': b'                                 \x1b[32m\x1b[KParameterServerExample\x1b[m\x1b[K\n'}
+[5.525042] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:23:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.525887] (param_cpp_example) StderrLine: {'line': b'   rclcpp::spin(std::make_shared<ParameterServer>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[5.526564] (param_cpp_example) StderrLine: {'line': b'                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.527651] (param_cpp_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:81:0\x1b[m\x1b[K,\n'}
+[5.528574] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.529310] (param_cpp_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:6\x1b[m\x1b[K:\n'}
+[5.529988] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:703:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\n'}
+[5.530695] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[5.531367] (param_cpp_example) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.532118] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:703:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.533866] (param_cpp_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_server_cpp_example.cpp:23:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.536064] (param_cpp_example) StderrLine: {'line': b'   rclcpp::spin(std::make_shared<ParameterServer>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[5.538039] (param_cpp_example) StderrLine: {'line': b'                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.553485] (-) TimerEvent: {}
+[5.654512] (-) TimerEvent: {}
+[5.755601] (-) TimerEvent: {}
+[5.856722] (-) TimerEvent: {}
+[5.957831] (-) TimerEvent: {}
+[6.058927] (-) TimerEvent: {}
+[6.159959] (-) TimerEvent: {}
+[6.252572] (param_cpp_example) StdoutLine: {'line': b"CMakeFiles/param_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_server_cpp.dir/src/param_server_cpp_example.cpp.o' failed\n"}
+[6.253845] (param_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/param_server_cpp.dir/src/param_server_cpp_example.cpp.o] Error 1\n'}
+[6.254986] (param_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/param_server_cpp.dir/all] Error 2\n'}
+[6.255469] (param_cpp_example) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[6.256006] (param_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/param_server_cpp.dir/all' failed\n"}
+[6.260183] (-) TimerEvent: {}
+[6.301211] (param_cpp_example) StdoutLine: {'line': b"CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed\n"}
+[6.305393] (param_cpp_example) StderrLine: {'line': b'make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1\n'}
+[6.306048] (param_cpp_example) StdoutLine: {'line': b"CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed\n"}
+[6.306811] (param_cpp_example) StderrLine: {'line': b'make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2\n'}
+[6.307205] (param_cpp_example) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[6.307783] (param_cpp_example) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[6.312840] (param_cpp_example) CommandEnded: {'returncode': 2}
+[6.315750] (param_cpp_example) JobEnded: {'identifier': 'param_cpp_example', 'rc': 2}
+[6.328590] (-) EventReactorShutdown: {}

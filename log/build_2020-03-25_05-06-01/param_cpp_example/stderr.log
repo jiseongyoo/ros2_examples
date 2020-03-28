@@ -1,0 +1,10 @@
+[4.887s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ParameterClientExample::parameters_set()[m[K’:
+[4.894s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:31:99:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K)[m[K’ token
+[4.896s]      auto set_parameter_result = parameter_client_->set_parameters({rclcpp::Parameter("param1", 10)[01;31m[K)[m[K});
+[4.896s]                                                                                                    [01;31m[K^[m[K
+[4.897s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:31:100:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.899s]      auto set_parameter_result = parameter_client_->set_parameters({rclcpp::Parameter("param1", 10))[01;31m[K}[m[K);
+[4.900s]                                                                                                     [01;31m[K^[m[K
+[5.771s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.773s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.773s] make: *** [all] Error 2

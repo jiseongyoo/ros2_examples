@@ -1,0 +1,84 @@
+[0.268s] [35m[1mScanning dependencies of target action_server_cpp[0m
+[0.319s] [ 50%] Built target action_client_cpp
+[0.456s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o[0m
+[5.639s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/service.hpp:33:0[m[K,
+[5.642s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:25[m[K,
+[5.643s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.645s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.647s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.647s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.648s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.648s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.648s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.649s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:34[m[K:
+[5.649s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In constructor ‘[01m[KActionServerExample::ActionServerExample(const rclcpp::NodeOptions&)[m[K’:
+[5.650s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::get_logger[m[K’ is not a class member
+[5.650s]       RCLCPP_INFO(this->[01;31m[Kr[m[Kclcpp::get_logger(), "Action server starts running");
+[5.650s]                         [01;31m[K^[m[K
+[5.651s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.651s]  ame<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[5.652s]                                                                      [01;36m[K^~~~~~[m[K
+[5.653s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::get_logger[m[K’ is not a class member
+[5.653s]       RCLCPP_INFO(this->[01;31m[Kr[m[Kclcpp::get_logger(), "Action server starts running");
+[5.653s]                         [01;31m[K^[m[K
+[5.654s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.654s]  ame<typename std::remove_cv<typename std::remove_reference<decltype([01;36m[Klogger[m[K)>::type>::type, \
+[5.654s]                                                                      [01;36m[K^~~~~~[m[K
+[5.655s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.655s]  ename std::remove_cv<typename std::remove_reference<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[5.656s]                                                                      [01;31m[K^[m[K
+[5.656s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.656s]       [01;36m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger(), "Action server starts running");
+[5.657s]       [01;36m[K^~~~~~~~~~~[m[K
+[5.657s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:537:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.657s]  std::remove_cv<typename std::remove_reference<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[5.658s]                                                                       [01;31m[K^[m[K
+[5.658s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.658s]       [01;36m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger(), "Action server starts running");
+[5.659s]       [01;36m[K^~~~~~~~~~~[m[K
+[5.659s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:538:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.660s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[5.660s]                                 [01;31m[K^[m[K
+[5.660s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.661s]       [01;36m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger(), "Action server starts running");
+[5.661s]       [01;36m[K^~~~~~~~~~~[m[K
+[5.661s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.662s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.662s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.662s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.663s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.663s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.663s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.664s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.664s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.665s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:34[m[K:
+[5.665s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::get_logger[m[K’ is not a class member
+[5.665s]       RCLCPP_INFO(this->[01;31m[Kr[m[Kclcpp::get_logger(), "Action server starts running");
+[5.666s]                         [01;31m[K^[m[K
+[5.666s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:70:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.666s]      if (rcutils_logging_logger_is_enabled_for([01;36m[Kname[m[K, severity)) { \
+[5.667s]                                                [01;36m[K^~~~[m[K
+[5.667s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.667s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.668s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.668s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.668s]       [01;36m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger(), "Action server starts running");
+[5.669s]       [01;36m[K^~~~~~~~~~~[m[K
+[5.669s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::get_logger[m[K’ is not a class member
+[5.669s]       RCLCPP_INFO(this->[01;31m[Kr[m[Kclcpp::get_logger(), "Action server starts running");
+[5.670s]                         [01;31m[K^[m[K
+[5.670s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.670s]        rcutils_log(&__rcutils_logging_location, severity, [01;36m[Kname[m[K, __VA_ARGS__); \
+[5.671s]                                                           [01;36m[K^~~~[m[K
+[5.671s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.671s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.672s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.672s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:161:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.672s]       [01;36m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger(), "Action server starts running");
+[5.673s]       [01;36m[K^~~~~~~~~~~[m[K
+[8.246s] CMakeFiles/action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o' failed
+[8.248s] make[2]: *** [CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[8.251s] make[1]: *** [CMakeFiles/action_server_cpp.dir/all] Error 2
+[8.255s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/action_server_cpp.dir/all' failed
+[8.256s] make: *** [all] Error 2
+[8.256s] Makefile:140: recipe for target 'all' failed

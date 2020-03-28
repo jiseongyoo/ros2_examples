@@ -1,0 +1,36 @@
+[0.103s] Invoking command in '/home/jiseongyoo/ros2_examples/build/service_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/service_cpp_example -- -j2 -l2
+[0.379s] [35m[1mScanning dependencies of target service_client_cpp[0m
+[0.474s] [ 50%] Built target service_server_cpp
+[0.512s] [ 75%] [32mBuilding CXX object CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o[0m
+[5.083s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ServiceClientExample::send_request()[m[K’:
+[5.086s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(ServiceClientExample*, std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >&)[m[K’
+[5.088s]      rclcpp::spin_until_future_complete(this, response[01;31m[K)[m[K;
+[5.092s]                                                       [01;31m[K^[m[K
+[5.093s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0[m[K,
+[5.094s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:14[m[K:
+[5.094s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+[5.094s]  [01;36m[Kspin_until_future_complete[m[K(
+[5.095s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.095s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.095s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:54:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(ServiceClientExample*)this[m[K’ (type ‘[01m[KServiceClientExample*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr {aka std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>}[m[K’
+[5.096s]      rclcpp::spin_until_future_complete(this, response[01;36m[K)[m[K;
+[5.096s]                                                       [01;36m[K^[m[K
+[5.096s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0[m[K,
+[5.099s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:14[m[K:
+[5.099s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+[5.100s]  [01;36m[Kspin_until_future_complete[m[K(
+[5.100s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.101s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.101s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:54:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KServiceClientExample*[m[K’
+[5.102s]      rclcpp::spin_until_future_complete(this, response[01;36m[K)[m[K;
+[5.102s]                                                       [01;36m[K^[m[K
+[5.103s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:51:11:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Krclcpp::executor::FutureReturnCode[m[K’)
+[5.103s]      if ([01;31m[K0 == rclcpp[m[K::executor::FutureReturnCode::SUCCESS){
+[5.103s]          [01;31m[K~~^~~~~~~~~[m[K
+[6.485s] CMakeFiles/service_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o' failed
+[6.487s] make[2]: *** [CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o] Error 1
+[6.488s] make[1]: *** [CMakeFiles/service_client_cpp.dir/all] Error 2
+[6.494s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/service_client_cpp.dir/all' failed
+[6.494s] Makefile:140: recipe for target 'all' failed
+[6.495s] make: *** [all] Error 2
+[6.496s] Invoked command in '/home/jiseongyoo/ros2_examples/build/service_cpp_example' returned '2': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/service_cpp_example -- -j2 -l2

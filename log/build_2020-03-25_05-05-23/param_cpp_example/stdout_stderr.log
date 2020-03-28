@@ -1,0 +1,19 @@
+[0.261s] [35m[1mScanning dependencies of target param_client_cpp[0m
+[0.362s] [ 50%] Built target param_server_cpp
+[0.391s] [ 75%] [32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o[0m
+[4.930s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:19:29:[m[K [01;35m[Kwarning: [m[KISO C++ forbids use of ‘[01m[Kauto[m[K’ in parameter declaration [[01;35m[K-Wpedantic[m[K]
+[4.931s]    void parameters_set(const [01;35m[Kauto[m[K value_){
+[4.932s]                              [01;35m[K^~~~[m[K
+[4.935s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ParameterClientExample::parameters_set(auto:3)[m[K’:
+[4.936s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:31:103:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K)[m[K’ token
+[4.939s]      auto set_parameter_result = parameter_client_->set_parameters({rclcpp::Parameter("param1", value_)[01;31m[K)[m[K});
+[4.939s]                                                                                                        [01;31m[K^[m[K
+[4.940s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:31:104:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.945s]      auto set_parameter_result = parameter_client_->set_parameters({rclcpp::Parameter("param1", value_))[01;31m[K}[m[K);
+[4.945s]                                                                                                         [01;31m[K^[m[K
+[5.721s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.724s] CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed
+[5.724s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.726s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed
+[5.730s] Makefile:140: recipe for target 'all' failed
+[5.731s] make: *** [all] Error 2

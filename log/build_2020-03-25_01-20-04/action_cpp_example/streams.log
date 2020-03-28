@@ -1,0 +1,68 @@
+[0.090s] Invoking command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2
+[0.264s] [35m[1mScanning dependencies of target action_client_cpp[0m
+[0.374s] [ 50%] Built target action_server_cpp
+[0.400s] [ 75%] [32mBuilding CXX object CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o[0m
+[4.914s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:9:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared<rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions>[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[4.915s]    std::make_shared[01;31m[K<[m[Krclcpp_action::Client<interfaces::action::Example>::SendGoalOptions> send_goal_options;
+[4.915s]                    [01;31m[K^[m[K
+[4.987s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[4.988s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[4.988s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[4.989s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.989s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.990s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[4.990s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.991s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[4.991s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[4.992s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:3[m[K:
+[4.992s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ActionClientExample::feedback_callback(rclcpp_action::ClientGoalHandle<interfaces::action::Example>::SharedPtr, std::shared_ptr<const interfaces::action::Example_Feedback_<std::allocator<void> > >)[m[K’:
+[4.993s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:44:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<const interfaces::action::Example_Feedback_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kfeedback[m[K’
+[4.993s]      RCLCPP_INFO(this->get_logger(), "Action feedback arrived '%s'", feedback.[01;31m[Kf[m[Keedback.c_str());
+[4.994s]                                                                               [01;31m[K^[m[K
+[4.995s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.995s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[4.996s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[4.996s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.997s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.997s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.998s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[4.998s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[4.999s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.003s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:44:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.003s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Action feedback arrived '%s'", feedback.feedback.c_str());
+[5.004s]      [01;36m[K^~~~~~~~~~~[m[K
+[5.005s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ActionClientExample::send_goal()[m[K’:
+[5.006s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:55:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+[5.006s]          return [01;31m[K0[m[K;
+[5.006s]                 [01;31m[K^[m[K
+[5.007s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[5.007s]      [01;31m[K}[m[K
+[5.008s]      [01;31m[K^[m[K
+[5.008s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:66:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_goal_options[m[K’ was not declared in this scope
+[5.009s]      this->action_client_->async_send_goal(goal, [01;31m[Ksend_goal_options[m[K);
+[5.009s]                                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.019s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:66:49:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kget_node_options[m[K’
+[5.019s]      this->action_client_->async_send_goal(goal, [01;36m[Ksend_goal_options[m[K);
+[5.020s]                                                  [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.021s]                                                  [32m[Kget_node_options[m[K
+[5.022s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:[m[K In constructor ‘[01m[KActionClientExample::ActionClientExample(const rclcpp::NodeOptions&)[m[K’:
+[5.022s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:71:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::create_client<interfaces::action::Example>[m[K’ is not a class member
+[5.023s]       this->action_client_ = this->[01;31m[Krclcpp_action[m[K::create_client<interfaces::action::Example>(
+[5.023s]                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[5.024s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:79:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::create_wall_timer[m[K’ is not a class member
+[5.025s]       this->timer_ = this->[01;31m[Krclcpp[m[K::create_wall_timer(
+[5.025s]                            [01;31m[K^~~~~~[m[K
+[5.050s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:84:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_goal_options[m[K’ was not declared in this scope
+[5.052s]       [01;31m[Ksend_goal_options[m[K = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions();
+[5.053s]       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.066s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:84:6:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kget_node_options[m[K’
+[5.067s]       [01;36m[Ksend_goal_options[m[K = rclcpp_action::Client<interfaces::action::Example>::SendGoalOptions();
+[5.067s]       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.067s]       [32m[Kget_node_options[m[K
+[5.936s] CMakeFiles/action_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o' failed
+[5.937s] make[2]: *** [CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o] Error 1
+[5.938s] make[1]: *** [CMakeFiles/action_client_cpp.dir/all] Error 2
+[5.939s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/action_client_cpp.dir/all' failed
+[5.940s] make: *** [all] Error 2
+[5.941s] Makefile:140: recipe for target 'all' failed
+[5.953s] Invoked command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example' returned '2': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2

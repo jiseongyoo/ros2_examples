@@ -1,0 +1,38 @@
+[0.311s] [35m[1mScanning dependencies of target service_client_cpp[0m
+[0.424s] [ 50%] Built target service_server_cpp
+[0.425s] [ 75%] [32mBuilding CXX object CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o[0m
+[4.916s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:67:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[4.917s]  }
+[4.917s]   [01;31m[K^[m[K
+[4.918s]   [32m[K;[m[K
+[4.941s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ServiceClientExample::send_request()[m[K’:
+[4.942s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:35:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+[4.944s]          return [01;31m[K0[m[K;
+[4.945s]                 [01;31m[K^[m[K
+[4.955s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(ServiceClientExample*, std::shared_future<std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > > >&)[m[K’
+[4.956s]      if (rclcpp::spin_until_future_complete(this, response[01;31m[K)[m[K == rclcpp::executor::FutureReturnCode::SUCCESS){
+[4.956s]                                                           [01;31m[K^[m[K
+[4.957s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0[m[K,
+[4.957s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:14[m[K:
+[4.958s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)
+[4.958s]  [01;36m[Kspin_until_future_complete[m[K(
+[4.958s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.959s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:104:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.959s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:58:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(ServiceClientExample*)this[m[K’ (type ‘[01m[KServiceClientExample*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr {aka std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>}[m[K’
+[4.960s]      if (rclcpp::spin_until_future_complete(this, response[01;36m[K)[m[K == rclcpp::executor::FutureReturnCode::SUCCESS){
+[4.960s]                                                           [01;36m[K^[m[K
+[4.961s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0[m[K,
+[4.961s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:14[m[K:
+[4.961s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)
+[4.962s]  [01;36m[Kspin_until_future_complete[m[K(
+[4.962s]  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.963s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:116:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.963s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KServiceClientExample*[m[K’
+[4.964s]      if (rclcpp::spin_until_future_complete(this, response[01;36m[K)[m[K == rclcpp::executor::FutureReturnCode::SUCCESS){
+[4.964s]                                                           [01;36m[K^[m[K
+[6.266s] make[2]: *** [CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o] Error 1
+[6.274s] CMakeFiles/service_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o' failed
+[6.277s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/service_client_cpp.dir/all' failed
+[6.277s] Makefile:140: recipe for target 'all' failed
+[6.278s] make[1]: *** [CMakeFiles/service_client_cpp.dir/all] Error 2
+[6.278s] make: *** [all] Error 2

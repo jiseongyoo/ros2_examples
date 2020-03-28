@@ -1,0 +1,30 @@
+[0.080s] Invoking command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2
+[0.212s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.319s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.110s] -- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.158s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.308s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.456s] CMake Error at CMakeLists.txt:17 (find_package):
+[1.458s]   By not providing "Findrclcpp_actions.cmake" in CMAKE_MODULE_PATH this
+[1.458s]   project has asked CMake to find a package configuration file provided by
+[1.464s]   "rclcpp_actions", but CMake did not find one.
+[1.467s] 
+[1.474s]   Could not find a package configuration file provided by "rclcpp_actions"
+[1.476s]   with any of the following names:
+[1.478s] 
+[1.479s]     rclcpp_actionsConfig.cmake
+[1.479s]     rclcpp_actions-config.cmake
+[1.480s] 
+[1.480s]   Add the installation prefix of "rclcpp_actions" to CMAKE_PREFIX_PATH or set
+[1.481s]   "rclcpp_actions_DIR" to a directory containing one of the above files.  If
+[1.481s]   "rclcpp_actions" provides a separate development package or SDK, be sure it
+[1.482s]   has been installed.
+[1.482s] 
+[1.483s] 
+[1.483s] -- Configuring incomplete, errors occurred!
+[1.484s] See also "/home/jiseongyoo/ros2_examples/build/composition_cpp_example/CMakeFiles/CMakeOutput.log".
+[1.484s] See also "/home/jiseongyoo/ros2_examples/build/composition_cpp_example/CMakeFiles/CMakeError.log".
+[1.485s] Makefile:486: recipe for target 'cmake_check_build_system' failed
+[1.485s] make: *** [cmake_check_build_system] Error 1
+[1.486s] Invoked command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example' returned '2': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2

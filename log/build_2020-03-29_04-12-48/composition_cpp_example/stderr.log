@@ -1,0 +1,7 @@
+[5.745s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ParameterClientExample::timer_callback()[m[K’:
+[5.745s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:57:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<rclcpp::Parameter>[m[K’ has no member named ‘[01m[Kget[m[K’
+[5.746s]      auto param = parameter_client_->get_parameters({"parameter"}).[01;31m[Kget[m[K();
+[5.746s]                                                                    [01;31m[K^~~[m[K
+[7.200s] make[2]: *** [CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o] Error 1
+[7.201s] make[1]: *** [CMakeFiles/component_parameter_client_cpp.dir/all] Error 2
+[7.201s] make: *** [all] Error 2

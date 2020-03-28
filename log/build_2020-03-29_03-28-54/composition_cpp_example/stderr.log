@@ -1,0 +1,30 @@
+[5.444s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.444s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.445s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.445s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.446s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.446s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.446s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.447s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.447s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.447s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/parameter_client_cpp_example.hpp:7[m[K,
+[5.448s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:11[m[K:
+[5.448s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ParameterClientExample::timer_callback()[m[K’:
+[5.448s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:40:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_future<std::vector<rclcpp::Parameter> >[m[K’ has no member named ‘[01m[Kget_name[m[K’
+[5.449s]      RCLCPP_INFO(this->get_logger(), "Parameter '%s': ", param.[01;31m[Kg[m[Ket_name());
+[5.449s]                                                                [01;31m[K^[m[K
+[5.449s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.450s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.450s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.450s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.451s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.451s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.451s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.452s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.452s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.452s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:40:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.453s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Parameter '%s': ", param.get_name());
+[5.453s]      [01;36m[K^~~~~~~~~~~[m[K
+[6.967s] make[2]: *** [CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o] Error 1
+[6.969s] make[1]: *** [CMakeFiles/component_parameter_client_cpp.dir/all] Error 2
+[6.970s] make: *** [all] Error 2

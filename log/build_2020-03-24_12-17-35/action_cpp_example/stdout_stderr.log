@@ -1,0 +1,98 @@
+[0.267s] [35m[1mScanning dependencies of target action_client_cpp[0m
+[0.274s] [35m[1mScanning dependencies of target action_server_cpp[0m
+[0.428s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o[0m
+[0.487s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o[0m
+[5.468s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.469s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.469s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.470s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.470s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.470s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.471s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.471s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.471s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.472s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:1[m[K:
+[5.473s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServerExample::handle_goal(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)[m[K’:
+[5.473s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:11:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct interfaces::action::Example_Goal_<std::allocator<void> > {aka const struct interfaces::action::Example_Goal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kresult[m[K’
+[5.473s]  RCLCPP_INFO(this->get_logger(), "Received goal request '%s'", goal->[01;31m[Kr[m[Kesult.c_str());
+[5.474s]                                                                      [01;31m[K^[m[K
+[5.474s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.474s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.475s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.475s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.475s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.476s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.476s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.477s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.477s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.484s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:11:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.484s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Received goal request '%s'", goal->result.c_str());
+[5.485s]      [01;36m[K^~~~~~~~~~~[m[K
+[5.485s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:13:31:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[5.485s]      if (goal->goal.c_str() == [01;35m[K""[m[K){
+[5.486s]                                [01;35m[K^~[m[K
+[5.486s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ActionServerExample::handle_accept(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)[m[K’:
+[5.486s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:28:28:[m[K [01;31m[Kerror: [m[K‘[01m[KActionServer[m[K’ was not declared in this scope
+[5.487s]      std::thread{std::bind(&[01;31m[KActionServer[m[K::execute, this, std::placeholders::_1), goal_handle}.detach();
+[5.487s]                             [01;31m[K^~~~~~~~~~~~[m[K
+[5.492s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:28:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kaction_server_[m[K’
+[5.493s]      std::thread{std::bind(&[01;36m[KActionServer[m[K::execute, this, std::placeholders::_1), goal_handle}.detach();
+[5.493s]                             [01;36m[K^~~~~~~~~~~~[m[K
+[5.493s]                             [32m[Kaction_server_[m[K
+[5.494s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:28:92:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+[5.494s]  nd(&ActionServer::execute, this, std::placeholders::_1), goal_handle[01;31m[K}[m[K.detach();
+[5.494s]                                                                      [01;31m[K^[m[K
+[5.495s] In file included from [01m[K/usr/include/c++/7/future:39:0[m[K,
+[5.495s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:18[m[K,
+[5.495s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.496s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:1[m[K:
+[5.496s] [01m[K/usr/include/c++/7/thread:118:7:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Callable, class ... _Args> std::thread::thread(_Callable&&, _Args&& ...)
+[5.497s]        [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+[5.497s]        [01;36m[K^~~~~~[m[K
+[5.497s] [01m[K/usr/include/c++/7/thread:118:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.498s] [01m[K/usr/include/c++/7/thread:113:5:[m[K [01;36m[Knote: [m[Kcandidate: std::thread::thread(std::thread&&)
+[5.498s]      [01;36m[Kthread[m[K(thread&& __t) noexcept
+[5.498s]      [01;36m[K^~~~~~[m[K
+[5.499s] [01m[K/usr/include/c++/7/thread:113:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[5.499s] [01m[K/usr/include/c++/7/thread:106:5:[m[K [01;36m[Knote: [m[Kcandidate: std::thread::thread()
+[5.499s]      [01;36m[Kthread[m[K() noexcept = default;
+[5.500s]      [01;36m[K^~~~~~[m[K
+[5.500s] [01m[K/usr/include/c++/7/thread:106:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[5.569s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ActionServerExample::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >)[m[K’:
+[5.570s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:46:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kitos[m[K’ was not declared in this scope
+[5.570s]        feedback->feedback = "Feedback " + [01;31m[Kitos[m[K(i);
+[5.570s]                                           [01;31m[K^~~~[m[K
+[5.576s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:46:42:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Katol[m[K’
+[5.577s]        feedback->feedback = "Feedback " + [01;36m[Kitos[m[K(i);
+[5.577s]                                           [01;36m[K^~~~[m[K
+[5.577s]                                           [32m[Katol[m[K
+[5.664s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In constructor ‘[01m[KActionServerExample::ActionServerExample(const rclcpp::NodeOptions&)[m[K’:
+[5.665s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:69:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<interfaces::action::Example>(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const char [14], std::_Bind_helper<false, rclcpp_action::GoalResponse (ActionServerExample::*)(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >), ActionServerExample*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (ActionServerExample::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >), ActionServerExample*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (ActionServerExample::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Example> >), ActionServerExample*, const std::_Placeholder<1>&>::type)[m[K’
+[5.665s]    std::bind(&ActionServerExample::handle_accept, this, std::placeholders::_1)[01;31m[K)[m[K;
+[5.666s]                                                                               [01;31m[K^[m[K
+[5.667s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:39:0[m[K,
+[5.667s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:2[m[K:
+[5.668s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::callback_group::CallbackGroup::SharedPtr)
+[5.668s]  [01;36m[Kcreate_server[m[K(
+[5.668s]  [01;36m[K^~~~~~~~~~~~~[m[K
+[5.669s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.670s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:67:16:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = rclcpp_action::GoalResponse (ActionServerExample::*)(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >); _BoundArgs = {ActionServerExample*, const std::_Placeholder<1>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind<rclcpp_action::GoalResponse (ActionServerExample::*(ActionServerExample*, std::_Placeholder<1>))(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)>](((ActionServerExample*)this), std::placeholders::_1)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, rclcpp_action::GoalResponse (ActionServerExample::*)(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >), ActionServerExample*, const std::_Placeholder<1>&>::type {aka std::_Bind<rclcpp_action::GoalResponse (ActionServerExample::*(ActionServerExample*, std::_Placeholder<1>))(std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)>}[m[K’) to type ‘[01m[Krclcpp_action::Server<interfaces::action::Example>::GoalCallback {aka std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)>}[m[K’
+[5.671s]        [01;36m[Kstd::bind(&ActionServerExample::handle_goal, this, std::placeholders::_1)[m[K,
+[5.671s]        [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.672s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:39:0[m[K,
+[5.673s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:2[m[K:
+[5.673s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:133:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::callback_group::CallbackGroup::SharedPtr)
+[5.674s]  [01;36m[Kcreate_server[m[K(
+[5.674s]  [01;36m[K^~~~~~~~~~~~~[m[K
+[5.681s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:133:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.682s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:69:82:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 8 provided
+[5.682s]    std::bind(&ActionServerExample::handle_accept, this, std::placeholders::_1)[01;36m[K)[m[K;
+[5.683s]                                                                               [01;36m[K^[m[K
+[5.836s] [ 75%] [32m[1mLinking CXX executable action_client_cpp[0m
+[6.406s] [ 75%] Built target action_client_cpp
+[6.548s] make[2]: *** [CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[6.549s] CMakeFiles/action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o' failed
+[6.551s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/action_server_cpp.dir/all' failed
+[6.555s] make[1]: *** [CMakeFiles/action_server_cpp.dir/all] Error 2
+[6.555s] Makefile:140: recipe for target 'all' failed
+[6.556s] make: *** [all] Error 2

@@ -1,0 +1,44 @@
+[14.862s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[14.863s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[14.866s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[14.866s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[14.867s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[14.868s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[14.869s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.870s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[14.871s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[14.871s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:1[m[K:
+[14.872s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.872s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:25:91:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv_clie[m[K’ was not declared in this scope
+[14.873s]  i); RCLCPP_INFO(srv_cli->get_logger(), "[%s] is added to executor", [01;31m[Ks[m[Krv_clie->get_name());
+[14.873s]                                                                      [01;31m[K^[m[K
+[14.874s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[14.874s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[14.874s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[14.875s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[14.875s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[14.876s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.876s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[14.877s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[14.877s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.877s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:25:27:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[14.878s]    exec.add_node(srv_cli); [01;36m[KRCLCPP_INFO[m[K(srv_cli->get_logger(), "[%s] is added to executor", srv_clie->get_name());
+[14.878s]                            [01;36m[K^~~~~~~~~~~[m[K
+[14.879s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:25:91:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksrv_cli[m[K’
+[14.879s]  i); RCLCPP_INFO(srv_cli->get_logger(), "[%s] is added to executor", [01;36m[Ks[m[Krv_clie->get_name());
+[14.880s]                                                                      [01;36m[K^[m[K
+[14.880s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[14.881s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[14.881s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[14.881s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[14.882s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[14.884s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.884s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[14.885s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[14.885s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.886s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_container.cpp:25:27:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[14.886s]    exec.add_node(srv_cli); [01;36m[KRCLCPP_INFO[m[K(srv_cli->get_logger(), "[%s] is added to executor", srv_clie->get_name());
+[14.887s]                            [01;36m[K^~~~~~~~~~~[m[K
+[15.724s] make[2]: *** [CMakeFiles/component_container.dir/src/component_container.cpp.o] Error 1
+[15.725s] make[1]: *** [CMakeFiles/component_container.dir/all] Error 2
+[15.728s] make: *** [all] Error 2

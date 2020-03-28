@@ -1,0 +1,44 @@
+[0.086s] Invoking command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/composition_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:/home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2
+[0.331s] [ 11%] Built target component_subscriber_cpp
+[0.344s] [ 22%] Built target component_service_server_cpp
+[0.444s] [ 33%] Built target component_publisher_cpp
+[0.461s] [ 44%] Built target component_service_client_cpp
+[0.561s] [ 55%] Built target component_action_client_cpp
+[0.584s] [ 66%] Built target component_action_server_cpp
+[0.637s] [35m[1mScanning dependencies of target component_parameter_client_cpp[0m
+[0.672s] [ 77%] Built target component_parameter_server_cpp
+[0.778s] [ 83%] [32mBuilding CXX object CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o[0m
+[5.444s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.444s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.445s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.445s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.446s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.446s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.446s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.447s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.447s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.447s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/parameter_client_cpp_example.hpp:7[m[K,
+[5.448s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:11[m[K:
+[5.448s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ParameterClientExample::timer_callback()[m[K’:
+[5.448s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:40:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_future<std::vector<rclcpp::Parameter> >[m[K’ has no member named ‘[01m[Kget_name[m[K’
+[5.449s]      RCLCPP_INFO(this->get_logger(), "Parameter '%s': ", param.[01;31m[Kg[m[Ket_name());
+[5.449s]                                                                [01;31m[K^[m[K
+[5.449s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.450s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.450s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.450s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.451s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.451s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.451s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.452s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.452s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.452s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/parameter_client_cpp_example.cpp:40:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.453s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Parameter '%s': ", param.get_name());
+[5.453s]      [01;36m[K^~~~~~~~~~~[m[K
+[6.964s] CMakeFiles/component_parameter_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o' failed
+[6.967s] make[2]: *** [CMakeFiles/component_parameter_client_cpp.dir/src/parameter_client_cpp_example.cpp.o] Error 1
+[6.968s] CMakeFiles/Makefile2:390: recipe for target 'CMakeFiles/component_parameter_client_cpp.dir/all' failed
+[6.969s] make[1]: *** [CMakeFiles/component_parameter_client_cpp.dir/all] Error 2
+[6.970s] make: *** [all] Error 2
+[6.972s] Makefile:140: recipe for target 'all' failed
+[6.978s] Invoked command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example' returned '2': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/composition_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:/home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2

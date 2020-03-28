@@ -1,0 +1,173 @@
+[0.089s] Invoking command in '/home/jiseongyoo/ros2_examples/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces -- -j2 -l2
+[0.249s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.384s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.385s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.304s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[1.564s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.951s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[2.495s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[2.523s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[2.846s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[2.998s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[3.001s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[3.154s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.155s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[3.160s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[3.498s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[3.556s] -- Added test 'lint_cmake' to check CMake code style
+[3.563s] -- Added test 'xmllint' to check XML markup files
+[3.579s] -- Configuring done
+[3.763s] -- Generating done
+[3.781s] -- Build files have been written to: /home/jiseongyoo/ros2_examples/build/interfaces
+[3.975s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.375s] [  3%] Built target interfaces__cpp
+[5.434s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.060s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[7.128s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/msg_collection__functions.c.o[0m
+[7.288s] [ 13%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[7.478s] [ 13%] Built target interfaces__rosidl_generator_c
+[7.527s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.807s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[8.888s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/msg_collection__type_support.cpp.o[0m
+[10.433s] [ 24%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.857s] [ 24%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[10.911s] [ 27%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.124s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[12.188s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/msg_collection__type_support.cpp.o[0m
+[13.233s] [ 34%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.413s] [ 34%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[13.466s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.805s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[14.872s] [ 41%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/msg_collection__type_support.c.o[0m
+[15.023s] [ 44%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[15.171s] [ 44%] Built target interfaces__rosidl_typesupport_introspection_c
+[15.233s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.601s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[16.688s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/msg_collection__type_support_c.cpp.o[0m
+[18.045s] [ 55%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[18.611s] [ 55%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[18.665s] [ 58%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.004s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[20.084s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/msg_collection__type_support.cpp.o[0m
+[21.812s] [ 65%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[22.357s] [ 65%] Built target interfaces__rosidl_typesupport_cpp
+[22.421s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.713s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[23.793s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/msg_collection__type_support.cpp.o[0m
+[23.935s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[24.158s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[24.275s] [ 75%] Built target interfaces
+[24.381s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[26.637s] [ 79%] Built target interfaces__py
+[26.691s] [35m[1mScanning dependencies of target interfaces__python[0m
+[26.776s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_msg_collection_s.c.o[0m
+[27.167s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[27.528s] [ 86%] Built target interfaces__python
+[27.590s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[27.693s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[28.052s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[28.431s] [ 93%] Built target interfaces__rosidl_typesupport_c__pyext
+[28.498s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[28.609s] [ 96%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.950s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[29.250s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[29.312s] Invoked command in '/home/jiseongyoo/ros2_examples/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces -- -j2 -l2
+[29.592s] Invoking command in '/home/jiseongyoo/ros2_examples/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces --target install -- -j2 -l2
+[29.858s] [  3%] Built target interfaces__cpp
+[29.952s] [ 13%] Built target interfaces__rosidl_generator_c
+[30.068s] [ 24%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[30.173s] [ 34%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[30.272s] [ 44%] Built target interfaces__rosidl_typesupport_introspection_c
+[30.373s] [ 55%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[30.481s] [ 65%] Built target interfaces__rosidl_typesupport_cpp
+[30.602s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[30.691s] [ 75%] Built target interfaces
+[30.788s] [ 79%] Built target interfaces__py
+[30.901s] [ 86%] Built target interfaces__python
+[31.013s] [ 93%] Built target interfaces__rosidl_typesupport_c__pyext
+[31.125s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[31.219s] [36mInstall the project...[0m
+[31.256s] -- Install configuration: ""
+[31.257s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[31.259s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[31.261s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[31.261s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/library_path.sh
+[31.262s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/library_path.dsv
+[31.266s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[31.267s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[31.267s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces
+[31.272s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg
+[31.273s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_c.h
+[31.276s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.277s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[31.277s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[31.277s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces
+[31.283s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg
+[31.283s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__functions.c
+[31.288s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__functions.h
+[31.289s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection.h
+[31.289s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[31.290s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__struct.h
+[31.295s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__type_support.h
+[31.296s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[31.296s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[31.296s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces
+[31.297s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg
+[31.304s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__rosidl_typesupport_fastrtps_cpp.hpp
+[31.305s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/dds_fastrtps
+[31.305s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.306s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[31.306s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.307s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces
+[31.307s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg
+[31.308s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__struct.hpp
+[31.309s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection.hpp
+[31.309s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__traits.hpp
+[31.309s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces
+[31.310s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg
+[31.310s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__rosidl_typesupport_introspection_c.h
+[31.315s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.315s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__type_support.c
+[31.316s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[31.316s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[31.317s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces
+[31.317s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg
+[31.317s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__rosidl_typesupport_introspection_cpp.hpp
+[31.324s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/include/interfaces/msg/msg_collection__type_support.cpp
+[31.324s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[31.325s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[31.325s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/pythonpath.sh
+[31.326s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[31.326s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py
+[31.490s] Compiling '/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py'...
+[31.522s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg
+[31.523s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_msg_collection.py
+[31.523s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/__init__.py
+[31.531s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_msg_collection_s.c
+[31.542s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[31.544s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[31.549s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[31.550s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[31.551s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__python.so
+[31.555s] -- Set runtime path of "/home/jiseongyoo/ros2_examples/install/interfaces/lib/libinterfaces__python.so" to ""
+[31.557s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/msg/MsgCollection.idl
+[31.558s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/msg/MsgCollection.msg
+[31.561s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[31.562s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[31.563s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[31.568s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[31.569s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/path.sh
+[31.569s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/environment/path.dsv
+[31.569s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/local_setup.bash
+[31.570s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/local_setup.sh
+[31.570s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/local_setup.zsh
+[31.570s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/local_setup.dsv
+[31.574s] -- Installing: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.dsv
+[31.575s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[31.575s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[31.576s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[31.576s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.576s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[31.577s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[31.577s] -- Up-to-date: /home/jiseongyoo/ros2_examples/install/interfaces/share/interfaces/package.xml
+[31.593s] Invoked command in '/home/jiseongyoo/ros2_examples/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/interfaces --target install -- -j2 -l2

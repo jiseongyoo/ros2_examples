@@ -1,0 +1,136 @@
+[0.258s] [35m[1mScanning dependencies of target param_client_cpp[0m
+[0.332s] [ 50%] Built target param_server_cpp
+[0.439s] [ 75%] [32mBuilding CXX object CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o[0m
+[4.615s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:28:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+[4.616s]    void parameter_set(const [01;31m[Kstring[m[K node_name, const string parameter_name, const T value_){
+[4.616s]                             [01;31m[K^~~~~~[m[K
+[4.617s]                             [32m[Kstdin[m[K
+[4.622s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:28:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+[4.623s]    void parameter_set(const string node_name, const [01;31m[Kstring[m[K parameter_name, const T value_){
+[4.623s]                                                     [01;31m[K^~~~~~[m[K
+[4.624s]                                                     [32m[Kstdin[m[K
+[4.641s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[4.642s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[4.643s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[4.643s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.644s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.645s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[4.645s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.647s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[4.648s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[4.648s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:19[m[K:
+[4.649s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid ParameterClientExample::parameter_set(int, int, T)[m[K’:
+[4.649s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:66:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_name[m[K’ was not declared in this scope
+[4.650s]            parameter_client_->get_parameters({[01;31m[Kp[m[Karam_name[i]})[0].get_name().c_str(),
+[4.652s]                                               [01;31m[K^[m[K
+[4.653s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.654s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[4.654s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[4.655s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.656s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.656s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.657s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[4.657s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[4.657s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.658s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:64:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.658s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Successed to set '%s' : %s, %s",
+[4.659s]        [01;36m[K^~~~~~~~~~~[m[K
+[4.659s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:66:46:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kparameter_name[m[K’
+[4.660s]            parameter_client_->get_parameters({[01;36m[Kp[m[Karam_name[i]})[0].get_name().c_str(),
+[4.660s]                                               [01;36m[K^[m[K
+[4.661s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.661s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[4.661s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[4.662s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.662s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.663s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.663s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[4.664s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[4.664s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.665s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:64:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.665s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Successed to set '%s' : %s, %s",
+[4.666s]        [01;36m[K^~~~~~~~~~~[m[K
+[4.666s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:66:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[4.667s]            parameter_client_->get_parameters({param_name[[01;31m[Ki[m[K]})[0].get_name().c_str(),
+[4.667s]                                                          [01;31m[K^[m[K
+[4.667s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.668s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[4.668s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[4.669s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.669s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.669s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.670s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[4.670s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[4.671s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.671s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:64:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.672s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Successed to set '%s' : %s, %s",
+[4.672s]        [01;36m[K^~~~~~~~~~~[m[K
+[4.673s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:66:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::SyncParametersClient::get_parameters(<brace-enclosed initializer list>)[m[K’
+[4.673s]            parameter_client_->get_parameters({param_name[i]}[01;31m[K)[m[K[0].get_name().c_str(),
+[4.673s]                                                             [01;31m[K^[m[K
+[4.674s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.674s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[4.675s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[4.675s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.676s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.676s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.676s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[4.677s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[4.677s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.678s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:64:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.678s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Successed to set '%s' : %s, %s",
+[4.679s]        [01;36m[K^~~~~~~~~~~[m[K
+[4.679s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:149:0[m[K,
+[4.679s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:19[m[K:
+[4.680s] [01m[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<rclcpp::Parameter> rclcpp::SyncParametersClient::get_parameters(const std::vector<std::__cxx11::basic_string<char> >&)
+[4.680s]    [01;36m[Kget_parameters[m[K(const std::vector<std::string> & parameter_names);
+[4.681s]    [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.681s] [01m[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:238:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+[4.682s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[4.682s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[4.682s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[4.683s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.683s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.684s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[4.684s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.685s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[4.685s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[4.685s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:19[m[K:
+[4.686s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:68:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::SyncParametersClient::get_parameters(<brace-enclosed initializer list>)[m[K’
+[4.686s]            parameter_client_->get_parameters({param_name[i]}[01;31m[K)[m[K[0].value_to_string().c_str()
+[4.687s]                                                             [01;31m[K^[m[K
+[4.687s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.688s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[4.688s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[4.688s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.689s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.689s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.690s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[4.690s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[4.691s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.691s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:64:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.692s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Successed to set '%s' : %s, %s",
+[4.692s]        [01;36m[K^~~~~~~~~~~[m[K
+[4.692s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:149:0[m[K,
+[4.693s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:19[m[K:
+[4.693s] [01m[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<rclcpp::Parameter> rclcpp::SyncParametersClient::get_parameters(const std::vector<std::__cxx11::basic_string<char> >&)
+[4.694s]    [01;36m[Kget_parameters[m[K(const std::vector<std::string> & parameter_names);
+[4.694s]    [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.695s] [01m[K/opt/ros/eloquent/include/rclcpp/parameter_client.hpp:238:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+[4.718s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.720s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:82:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KParameterClientExample::parameter_set(const char [17], const char [7], int)[m[K’
+[4.721s]    ParameterClientExample().parameter_set("Parameter_Server", "param1", 10[01;31m[K)[m[K;
+[4.722s]                                                                           [01;31m[K^[m[K
+[4.722s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:28:8:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> void ParameterClientExample::parameter_set(int, int, T)
+[4.722s]    void [01;36m[Kparameter_set[m[K(const string node_name, const string parameter_name, const T value_){
+[4.723s]         [01;36m[K^~~~~~~~~~~~~[m[K
+[4.723s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:28:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.724s] [01m[K/home/jiseongyoo/ros2_examples/src/param_cpp_example/src/param_client_cpp_example.cpp:82:74:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"Parameter_Server"[m[K’ (type ‘[01m[Kconst char [17][m[K’) to type ‘[01m[Kint[m[K’
+[4.724s]    ParameterClientExample().parameter_set("Parameter_Server", "param1", 10[01;36m[K)[m[K;
+[4.725s]                                                                           [01;36m[K^[m[K
+[5.298s] CMakeFiles/param_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o' failed
+[5.299s] make[2]: *** [CMakeFiles/param_client_cpp.dir/src/param_client_cpp_example.cpp.o] Error 1
+[5.306s] make[1]: *** [CMakeFiles/param_client_cpp.dir/all] Error 2
+[5.307s] make: *** [all] Error 2
+[5.307s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/param_client_cpp.dir/all' failed
+[5.308s] Makefile:140: recipe for target 'all' failed

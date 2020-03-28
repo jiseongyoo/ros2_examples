@@ -1,0 +1,75 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/MsgCollection1.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module msg {
+    typedef int32 int32__5[5];
+    typedef string string__5[5];
+    @verbatim (language="comment", text=
+      " .msg file should follow naming convention" "\n"
+      " 1. .msg file name should start with uppercase alphabet." "\n"
+      " 2. .msg file name should have only alphabets." "\n"
+      " typename <variable_name> <default_value>" "\n"
+      " variable_name should have lowercase alphabets and underscores." "\n"
+      " variable_name shouldn't have consecutive underscores." "\n"
+      " variable_name should start with alphabet and shouldn't end with underscore." "\n"
+      " <default_value> is optional.")
+    struct MsgCollection1 {
+      @verbatim (language="comment", text=
+        " singular data types")
+      boolean bool_t;
+
+      octet byte_t;
+
+      uint8 char_t;
+
+      float float_t;
+
+      double double_t;
+
+      int8 short_int_t;
+
+      uint8 short_uint_t;
+
+      int16 int_t;
+
+      uint16 uint_t;
+
+      int32 long_int_t;
+
+      uint32 long_uint_t;
+
+      int64 long_long_int_t;
+
+      uint64 long_long_uint_t;
+
+      @verbatim (language="comment", text=
+        " array and bounded types" "\n"
+        " [] unbounded, [N] static, [<=N] bounded")
+      sequence<int32> unbounded_long_int_arr;
+
+      int32__5 static_five_long_int_arr;
+
+      sequence<int32, 5> bounded_five_long_int_arr;
+
+      @verbatim (language="comment", text=
+        " string data types" "\n"
+        " <=N bounded character, [N] static string array, [<=N] bounded string array" "\n"
+        " <=N[] bounded character unbounded string array" "\n"
+        " <=N[<=M] bounded character bounded string array")
+      string string_t;
+
+      string__5 static_five_string_arr;
+
+      string<10> bounded_ten_char_string_t;
+
+      sequence<string, 5> bounded_five_string_arr;
+
+      sequence<string<10>> bounded_ten_char_unbounded_string_arr;
+
+      sequence<string<10>, 5> bounded_ten_char_bounded_five_string_arr;
+    };
+  };
+};

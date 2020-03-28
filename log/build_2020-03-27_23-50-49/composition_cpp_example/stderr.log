@@ -1,0 +1,89 @@
+[4.947s] In file included from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:14:0[m[K:
+[4.948s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_server_cpp_example.hpp:17:41:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeOptions[m[K’ does not name a type
+[4.949s]      ComponentServiceServerExample(const [01;31m[KNodeOptions[m[K & options);
+[4.950s]                                          [01;31m[K^~~~~~~~~~~[m[K
+[4.951s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_server_cpp_example.hpp:20:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[4.951s]    }
+[4.953s]     [01;31m[K^[m[K
+[4.954s]     [32m[K;[m[K
+[4.976s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[4.978s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[4.979s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[4.980s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.981s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.982s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[4.982s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.983s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[4.985s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[4.986s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_server_cpp_example.hpp:6[m[K,
+[4.987s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:14[m[K:
+[4.988s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:[m[K In member function ‘[01m[Kvoid component::ComponentServiceServerExample::service_callback(std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > >)[m[K’:
+[4.989s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:25:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Service<interfaces::srv::Example> {aka class rclcpp::Service<interfaces::srv::Example>}[m[K’ has no member named ‘[01m[Kget_topic_name[m[K’; did you mean ‘[01m[Kget_service_name[m[K’?
+[4.989s]  O(this->get_logger(), "Service responsed '%s' : ", service_server_->[01;31m[Kg[m[Ket_topic_name(), response->response.c_str());
+[4.990s]                                                                      [01;31m[K^[m[K
+[4.990s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[4.991s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[4.991s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[4.992s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[4.992s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[4.993s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.994s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[4.994s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[4.995s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.995s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:25:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[4.996s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Service responsed '%s' : ", service_server_->get_topic_name(), response->response.c_str());
+[4.998s]      [01;36m[K^~~~~~~~~~~[m[K
+[4.999s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:18:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.000s]      const std::shared_ptr<interfaces::srv::Example::Request> [01;35m[Krequest[m[K,
+[5.000s]                                                               [01;35m[K^~~~~~~[m[K
+[5.000s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:[m[K At global scope:
+[5.001s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:28:70:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeOptions[m[K’ does not name a type
+[5.001s]   ComponentServiceServerExample::ComponentServiceServerExample(const [01;31m[KNodeOptions[m[K & options)
+[5.002s]                                                                      [01;31m[K^~~~~~~~~~~[m[K
+[5.002s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:[m[K In constructor ‘[01m[Kcomponent::ComponentServiceServerExample::ComponentServiceServerExample(const int&)[m[K’:
+[5.003s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:29:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(const char [15], const int&)[m[K’
+[5.003s]    : Node("service_server", options[01;31m[K)[m[K{
+[5.009s]                                    [01;31m[K^[m[K
+[5.010s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[5.010s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[5.011s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.011s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_server_cpp_example.hpp:6[m[K,
+[5.011s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:14[m[K:
+[5.012s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1080:3:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const rclcpp::Node&, const string&)
+[5.012s]    [01;36m[KNode[m[K(
+[5.013s]    [01;36m[K^~~~[m[K
+[5.013s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1080:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [15][m[K’ to ‘[01m[Kconst rclcpp::Node&[m[K’
+[5.014s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)
+[5.014s]    explicit [01;36m[KNode[m[K(
+[5.015s]             [01;36m[K^~~~[m[K
+[5.015s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[5.015s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[Kcandidate: rclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)
+[5.016s]    explicit [01;36m[KNode[m[K(
+[5.016s]             [01;36m[K^~~~[m[K
+[5.017s] [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:83:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst rclcpp::NodeOptions&[m[K’
+[6.273s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+[6.274s]                  from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+[6.276s]                  from [01m[K/usr/include/c++/7/memory:63[m[K,
+[6.276s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[6.277s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/include/composition_cpp_example/component_service_server_cpp_example.hpp:6[m[K,
+[6.277s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:14[m[K:
+[6.278s] /usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = component::ComponentServiceServerExample; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceServerExample][m[K’:
+[6.279s] [01m[K/usr/include/c++/7/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = component::ComponentServiceServerExample; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceServerExample; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<component::ComponentServiceServerExample>][m[K’
+[6.279s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:526:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceServerExample; _Alloc = std::allocator<component::ComponentServiceServerExample>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[6.280s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:637:4:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = component::ComponentServiceServerExample; _Alloc = std::allocator<component::ComponentServiceServerExample>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[6.281s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<component::ComponentServiceServerExample>; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceServerExample; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[6.282s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:344:64:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<component::ComponentServiceServerExample>; _Args = {const rclcpp::NodeOptions&}; _Tp = component::ComponentServiceServerExample][m[K’
+[6.283s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:690:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = component::ComponentServiceServerExample; _Alloc = std::allocator<component::ComponentServiceServerExample>; _Args = {const rclcpp::NodeOptions&}][m[K’
+[6.284s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:706:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = component::ComponentServiceServerExample; _Args = {const rclcpp::NodeOptions&}][m[K’
+[6.285s] [01m[K/opt/ros/eloquent/include/rclcpp_components/node_factory_template.hpp:45:40:[m[K   required from ‘[01m[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = component::ComponentServiceServerExample][m[K’
+[6.285s] [01m[K/opt/ros/eloquent/include/rclcpp/node_options.hpp:63:3:[m[K   required from here
+[6.286s] [01m[K/usr/include/c++/7/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcomponent::ComponentServiceServerExample::ComponentServiceServerExample(const rclcpp::NodeOptions&)[m[K’
+[6.287s]   { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[6.287s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.288s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:28:3:[m[K [01;36m[Knote: [m[Kcandidate: component::ComponentServiceServerExample::ComponentServiceServerExample(const int&)
+[6.288s]    [01;36m[KComponentServiceServerExample[m[K::ComponentServiceServerExample(const NodeOptions & options)
+[6.288s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.289s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/component_service_server_cpp_example.cpp:28:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst rclcpp::NodeOptions[m[K’ to ‘[01m[Kconst int&[m[K’
+[6.480s] make[2]: *** [CMakeFiles/component_service_server_cpp.dir/src/component_service_server_cpp_example.cpp.o] Error 1
+[6.484s] make[1]: *** [CMakeFiles/component_service_server_cpp.dir/all] Error 2
+[6.486s] make: *** [all] Error 2

@@ -1,0 +1,33 @@
+[0.089s] Invoking command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2
+[0.262s] [35m[1mScanning dependencies of target action_server_cpp[0m
+[0.307s] [ 50%] Built target action_client_cpp
+[0.479s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o[0m
+[5.156s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:[m[K In constructor ‘[01m[KActionServerExample::ActionServerExample(const rclcpp::NodeOptions&)[m[K’:
+[5.157s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:59:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<interfaces::action::Example>()[m[K’
+[5.157s]  ->action_server_ = rclcpp_action::create_server<interfaces::action::Example>([01;31m[K)[m[K;
+[5.157s]                                                                               [01;31m[K^[m[K
+[5.158s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:39:0[m[K,
+[5.159s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:2[m[K:
+[5.160s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::callback_group::CallbackGroup::SharedPtr)
+[5.160s]  [01;36m[Kcreate_server[m[K(
+[5.160s]  [01;36m[K^~~~~~~~~~~~~[m[K
+[5.161s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.161s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:59:86:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 0 provided
+[5.162s]  ->action_server_ = rclcpp_action::create_server<interfaces::action::Example>([01;36m[K)[m[K;
+[5.162s]                                                                               [01;36m[K^[m[K
+[5.163s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp_action/rclcpp_action.hpp:39:0[m[K,
+[5.163s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:2[m[K:
+[5.163s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:133:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::callback_group::CallbackGroup::SharedPtr)
+[5.164s]  [01;36m[Kcreate_server[m[K(
+[5.164s]  [01;36m[K^~~~~~~~~~~~~[m[K
+[5.165s] [01m[K/opt/ros/eloquent/include/rclcpp_action/create_server.hpp:133:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.165s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_server_cpp_example.cpp:59:86:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+[5.166s]  ->action_server_ = rclcpp_action::create_server<interfaces::action::Example>([01;36m[K)[m[K;
+[5.166s]                                                                               [01;36m[K^[m[K
+[6.154s] CMakeFiles/action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o' failed
+[6.155s] make[2]: *** [CMakeFiles/action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[6.160s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/action_server_cpp.dir/all' failed
+[6.161s] Makefile:140: recipe for target 'all' failed
+[6.163s] make[1]: *** [CMakeFiles/action_server_cpp.dir/all] Error 2
+[6.166s] make: *** [all] Error 2
+[6.167s] Invoked command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example' returned '2': AMENT_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2

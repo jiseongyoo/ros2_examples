@@ -1,0 +1,18 @@
+[0.085s] Invoking command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2
+[0.260s] [35m[1mScanning dependencies of target action_client_cpp[0m
+[0.333s] [ 50%] Built target action_server_cpp
+[0.465s] [ 75%] [32mBuilding CXX object CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o[0m
+[5.690s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:[m[K In constructor ‘[01m[KActionClientExample::ActionClientExample(const rclcpp::NodeOptions&)[m[K’:
+[5.692s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:71:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::create_client<interfaces::action::Example>[m[K’ is not a class member
+[5.697s]       this->action_client_ = this->[01;31m[Krclcpp_action[m[K::create_client<interfaces::action::Example>(
+[5.697s]                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[5.697s] [01m[K/home/jiseongyoo/ros2_examples/src/action_cpp_example/src/action_client_cpp_example.cpp:79:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::create_wall_timer[m[K’ is not a class member
+[5.698s]       this->timer_ = this->[01;31m[Krclcpp[m[K::create_wall_timer(
+[5.698s]                            [01;31m[K^~~~~~[m[K
+[8.010s] CMakeFiles/action_client_cpp.dir/build.make:62: recipe for target 'CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o' failed
+[8.010s] make[2]: *** [CMakeFiles/action_client_cpp.dir/src/action_client_cpp_example.cpp.o] Error 1
+[8.011s] make[1]: *** [CMakeFiles/action_client_cpp.dir/all] Error 2
+[8.012s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/action_client_cpp.dir/all' failed
+[8.012s] Makefile:140: recipe for target 'all' failed
+[8.019s] make: *** [all] Error 2
+[8.020s] Invoked command in '/home/jiseongyoo/ros2_examples/build/action_cpp_example' returned '2': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/action_cpp_example -- -j2 -l2

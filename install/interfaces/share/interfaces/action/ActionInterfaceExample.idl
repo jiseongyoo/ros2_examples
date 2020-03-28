@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/ActionInterfaceExample.action
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module action {
+    struct ActionInterfaceExample_Goal {
+      @default (value="action_result")
+      string result;
+    };
+    struct ActionInterfaceExample_Result {
+      @default (value="action_goal")
+      string goal;
+    };
+    struct ActionInterfaceExample_Feedback {
+      @default (value="action_feedback")
+      string feedback;
+    };
+  };
+};

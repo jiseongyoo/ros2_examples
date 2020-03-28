@@ -1,0 +1,63 @@
+[0.731s] -- The C compiler identification is GNU 7.5.0
+[1.239s] -- The CXX compiler identification is GNU 7.5.0
+[1.285s] -- Check for working C compiler: /usr/bin/cc
+[1.715s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.738s] -- Detecting C compiler ABI info
+[2.150s] -- Detecting C compiler ABI info - done
+[2.200s] -- Detecting C compile features
+[3.455s] -- Detecting C compile features - done
+[3.488s] -- Check for working CXX compiler: /usr/bin/c++
+[3.913s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.917s] -- Detecting CXX compiler ABI info
+[4.321s] -- Detecting CXX compiler ABI info - done
+[4.347s] -- Detecting CXX compile features
+[6.070s] -- Detecting CXX compile features - done
+[6.107s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[6.251s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[6.252s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.244s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[7.722s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[7.796s] -- Found FastRTPS: /opt/ros/eloquent/include  
+[7.881s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[8.330s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[9.058s] CMake Error at /opt/ros/eloquent/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[9.059s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[9.061s]   interfaces --arguments-file
+[9.062s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter__arguments__interfaces.json
+[9.062s]   --output-dir
+[9.062s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter/interfaces
+[9.063s]   --output-file
+[9.063s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter/interfaces.idls)
+[9.063s]   returned error code 1:
+[9.064s] 
+[9.064s]   Traceback (most recent call last):
+[9.064s] 
+[9.065s]     File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+[9.065s]       "__main__", mod_spec)
+[9.077s]     File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+[9.077s]       exec(code, run_globals)
+[9.078s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[9.078s]       sys.exit(main())
+[9.078s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main
+[9.079s]       pathlib.Path(relative_path), output_dir)
+[9.079s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl
+[9.079s]       package_dir, package_name, interface_file, output_dir / 'msg')
+[9.080s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[9.080s]       msg = parse_message_string(package_name, input_file.stem, content)
+[9.081s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 531, in parse_message_string
+[9.081s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[9.081s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 382, in __init__
+[9.090s]       pkg_name + PACKAGE_NAME_MESSAGE_TYPE_SEPARATOR + msg_name)
+[9.091s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 200, in __init__
+[9.091s]       self.type, VALID_MESSAGE_NAME_PATTERN.pattern))
+[9.092s] 
+[9.092s]   rosidl_adapter.parser.InvalidResourceName: 'msg_collection' is an invalid
+[9.092s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[9.093s] 
+[9.093s] Call Stack (most recent call first):
+[9.093s]   /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[9.102s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[9.103s] 
+[9.103s] 
+[9.103s] -- Configuring incomplete, errors occurred!
+[9.104s] See also "/home/jiseongyoo/ros2_examples/build/interfaces/CMakeFiles/CMakeOutput.log".

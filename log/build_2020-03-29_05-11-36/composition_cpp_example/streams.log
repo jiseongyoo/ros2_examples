@@ -1,0 +1,27 @@
+[0.086s] Invoking command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/composition_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:/home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2
+[0.356s] [ 11%] Built target component_service_server_cpp
+[0.375s] [ 22%] Built target component_subscriber_cpp
+[0.496s] [ 33%] Built target component_service_client_cpp
+[0.508s] [ 44%] Built target component_publisher_cpp
+[0.555s] [35m[1mScanning dependencies of target component_action_client_cpp[0m
+[0.564s] [35m[1mScanning dependencies of target component_action_server_cpp[0m
+[0.801s] [ 50%] [32mBuilding CXX object CMakeFiles/component_action_server_cpp.dir/src/action_server_cpp_example.cpp.o[0m
+[0.878s] [ 55%] [32mBuilding CXX object CMakeFiles/component_action_client_cpp.dir/src/action_client_cpp_example.cpp.o[0m
+[6.784s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse component::ActionServerExample::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Example_Goal_<std::allocator<void> > >)[m[K’:
+[6.785s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:17:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kc_str[m[K’ was not declared in this scope
+[6.786s]      if (goal->goal.c_str() == [01;31m[Kc_str[m[K("")){
+[6.787s]                                [01;31m[K^~~~~[m[K
+[6.792s] [01m[K/home/jiseongyoo/ros2_examples/src/composition_cpp_example/src/action_server_cpp_example.cpp:17:31:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwcsstr[m[K’
+[6.793s]      if (goal->goal.c_str() == [01;36m[Kc_str[m[K("")){
+[6.794s]                                [01;36m[K^~~~~[m[K
+[6.795s]                                [32m[Kwcsstr[m[K
+[10.390s] CMakeFiles/component_action_server_cpp.dir/build.make:62: recipe for target 'CMakeFiles/component_action_server_cpp.dir/src/action_server_cpp_example.cpp.o' failed
+[10.391s] make[2]: *** [CMakeFiles/component_action_server_cpp.dir/src/action_server_cpp_example.cpp.o] Error 1
+[10.391s] make[1]: *** [CMakeFiles/component_action_server_cpp.dir/all] Error 2
+[10.392s] make[1]: *** Waiting for unfinished jobs....
+[10.392s] CMakeFiles/Makefile2:316: recipe for target 'CMakeFiles/component_action_server_cpp.dir/all' failed
+[14.702s] [ 61%] [32m[1mLinking CXX shared library libcomponent_action_client_cpp.so[0m
+[15.614s] [ 61%] Built target component_action_client_cpp
+[15.619s] Makefile:140: recipe for target 'all' failed
+[15.619s] make: *** [all] Error 2
+[15.625s] Invoked command in '/home/jiseongyoo/ros2_examples/build/composition_cpp_example' returned '2': CMAKE_PREFIX_PATH=/home/jiseongyoo/ros2_examples/install/interfaces:/home/jiseongyoo/ros2_examples/install/service_cpp_example:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_template:/home/jiseongyoo/ros2_examples/install/pubsub_cpp_example:/home/jiseongyoo/ros2_examples/install/pub_sub_cpp_template:/home/jiseongyoo/ros2_examples/install/param_cpp_example:/home/jiseongyoo/ros2_examples/install/composition_cpp_example:/home/jiseongyoo/ros2_examples/install/action_cpp_example:/home/jiseongyoo/ros2_examples/install/cpp_pubsub:/opt/ros/eloquent LD_LIBRARY_PATH=/home/jiseongyoo/ros2_examples/install/interfaces/lib:/home/jiseongyoo/ros2_examples/install/composition_cpp_example/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/jiseongyoo/ros2_examples/build/composition_cpp_example -- -j2 -l2

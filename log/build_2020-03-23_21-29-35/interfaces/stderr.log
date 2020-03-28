@@ -1,0 +1,36 @@
+[2.227s] CMake Error at /opt/ros/eloquent/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[2.228s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[2.237s]   interfaces --arguments-file
+[2.237s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter__arguments__interfaces.json
+[2.238s]   --output-dir
+[2.238s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter/interfaces
+[2.239s]   --output-file
+[2.240s]   /home/jiseongyoo/ros2_examples/build/interfaces/rosidl_adapter/interfaces.idls)
+[2.241s]   returned error code 1:
+[2.242s] 
+[2.242s]   Traceback (most recent call last):
+[2.243s] 
+[2.243s]     File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+[2.244s]       "__main__", mod_spec)
+[2.244s]     File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+[2.244s]       exec(code, run_globals)
+[2.245s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.245s]       sys.exit(main())
+[2.246s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main
+[2.246s]       pathlib.Path(relative_path), output_dir)
+[2.247s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl
+[2.247s]       package_dir, package_name, interface_file, output_dir / 'msg')
+[2.248s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[2.248s]       msg = parse_message_string(package_name, input_file.stem, content)
+[2.249s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 531, in parse_message_string
+[2.249s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[2.250s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 398, in __init__
+[2.251s]       ', '.join(sorted(duplicate_field_names)))
+[2.251s] 
+[2.252s]   ValueError: the fields iterable contains duplicate names: uint8_t
+[2.252s] 
+[2.253s] Call Stack (most recent call first):
+[2.253s]   /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.253s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[2.254s] 
+[2.254s] 

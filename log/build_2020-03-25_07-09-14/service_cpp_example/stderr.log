@@ -1,0 +1,10 @@
+[5.309s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145:0[m[K,
+[5.310s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:14[m[K:
+[5.311s] /opt/ros/eloquent/include/rclcpp/executors.hpp: In instantiation of ‘[01m[Krclcpp::executor::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>) [with NodeT = rclcpp::Client<interfaces::srv::Example>; FutureT = std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > >; TimeRepT = long int; TimeT = std::ratio<1, 1000>][m[K’:
+[5.312s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_client_cpp_example.cpp:50:75:[m[K   required from here
+[5.313s] [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:121:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<interfaces::srv::Example> {aka class rclcpp::Client<interfaces::srv::Example>}[m[K’ has no member named ‘[01m[Kget_node_base_interface[m[K’
+[5.321s]    return rclcpp::spin_until_future_complete([01;31m[Knode_ptr->get_node_base_interface[m[K(), future, timeout);
+[5.321s]                                              [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.377s] make[2]: *** [CMakeFiles/service_client_cpp.dir/src/service_client_cpp_example.cpp.o] Error 1
+[6.379s] make[1]: *** [CMakeFiles/service_client_cpp.dir/all] Error 2
+[6.384s] make: *** [all] Error 2

@@ -1,0 +1,20 @@
+[5.132s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:[m[K In constructor ‘[01m[KServiceServerExample::ServiceServerExample()[m[K’:
+[5.133s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:45:128:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_service<interfaces::srv::Example>(const char [8], void (ServiceServerExample::*)(std::shared_ptr<interfaces::srv::Example_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::Example_Response_<std::allocator<void> > >))[m[K’
+[5.134s]  <interfaces::srv::Example>("service", &ServiceServerExample::service_callback[01;31m[K)[m[K;
+[5.135s]                                                                               [01;31m[K^[m[K
+[5.136s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:41:0[m[K,
+[5.137s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1111[m[K,
+[5.138s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.139s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[5.140s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.140s]                  from [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:15[m[K:
+[5.141s] [01m[K/opt/ros/eloquent/include/rclcpp/create_service.hpp:34:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr)
+[5.142s]  [01;36m[Kcreate_service[m[K(
+[5.143s]  [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.144s] [01m[K/opt/ros/eloquent/include/rclcpp/create_service.hpp:34:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.145s] [01m[K/home/jiseongyoo/ros2_examples/src/service_cpp_example/src/service_server_cpp_example.cpp:45:128:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 2 provided
+[5.145s]  <interfaces::srv::Example>("service", &ServiceServerExample::service_callback[01;36m[K)[m[K;
+[5.146s]                                                                               [01;36m[K^[m[K
+[5.834s] make[2]: *** [CMakeFiles/service_server_cpp.dir/src/service_server_cpp_example.cpp.o] Error 1
+[5.836s] make[1]: *** [CMakeFiles/service_server_cpp.dir/all] Error 2
+[5.839s] make: *** [all] Error 2
